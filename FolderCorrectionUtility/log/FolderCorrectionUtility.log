@@ -1,0 +1,155 @@
+2022-08-08 15:22:12 INFO  DNGLoginUtility:49 - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-08-08 15:22:28 INFO  FolderCorrectionApplication:74 - Folder contents has been moved in project ADAS_PG_SYS_RM,test_10March
+2022-08-08 15:22:36 INFO  FolderCorrectionApplication:77 - Admin Folder contents has been moved in project ADAS_PG_SYS_RM,test_10March
+2022-08-08 15:22:36 ERROR RestUtility:656 - Exception while deleting the folder nulljava.lang.NullPointerException in project ADAS_PG_SYS_RM,test_10March
+2022-08-08 15:22:41 ERROR FolderCorrectionApplication:172 - Changeset has not been delivered for the project ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , test_10March
+2022-08-08 15:25:33 INFO  DNGLoginUtility:49 - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-08-08 15:26:24 INFO  FolderCorrectionApplication:74 - Folder contents has been moved in project ADAS_PG_SYS_RM,test_10March
+2022-08-08 15:26:35 INFO  FolderCorrectionApplication:77 - Admin Folder contents has been moved in project ADAS_PG_SYS_RM,test_10March
+2022-08-08 15:38:59 INFO  DNGLoginUtility:49 - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-08-08 15:39:28 INFO  FolderCorrectionApplication:74 - Folder contents has been moved in project ADAS_PG_SYS_RM,test_10March
+2022-08-08 15:39:43 INFO  FolderCorrectionApplication:77 - Admin Folder contents has been moved in project ADAS_PG_SYS_RM,test_10March
+2022-08-08 15:41:32 INFO  FolderCorrectionApplication:167 - Changeset has been delivered for the project ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , test_10March
+2022-08-08 15:59:44 INFO  DNGLoginUtility:49 - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-08-08 16:00:17 INFO  FolderCorrectionApplication:105 - Admin Folder has been renamed in project ADAS_PG_SYS_RM,WeatherStation_RM_VM_Training_20210930_AM
+2022-08-08 16:00:17 INFO  FolderCorrectionApplication:111 - Folder has been renamed in project ADAS_PG_SYS_RM,WeatherStation_RM_VM_Training_20210930_AM
+2022-08-08 16:00:18 INFO  FolderCorrectionApplication:131 - Source folder has been deleted in the project ADAS_PG_SYS_RM,WeatherStation_RM_VM_Training_20210930_AM
+2022-08-08 16:00:23 ERROR RestUtility:656 - Exception while deleting the folder nulljava.lang.NullPointerException in project ADAS_PG_SYS_RM,WeatherStation_RM_VM_Training_20210930_AM
+2022-08-08 16:00:23 ERROR FolderCorrectionApplication:142 - Source folder has not been deleted from the Adminstation artifacts folder for the project ADAS_PG_SYS_RM,WeatherStation_RM_VM_Training_20210930_AM
+2022-08-08 16:00:29 INFO  FolderCorrectionApplication:204 - Changeset has been delivered for the project ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , WeatherStation_RM_VM_Training_20210930_AM
+2022-08-08 16:04:39 INFO  DNGLoginUtility:49 - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-08-08 16:05:33 INFO  FolderCorrectionApplication:105 - Admin Folder has been renamed in project ADAS_PG_SYS_RM,WeatherStation_RM_VM_Training_20210930_AM
+2022-08-08 16:05:33 INFO  FolderCorrectionApplication:111 - Folder has been renamed in project ADAS_PG_SYS_RM,WeatherStation_RM_VM_Training_20210930_AM
+2022-08-08 16:05:40 ERROR FolderCorrectionApplication:210 - Changeset has not been delivered for the project ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , WeatherStation_RM_VM_Training_20210930_AM
+2022-08-08 16:41:00 INFO  DNGLoginUtility:49 - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-08-08 16:41:18 INFO  FolderCorrectionApplication:74 - Folder contents has been moved in project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM_Test_Streaam
+2022-08-08 16:41:24 INFO  FolderCorrectionApplication:77 - Admin Folder contents has been moved in project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM_Test_Streaam
+2022-08-08 16:41:25 INFO  FolderCorrectionApplication:131 - Source folder has been deleted in the project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM_Test_Streaam
+2022-08-08 16:41:29 INFO  FolderCorrectionApplication:137 - Source folder has been deleted from the Adminstation artifacts folder for the project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM_Test_Streaam
+2022-08-08 18:01:22 INFO  DNGLoginUtility:49 - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-08-08 18:04:27 ERROR DNGLoginUtility:81 - Server url not found
+2022-08-08 18:04:27 ERROR RestUtility:361 - Exception in getting folder details for folder root
+2022-08-08 18:04:27 ERROR RestUtility:142 - Root folder not found in the project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM_Test_Streaam
+2022-08-09 10:05:15 INFO  DNGLoginUtility:49 - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-08-09 10:09:19 INFO  FolderCorrectionApplication:74 - Folder contents has been moved in project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM_Test_Streaam
+2022-08-09 10:11:10 INFO  FolderCorrectionApplication:77 - Admin Folder contents has been moved in project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM_Test_Streaam
+2022-08-09 10:11:21 ERROR FolderCorrectionApplication:239 - Exception in main application java.lang.NullPointerException
+2022-08-09 10:13:47 INFO  DNGLoginUtility:49 - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-08-09 10:14:25 INFO  FolderCorrectionApplication:74 - Folder contents has been moved in project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM_Test_Streaam
+2022-08-09 10:14:38 INFO  FolderCorrectionApplication:77 - Admin Folder contents has been moved in project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM_Test_Streaam
+2022-08-09 10:16:31 ERROR FolderCorrectionApplication:240 - Exception in main application java.lang.NullPointerException
+2022-08-09 10:18:16 INFO  DNGLoginUtility:49 - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-08-09 10:18:46 INFO  FolderCorrectionApplication:74 - Folder contents has been moved in project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM_Test_Streaam
+2022-08-09 10:18:59 INFO  FolderCorrectionApplication:77 - Admin Folder contents has been moved in project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM_Test_Streaam
+2022-08-09 10:19:29 INFO  FolderCorrectionApplication:132 - Source folder has been deleted in the project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM_Test_Streaam
+2022-08-09 10:20:03 INFO  FolderCorrectionApplication:138 - Source folder has been deleted from the Adminstation artifacts folder for the project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM_Test_Streaam
+2022-08-09 10:21:28 INFO  FolderCorrectionApplication:206 - Changeset has been delivered for the project ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , ADAS_PG_SYS_RM_Test_Streaam
+2022-08-09 10:22:11 INFO  DNGLoginUtility:49 - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-08-09 10:25:43 INFO  FolderCorrectionApplication:74 - Folder contents has been moved in project ADAS_PG_SYS_RM,CopyAttributeValueViaLinks
+2022-08-09 10:28:39 INFO  FolderCorrectionApplication:77 - Admin Folder contents has been moved in project ADAS_PG_SYS_RM,CopyAttributeValueViaLinks
+2022-08-09 10:29:02 INFO  FolderCorrectionApplication:132 - Source folder has been deleted in the project ADAS_PG_SYS_RM,CopyAttributeValueViaLinks
+2022-08-09 10:29:35 INFO  FolderCorrectionApplication:138 - Source folder has been deleted from the Adminstation artifacts folder for the project ADAS_PG_SYS_RM,CopyAttributeValueViaLinks
+2022-08-09 10:30:54 INFO  FolderCorrectionApplication:206 - Changeset has been delivered for the project ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , CopyAttributeValueViaLinks
+2022-08-09 11:40:21 INFO  DNGLoginUtility:49 - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-08-09 11:40:24 ERROR RestUtility:698 - Unable to create baseline for the project ADAS_PG_SYS_RM,BLR_20210928152842
+2022-08-09 11:40:27 INFO  DNGLoginUtility:49 - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-08-09 11:40:29 ERROR RestUtility:698 - Unable to create baseline for the project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM_Project_ARS620TA16
+2022-08-09 11:41:33 INFO  DNGLoginUtility:49 - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-08-09 11:45:07 INFO  DNGLoginUtility:49 - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-08-09 11:45:10 INFO  RestUtility:702 - baseline test_CS_folder_correction has been created for the project ADAS_PG_SYS_RM,BLR_20210928152842
+2022-08-09 11:45:16 ERROR FolderCorrectionApplication:218 - Source folder 01_RequirementSet does not exist in below project 
+2022-08-09 11:45:16 ERROR FolderCorrectionApplication:220 - ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , BLR_20210928152842
+2022-08-09 11:45:20 INFO  DNGLoginUtility:49 - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-08-09 11:45:22 INFO  RestUtility:702 - baseline test_CS_folder_correction has been created for the project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM_Project_ARS620TA16
+2022-08-09 11:45:34 INFO  FolderCorrectionApplication:76 - Folder contents has been moved in project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM_Project_ARS620TA16
+2022-08-09 11:45:40 INFO  FolderCorrectionApplication:79 - Admin Folder contents has been moved in project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM_Project_ARS620TA16
+2022-08-09 11:45:40 INFO  FolderCorrectionApplication:133 - Source folder has been deleted in the project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM_Project_ARS620TA16
+2022-08-09 11:45:43 INFO  FolderCorrectionApplication:138 - Source folder has been deleted from the Adminstation artifacts folder for the project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM_Project_ARS620TA16
+2022-08-09 11:45:48 ERROR FolderCorrectionApplication:204 - Changeset has not been delivered for the project ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , ADAS_PG_SYS_RM_Project_ARS620TA16
+2022-08-09 11:52:46 INFO  DNGLoginUtility:49 - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-08-09 11:52:56 INFO  RestUtility:702 - baseline test_CS_folder_correction has been created for the project ADAS_PG_SYS_RM,ADAS_PG_SYS_WT_Streaming_RM_ML50
+2022-08-09 11:53:25 INFO  FolderCorrectionApplication:76 - Folder contents has been moved in project ADAS_PG_SYS_RM,ADAS_PG_SYS_WT_Streaming_RM_ML50
+2022-08-09 11:53:37 INFO  FolderCorrectionApplication:79 - Admin Folder contents has been moved in project ADAS_PG_SYS_RM,ADAS_PG_SYS_WT_Streaming_RM_ML50
+2022-08-09 11:53:40 INFO  FolderCorrectionApplication:133 - Source folder has been deleted in the project ADAS_PG_SYS_RM,ADAS_PG_SYS_WT_Streaming_RM_ML50
+2022-08-09 11:53:44 INFO  FolderCorrectionApplication:138 - Source folder has been deleted from the Adminstation artifacts folder for the project ADAS_PG_SYS_RM,ADAS_PG_SYS_WT_Streaming_RM_ML50
+2022-08-09 11:54:17 INFO  FolderCorrectionApplication:199 - Changeset has been delivered for the project ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , ADAS_PG_SYS_WT_Streaming_RM_ML50
+2022-08-09 11:58:52 INFO  DNGLoginUtility:49 - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-08-09 11:58:54 INFO  RestUtility:702 - baseline test_CS_folder_correction has been created for the project ADAS_PG_SYS_RM,ADAS_PG_SYS_ETM_Training_RM
+2022-08-09 11:59:06 INFO  FolderCorrectionApplication:76 - Folder contents has been moved in project ADAS_PG_SYS_RM,ADAS_PG_SYS_ETM_Training_RM
+2022-08-09 11:59:15 INFO  FolderCorrectionApplication:79 - Admin Folder contents has been moved in project ADAS_PG_SYS_RM,ADAS_PG_SYS_ETM_Training_RM
+2022-08-09 11:59:16 INFO  FolderCorrectionApplication:133 - Source folder has been deleted in the project ADAS_PG_SYS_RM,ADAS_PG_SYS_ETM_Training_RM
+2022-08-09 11:59:20 INFO  FolderCorrectionApplication:138 - Source folder has been deleted from the Adminstation artifacts folder for the project ADAS_PG_SYS_RM,ADAS_PG_SYS_ETM_Training_RM
+2022-08-09 11:59:27 ERROR FolderCorrectionApplication:204 - Changeset has not been delivered for the project ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , ADAS_PG_SYS_ETM_Training_RM
+2022-08-09 11:59:32 INFO  DNGLoginUtility:49 - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-08-09 11:59:35 INFO  RestUtility:702 - baseline test_CS_folder_correction has been created for the project ADAS_PG_SYS_RM,uidj3623_TrainingV3
+2022-08-09 11:59:51 INFO  FolderCorrectionApplication:76 - Folder contents has been moved in project ADAS_PG_SYS_RM,uidj3623_TrainingV3
+2022-08-09 11:59:57 INFO  FolderCorrectionApplication:79 - Admin Folder contents has been moved in project ADAS_PG_SYS_RM,uidj3623_TrainingV3
+2022-08-09 11:59:58 INFO  FolderCorrectionApplication:133 - Source folder has been deleted in the project ADAS_PG_SYS_RM,uidj3623_TrainingV3
+2022-08-09 12:00:01 INFO  FolderCorrectionApplication:138 - Source folder has been deleted from the Adminstation artifacts folder for the project ADAS_PG_SYS_RM,uidj3623_TrainingV3
+2022-08-09 12:00:06 ERROR FolderCorrectionApplication:204 - Changeset has not been delivered for the project ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , uidj3623_TrainingV3
+2022-08-09 12:00:09 INFO  DNGLoginUtility:49 - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-08-09 12:00:10 INFO  RestUtility:702 - baseline test_CS_folder_correction has been created for the project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM new2
+2022-08-09 12:00:21 INFO  FolderCorrectionApplication:76 - Folder contents has been moved in project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM new2
+2022-08-09 12:00:28 INFO  FolderCorrectionApplication:79 - Admin Folder contents has been moved in project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM new2
+2022-08-09 12:00:29 INFO  FolderCorrectionApplication:133 - Source folder has been deleted in the project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM new2
+2022-08-09 12:00:32 INFO  FolderCorrectionApplication:138 - Source folder has been deleted from the Adminstation artifacts folder for the project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM new2
+2022-08-09 12:00:36 ERROR FolderCorrectionApplication:204 - Changeset has not been delivered for the project ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , ADAS_PG_SYS_RM new2
+2022-08-09 12:06:25 INFO  DNGLoginUtility:49 - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-08-09 12:06:27 INFO  RestUtility:702 - baseline test_CS_folder_correction has been created for the project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM_PlatformVariant_ADC520
+2022-08-09 12:06:40 INFO  FolderCorrectionApplication:76 - Folder contents has been moved in project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM_PlatformVariant_ADC520
+2022-08-09 12:06:48 INFO  FolderCorrectionApplication:79 - Admin Folder contents has been moved in project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM_PlatformVariant_ADC520
+2022-08-09 12:06:48 INFO  FolderCorrectionApplication:133 - Source folder has been deleted in the project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM_PlatformVariant_ADC520
+2022-08-09 12:06:52 INFO  FolderCorrectionApplication:138 - Source folder has been deleted from the Adminstation artifacts folder for the project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM_PlatformVariant_ADC520
+2022-08-09 12:07:26 INFO  FolderCorrectionApplication:199 - Changeset has been delivered for the project ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , ADAS_PG_SYS_RM_PlatformVariant_ADC520
+2022-08-09 12:07:39 INFO  DNGLoginUtility:49 - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-08-09 12:07:43 INFO  RestUtility:702 - baseline test_CS_folder_correction has been created for the project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM newest
+2022-08-09 12:08:04 INFO  FolderCorrectionApplication:76 - Folder contents has been moved in project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM newest
+2022-08-09 12:08:14 INFO  FolderCorrectionApplication:79 - Admin Folder contents has been moved in project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM newest
+2022-08-09 12:08:15 INFO  FolderCorrectionApplication:133 - Source folder has been deleted in the project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM newest
+2022-08-09 12:08:20 INFO  FolderCorrectionApplication:138 - Source folder has been deleted from the Adminstation artifacts folder for the project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM newest
+2022-08-09 12:09:08 INFO  FolderCorrectionApplication:199 - Changeset has been delivered for the project ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , ADAS_PG_SYS_RM newest
+2022-08-09 12:09:14 INFO  DNGLoginUtility:49 - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-08-09 12:09:17 INFO  RestUtility:702 - baseline test_CS_folder_correction has been created for the project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM new
+2022-08-09 12:09:35 INFO  FolderCorrectionApplication:76 - Folder contents has been moved in project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM new
+2022-08-09 12:09:45 INFO  FolderCorrectionApplication:79 - Admin Folder contents has been moved in project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM new
+2022-08-09 12:09:45 INFO  FolderCorrectionApplication:133 - Source folder has been deleted in the project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM new
+2022-08-09 12:09:50 INFO  FolderCorrectionApplication:138 - Source folder has been deleted from the Adminstation artifacts folder for the project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM new
+2022-08-09 12:10:16 INFO  FolderCorrectionApplication:199 - Changeset has been delivered for the project ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , ADAS_PG_SYS_RM new
+2022-08-09 12:13:53 INFO  DNGLoginUtility:49 - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-08-09 12:13:55 INFO  RestUtility:702 - baseline test_CS_folder_correction has been created for the project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM new
+2022-08-09 12:14:01 ERROR FolderCorrectionApplication:218 - Source folder 01_RequirementSet does not exist in below project 
+2022-08-09 12:14:01 ERROR FolderCorrectionApplication:220 - ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , ADAS_PG_SYS_RM new
+2022-08-09 12:14:04 INFO  DNGLoginUtility:49 - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-08-09 12:14:06 INFO  RestUtility:702 - baseline test_CS_folder_correction has been created for the project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM_test_IBM_case
+2022-08-09 12:14:24 INFO  FolderCorrectionApplication:76 - Folder contents has been moved in project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM_test_IBM_case
+2022-08-09 12:14:30 ERROR RestUtility:300 - Sub folder of Source folder cannot be moved in project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM_test_IBM_case
+2022-08-09 12:14:30 ERROR FolderCorrectionApplication:82 - Admin Folder contents has not been moved in project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM_test_IBM_case
+2022-08-09 12:14:31 INFO  FolderCorrectionApplication:133 - Source folder has been deleted in the project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM_test_IBM_case
+2022-08-09 12:14:34 INFO  FolderCorrectionApplication:138 - Source folder has been deleted from the Adminstation artifacts folder for the project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM_test_IBM_case
+2022-08-09 12:14:38 INFO  FolderCorrectionApplication:199 - Changeset has been delivered for the project ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , ADAS_PG_SYS_RM_test_IBM_case
+2022-08-09 12:14:41 INFO  DNGLoginUtility:49 - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-08-09 12:14:43 INFO  RestUtility:702 - baseline test_CS_folder_correction has been created for the project ADAS_PG_SYS_RM,ULM_20220708131726
+2022-08-09 12:14:51 ERROR FolderCorrectionApplication:218 - Source folder 01_RequirementSet does not exist in below project 
+2022-08-09 12:14:51 ERROR FolderCorrectionApplication:220 - ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , ULM_20220708131726
+2022-08-10 15:31:56 INFO  DNGLoginUtility:49 - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-08-10 15:31:59 INFO  RestUtility:711 - baseline test_CS_folder_correction has been created for the project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM new
+2022-08-10 15:32:11 ERROR FolderCorrectionApplication:221 - Source folder 01_RequirementSet does not exist in below project 
+2022-08-10 15:32:11 ERROR FolderCorrectionApplication:223 - ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , ADAS_PG_SYS_RM new
+2022-08-10 15:32:15 INFO  DNGLoginUtility:49 - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-08-10 15:32:18 INFO  RestUtility:711 - baseline test_CS_folder_correction has been created for the project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM_test_IBM_case
+2022-08-10 15:32:28 ERROR FolderCorrectionApplication:221 - Source folder 01_RequirementSet does not exist in below project 
+2022-08-10 15:32:28 ERROR FolderCorrectionApplication:223 - ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , ADAS_PG_SYS_RM_test_IBM_case
+2022-08-10 15:32:32 INFO  DNGLoginUtility:49 - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-08-10 15:32:35 INFO  RestUtility:711 - baseline test_CS_folder_correction has been created for the project ADAS_PG_SYS_RM,ULM_20220708131726
+2022-08-10 15:32:45 ERROR FolderCorrectionApplication:221 - Source folder 01_RequirementSet does not exist in below project 
+2022-08-10 15:32:45 ERROR FolderCorrectionApplication:223 - ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , ULM_20220708131726
+2022-08-10 16:37:46 INFO  DNGLoginUtility:49 - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-08-10 16:37:49 INFO  RestUtility:711 - baseline test_CS_folder_correction has been created for the project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM new
+2022-08-10 16:38:03 INFO  FolderCorrectionApplication:78 - Folder contents has been moved in project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM new
+2022-08-10 16:38:06 ERROR RestUtility:208 - Exception in moving admin folder contents in project java.lang.NullPointerExceptionADAS_PG_SYS_RM,ADAS_PG_SYS_RM new
+2022-08-10 16:38:06 ERROR FolderCorrectionApplication:84 - Admin Folder contents has not been moved in project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM new
+2022-08-10 16:41:05 INFO  DNGLoginUtility:49 - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-08-10 16:41:08 INFO  RestUtility:711 - baseline test_CS_folder_correction has been created for the project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM new
+2022-08-10 16:41:22 INFO  FolderCorrectionApplication:78 - Folder contents has been moved in project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM new
+2022-08-10 16:41:26 ERROR RestUtility:208 - Exception in moving admin folder contents in project java.lang.NullPointerExceptionADAS_PG_SYS_RM,ADAS_PG_SYS_RM new
+2022-08-10 16:41:26 ERROR FolderCorrectionApplication:84 - Admin Folder contents has not been moved in project ADAS_PG_SYS_RM,ADAS_PG_SYS_RM new
