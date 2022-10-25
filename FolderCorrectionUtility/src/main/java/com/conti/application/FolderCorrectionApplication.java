@@ -208,6 +208,7 @@ public class FolderCorrectionApplication {
 					if (projectDetailsPojo.getImplementationRequired().equals(Constants.Yes)) {
 						JazzFormAuthClient client = dngLoginUtility.login(userName, password, serverUrl,
 								projectDetailsPojo.getProjectName());
+					
 
 						if (restUtility.createBaseline(client, projectDetailsPojo, baselineName)) {
 

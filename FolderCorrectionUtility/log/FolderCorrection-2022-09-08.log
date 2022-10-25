@@ -1,0 +1,68 @@
+2022-09-08T10:43:54,576 [main] INFO  (DNGLoginUtility.java:50) - DNGLogin successful for the project ADCU_L3_EE_RM
+2022-09-08T10:43:57,976 [main] INFO  (RestUtility.java:723) - baseline test_CS_folder_correction has been created for the project ADCU_L3_EE_RM,ADCU_L3_EE_RM_Migration
+2022-09-08T10:44:04,902 [main] ERROR (FolderCorrectionApplication.java:256) - Source folder 01_RequirementSet does not exist in below project 
+2022-09-08T10:44:04,903 [main] ERROR (FolderCorrectionApplication.java:258) - ADCU_L3_EE_RM , ADCU_L3_EE_RM , ADCU_L3_EE_RM_Migration
+2022-09-08T10:44:07,552 [main] INFO  (DNGLoginUtility.java:50) - DNGLogin successful for the project ADCU_L3_EE_RM
+2022-09-08T10:44:09,698 [main] INFO  (RestUtility.java:723) - baseline test_CS_folder_correction has been created for the project ADCU_L3_EE_RM,ADCU_L3_EE_RM_PlatformVariant_ADC550
+2022-09-08T10:44:16,021 [main] ERROR (FolderCorrectionApplication.java:256) - Source folder 01_RequirementSet does not exist in below project 
+2022-09-08T10:44:16,021 [main] ERROR (FolderCorrectionApplication.java:258) - ADCU_L3_EE_RM , ADCU_L3_EE_RM , ADCU_L3_EE_RM_PlatformVariant_ADC550
+2022-09-08T10:44:18,932 [main] INFO  (DNGLoginUtility.java:50) - DNGLogin successful for the project ADCU_L3_EE_RM
+2022-09-08T10:44:20,705 [main] INFO  (RestUtility.java:723) - baseline test_CS_folder_correction has been created for the project ADCU_L3_EE_RM,ADCU_L3_EE_RM_Generic
+2022-09-08T10:44:27,267 [main] ERROR (FolderCorrectionApplication.java:256) - Source folder 01_RequirementSet does not exist in below project 
+2022-09-08T10:44:27,267 [main] ERROR (FolderCorrectionApplication.java:258) - ADCU_L3_EE_RM , ADCU_L3_EE_RM , ADCU_L3_EE_RM_Generic
+2022-09-08T10:44:30,146 [main] INFO  (DNGLoginUtility.java:50) - DNGLogin successful for the project ADCU_L3_EE_RM
+2022-09-08T10:44:32,090 [main] INFO  (RestUtility.java:723) - baseline test_CS_folder_correction has been created for the project ADCU_L3_EE_RM,ADCU_L3_EE_RM_PlatformVariant_ADC500
+2022-09-08T10:44:38,663 [main] ERROR (FolderCorrectionApplication.java:256) - Source folder 01_RequirementSet does not exist in below project 
+2022-09-08T10:44:38,663 [main] ERROR (FolderCorrectionApplication.java:258) - ADCU_L3_EE_RM , ADCU_L3_EE_RM , ADCU_L3_EE_RM_PlatformVariant_ADC500
+2022-09-08T10:49:40,727 [main] INFO  (DNGLoginUtility.java:50) - DNGLogin successful for the project Radar_Stakeholder_Group_Continental_RM
+2022-09-08T10:49:43,292 [main] INFO  (RestUtility.java:723) - baseline test_CS_folder_correction has been created for the project Radar_Stakeholder_Group_Continental_RM,Radar_Stakeholder_Group_Continental_RM_Generic
+2022-09-08T10:49:50,620 [main] INFO  (FolderCorrectionApplication.java:222) - Changeset Radar_Stakeholder_Group_Continental_RM_Generic_test_CS_folder_correction has been created 
+2022-09-08T10:50:01,807 [main] INFO  (FolderCorrectionApplication.java:121) - Admin Folder has been renamed in project Radar_Stakeholder_Group_Continental_RM,Radar_Stakeholder_Group_Continental_RM_Generic
+2022-09-08T10:50:01,808 [main] INFO  (FolderCorrectionApplication.java:127) - Folder has been renamed in project Radar_Stakeholder_Group_Continental_RM,Radar_Stakeholder_Group_Continental_RM_Generic
+2022-09-08T10:50:04,624 [main] INFO  (DNGLoginUtility.java:50) - DNGLogin successful for the project Radar_Stakeholder_Group_Continental_RM
+2022-09-08T10:50:06,448 [main] INFO  (RestUtility.java:723) - baseline test_CS_folder_correction has been created for the project Radar_Stakeholder_Group_Continental_RM,Radar_Stakeholder_Group_Continental_RM_Migration
+2022-09-08T10:50:12,893 [main] INFO  (FolderCorrectionApplication.java:222) - Changeset Radar_Stakeholder_Group_Continental_RM_Migration_test_CS_folder_correction has been created 
+2022-09-08T10:50:24,508 [main] INFO  (FolderCorrectionApplication.java:121) - Admin Folder has been renamed in project Radar_Stakeholder_Group_Continental_RM,Radar_Stakeholder_Group_Continental_RM_Migration
+2022-09-08T10:50:24,508 [main] INFO  (FolderCorrectionApplication.java:127) - Folder has been renamed in project Radar_Stakeholder_Group_Continental_RM,Radar_Stakeholder_Group_Continental_RM_Migration
+2022-09-08T10:50:27,389 [main] INFO  (DNGLoginUtility.java:50) - DNGLogin successful for the project Radar_Stakeholder_Group_Continental_RM
+2022-09-08T10:50:29,982 [main] INFO  (RestUtility.java:723) - baseline test_CS_folder_correction has been created for the project Radar_Stakeholder_Group_Continental_RM,Radar_Stakeholder_Group_Continental_RM_Generic_test
+2022-09-08T10:50:38,354 [main] INFO  (FolderCorrectionApplication.java:222) - Changeset Radar_Stakeholder_Group_Continental_RM_Generic_test_test_CS_folder_correction has been created 
+2022-09-08T10:50:53,322 [main] INFO  (FolderCorrectionApplication.java:121) - Admin Folder has been renamed in project Radar_Stakeholder_Group_Continental_RM,Radar_Stakeholder_Group_Continental_RM_Generic_test
+2022-09-08T10:50:53,322 [main] INFO  (FolderCorrectionApplication.java:127) - Folder has been renamed in project Radar_Stakeholder_Group_Continental_RM,Radar_Stakeholder_Group_Continental_RM_Generic_test
+2022-09-08T10:50:56,506 [main] INFO  (DNGLoginUtility.java:50) - DNGLogin successful for the project Radar_Stakeholder_Group_Continental_RM
+2022-09-08T10:50:59,161 [main] INFO  (RestUtility.java:723) - baseline test_CS_folder_correction has been created for the project Radar_Stakeholder_Group_Continental_RM,Radar_Stakeholder_Group_Continental_RM_Generic_obsolete_Y22_CW11
+2022-09-08T10:51:08,385 [main] INFO  (FolderCorrectionApplication.java:222) - Changeset Radar_Stakeholder_Group_Continental_RM_Generic_obsolete_Y22_CW11_test_CS_folder_correction has been created 
+2022-09-08T10:51:22,302 [main] INFO  (FolderCorrectionApplication.java:121) - Admin Folder has been renamed in project Radar_Stakeholder_Group_Continental_RM,Radar_Stakeholder_Group_Continental_RM_Generic_obsolete_Y22_CW11
+2022-09-08T10:51:22,303 [main] INFO  (FolderCorrectionApplication.java:127) - Folder has been renamed in project Radar_Stakeholder_Group_Continental_RM,Radar_Stakeholder_Group_Continental_RM_Generic_obsolete_Y22_CW11
+2022-09-08T10:51:25,327 [main] INFO  (DNGLoginUtility.java:50) - DNGLogin successful for the project Radar_Stakeholder_Group_Daimler_RM
+2022-09-08T10:51:27,406 [main] INFO  (RestUtility.java:723) - baseline test_CS_folder_correction has been created for the project Radar_Stakeholder_Group_Daimler_RM,Radar_Stakeholder_Group_Daimler_RM_Generic
+2022-09-08T10:51:41,700 [main] INFO  (FolderCorrectionApplication.java:222) - Changeset Radar_Stakeholder_Group_Daimler_RM_Generic_test_CS_folder_correction has been created 
+2022-09-08T10:52:00,876 [main] INFO  (FolderCorrectionApplication.java:121) - Admin Folder has been renamed in project Radar_Stakeholder_Group_Daimler_RM,Radar_Stakeholder_Group_Daimler_RM_Generic
+2022-09-08T10:52:00,877 [main] INFO  (FolderCorrectionApplication.java:127) - Folder has been renamed in project Radar_Stakeholder_Group_Daimler_RM,Radar_Stakeholder_Group_Daimler_RM_Generic
+2022-09-08T11:46:03,099 [main] INFO  (DNGLoginUtility.java:50) - DNGLogin successful for the project LIB_L3_SW_RM
+2022-09-08T11:46:06,251 [main] INFO  (RestUtility.java:723) - baseline test_CS_folder_correction_new has been created for the project LIB_L3_SW_RM,LIB_L3_SW_TMW_RM_Migration
+2022-09-08T11:46:14,389 [main] INFO  (FolderCorrectionApplication.java:222) - Changeset LIB_L3_SW_TMW_RM_Migration_test_CS_folder_correction_new has been created 
+2022-09-08T11:46:18,887 [main] INFO  (FolderCorrectionApplication.java:81) - Folder contents has been moved in project LIB_L3_SW_RM,LIB_L3_SW_TMW_RM_Migration
+2022-09-08T11:46:27,805 [main] INFO  (FolderCorrectionApplication.java:84) - Admin Folder contents has been moved in project LIB_L3_SW_RM,LIB_L3_SW_TMW_RM_Migration
+2022-09-08T11:46:28,371 [main] INFO  (FolderCorrectionApplication.java:156) - Source folder has been deleted in the project LIB_L3_SW_RM,LIB_L3_SW_TMW_RM_Migration
+2022-09-08T11:46:32,058 [main] INFO  (FolderCorrectionApplication.java:163) - Source folder has been deleted from the Adminstation artifacts folder for the project LIB_L3_SW_RM,LIB_L3_SW_TMW_RM_Migration
+2022-09-08T11:46:34,688 [main] INFO  (DNGLoginUtility.java:50) - DNGLogin successful for the project LIB_L3_SW_RM
+2022-09-08T11:46:36,828 [main] INFO  (RestUtility.java:723) - baseline test_CS_folder_correction_new has been created for the project LIB_L3_SW_RM,LIB_L3_SW_Diagnostics_RM_Generic
+2022-09-08T11:46:44,910 [main] INFO  (FolderCorrectionApplication.java:222) - Changeset LIB_L3_SW_Diagnostics_RM_Generic_test_CS_folder_correction_new has been created 
+2022-09-08T11:46:57,412 [main] INFO  (FolderCorrectionApplication.java:121) - Admin Folder has been renamed in project LIB_L3_SW_RM,LIB_L3_SW_Diagnostics_RM_Generic
+2022-09-08T11:46:57,412 [main] INFO  (FolderCorrectionApplication.java:127) - Folder has been renamed in project LIB_L3_SW_RM,LIB_L3_SW_Diagnostics_RM_Generic
+2022-09-08T11:47:01,147 [main] INFO  (DNGLoginUtility.java:50) - DNGLogin successful for the project LIB_L3_SW_RM
+2022-09-08T11:47:03,393 [main] INFO  (RestUtility.java:723) - baseline test_CS_folder_correction_new has been created for the project LIB_L3_SW_RM,LIB_L3_SW_Diagnostics_RM_Migration
+2022-09-08T11:47:11,722 [main] INFO  (FolderCorrectionApplication.java:222) - Changeset LIB_L3_SW_Diagnostics_RM_Migration_test_CS_folder_correction_new has been created 
+2022-09-08T11:47:26,568 [main] INFO  (FolderCorrectionApplication.java:121) - Admin Folder has been renamed in project LIB_L3_SW_RM,LIB_L3_SW_Diagnostics_RM_Migration
+2022-09-08T11:47:26,568 [main] INFO  (FolderCorrectionApplication.java:127) - Folder has been renamed in project LIB_L3_SW_RM,LIB_L3_SW_Diagnostics_RM_Migration
+2022-09-08T11:47:29,218 [main] INFO  (DNGLoginUtility.java:50) - DNGLogin successful for the project LIB_L3_SW_RM
+2022-09-08T11:47:31,368 [main] INFO  (RestUtility.java:723) - baseline test_CS_folder_correction_new has been created for the project LIB_L3_SW_RM,LIB_L3_SW_VDY_RM_Generic
+2022-09-08T11:47:38,829 [main] INFO  (FolderCorrectionApplication.java:222) - Changeset LIB_L3_SW_VDY_RM_Generic_test_CS_folder_correction_new has been created 
+2022-09-08T11:47:52,695 [main] INFO  (FolderCorrectionApplication.java:121) - Admin Folder has been renamed in project LIB_L3_SW_RM,LIB_L3_SW_VDY_RM_Generic
+2022-09-08T11:47:52,695 [main] INFO  (FolderCorrectionApplication.java:127) - Folder has been renamed in project LIB_L3_SW_RM,LIB_L3_SW_VDY_RM_Generic
+2022-09-08T11:47:55,353 [main] INFO  (DNGLoginUtility.java:50) - DNGLogin successful for the project LIB_L3_SW_RM
+2022-09-08T11:47:57,482 [main] INFO  (RestUtility.java:723) - baseline test_CS_folder_correction_new has been created for the project LIB_L3_SW_RM,LIB_L3_SW_VDY_RM_Migration
+2022-09-08T11:48:05,557 [main] INFO  (FolderCorrectionApplication.java:222) - Changeset LIB_L3_SW_VDY_RM_Migration_test_CS_folder_correction_new has been created 
+2022-09-08T11:48:20,342 [main] INFO  (FolderCorrectionApplication.java:121) - Admin Folder has been renamed in project LIB_L3_SW_RM,LIB_L3_SW_VDY_RM_Migration
+2022-09-08T11:48:20,342 [main] INFO  (FolderCorrectionApplication.java:127) - Folder has been renamed in project LIB_L3_SW_RM,LIB_L3_SW_VDY_RM_Migration

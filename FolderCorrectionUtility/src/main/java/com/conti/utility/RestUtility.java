@@ -62,7 +62,7 @@ public class RestUtility {
 		String newFolderRequest = null;
 		String postBodyRequest = null;
 		HttpResponse postResponse = null;
-		HashMap<String, String> headersMap = HeaderUtility.createHeadersForStream(projectDetailsPojo);
+		HashMap<String, String> headersMap = HeaderUtility.createHeadersForChangeSet(projectDetailsPojo);
 		try {
 			sourceFolderElement.setAttribute(Constants.NS_Title, folderName);
 			newFolderRequest = getStringFromElement(sourceFolderElement);
@@ -99,9 +99,9 @@ public class RestUtility {
 		Element element = null;
 
 		try {
-			String streamUrl = projectDetailsPojo.getStreamUrl();
+			String streamUrl = projectDetailsPojo.getChangeSetUrl();	
 			Element rootElement = getFolderDetails(client, Constants.Root, streamUrl, "");
-			HashMap<String, String> headersMap = HeaderUtility.createHeadersForStream(projectDetailsPojo);
+			HashMap<String, String> headersMap = HeaderUtility.createHeadersForChangeSet(projectDetailsPojo);
 			rootFolderUrl = rootElement.getAttribute(Constants.RDF_About);
 			if (source.equals(Constants.Root)) {
 				element = getFolderDetails(client, sourceFolderName, streamUrl, Constants.Root);
@@ -191,21 +191,21 @@ public class RestUtility {
 		String sourceAdminFolderUrl, targetAdminFolderUrl = null;
 		Document sourceAdminDoc = null;
 		try {
-			Element sourceAdminElement = getFolderDetails(client, sourceFolderName, projectDetailsPojo.getStreamUrl(),
+			Element sourceAdminElement = getFolderDetails(client, sourceFolderName, projectDetailsPojo.getChangeSetUrl(),
 					Constants.Admin);
 			if (sourceAdminElement != null) {
 				sourceAdminFolderUrl = sourceAdminElement.getAttribute(Constants.RDF_About)
 						+ Constants.ContainedResources;
 				Element targetAdminElement = getFolderDetails(client, targetFolderName,
-						projectDetailsPojo.getStreamUrl(), Constants.Admin);
-				sourceAdminDoc = getRequestforUrl(client, sourceAdminFolderUrl, projectDetailsPojo.getStreamUrl());
+						projectDetailsPojo.getChangeSetUrl(), Constants.Admin);
+				sourceAdminDoc = getRequestforUrl(client, sourceAdminFolderUrl, projectDetailsPojo.getChangeSetUrl());
 				if (targetAdminElement != null) {
 					targetAdminFolderUrl = targetAdminElement.getAttribute(Constants.RDF_About)
 							+ Constants.ContainedResources;
 				} else {
 					if (createFolder(targetFolderName, client, projectDetailsPojo, sourceAdminElement)) {
 						Element newTargetAdminElement = getFolderDetails(client, targetFolderName,
-								projectDetailsPojo.getStreamUrl(), Constants.Admin);
+								projectDetailsPojo.getChangeSetUrl(), Constants.Admin);
 						targetAdminFolderUrl = newTargetAdminElement.getAttribute(Constants.RDF_About)
 								+ Constants.ContainedResources;
 					}
@@ -252,8 +252,8 @@ public class RestUtility {
 			sourceFolderUrl = sourceElement.getAttribute(Constants.RDF_About) + Constants.ContainedResources;
 			targetFolderUrl = targetElement.getAttribute(Constants.RDF_About) + Constants.ContainedResources;
 
-			sourceDoc = getRequestforUrl(client, sourceFolderUrl, projectDetailsPojo.getStreamUrl());
-			targetDoc = getRequestforUrl(client, targetFolderUrl, projectDetailsPojo.getStreamUrl());
+			sourceDoc = getRequestforUrl(client, sourceFolderUrl, projectDetailsPojo.getChangeSetUrl());
+			targetDoc = getRequestforUrl(client, targetFolderUrl, projectDetailsPojo.getChangeSetUrl());
 
 			sourceNodeList = sourceDoc.getElementsByTagName(Constants.NS_containedResource);
 			if (sourceNodeList != null && sourceNodeList.getLength() > 0) {
@@ -309,7 +309,7 @@ public class RestUtility {
 					sourceSubFolderList.add(eElement.getAttribute(Constants.Resource));
 				}
 				for (String sourceSubFolder : sourceSubFolderList) {
-					Document subFolderDoc = getRequestforUrl(client, sourceSubFolder, projDetailsPojo.getStreamUrl());
+					Document subFolderDoc = getRequestforUrl(client, sourceSubFolder, projDetailsPojo.getChangeSetUrl());
 					subFolderDoc.getElementsByTagName(Constants.NS_parent).item(0).getAttributes()
 							.getNamedItem(Constants.Resource).setNodeValue(targetFolderUrl);
 					putBodyRequest = getStringFromDocument(subFolderDoc);

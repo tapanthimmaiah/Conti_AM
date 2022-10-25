@@ -1,0 +1,45 @@
+2022-08-10T13:03:03,218 [main] INFO  (EncryptionDecryption.java:62) - Decrypting plainText password...
+2022-08-10T13:03:03,289 [main] INFO  (EncryptionDecryption.java:73) - Decrypted the password!
+2022-08-10T13:03:09,634 [main] INFO  (DNGLoginUtility.java:51) - DNGLogin succesfull!
+2022-08-10T13:03:09,634 [main] INFO  (RestUtility.java:45) - Fetching the project details for the server https://jazz-test6.conti.de/rm4
+2022-08-10T13:03:10,007 [main] INFO  (RestUtility.java:81) - fetching the  details for the project ADAS_PG_SW_DesignAM
+2022-08-10T13:03:13,234 [main] INFO  (RestUtility.java:131) - fetching the component details for the component ADAS_PG_SW_DesignAM
+2022-08-10T13:03:15,173 [main] INFO  (RestUtility.java:81) - fetching the  details for the project Template_ProjectArea_BU4_RM_V24
+2022-08-10T13:03:18,401 [main] INFO  (RestUtility.java:131) - fetching the component details for the component Template_DataModel_BU4_RM_V24
+2022-08-10T13:03:19,275 [main] INFO  (RestUtility.java:81) - fetching the  details for the project ADAS_PG_SYS_RM
+2022-08-10T13:05:45,395 [main] INFO  (EncryptionDecryption.java:62) - Decrypting plainText password...
+2022-08-10T13:05:45,478 [main] INFO  (EncryptionDecryption.java:73) - Decrypted the password!
+2022-08-10T13:05:52,001 [main] INFO  (DNGLoginUtility.java:51) - DNGLogin succesfull!
+2022-08-10T13:05:52,002 [main] INFO  (RestUtility.java:45) - Fetching the project details for the server https://jazz-test6.conti.de/rm4
+2022-08-10T13:05:52,393 [main] INFO  (RestUtility.java:81) - fetching the  details for the project ADAS_PG_SW_DesignAM
+2022-08-10T13:05:55,218 [main] INFO  (RestUtility.java:131) - fetching the component details for the component ADAS_PG_SW_DesignAM
+2022-08-10T13:05:57,885 [main] INFO  (RestUtility.java:81) - fetching the  details for the project Template_ProjectArea_BU4_RM_V24
+2022-08-10T13:27:56,148 [main] ERROR (:) - The GET response could not be obtained for the url https://jazz-test6.conti.de/rm4/cm/stream/_YkTmsCswEeyV0ve2WVyLQA   Not Found
+2022-08-10T13:28:02,553 [main] ERROR (:) - The GET response could not be obtained for the url https://jazz-test6.conti.de/rm4/cm/stream/_4sCUwARQEe2ElJh91aOrbw   Not Found
+2022-08-10T13:32:43,384 [main] INFO  (:) - Decrypting plainText password...
+2022-08-10T13:32:43,414 [main] INFO  (:) - Decrypted the password!
+2022-08-10T13:32:47,518 [main] INFO  (:) - DNGLogin succesfull!
+2022-08-10T13:32:47,518 [main] INFO  (:) - Fetching the project details for the server https://jazz-test6.conti.de/rm4
+2022-08-10T13:32:47,758 [main] INFO  (:) - fetching the  details for the project ADAS_PG_SW_DesignAM
+2022-08-10T13:32:49,690 [main] INFO  (:) - fetching the component details for the component ADAS_PG_SW_DesignAM
+2022-08-10T13:32:51,074 [main] INFO  (:) - fetching the  details for the project Template_ProjectArea_BU4_RM_V24
+2022-08-10T13:32:52,726 [main] INFO  (:) - fetching the component details for the component Template_DataModel_BU4_RM_V24
+2022-08-10T13:32:53,374 [main] INFO  (:) - fetching the  details for the project ADAS_PG_SYS_RM
+2022-08-10T13:32:55,106 [main] INFO  (:) - fetching the component details for the component ADAS_PG_SYS_RM
+2022-08-10T13:32:59,244 [main] ERROR (:) - The GET response could not be obtained for the url https://jazz-test6.conti.de/rm4/cm/stream/_YkTmsCswEeyV0ve2WVyLQA   Not Found
+2022-08-10T13:33:05,750 [main] ERROR (:) - The GET response could not be obtained for the url https://jazz-test6.conti.de/rm4/cm/stream/_4sCUwARQEe2ElJh91aOrbw   Not Found
+2022-08-10T13:33:14,070 [main] ERROR (:) - The GET response could not be obtained for the url https://jazz-test6.conti.de/rm4/cm/stream/_Z3dIMElOEeywGf2P2QzSqA   Not Found
+2022-08-10T13:34:29,271 [main] ERROR (:) - The GET response could not be obtained for the url https://jazz-test6.conti.de/rm4/cm/stream/_YkTmsCswEeyV0ve2WVyLQA   Not Found
+2022-08-10T13:34:36,450 [main] ERROR (:) - The GET response could not be obtained for the url https://jazz-test6.conti.de/rm4/cm/stream/_4sCUwARQEe2ElJh91aOrbw   Not Found
+2022-08-10T13:36:01,512 [main] ERROR (:) - The GET response could not be obtained for the url https://jazz-test6.conti.de/rm4/cm/stream/_YkTmsCswEeyV0ve2WVyLQA   Not Found
+2022-08-10T15:26:06,023 [main] INFO  (EncryptionDecryption.java:62) - Decrypting plainText password...
+2022-08-10T15:26:06,079 [main] INFO  (EncryptionDecryption.java:73) - Decrypted the password!
+2022-08-10T15:26:11,198 [main] INFO  (DNGLoginUtility.java:51) - DNGLogin succesfull!
+2022-08-10T15:26:11,199 [main] INFO  (RestUtility.java:45) - Fetching the project details for the server https://jazz-test6.conti.de/rm4
+2022-08-10T15:26:11,543 [main] INFO  (RestUtility.java:81) - fetching the  details for the project ADAS_PG_SW_DesignAM
+2022-08-10T15:26:14,099 [main] INFO  (RestUtility.java:131) - fetching the component details for the component ADAS_PG_SW_DesignAM
+2022-08-10T15:26:15,903 [main] INFO  (RestUtility.java:81) - fetching the  details for the project Template_ProjectArea_BU4_RM_V24
+2022-08-10T15:26:18,075 [main] INFO  (RestUtility.java:131) - fetching the component details for the component Template_DataModel_BU4_RM_V24
+2022-08-10T15:26:18,965 [main] INFO  (RestUtility.java:81) - fetching the  details for the project ADAS_PG_SYS_RM
+2022-08-10T15:26:21,119 [main] INFO  (RestUtility.java:131) - fetching the component details for the component ADAS_PG_SYS_RM
+2022-08-10T15:26:27,258 [main] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test6.conti.de/rm4/cm/stream/_YkTmsCswEeyV0ve2WVyLQA   Not Found
