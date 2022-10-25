@@ -89,7 +89,7 @@ public class MergeAttributesUtility {
 				
 				headers.put(Constants.ACCEPT, OslcMediaType.APPLICATION_RDF_XML);
 				headers.put(Constants.OSLC_CORE_VERSION, "2.0");
-				headers.put(Constants.VVC_Configuration, projectDetailsPojo.getStreamUrl());
+				headers.put(Constants.VVC_Configuration, projectDetailsPojo.getChangeSetUrl());
 				response = client.getResource(artifactUrl, headers);
 				requirement = response.getEntity(Requirement.class);
 				String etag = response.getHeaders().getFirst(OSLCConstants.ETAG);

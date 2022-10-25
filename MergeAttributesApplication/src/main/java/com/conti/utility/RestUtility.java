@@ -84,8 +84,7 @@ public class RestUtility {
 
 			getRequest.addHeader(Constants.ACCEPT, Constants.CT_RDF);
 			getRequest.addHeader(Constants.DoorsRP_Request_type, Constants.Private);
-			getRequest.addHeader(Constants.VVC_Configuration,
-					"https://jazz-test6.conti.de/rm4/cm/stream/_YjZaMBVXEeyaXMo7EM4AOg");
+			getRequest.addHeader(Constants.VVC_Configuration,streamUrl);
 			getRequest.addHeader("OSLC-Core-Version", "2.0");
 
 			response = client.getHttpClient().execute(getRequest);
@@ -123,7 +122,7 @@ public class RestUtility {
 
 		String getDNGPropertiesURL = client.getAuthUrl() + "/types?resourceContext=" + client.getAuthUrl()
 				+ "/process/project-areas/" + projectDetailsPojo.getProjectUUID();
-		Document doc = getRequestforUrl(client, getDNGPropertiesURL, projectDetailsPojo.getChangeSetUrl());
+		Document doc = getRequestforUrl(client, getDNGPropertiesURL, projectDetailsPojo.getStreamUrl());
 		NodeList attributeNodes = doc.getElementsByTagName("rm:AttributeDefinition");
 		for (int i = 0; i < attributeNodes.getLength(); i++) {
 			NodeList attributeValueNodes = attributeNodes.item(i).getChildNodes();
@@ -166,7 +165,7 @@ public class RestUtility {
 		HashMap<String, String> attributeEnumValues= new HashMap<>();
 		String enumLabel= null;
 		String enumRdfUri= null;
-		Document doc = getRequestforUrl(client, attributeDataTypeUrl, projectDetailsPojo.getChangeSetUrl());
+		Document doc = getRequestforUrl(client, attributeDataTypeUrl, projectDetailsPojo.getStreamUrl());
 		NodeList nodes= doc.getElementsByTagName("rdfs:label");
 		for(int i=0;i<nodes.getLength();i++)
 		{
