@@ -28,7 +28,6 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.client.methods.HttpPut;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.util.EntityUtils;
-import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.wink.client.ClientConfig;
@@ -55,16 +54,32 @@ import net.oauth.OAuthException;
 public class RestUtility {
 
 	private static Logger logger = LogManager.getLogger(RestUtility.class);
-
+	
+	/**
+	 * method to get the query for artifacts
+	 * @param client
+	 * @param queryCapability
+	 * @param AttributeUUID
+	 * @return query url
+	 */
 	public String getQueryForAtrifacts(JazzFormAuthClient client, String queryCapability, String AttributeUUID) {
+		
+		try
+		{
 		OslcQueryParameters queryparam = new OslcQueryParameters();
 		queryparam.setPrefix("rdf"
-				+ "=<http://www.w3.org/1999/02/22-rdf-syntax-ns%23>,dcterms=<http://purl.org/dc/terms/>,rm_property=<https://jazz-test6.conti.de/rm4/types/>");
+				+ "=<http://www.w3.org/1999/02/22-rdf-syntax-ns%23>,dcterms=<http://purl.org/dc/terms/>,rm_property=<"+client.getAuthUrl()+"/types/>");
 		queryparam.setSelect("rm_property" + ":" + AttributeUUID);
 		queryparam.setWhere("rdf:type" + "=" + "<http://open-services.net/ns/rm%23Requirement> ");
 
 		OslcQuery query = new OslcQuery(client, queryCapability, queryparam);
 		return query.getQueryUrl();
+		}
+		catch (Exception e) {
+			// TODO: handle exception
+			logger.error("Exception while getting the query for the artifacts "+e);
+			return null;
+		}
 	}
 
 	/**
@@ -84,8 +99,8 @@ public class RestUtility {
 
 			getRequest.addHeader(Constants.ACCEPT, Constants.CT_RDF);
 			getRequest.addHeader(Constants.DoorsRP_Request_type, Constants.Private);
-			getRequest.addHeader(Constants.VVC_Configuration,streamUrl);
-			getRequest.addHeader("OSLC-Core-Version", "2.0");
+			getRequest.addHeader(Constants.VVC_Configuration, streamUrl);
+			getRequest.addHeader(Constants.OSLC_CORE_VERSION, "2.0");
 
 			response = client.getHttpClient().execute(getRequest);
 			if (response.getStatusLine().getStatusCode() != 200) {
@@ -110,7 +125,14 @@ public class RestUtility {
 
 		return doc;
 	}
-
+	
+	/**
+	 * method to get the attribute details
+	 * @param client
+	 * @param attribute
+	 * @param projectDetailsPojo
+	 * @return attribute details POJO
+	 */
 	public AttributeDetailsPojo getAttributeDetails(JazzFormAuthClient client, String attribute,
 			ProjectDetailsPojo projectDetailsPojo) {
 		String attributeName = null;
@@ -119,33 +141,34 @@ public class RestUtility {
 		String attributeUUID = null;
 		String attributeRange = null;
 		AttributeDetailsPojo attributeDetailsPojo = new AttributeDetailsPojo();
-
-		String getDNGPropertiesURL = client.getAuthUrl() + "/types?resourceContext=" + client.getAuthUrl()
-				+ "/process/project-areas/" + projectDetailsPojo.getProjectUUID();
+		try
+		{
+		String getDNGPropertiesURL = client.getAuthUrl() + Constants.Resource_Context+"=" + client.getAuthUrl()
+				+ Constants.Project_area + projectDetailsPojo.getProjectUUID();
 		Document doc = getRequestforUrl(client, getDNGPropertiesURL, projectDetailsPojo.getStreamUrl());
-		NodeList attributeNodes = doc.getElementsByTagName("rm:AttributeDefinition");
+		NodeList attributeNodes = doc.getElementsByTagName(Constants.RM_AttributeDef);
 		for (int i = 0; i < attributeNodes.getLength(); i++) {
 			NodeList attributeValueNodes = attributeNodes.item(i).getChildNodes();
 			for (int j = 0; j < attributeValueNodes.getLength(); j++) {
-				if (attributeValueNodes.item(j).getNodeName().equals("dcterms:title")
+				if (attributeValueNodes.item(j).getNodeName().equals(Constants.Dcterms_Title)
 						&& attributeValueNodes.item(j).getTextContent().equals(attribute)) {
 
 					attributeName = attributeValueNodes.item(j).getTextContent();
 					attributeURL = attributeNodes.item(i).getAttributes().item(0).getTextContent();
-					attributeUUID= attributeURL.substring(attributeURL.lastIndexOf('/')+1);
-					j=0;
-					while (!attributeValueNodes.item(j).getNodeName().equals("owl:sameAs")) {
+					attributeUUID = attributeURL.substring(attributeURL.lastIndexOf('/') + 1);
+					j = 0;
+					while (!attributeValueNodes.item(j).getNodeName().equals(Constants.OWL_Sameas)) {
 						j++;
 					}
 					attributeRDFUrl = attributeValueNodes.item(j).getAttributes().item(0).getTextContent();
-					j=0;
-					while (!attributeValueNodes.item(j).getNodeName().equals("rm:range")) {
+					j = 0;
+					while (!attributeValueNodes.item(j).getNodeName().equals(Constants.RM_Range)) {
 						j++;
 					}
-					attributeRange= attributeValueNodes.item(j).getAttributes().item(0).getTextContent();
-					if(!attributeRange.contains("string"))
-					{
-						HashMap<String, String> attributeEnumValues=getAttributeEnumValues(client, attributeRange, projectDetailsPojo);
+					attributeRange = attributeValueNodes.item(j).getAttributes().item(0).getTextContent();
+					if (!attributeRange.contains(Constants.string)) {
+						HashMap<String, String> attributeEnumValues = getAttributeEnumValues(client, attributeRange,
+								projectDetailsPojo);
 						attributeDetailsPojo.setAttributeEnumValues(attributeEnumValues);
 					}
 					attributeDetailsPojo.setAttributeName(attributeName);
@@ -157,27 +180,42 @@ public class RestUtility {
 			}
 		}
 		return attributeDetailsPojo;
+		}
+		catch (Exception e) {
+			// TODO: handle exception
+			logger.error("Exception while getting the attribute details "+ attribute +" in the project" +  projectDetailsPojo.getProjectName() + " , "
+											+ projectDetailsPojo.getComponentName() + " , "
+											+ projectDetailsPojo.getStreamName());
+			return null;
+		}
 	}
 	
-	
-	public HashMap<String, String> getAttributeEnumValues(JazzFormAuthClient client, String attributeDataTypeUrl ,ProjectDetailsPojo projectDetailsPojo)
-	{
-		HashMap<String, String> attributeEnumValues= new HashMap<>();
-		String enumLabel= null;
-		String enumRdfUri= null;
+	/**
+	 * method to get the attribute enum values
+	 * @param client
+	 * @param attributeDataTypeUrl
+	 * @param projectDetailsPojo
+	 * @return map of enum values
+	 */
+	public HashMap<String, String> getAttributeEnumValues(JazzFormAuthClient client, String attributeDataTypeUrl,
+			ProjectDetailsPojo projectDetailsPojo) {
+		HashMap<String, String> attributeEnumValues = new HashMap<>();
+		String enumLabel = null;
+		String enumRdfUri = null;
 		Document doc = getRequestforUrl(client, attributeDataTypeUrl, projectDetailsPojo.getStreamUrl());
-		NodeList nodes= doc.getElementsByTagName("rdfs:label");
-		for(int i=0;i<nodes.getLength();i++)
-		{
-			enumLabel=nodes.item(i).getTextContent();
-			enumRdfUri=nodes.item(i).getParentNode().getAttributes().item(0).getTextContent();
+		NodeList nodes = doc.getElementsByTagName(Constants.RDFS_Label);
+		for (int i = 0; i < nodes.getLength(); i++) {
+			enumLabel = nodes.item(i).getTextContent();
+			enumRdfUri = nodes.item(i).getParentNode().getAttributes().item(0).getTextContent();
 			attributeEnumValues.put(enumLabel, enumRdfUri);
 		}
 		return attributeEnumValues;
 	}
-	
+
 	/**
-	 * Update (PUT) an artifact to a URL - usually the URL for an existing OSLC artifact
+	 * Update (PUT) an artifact to a URL - usually the URL for an existing OSLC
+	 * artifact
+	 * 
 	 * @param url
 	 * @param artifact
 	 * @param mediaType
@@ -188,37 +226,35 @@ public class RestUtility {
 	 * @throws IOException
 	 */
 	public static ClientResponse updateResource(String url, final Object artifact, final String mediaType,
-		      final String acceptType, final String ifMatch, final JazzFormAuthClient rmClient,
-		      final Map<String, String> headers) {
+			final String acceptType, final String ifMatch, final JazzFormAuthClient rmClient,
+			final Map<String, String> headers) {
 
-		    ClientResponse response = null;
-		    ClientConfig clientConfig  = new ApacheHttpClientConfig(rmClient.getHttpClient());;
-		    RestClient restClient = new RestClient(clientConfig);
-		    boolean redirect = false;
+		ClientResponse response = null;
+		ClientConfig clientConfig = new ApacheHttpClientConfig(rmClient.getHttpClient());
+		;
+		RestClient restClient = new RestClient(clientConfig);
+		boolean redirect = false;
 
-		    do {
-		      Resource request = restClient.resource(url).contentType(mediaType).accept(acceptType)
-		          .header(OSLCConstants.OSLC_CORE_VERSION, "2.0").header(HttpHeaders.IF_MATCH, ifMatch);
-		      for (Entry<String, String> key : headers.entrySet()) {
-		        request.header(key.getKey(), key.getValue());
-		      }
-		      response = request.put(artifact);
+		do {
+			Resource request = restClient.resource(url).contentType(mediaType).accept(acceptType)
+					.header(OSLCConstants.OSLC_CORE_VERSION, "2.0").header(HttpHeaders.IF_MATCH, ifMatch);
+			for (Entry<String, String> key : headers.entrySet()) {
+				request.header(key.getKey(), key.getValue());
+			}
+			response = request.put(artifact);
 
-		      if (response.getStatusType().getFamily() == Status.Family.REDIRECTION) {
-		        url = response.getHeaders().getFirst(HttpHeaders.LOCATION);
-		        response.consumeContent();
-		        redirect = true;
-		      }
-		      else {
-		        redirect = false;
-		      }
-		    }
-		    while (redirect);
+			if (response.getStatusType().getFamily() == Status.Family.REDIRECTION) {
+				url = response.getHeaders().getFirst(HttpHeaders.LOCATION);
+				response.consumeContent();
+				redirect = true;
+			} else {
+				redirect = false;
+			}
+		} while (redirect);
 
-		    return response;
-		  }
-	
-	
+		return response;
+	}
+
 	/**
 	 * method to POST changeset request for a given URL
 	 * 
@@ -266,8 +302,7 @@ public class RestUtility {
 		}
 
 	}
-	
-	
+
 	/**
 	 * 
 	 * @param xml
@@ -288,7 +323,7 @@ public class RestUtility {
 			return null;
 		}
 	}
-	
+
 	/**
 	 * method to get the string form of passed document
 	 * 
@@ -310,7 +345,6 @@ public class RestUtility {
 		}
 	}
 
-	
 	/**
 	 * method to PUT request for a given URL
 	 * 
@@ -347,7 +381,7 @@ public class RestUtility {
 			putRequest.releaseConnection();
 		}
 	}
-	
+
 	/**
 	 * method to POST for a given URL
 	 * 
@@ -385,7 +419,7 @@ public class RestUtility {
 		}
 
 	}
-	
+
 	/**
 	 * method to create a baseline
 	 * 
@@ -405,7 +439,7 @@ public class RestUtility {
 		try {
 
 			postRequestUrl = client.getAuthUrl() + Constants.Baseline_Url;
-			json.put(Constants.Name,  projectDetailsPojo.getStreamName()+ "_" +baseLineName );
+			json.put(Constants.Name, projectDetailsPojo.getStreamName() + "_" + baseLineName);
 			json.put(Constants.Config_ID, projectDetailsPojo.getStreamUrl());
 			json.put(Constants.Description, Constants.Baseline_Desc);
 			postRequestBody = json.toString();
@@ -436,16 +470,18 @@ public class RestUtility {
 		}
 	}
 	
-	
-	  public static String encode(final String url) {
-		    try {
-		      return URLEncoder.encode(url, "UTF-8");
-		    }
-		    catch (UnsupportedEncodingException e) {
-		    	logger.error("unable to encode the url " + url + e);
-		      return null;
-		    }
-		  }
-
+	/**
+	 * method to encode the url
+	 * @param url
+	 * @return
+	 */
+	public static String encode(final String url) {
+		try {
+			return URLEncoder.encode(url, "UTF-8");
+		} catch (UnsupportedEncodingException e) {
+			logger.error("unable to encode the url " + url + e);
+			return null;
+		}
+	}
 
 }

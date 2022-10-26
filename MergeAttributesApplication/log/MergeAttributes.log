@@ -1,0 +1,20 @@
+2022-10-26T15:06:54,729 [main] INFO  (DNGLoginUtility.java:56) - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-10-26T15:06:59,029 [main] INFO  (RestUtility.java:428) - baseline test_CS_MergeAttributes has been created for the project ADAS_PG_SYS_RM,BLR_20220708132058
+2022-10-26T15:07:06,303 [main] ERROR (MergeAttributesApplication.java:153) - Attributes Special Characteristic or Test Type does not exist in the project area ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , BLR_20220708132058
+2022-10-26T15:07:10,962 [main] INFO  (MergeAttributesApplication.java:127) - Changeset BLR_20220708132058_test_CS_MergeAttributes has been created 
+2022-10-26T15:07:23,447 [main] INFO  (MergeAttributesApplication.java:131) - Attributes Verification Criteria has been merged with External Attribute 1 in the projectADAS_PG_SYS_RM , ADAS_PG_SYS_RM , BLR_20220708132058
+2022-10-26T15:09:19,847 [main] INFO  (DNGLoginUtility.java:56) - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-10-26T15:09:23,687 [main] INFO  (RestUtility.java:428) - baseline test_CS_MergeAttributes has been created for the project ADAS_PG_SYS_RM,BLR_20220708132058
+2022-10-26T15:09:30,093 [main] ERROR (MergeAttributesApplication.java:153) - Attributes Special Characteristic or Test Type does not exist in the project area ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , BLR_20220708132058
+2022-10-26T15:09:31,974 [main] INFO  (MergeAttributesApplication.java:127) - Changeset BLR_20220708132058_test_CS_MergeAttributes has been created 
+2022-10-26T15:09:44,586 [main] INFO  (MergeAttributesApplication.java:131) - Attributes Verification Criteria has been merged with External Attribute 1 in the projectADAS_PG_SYS_RM , ADAS_PG_SYS_RM , BLR_20220708132058
+2022-10-26T15:09:50,647 [main] ERROR (MergeAttributesApplication.java:167) - Changeset has not been delivered for the project ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , BLR_20220708132058
+2022-10-26T15:15:52,544 [main] INFO  (DNGLoginUtility.java:56) - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-10-26T15:15:56,572 [main] INFO  (RestUtility.java:428) - baseline test_CS_MergeAttributes has been created for the project ADAS_PG_SYS_RM,BLR_20220708132058
+2022-10-26T15:16:02,877 [main] ERROR (MergeAttributesApplication.java:155) - Attribute Test Type does not exist in the project area ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , BLR_20220708132058
+2022-10-26T15:16:05,419 [main] INFO  (MergeAttributesApplication.java:128) - Changeset BLR_20220708132058_test_CS_MergeAttributes has been created 
+2022-10-26T15:16:21,479 [main] INFO  (MergeAttributesApplication.java:132) - Attributes Verification Criteria has been merged with External Attribute 1 in the projectADAS_PG_SYS_RM , ADAS_PG_SYS_RM , BLR_20220708132058
+2022-10-26T16:02:47,758 [main] INFO  (DNGLoginUtility.java:56) - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-10-26T16:02:52,878 [main] INFO  (RestUtility.java:424) - baseline test_CS_MergeAttributes has been created for the project ADAS_PG_SYS_RM,BLR_20220708132058
+2022-10-26T16:02:55,910 [main] ERROR (MergeAttributesApplication.java:155) - Attribute Test Type does not exist in the project area ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , BLR_20220708132058
+2022-10-26T16:02:58,119 [main] INFO  (MergeAttributesApplication.java:128) - Changeset BLR_20220708132058_test_CS_MergeAttributes has been created 

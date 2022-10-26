@@ -13,10 +13,10 @@ import java.awt.event.*;
 public class CreateLoginForm extends JFrame implements ActionListener  
 {  
     //initialize button, panel, label, and text field  
-    JButton b1,b2;  
+    JButton b1,b2,b3;  
     JPanel newPanel;  
     JLabel userLabel, passLabel ,serverUrlLabel ,inputFileNameLabel,sourceAttributeLabel, targetAttributeLabel , baselineNameLabel,changeSetNameLabel;  
-    final JTextField  textField1, textField2 , textField3,textField4,textField5,textField6,textField7,textField8;  
+    final JTextField  textField1, textField2 , textField3,textField4,textField5,textField7,textField8;  
       
     //calling constructor  
     public CreateLoginForm()  
@@ -57,29 +57,21 @@ public class CreateLoginForm extends JFrame implements ActionListener
             } 
         });
         
+        inputFileNameLabel = new JLabel();
+        inputFileNameLabel.setText("Attribute Mapping File:");
+        textField5=new JTextField(150); 
+        textField5.setEditable(false);
+        b3= new JButton("Select Mapping File");
+        b3.addActionListener(new ActionListener() { 
+            public void actionPerformed(ActionEvent e) { 
+            	textField5.setText(inputFileAction());
+            } 
+        });
+        
      
-        sourceAttributeLabel = new JLabel();  
-        sourceAttributeLabel.setText("SourceAttribute:");      //set label value for textField1  
-          
-        //create text field to get username from the user  
-        textField5 = new JTextField(150);    //set length of the text  
+         //set length of the text  
         
-        //create label for username   
-        targetAttributeLabel = new JLabel();  
-        targetAttributeLabel.setText("TargetAttribute:");      //set label value for textField1  
         
-       
-          
-        //create text field to get username from the user  
-        textField6 = new JTextField(150);    //set length of the text  
-        
-        String data[][]={ {"101","Amit"},    
-                {"102","Jai"},    
-                {"101","Sachin"}};    
-        String column[]={"SourceAttribute","TargetAttribute"};         
-        JTable jt=new JTable(data,column);    
-        jt.setBounds(30,40,200,300);          
-        JScrollPane sp=new JScrollPane(jt); 
         
         //create label for username   
         baselineNameLabel = new JLabel();  
@@ -114,7 +106,7 @@ public class CreateLoginForm extends JFrame implements ActionListener
         newPanel.add(sourceAttributeLabel);    //set password label to panel  
         newPanel.add(textField5);   //set text field to panel 
         newPanel.add(targetAttributeLabel);    //set password label to panel  
-        newPanel.add(textField6);   //set text field to panel 
+          //set text field to panel 
         //newPanel.add(sp);
         newPanel.add(baselineNameLabel);    //set password label to panel  
         newPanel.add(textField7);   //set text field to panel 
@@ -154,7 +146,7 @@ public class CreateLoginForm extends JFrame implements ActionListener
         String serverUrl = textField3.getText();
         String inputFile = textField4.getText();
         String sourceAttribute = textField5.getText();
-        String targetAttribute = textField6.getText();
+        
         String baseLineName = textField7.getText();
         String changeSetName = textField8.getText();//get user entered pasword from the textField2  
           
