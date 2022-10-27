@@ -1,19 +1,14 @@
 package com.conti.application;
 
-import java.io.File;
-import java.io.FileInputStream;
 import java.util.ArrayList;
 import java.util.Map;
 import java.util.Map.Entry;
-import java.util.Properties;
-
+import javax.swing.JOptionPane;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.eclipse.lyo.client.oslc.jazz.JazzFormAuthClient;
 import com.conti.constants.Constants;
-import com.conti.frontEnd.CreateLoginForm;
 import com.conti.login.DNGLoginUtility;
-import com.conti.login.EncryptionDecryption;
 import com.conti.pojo.AttributeDetailsPojo;
 import com.conti.pojo.ConfigDetailsPojo;
 import com.conti.pojo.ProjectDetailsPojo;
@@ -21,6 +16,8 @@ import com.conti.utility.ChangeSetUtility;
 import com.conti.utility.ExcelUtility;
 import com.conti.utility.MergeAttributesUtility;
 import com.conti.utility.RestUtility;
+
+
 
 @SuppressWarnings("deprecation")
 public class MergeAttributesApplication {
@@ -39,35 +36,13 @@ public class MergeAttributesApplication {
 	private static Logger logger = LogManager.getLogger(MergeAttributesApplication.class);
 
 	/**
-	 * to load the config file properties
-	 * 
-	 * @return
+	 * to load the config properties from GUI
+	 * @param configDetailsPojo
 	 */
-	private static boolean loadConfigProperties() {
-		try {
-			FileInputStream fileInputStream = new FileInputStream(new File(currentDir + "/configuration.properties"));
-			Properties properties = new Properties();
-			properties.load(fileInputStream);
-
-			serverUrl = properties.getProperty("repositoryUrl").trim();
-			userName = properties.getProperty("username").trim();
-			password = EncryptionDecryption.decrypt(properties.getProperty("password")).trim();
-			inputFileName = properties.getProperty("inputFileName").trim();
-			attributeMappingFileName = properties.getProperty("attributeMappingFileName").trim();
-			changeSetName = properties.getProperty("changeSetName").trim();
-			baselineName = properties.getProperty("baselineName").trim();
-			deliverChangeSet = properties.getProperty("deliverChangeSet").trim();
-
-		} catch (Exception e) {
-			// TODO: handle exception
-			logger.error("Exception in loading config properties" + e);
-
-		}
-
-		return true;
-	}
-
 	public static void loadConfigProperties(ConfigDetailsPojo configDetailsPojo) {
+		
+		try
+		{
 		serverUrl = configDetailsPojo.getRepositoryUrl();
 		userName = configDetailsPojo.getUserName();
 		password = configDetailsPojo.getPassword();
@@ -76,10 +51,16 @@ public class MergeAttributesApplication {
 		changeSetName = configDetailsPojo.getChangeSetName();
 		baselineName = configDetailsPojo.getBaselineName();
 		deliverChangeSet = configDetailsPojo.getDeliverChangeSet();
+		MergeAttributesApplication.mergeAttributes();
+		}
+		catch (Exception e) {
+			// TODO: handle exception
+			logger.error("Exception while loading config properties" +e);
+		}
 
 	}
 
-	public static void main(String[] args) {
+	public static void mergeAttributes() {
 		// TODO Auto-generated method stub
 
 		ExcelUtility excelUtility = new ExcelUtility();
@@ -91,11 +72,7 @@ public class MergeAttributesApplication {
 		String projectUUID = null;
 		String serviceXmlUrl = null;
 		try {
-			// create instance of the CreateLoginForm
-			// CreateLoginForm form = new CreateLoginForm();
-			// form.setSize(400,500); //set size of the frame
-			// form.setVisible(true); //make form visible to the user
-			loadConfigProperties();
+
 
 			MergeAttributesUtility mergeAttributesUtility = new MergeAttributesUtility();
 			Map<String, String> attributeMapping = excelUtility.readMappingFile(attributeMappingFileName);
@@ -181,15 +158,19 @@ public class MergeAttributesApplication {
 						}
 
 						 }
+						System.out.println("Merging attributes completed for the project "+projectDetailsPojo.getProjectName() + " , "
+								+ projectDetailsPojo.getComponentName() + " , "
+								+ projectDetailsPojo.getStreamName());
 
 					}
+					
 				}
 			}
 		} catch (Exception e) {
 			// handle exception
-			logger.error("Exception in main application " + e);
+			logger.error("Exception in merge attributes application " + e);
 
-			// JOptionPane.showMessageDialog(null, e.getMessage());
+			
 		}
 
 	}
