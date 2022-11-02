@@ -1,99 +1,46 @@
-2022-10-27T10:52:49,154 [main] ERROR (ExcelUtility.java:121) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T10:52:49,173 [main] ERROR (ExcelUtility.java:78) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T10:52:49,174 [main] ERROR (MergeAttributesApplication.java:195) - Exception in main application java.lang.NullPointerException
-2022-10-27T12:52:40,089 [main] ERROR (ExcelUtility.java:121) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T12:52:40,110 [main] ERROR (ExcelUtility.java:78) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T12:52:40,119 [main] ERROR (MergeAttributesApplication.java:195) - Exception in main application java.lang.NullPointerException
-2022-10-27T13:02:03,530 [main] ERROR (ExcelUtility.java:121) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T13:02:10,620 [main] ERROR (ExcelUtility.java:78) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T13:02:12,130 [main] ERROR (MergeAttributesApplication.java:195) - Exception in main application java.lang.NullPointerException
-2022-10-27T13:22:30,083 [main] ERROR (ExcelUtility.java:121) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T13:22:30,095 [main] ERROR (ExcelUtility.java:78) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T13:22:30,095 [main] ERROR (MergeAttributesApplication.java:195) - Exception in main application java.lang.NullPointerException
-2022-10-27T13:24:28,165 [main] ERROR (ExcelUtility.java:121) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T13:24:28,177 [main] ERROR (ExcelUtility.java:78) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T13:24:28,178 [main] ERROR (MergeAttributesApplication.java:195) - Exception in main application java.lang.NullPointerException
-2022-10-27T13:48:36,250 [main] ERROR (ExcelUtility.java:121) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T13:48:36,261 [main] ERROR (ExcelUtility.java:78) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T13:48:36,262 [main] ERROR (MergeAttributesApplication.java:195) - Exception in main application java.lang.NullPointerException
-2022-10-27T13:49:39,281 [main] ERROR (ExcelUtility.java:121) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T13:49:39,292 [main] ERROR (ExcelUtility.java:78) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T13:49:39,293 [main] ERROR (MergeAttributesApplication.java:195) - Exception in main application java.lang.NullPointerException
-2022-10-27T13:56:58,831 [main] ERROR (ExcelUtility.java:121) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T13:56:58,841 [main] ERROR (ExcelUtility.java:78) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T13:56:58,842 [main] ERROR (MergeAttributesApplication.java:195) - Exception in main application java.lang.NullPointerException
-2022-10-27T14:11:59,570 [main] ERROR (ExcelUtility.java:121) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T14:11:59,581 [main] ERROR (ExcelUtility.java:78) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T14:11:59,581 [main] ERROR (MergeAttributesApplication.java:195) - Exception in main application java.lang.NullPointerException
-2022-10-27T14:14:44,081 [main] ERROR (ExcelUtility.java:121) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T14:14:44,092 [main] ERROR (ExcelUtility.java:78) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T14:14:44,092 [main] ERROR (MergeAttributesApplication.java:195) - Exception in main application java.lang.NullPointerException
-2022-10-27T15:13:11,536 [main] ERROR (ExcelUtility.java:121) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T15:13:11,544 [main] ERROR (ExcelUtility.java:78) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T15:13:11,545 [main] ERROR (MergeAttributesApplication.java:195) - Exception in main application java.lang.NullPointerException
-2022-10-27T15:15:13,032 [main] ERROR (ExcelUtility.java:121) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T15:15:13,043 [main] ERROR (ExcelUtility.java:78) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T15:15:13,043 [main] ERROR (MergeAttributesApplication.java:195) - Exception in main application java.lang.NullPointerException
-2022-10-27T15:23:18,692 [main] ERROR (ExcelUtility.java:121) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T15:23:18,704 [main] ERROR (ExcelUtility.java:78) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T15:23:18,705 [main] ERROR (MergeAttributesApplication.java:195) - Exception in main application java.lang.NullPointerException
-2022-10-27T15:27:43,697 [main] ERROR (ExcelUtility.java:121) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T15:27:43,708 [main] ERROR (ExcelUtility.java:78) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T15:27:43,708 [main] ERROR (MergeAttributesApplication.java:195) - Exception in main application java.lang.NullPointerException
-2022-10-27T15:39:15,570 [main] ERROR (ExcelUtility.java:121) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T15:39:15,577 [main] ERROR (ExcelUtility.java:78) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T15:39:15,578 [main] ERROR (MergeAttributesApplication.java:198) - Exception in main application java.lang.NullPointerException
-2022-10-27T15:40:03,223 [main] ERROR (ExcelUtility.java:121) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T15:40:03,231 [main] ERROR (ExcelUtility.java:78) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T15:40:03,232 [main] ERROR (MergeAttributesApplication.java:198) - Exception in main application java.lang.NullPointerException
-2022-10-27T15:40:18,617 [main] ERROR (ExcelUtility.java:121) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T15:40:18,625 [main] ERROR (ExcelUtility.java:78) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T15:40:18,626 [main] ERROR (MergeAttributesApplication.java:198) - Exception in main application java.lang.NullPointerException
-2022-10-27T15:40:42,354 [main] ERROR (ExcelUtility.java:121) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T15:40:42,362 [main] ERROR (ExcelUtility.java:78) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T15:40:42,363 [main] ERROR (MergeAttributesApplication.java:198) - Exception in main application java.lang.NullPointerException
-2022-10-27T15:40:56,617 [main] ERROR (ExcelUtility.java:121) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T15:40:56,626 [main] ERROR (ExcelUtility.java:78) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T15:40:56,626 [main] ERROR (MergeAttributesApplication.java:198) - Exception in main application java.lang.NullPointerException
-2022-10-27T15:41:13,281 [main] ERROR (ExcelUtility.java:121) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T15:41:13,289 [main] ERROR (ExcelUtility.java:78) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T15:41:13,289 [main] ERROR (MergeAttributesApplication.java:198) - Exception in main application java.lang.NullPointerException
-2022-10-27T15:45:15,057 [main] ERROR (ExcelUtility.java:121) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T15:45:15,065 [main] ERROR (ExcelUtility.java:78) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T15:45:15,066 [main] ERROR (MergeAttributesApplication.java:199) - Exception in main application java.lang.NullPointerException
-2022-10-27T15:48:05,990 [main] ERROR (ExcelUtility.java:121) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T15:48:05,997 [main] ERROR (ExcelUtility.java:78) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T15:48:05,997 [main] ERROR (MergeAttributesApplication.java:205) - Exception in main application java.lang.NullPointerException
-2022-10-27T15:48:32,232 [main] ERROR (ExcelUtility.java:121) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T15:48:32,241 [main] ERROR (ExcelUtility.java:78) - Exception in reading excel java.lang.NullPointerException
-2022-10-27T15:48:32,241 [main] ERROR (MergeAttributesApplication.java:205) - Exception in main application java.lang.NullPointerException
-2022-10-27T15:54:22,359 [AWT-EventQueue-0] INFO  (DNGLoginUtility.java:56) - DNGLogin successful for the project ADAS_PG_SYS_RM
-2022-10-27T15:54:23,797 [AWT-EventQueue-0] ERROR (MergeAttributesApplication.java:207) - Exception in main application java.lang.RuntimeException: A javax.ws.rs.ext.MessageBodyReader implementation was not found for class org.eclipse.lyo.oslc4j.core.model.ServiceProviderCatalog type and application/octet-stream media type.  Verify that all entity providers are correctly registered.  Add a custom javax.ws.rs.ext.MessageBodyReader provider to handle the type and media type if a JAX-RS entity provider does not currently exist.
-2022-10-27T16:02:14,443 [AWT-EventQueue-0] INFO  (DNGLoginUtility.java:56) - DNGLogin successful for the project ADAS_PG_SYS_RM
-2022-10-27T16:02:17,280 [AWT-EventQueue-0] ERROR (MergeAttributesApplication.java:208) - Exception in main application java.lang.RuntimeException: A javax.ws.rs.ext.MessageBodyReader implementation was not found for class org.eclipse.lyo.oslc4j.core.model.ServiceProviderCatalog type and application/octet-stream media type.  Verify that all entity providers are correctly registered.  Add a custom javax.ws.rs.ext.MessageBodyReader provider to handle the type and media type if a JAX-RS entity provider does not currently exist.
-2022-10-27T16:12:27,056 [AWT-EventQueue-0] INFO  (DNGLoginUtility.java:56) - DNGLogin successful for the project ADAS_PG_SYS_RM
-2022-10-27T16:13:20,770 [AWT-EventQueue-0] INFO  (RestUtility.java:462) - baseline test_bl has been created for the project ADAS_PG_SYS_RM,testy testy
-2022-10-27T16:23:27,023 [AWT-EventQueue-0] ERROR (ExcelUtility.java:121) - Exception in reading excel java.io.FileNotFoundException:  (The system cannot find the path specified)
-2022-10-27T16:23:27,029 [AWT-EventQueue-0] ERROR (ExcelUtility.java:78) - Exception in reading excel java.io.FileNotFoundException:  (The system cannot find the path specified)
-2022-10-27T16:23:27,030 [AWT-EventQueue-0] ERROR (MergeAttributesApplication.java:171) - Exception in main application java.lang.NullPointerException
-2022-10-27T16:23:46,087 [AWT-EventQueue-0] ERROR (ExcelUtility.java:121) - Exception in reading excel java.io.FileNotFoundException:  (The specified procedure could not be found)
-2022-10-27T16:23:46,088 [AWT-EventQueue-0] ERROR (ExcelUtility.java:78) - Exception in reading excel java.io.FileNotFoundException:  (The specified procedure could not be found)
-2022-10-27T16:23:46,088 [AWT-EventQueue-0] ERROR (MergeAttributesApplication.java:171) - Exception in main application java.lang.NullPointerException
-2022-10-27T16:36:44,705 [AWT-EventQueue-0] ERROR (ExcelUtility.java:121) - Exception in reading excel java.io.FileNotFoundException:  (The system cannot find the path specified)
-2022-10-27T16:36:44,712 [AWT-EventQueue-0] ERROR (ExcelUtility.java:78) - Exception in reading excel java.io.FileNotFoundException:  (The system cannot find the path specified)
-2022-10-27T16:36:44,713 [AWT-EventQueue-0] ERROR (MergeAttributesApplication.java:171) - Exception in main application java.lang.NullPointerException
-2022-10-27T16:40:30,797 [AWT-EventQueue-0] ERROR (ExcelUtility.java:121) - Exception in reading excel java.io.FileNotFoundException:  (The system cannot find the path specified)
-2022-10-27T16:40:30,804 [AWT-EventQueue-0] ERROR (ExcelUtility.java:78) - Exception in reading excel java.io.FileNotFoundException:  (The system cannot find the path specified)
-2022-10-27T16:40:30,805 [AWT-EventQueue-0] ERROR (MergeAttributesApplication.java:171) - Exception in merge attributes application java.lang.NullPointerException
-2022-10-27T16:43:11,979 [AWT-EventQueue-0] ERROR (ExcelUtility.java:121) - Exception in reading excel java.io.FileNotFoundException:  (The system cannot find the path specified)
-2022-10-27T16:43:11,986 [AWT-EventQueue-0] ERROR (ExcelUtility.java:78) - Exception in reading excel java.io.FileNotFoundException:  (The system cannot find the path specified)
-2022-10-27T16:43:11,986 [AWT-EventQueue-0] ERROR (MergeAttributesApplication.java:171) - Exception in merge attributes application java.lang.NullPointerException
-2022-10-27T16:46:04,369 [AWT-EventQueue-0] ERROR (ExcelUtility.java:121) - Exception in reading excel java.io.FileNotFoundException:  (The system cannot find the path specified)
-2022-10-27T16:46:04,377 [AWT-EventQueue-0] ERROR (ExcelUtility.java:78) - Exception in reading excel java.io.FileNotFoundException:  (The system cannot find the path specified)
-2022-10-27T16:46:04,378 [AWT-EventQueue-0] ERROR (MergeAttributesApplication.java:171) - Exception in merge attributes application java.lang.NullPointerException
-2022-10-27T16:48:06,070 [AWT-EventQueue-0] ERROR (ExcelUtility.java:121) - Exception in reading excel java.io.FileNotFoundException:  (The system cannot find the path specified)
-2022-10-27T16:48:06,077 [AWT-EventQueue-0] ERROR (ExcelUtility.java:78) - Exception in reading excel java.io.FileNotFoundException:  (The system cannot find the path specified)
-2022-10-27T16:48:06,077 [AWT-EventQueue-0] ERROR (MergeAttributesApplication.java:171) - Exception in merge attributes application java.lang.NullPointerException
-2022-10-27T16:49:19,853 [AWT-EventQueue-0] ERROR (ExcelUtility.java:121) - Exception in reading excel java.io.FileNotFoundException:  (The system cannot find the path specified)
-2022-10-27T16:49:19,860 [AWT-EventQueue-0] ERROR (ExcelUtility.java:78) - Exception in reading excel java.io.FileNotFoundException:  (The system cannot find the path specified)
-2022-10-27T16:49:19,860 [AWT-EventQueue-0] ERROR (MergeAttributesApplication.java:171) - Exception in merge attributes application java.lang.NullPointerException
+2022-11-02T10:52:45,194 [AWT-EventQueue-0] INFO  (RestUtility.java:462) - baseline test1 has been created for the project ADAS_PG_SYS_RM,testy testy
+2022-11-02T10:52:46,601 [AWT-EventQueue-0] INFO  (MergeAttributesApplication.java:101) - Changeset testy testy_test2 has been created 
+2022-11-02T12:15:30,866 [AWT-EventQueue-0] INFO  (RestUtility.java:462) - baseline test5 has been created for the project ADAS_PG_SYS_RM,testy testy
+2022-11-02T12:15:31,752 [AWT-EventQueue-0] INFO  (MergeAttributesApplication.java:101) - Changeset testy testy_tst6 has been created 
+2022-11-02T12:26:47,047 [main] ERROR (ExcelUtility.java:121) - Exception in reading excel java.lang.NullPointerException
+2022-11-02T12:26:47,063 [main] ERROR (ExcelUtility.java:78) - Exception in reading excel java.lang.NullPointerException
+2022-11-02T12:26:47,063 [main] ERROR (MergeAttributesApplication.java:184) - Exception in merge attributes application java.lang.NullPointerException
+2022-11-02T12:27:13,003 [main] ERROR (ExcelUtility.java:121) - Exception in reading excel java.lang.NullPointerException
+2022-11-02T12:27:13,018 [main] ERROR (ExcelUtility.java:78) - Exception in reading excel java.lang.NullPointerException
+2022-11-02T12:27:13,018 [main] ERROR (MergeAttributesApplication.java:184) - Exception in merge attributes application java.lang.NullPointerException
+2022-11-02T12:29:59,442 [main] ERROR (ExcelUtility.java:121) - Exception in reading excel java.lang.NullPointerException
+2022-11-02T12:29:59,442 [main] ERROR (ExcelUtility.java:78) - Exception in reading excel java.lang.NullPointerException
+2022-11-02T12:29:59,442 [main] ERROR (MergeAttributesApplication.java:184) - Exception in merge attributes application java.lang.NullPointerException
+2022-11-02T12:51:43,601 [AWT-EventQueue-0] INFO  (RestUtility.java:462) - baseline test6 has been created for the project ADAS_PG_SYS_RM,testy testy
+2022-11-02T12:51:44,170 [AWT-EventQueue-0] INFO  (MergeAttributesApplication.java:102) - Changeset testy testy_test7 has been created 
+2022-11-02T15:41:26,752 [AWT-EventQueue-0] INFO  (RestUtility.java:462) - baseline test has been created for the project ADAS_PG_SYS_RM,testy testy
+2022-11-02T15:41:27,466 [AWT-EventQueue-0] INFO  (MergeAttributesApplication.java:102) - Changeset testy testy_test has been created 
+2022-11-02T15:45:14,659 [AWT-EventQueue-0] INFO  (RestUtility.java:462) - baseline test5 has been created for the project ADAS_PG_SYS_RM,testy testy
+2022-11-02T15:45:15,413 [AWT-EventQueue-0] INFO  (MergeAttributesApplication.java:102) - Changeset testy testy_test6 has been created 
+2022-11-02T15:53:24,277 [AWT-EventQueue-0] INFO  (RestUtility.java:462) - baseline ter has been created for the project ADAS_PG_SYS_RM,testy testy
+2022-11-02T15:53:24,858 [AWT-EventQueue-0] INFO  (MergeAttributesApplication.java:102) - Changeset testy testy_rer has been created 
+2022-11-02T15:58:32,859 [AWT-EventQueue-0] INFO  (RestUtility.java:462) - baseline rrr has been created for the project ADAS_PG_SYS_RM,testy testy
+2022-11-02T15:58:33,494 [AWT-EventQueue-0] INFO  (MergeAttributesApplication.java:102) - Changeset testy testy_ttt has been created 
+2022-11-02T16:20:42,362 [SwingWorker-pool-1-thread-1] ERROR (ExcelUtility.java:121) - Exception in reading excel java.lang.NullPointerException
+2022-11-02T16:20:42,369 [SwingWorker-pool-1-thread-1] ERROR (ExcelUtility.java:78) - Exception in reading excel java.lang.NullPointerException
+2022-11-02T16:20:42,370 [SwingWorker-pool-1-thread-1] ERROR (MergeAttributesApplication.java:184) - Exception in merge attributes application java.lang.NullPointerException
+2022-11-02T16:21:05,859 [SwingWorker-pool-1-thread-1] ERROR (ExcelUtility.java:121) - Exception in reading excel java.lang.NullPointerException
+2022-11-02T16:21:05,865 [SwingWorker-pool-1-thread-1] ERROR (ExcelUtility.java:78) - Exception in reading excel java.lang.NullPointerException
+2022-11-02T16:21:05,865 [SwingWorker-pool-1-thread-1] ERROR (MergeAttributesApplication.java:184) - Exception in merge attributes application java.lang.NullPointerException
+2022-11-02T16:34:26,940 [SwingWorker-pool-1-thread-1] ERROR (ExcelUtility.java:121) - Exception in reading excel java.lang.NullPointerException
+2022-11-02T16:34:26,946 [SwingWorker-pool-1-thread-1] ERROR (ExcelUtility.java:78) - Exception in reading excel java.lang.NullPointerException
+2022-11-02T16:34:26,947 [SwingWorker-pool-1-thread-1] ERROR (MergeAttributesApplication.java:184) - Exception in merge attributes application java.lang.NullPointerException
+2022-11-02T16:54:30,821 [AWT-EventQueue-0] INFO  (RestUtility.java:462) - baseline frff has been created for the project ADAS_PG_SYS_RM,testy testy
+2022-11-02T16:54:31,503 [AWT-EventQueue-0] INFO  (MergeAttributesApplication.java:102) - Changeset testy testy_eee has been created 
+2022-11-02T17:04:35,077 [AWT-EventQueue-0] INFO  (RestUtility.java:462) - baseline eee has been created for the project ADAS_PG_SYS_RM,testy testy
+2022-11-02T17:04:35,792 [AWT-EventQueue-0] INFO  (MergeAttributesApplication.java:102) - Changeset testy testy_ee has been created 
+2022-11-02T17:04:47,023 [AWT-EventQueue-0] INFO  (MergeAttributesUtility.java:47) - --------Merging attributes Special Characteristic-->Test Type in the project ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , testy testy-------------------
+2022-11-02T17:07:09,601 [Thread-0] INFO  (RestUtility.java:462) - baseline wee has been created for the project ADAS_PG_SYS_RM,testy testy
+2022-11-02T17:07:10,420 [Thread-0] INFO  (MergeAttributesApplication.java:102) - Changeset testy testy_qeqe has been created 
+2022-11-02T17:07:18,192 [Thread-0] INFO  (MergeAttributesUtility.java:47) - --------Merging attributes Special Characteristic-->Test Type in the project ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , testy testy-------------------
+2022-11-02T17:16:56,559 [Thread-0] INFO  (RestUtility.java:462) - baseline test11 has been created for the project ADAS_PG_SYS_RM,testy testy
+2022-11-02T17:16:57,210 [Thread-0] INFO  (MergeAttributesApplication.java:102) - Changeset testy testy_rwerer has been created 
+2022-11-02T17:17:04,032 [Thread-0] INFO  (MergeAttributesUtility.java:47) - --------Merging attributes Special Characteristic-->Test Type in the project ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , testy testy-------------------
+2022-11-02T17:27:28,966 [Thread-0] INFO  (MergeAttributesApplication.java:115) - Attributes Special Characteristic has been merged with Test Type in the projectADAS_PG_SYS_RM , ADAS_PG_SYS_RM , testy testy
+2022-11-02T17:27:35,139 [Thread-0] INFO  (MergeAttributesUtility.java:47) - --------Merging attributes Verification Criteria-->External Attribute 1 in the project ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , testy testy-------------------
+2022-11-02T17:28:24,407 [Thread-0] INFO  (MergeAttributesApplication.java:115) - Attributes Verification Criteria has been merged with External Attribute 1 in the projectADAS_PG_SYS_RM , ADAS_PG_SYS_RM , testy testy

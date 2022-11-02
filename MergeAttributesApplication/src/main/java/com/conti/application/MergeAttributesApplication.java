@@ -51,7 +51,8 @@ public class MergeAttributesApplication {
 		changeSetName = configDetailsPojo.getChangeSetName();
 		baselineName = configDetailsPojo.getBaselineName();
 		deliverChangeSet = configDetailsPojo.getDeliverChangeSet();
-		MergeAttributesApplication.mergeAttributes();
+		
+		
 		}
 		catch (Exception e) {
 			// TODO: handle exception
@@ -60,7 +61,7 @@ public class MergeAttributesApplication {
 
 	}
 
-	public static void mergeAttributes() {
+	public static boolean mergeAttributes() {
 		// TODO Auto-generated method stub
 
 		ExcelUtility excelUtility = new ExcelUtility();
@@ -71,10 +72,11 @@ public class MergeAttributesApplication {
 		String changeSetUrl = null;
 		String projectUUID = null;
 		String serviceXmlUrl = null;
+		
 		try {
-
-
-			MergeAttributesUtility mergeAttributesUtility = new MergeAttributesUtility();
+		
+			System.out.println("-------------Merge attributes application started-----------------");
+		MergeAttributesUtility mergeAttributesUtility = new MergeAttributesUtility();
 			Map<String, String> attributeMapping = excelUtility.readMappingFile(attributeMappingFileName);
 			ArrayList<ProjectDetailsPojo> projectDetailsPojoList = excelUtility.readInputData(inputFileName);
 			if (projectDetailsPojoList.size() > 0) {
@@ -82,14 +84,23 @@ public class MergeAttributesApplication {
 					if (projectDetailsPojo.getImplementationRequired().equals(Constants.Yes)) {
 						JazzFormAuthClient client = dngLoginUtility.login(userName, password, serverUrl,
 								projectDetailsPojo.getProjectName());
-
+						if(client==null)
+						{
+							JOptionPane.showMessageDialog(null, "Authentication Failed!! Please check credentials/server URL");
+							System.exit(0);
+						}
 						serviceXmlUrl = dngLoginUtility.getServiceProviderURI(client);
 						projectUUID = serviceXmlUrl.substring(
 								serviceXmlUrl.lastIndexOf('/', serviceXmlUrl.lastIndexOf('/') - 1) + 1,
 								serviceXmlUrl.lastIndexOf('/'));
 						projectDetailsPojo.setProjectUUID(projectUUID);
 						if (restUtility.createBaseline(client, projectDetailsPojo, baselineName)) {
-
+							changeSetUrl = changeSetUtility.createChangeSet(client, projectDetailsPojo,
+									changeSetName);
+							if (changeSetUrl != null && !changeSetUrl.isEmpty()) {
+								projectDetailsPojo.setChangeSetUrl(changeSetUrl);
+								logger.info("Changeset " + projectDetailsPojo.getStreamName() + "_" + changeSetName
+										+ " has been created ");
 						for (Entry<String, String> entry : attributeMapping.entrySet()) {
 							AttributeDetailsPojo sourceAttributeDetailsPojo = restUtility.getAttributeDetails(client,
 									entry.getKey(), projectDetailsPojo);
@@ -98,12 +109,7 @@ public class MergeAttributesApplication {
 							if (sourceAttributeDetailsPojo.getAttributeName() != null)
 							{
 									if( targetAttributeDetailsPojo.getAttributeName() != null) {
-								changeSetUrl = changeSetUtility.createChangeSet(client, projectDetailsPojo,
-										changeSetName);
-								if (changeSetUrl != null && !changeSetUrl.isEmpty()) {
-									projectDetailsPojo.setChangeSetUrl(changeSetUrl);
-									logger.info("Changeset " + projectDetailsPojo.getStreamName() + "_" + changeSetName
-											+ " has been created ");
+								
 									if (mergeAttributesUtility.mergeAttributes(client, projectDetailsPojo,
 											sourceAttributeDetailsPojo, targetAttributeDetailsPojo)) {
 										logger.info("Attributes " + sourceAttributeDetailsPojo.getAttributeName()
@@ -120,13 +126,13 @@ public class MergeAttributesApplication {
 												+ projectDetailsPojo.getComponentName() + " , "
 												+ projectDetailsPojo.getStreamName());
 									}
-								} else {
-									logger.error("Error in creating changeset for the project "
-											+ projectDetailsPojo.getProjectName() + " , "
-											+ projectDetailsPojo.getComponentName() + " , "
-											+ projectDetailsPojo.getStreamName());
 								}
-
+									else {
+										logger.error("Attribute " + entry.getKey() + " does not exist in the project area " + projectDetailsPojo.getProjectName()
+												+ " , " + projectDetailsPojo.getComponentName() + " , "
+												+ projectDetailsPojo.getStreamName());
+									}
+									
 							}else
 							{
 								logger.error("Attribute " + entry.getValue()
@@ -135,12 +141,15 @@ public class MergeAttributesApplication {
 								+ projectDetailsPojo.getStreamName());
 							}
 									
-							}else {
-								logger.error("Attribute " + entry.getKey() + " does not exist in the project area " + projectDetailsPojo.getProjectName()
-										+ " , " + projectDetailsPojo.getComponentName() + " , "
-										+ projectDetailsPojo.getStreamName());
 							}
 						}
+							else {
+								logger.error("Error in creating changeset for the project "
+										+ projectDetailsPojo.getProjectName() + " , "
+										+ projectDetailsPojo.getComponentName() + " , "
+										+ projectDetailsPojo.getStreamName());
+							}
+
 
 						if (deliverChangeSet.equalsIgnoreCase("true")) {
 							if (changeSetUtility.deliverChangeSet(client, projectDetailsPojo)) {
@@ -158,17 +167,22 @@ public class MergeAttributesApplication {
 						}
 
 						 }
+						//jb.setValue(jbValue+5); 
 						System.out.println("Merging attributes completed for the project "+projectDetailsPojo.getProjectName() + " , "
 								+ projectDetailsPojo.getComponentName() + " , "
 								+ projectDetailsPojo.getStreamName());
 
 					}
-					
+					   
 				}
 			}
+			
+			System.out.println("------------Merge attributes application completed-----------");
+			return true;
 		} catch (Exception e) {
 			// handle exception
 			logger.error("Exception in merge attributes application " + e);
+			return false;
 
 			
 		}

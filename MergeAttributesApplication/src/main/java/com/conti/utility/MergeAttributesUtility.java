@@ -44,6 +44,8 @@ public class MergeAttributesUtility {
 		RestUtility restUtility = new RestUtility();
 		DNGLoginUtility dngLoginUtility = new DNGLoginUtility();
 		try {
+			logger.info("--------Merging attributes " +sourceAttributeDetailsPojo.getAttributeName() +"-->"+ targetAttributeDetailsPojo.getAttributeName()+" in the project " + projectDetailsPojo.getProjectName() + " , "
+					+ projectDetailsPojo.getComponentName() + " , " + projectDetailsPojo.getStreamName()+"-------------------");
 			String queryCapability = dngLoginUtility.queryCapability(client);
 			String queryURL = restUtility.getQueryForAtrifacts(client, queryCapability,
 					sourceAttributeDetailsPojo.getAttributeUUID());
@@ -55,7 +57,7 @@ public class MergeAttributesUtility {
 					return true;
 				}
 			} else {
-				logger.error("No requirements found with the attribute " + sourceAttributeDetailsPojo.getAttributeUUID()
+				logger.error("No requirements found with the attribute " + sourceAttributeDetailsPojo.getAttributeName()
 						+ " in the project " + projectDetailsPojo.getProjectName() + " , "
 						+ projectDetailsPojo.getComponentName() + " , " + projectDetailsPojo.getStreamName());
 				return false;

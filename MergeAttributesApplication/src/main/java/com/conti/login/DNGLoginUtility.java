@@ -53,22 +53,36 @@ public class DNGLoginUtility {
 			rootServicesHelper = new JazzRootServicesHelper(serverUrl, OSLCConstants.OSLC_RM_V2);
 			client = rootServicesHelper.initFormClient(username, password, serverUrl);
 			if (client.formLogin() == 200) {
-				logger.info("DNGLogin successful for the project " +projectName);
+				//logger.info("DNGLogin successful for the project " +projectName);
 				client.setProject(projectName); 
-				queryCapability(client);
+				if(queryCapability(client)!=null)
+				{
 				return client;
+				}
+				else
+				{
+					return null;
+				}
 			}
 
 		} catch (RootServicesException e) {
 			logger.error("Server url not accessible" +  e);
+			return null;
 
 		} catch (JazzAuthFailedException e) {
 
 			logger.error("Authentication failed" + e);
+			return null;
 
 		} catch (JazzAuthErrorException e) {
 			logger.error("Authentication failed"+ e);
+			return null;
 
+		}
+		catch(Exception e)
+		{
+			logger.error("Excpetion while logging in DNG" +e);
+			return null;
 		}
 		return null;
 
@@ -89,6 +103,11 @@ public class DNGLoginUtility {
 			return null;
 
 		}
+		catch(Exception e)
+		{
+			logger.error("Excpetion while logging in DNG" +e);
+			return null;
+		}
 	}
 	/**getServiceProviderURI fetches Project service  provider uri
 	 * @param client JazzFormAuthClient
@@ -104,11 +123,14 @@ public class DNGLoginUtility {
 		} catch (ResourceNotFoundException | IOException | OAuthException | URISyntaxException e) {
 			// TODO Auto-generated catch block
 			logger.error("unable to fetch servercapability url" + e);
+			return null;
 		}
-		return serviceProviderUrl;
-
-
-
+		catch(Exception e)
+		{
+			logger.error("Excpetion while logging in DNG" +e);
+			return null;
+		}
+	
 	}
 	/**queryCapability fetches Project service  provider uri
 	 * @param client JazzFormAuthClient
@@ -127,22 +149,32 @@ public class DNGLoginUtility {
 		} catch (ResourceNotFoundException e) {
 			// TODO Auto-generated catch block
 			logger.error("Server url not found");
+			return null;
 			
 
 		} catch (OAuthException e) {
 			logger.error("Server url not found" +e);
+			return null;
 			
 
 		} catch (URISyntaxException e) {
 			logger.error("URI syntax exception" +e);
+			return null;
 		
 			
 		} catch (IOException e) {
 			logger.error("IOException" +e);
+			return null;
 		
 		}
+		
+		catch(Exception e)
+		{
+			logger.error("Excpetion while logging in DNG" +e);
+			return null;
+		}
 
-		return queryCapabilityUrl;
+	
 
 	}
 
