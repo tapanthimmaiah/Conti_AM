@@ -51,7 +51,7 @@
 	    <version>2.17.1</version>
 	    <type>pom</type>
 	</dependency>
-
+	
 
 
       <dependency>
@@ -86,6 +86,11 @@
         <artifactId>commons-cli</artifactId>
         <version>1.2</version>
       </dependency>
+        <dependency>
+    <groupId>com.formdev</groupId>
+    <artifactId>flatlaf</artifactId>
+    <version>2.0.1</version>
+  </dependency>
       </dependencies>
 	<build>
     <plugins>
@@ -102,7 +107,7 @@
             <configuration>
               <transformers>
                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                  <mainClass>com.conti.application.ProjectDetailsApplication</mainClass>
+                  <mainClass>com.conti.frontEnd.ProjectDetailsGUI</mainClass>
                 </transformer>
               </transformers>
             </configuration>

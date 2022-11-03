@@ -7,11 +7,13 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Properties;
 
+import javax.swing.JOptionPane;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.eclipse.lyo.client.oslc.jazz.JazzFormAuthClient;
 
-import com.conti.EncryptionDecryption.EncryptionDecryption;
+import com.conti.pojo.ConfigDetailsPojo;
 import com.conti.pojo.ProjectDetailsPojo;
  
 /**
@@ -32,26 +34,22 @@ public class ProjectDetailsApplication {
 	 *  to load the config file properties
 	 * @return
 	 */
-	private static boolean loadConfigProperties()
-	{
+
+	
+	public static void loadConfigProperties(ConfigDetailsPojo configDetailsPojo) {
+		
 		try
 		{
-		FileInputStream fileInputStream = new FileInputStream(new File(currentDir + "/configuration.properties"));
-		Properties properties = new Properties();
-		properties.load(fileInputStream);
-
-		serverUrl = properties.getProperty("repositoryUrl");
-		userName = properties.getProperty("username");
-		password = EncryptionDecryption.decrypt(properties.getProperty("password")).trim();
+		serverUrl = configDetailsPojo.getRepositoryUrl();
+		userName = configDetailsPojo.getUserName();
+		password = configDetailsPojo.getPassword();
 		}
 		catch (Exception e) {
 			// TODO: handle exception
 			logger.error("Exception in loading config properties" + e);
 			
 		}
-		
-		return true;
-	}
+}
 	
 	/**
 	 * to get the project detials from project name list
@@ -127,7 +125,7 @@ public class ProjectDetailsApplication {
 	 * main method
 	 * @param args
 	 */
-	public static void main(String args[])
+	public static boolean projectDetailsApplication()
 	{
 		RestUtility restUtility=new RestUtility();
 		DNGLoginUtility dngLoginUtility=new DNGLoginUtility();
@@ -136,11 +134,7 @@ public class ProjectDetailsApplication {
 		
 		try 
 		{
-		if(!loadConfigProperties())
-		{
-			logger.error("Config properties were not loaded successfully !!!");
-			return;
-		}
+		
 			JazzFormAuthClient client= dngLoginUtility.login(userName,password , serverUrl);
 			if(client!=null)
 			{
@@ -164,17 +158,24 @@ public class ProjectDetailsApplication {
 				}
 				
 				
-				System.out.println("------Project details has been fetched. Please check the report generated!!-------");
+				System.out.println("------Project details has been fetched. Please check the report & logs generated!!-------");
 			}
 			else
 			{
 				logger.error("Unable to login to server ");
+				
+					JOptionPane.showMessageDialog(null, "Authentication Failed!! Please check credentials/server URL");
+					return false;
+				
 			}
+			return true;
 		}
 		
 		catch (Exception e) {
 			// TODO: handle exception
 			logger.error("Exception in the main application " +e);
+			JOptionPane.showMessageDialog(null, "Exception occured in the application. Please check logs!!");
+			return false;
 		}
 	}
 	

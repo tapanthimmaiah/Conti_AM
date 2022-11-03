@@ -182,6 +182,7 @@ public class MergeAttributesApplication {
 		} catch (Exception e) {
 			// handle exception
 			logger.error("Exception in merge attributes application " + e);
+			JOptionPane.showMessageDialog(null, "Exception occured in the application. Please check logs!!");
 			return false;
 
 			

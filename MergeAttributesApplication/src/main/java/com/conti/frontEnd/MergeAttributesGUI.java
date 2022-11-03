@@ -37,8 +37,8 @@ public class MergeAttributesGUI  extends JFrame implements ActionListener {
 	JPanel newPanel, buttonPanel,radioButtonPanel;
 	JLabel userLabel, passLabel, serverUrlLabel, inputFileNameLabel, attributeMappingLabel, baselineNameLabel,
 	changeSetNameLabel, deliverChangeSetLabel;
-	private static int t = 0;
-final JTextField textField1, textField2, textField3, textField4, textField5, textField7, textField8;
+	
+	final JTextField textField1, textField2, textField3, textField4, textField5, textField7, textField8;
 	
 	public MergeAttributesGUI()
 	{
@@ -177,6 +177,8 @@ final JTextField textField1, textField2, textField3, textField4, textField5, tex
 				else
 				{
 				b1.setVisible(false);
+				b2.setEnabled(false);
+				b3.setEnabled(false);
 				jb.setVisible(true);
 				jb.setIndeterminate(true);
 				String userValue = textField1.getText(); // get user entered username from the textField1
@@ -201,25 +203,23 @@ final JTextField textField1, textField2, textField3, textField4, textField5, tex
 				 new Thread(new Runnable() {
 			            @Override
 			            public void run() {
-			                //CreateAccount();
-			            	Boolean mergeCompleted= MergeAttributesApplication.mergeAttributes();
+			             
+			            	final Boolean mergeCompleted= MergeAttributesApplication.mergeAttributes();
 			                
 			                    SwingUtilities.invokeLater(new Runnable() {
 			                        @Override
 			                        public void run() {
-			                        	//jb.setIndeterminate(true);
-			                        	
 			                        	
 			            				if(mergeCompleted)
 			            				{
 			            					jb.setIndeterminate(false);
+			            					jb.setString("Merge Completed");
 			            					JOptionPane.showMessageDialog(null, "Merging attributes completed");
 			            				}
 			                           
 			                        }
 			                    });
-			                    
-			                
+			                   
 			            }
 			        }).start();
 				
@@ -235,12 +235,7 @@ final JTextField textField1, textField2, textField3, textField4, textField5, tex
 
 			}
 			
-			public void mergeAttributes()
-			{
-				
-			}
-
-			public static void main(String[] args) {
+				public static void main(String[] args) {
 				try
 				{
 				MergeAttributesGUI form = new MergeAttributesGUI();

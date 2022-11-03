@@ -44,8 +44,8 @@ public class MergeAttributesUtility {
 		RestUtility restUtility = new RestUtility();
 		DNGLoginUtility dngLoginUtility = new DNGLoginUtility();
 		try {
-			logger.info("--------Merging attributes " +sourceAttributeDetailsPojo.getAttributeName() +"-->"+ targetAttributeDetailsPojo.getAttributeName()+" in the project " + projectDetailsPojo.getProjectName() + " , "
-					+ projectDetailsPojo.getComponentName() + " , " + projectDetailsPojo.getStreamName()+"-------------------");
+			logger.info("!!--------Merging attributes " +sourceAttributeDetailsPojo.getAttributeName() +"-->"+ targetAttributeDetailsPojo.getAttributeName()+" in the project " + projectDetailsPojo.getProjectName() + " , "
+					+ projectDetailsPojo.getComponentName() + " , " + projectDetailsPojo.getStreamName()+"-------------------!!");
 			String queryCapability = dngLoginUtility.queryCapability(client);
 			String queryURL = restUtility.getQueryForAtrifacts(client, queryCapability,
 					sourceAttributeDetailsPojo.getAttributeUUID());
@@ -82,6 +82,7 @@ public class MergeAttributesUtility {
 	public ArrayList<String> getSourceArtifactUrls(Document doc, AttributeDetailsPojo sourceAttributeDetailsPojo) {
 		ArrayList<String> artifactUrls = new ArrayList<>();
 		try {
+			logger.info("Querying for the artifacts with attribute " +sourceAttributeDetailsPojo.getAttributeName());
 			String localPart = sourceAttributeDetailsPojo.getArributeRDFUrl()
 					.substring(sourceAttributeDetailsPojo.getArributeRDFUrl().lastIndexOf('/') + 1);
 			NodeList artifactNodes = doc.getElementsByTagName(Constants.tag_f1 + ":" + localPart);
@@ -121,7 +122,7 @@ public class MergeAttributesUtility {
 		Map<String, String> headers = new HashMap<>();
 
 		try {
-
+			logger.info("Setting the attribute values from source to target");
 			encodedStreamUrl = RestUtility.encode(projectDetailsPojo.getChangeSetUrl());
 
 			namespaceURI = sourceAttributeDetailsPojo.getArributeRDFUrl().substring(0,

@@ -44,3 +44,24 @@
 2022-11-02T17:27:28,966 [Thread-0] INFO  (MergeAttributesApplication.java:115) - Attributes Special Characteristic has been merged with Test Type in the projectADAS_PG_SYS_RM , ADAS_PG_SYS_RM , testy testy
 2022-11-02T17:27:35,139 [Thread-0] INFO  (MergeAttributesUtility.java:47) - --------Merging attributes Verification Criteria-->External Attribute 1 in the project ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , testy testy-------------------
 2022-11-02T17:28:24,407 [Thread-0] INFO  (MergeAttributesApplication.java:115) - Attributes Verification Criteria has been merged with External Attribute 1 in the projectADAS_PG_SYS_RM , ADAS_PG_SYS_RM , testy testy
+2022-11-02T18:05:55,669 [Thread-0] INFO  (RestUtility.java:463) - baseline test_merge has been created for the project ADAS_PG_SYS_RM,WeatherStation_RM_VM_HEP_Training_20220113_GF
+2022-11-02T18:05:56,249 [Thread-0] INFO  (MergeAttributesApplication.java:102) - Changeset WeatherStation_RM_VM_HEP_Training_20220113_GF_cs_merge has been created 
+2022-11-02T18:06:01,547 [Thread-0] INFO  (MergeAttributesUtility.java:47) - !!--------Merging attributes Special Characteristic-->Test Type in the project ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , WeatherStation_RM_VM_HEP_Training_20220113_GF-------------------!!
+2022-11-02T18:06:04,808 [Thread-0] INFO  (MergeAttributesUtility.java:85) - Quering for the artifacts with attribute Special Characteristic
+2022-11-02T18:06:04,809 [Thread-0] INFO  (MergeAttributesUtility.java:125) - Setting the attribute values from source to target
+2022-11-02T18:06:10,407 [Thread-0] INFO  (MergeAttributesApplication.java:115) - Attributes Special Characteristic has been merged with Test Type in the projectADAS_PG_SYS_RM , ADAS_PG_SYS_RM , WeatherStation_RM_VM_HEP_Training_20220113_GF
+2022-11-02T18:06:12,826 [Thread-0] INFO  (MergeAttributesUtility.java:47) - !!--------Merging attributes Verification Criteria-->External Attribute 1 in the project ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , WeatherStation_RM_VM_HEP_Training_20220113_GF-------------------!!
+2022-11-02T18:06:16,838 [Thread-0] INFO  (MergeAttributesUtility.java:85) - Quering for the artifacts with attribute Verification Criteria
+2022-11-02T18:06:16,840 [Thread-0] INFO  (MergeAttributesUtility.java:125) - Setting the attribute values from source to target
+2022-11-02T18:06:19,940 [Thread-0] INFO  (MergeAttributesApplication.java:115) - Attributes Verification Criteria has been merged with External Attribute 1 in the projectADAS_PG_SYS_RM , ADAS_PG_SYS_RM , WeatherStation_RM_VM_HEP_Training_20220113_GF
+2022-11-02T18:17:43,837 [Thread-0] INFO  (RestUtility.java:463) - baseline bl_merge has been created for the project ADAS_PG_SYS_RM,WeatherStation_RM_VM_HEP_Training_20220113_GF
+2022-11-02T18:17:44,546 [Thread-0] INFO  (MergeAttributesApplication.java:102) - Changeset WeatherStation_RM_VM_HEP_Training_20220113_GF_cs_merge has been created 
+2022-11-02T18:17:48,040 [Thread-0] INFO  (MergeAttributesUtility.java:47) - !!--------Merging attributes Special Characteristic-->Test Type in the project ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , WeatherStation_RM_VM_HEP_Training_20220113_GF-------------------!!
+2022-11-02T18:17:52,478 [Thread-0] INFO  (MergeAttributesUtility.java:85) - Querying for the artifacts with attribute Special Characteristic
+2022-11-02T18:17:52,479 [Thread-0] INFO  (MergeAttributesUtility.java:125) - Setting the attribute values from source to target
+2022-11-02T18:17:58,741 [Thread-0] INFO  (MergeAttributesApplication.java:115) - Attributes Special Characteristic has been merged with Test Type in the projectADAS_PG_SYS_RM , ADAS_PG_SYS_RM , WeatherStation_RM_VM_HEP_Training_20220113_GF
+2022-11-02T18:18:01,616 [Thread-0] INFO  (MergeAttributesUtility.java:47) - !!--------Merging attributes Verification Criteria-->External Attribute 1 in the project ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , WeatherStation_RM_VM_HEP_Training_20220113_GF-------------------!!
+2022-11-02T18:18:04,899 [Thread-0] INFO  (MergeAttributesUtility.java:85) - Querying for the artifacts with attribute Verification Criteria
+2022-11-02T18:18:04,900 [Thread-0] INFO  (MergeAttributesUtility.java:125) - Setting the attribute values from source to target
+2022-11-02T18:18:08,535 [Thread-0] INFO  (MergeAttributesApplication.java:115) - Attributes Verification Criteria has been merged with External Attribute 1 in the projectADAS_PG_SYS_RM , ADAS_PG_SYS_RM , WeatherStation_RM_VM_HEP_Training_20220113_GF
+2022-11-02T18:18:15,010 [Thread-0] INFO  (MergeAttributesApplication.java:156) - Changeset has been delivered for the project ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , WeatherStation_RM_VM_HEP_Training_20220113_GF

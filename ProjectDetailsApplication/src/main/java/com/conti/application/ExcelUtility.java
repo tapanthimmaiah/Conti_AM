@@ -3,7 +3,9 @@ package com.conti.application;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.HashMap;
 import java.util.Map.Entry;
 
@@ -48,8 +50,8 @@ public class ExcelUtility {
 
 		try {
 			int rowCount = 1;
-			
-			File file = new File(currentDir + "/" + "ProjectDetailsReport.xlsx");
+			String timeStamp = new SimpleDateFormat("yyyy_MM_dd_HHmmss").format(Calendar.getInstance().getTime());
+			File file = new File(currentDir + "/" + "ProjectDetailsReport_"+timeStamp+".xlsx");
 			HashMap<String, ArrayList<String>> componentStreamNameMap = new HashMap<>();
 			outputstream = new FileOutputStream(file);
 			

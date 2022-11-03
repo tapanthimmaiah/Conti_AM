@@ -66,6 +66,7 @@ public class RestUtility {
 		
 		try
 		{
+			
 		OslcQueryParameters queryparam = new OslcQueryParameters();
 		queryparam.setPrefix("rdf"
 				+ "=<http://www.w3.org/1999/02/22-rdf-syntax-ns%23>,dcterms=<http://purl.org/dc/terms/>,rm_property=<"+client.getAuthUrl()+"/types/>");

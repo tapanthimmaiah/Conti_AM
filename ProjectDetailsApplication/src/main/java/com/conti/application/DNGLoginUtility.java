@@ -49,13 +49,19 @@ public class DNGLoginUtility {
 		client = rootServicesHelper.initFormClient(username, password, serverUrl);
 		if (client.formLogin() == 200) {
 			logger.info("DNGLogin succesfull!");
+			return client;
+		}
+		else
+		{
+			return null;
 		}
 		}
 		catch(Exception e)
 		{
 			logger.error("Exception while logging in DNG" + e);
+			return null;
 		}
-			return client;
+			
 		
 	}
 

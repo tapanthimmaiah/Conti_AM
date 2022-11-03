@@ -1,191 +1,115 @@
-2022-09-07T12:08:00,855 [main] INFO  (EncryptionDecryption.java:62) - Decrypting plainText password...
-2022-09-07T12:08:00,922 [main] INFO  (EncryptionDecryption.java:73) - Decrypted the password!
-2022-09-07T12:08:05,808 [main] INFO  (DNGLoginUtility.java:51) - DNGLogin succesfull!
-2022-09-07T12:08:05,808 [main] INFO  (RestUtility.java:45) - Fetching the project details for the server https://jazz-test4.conti.de/rm4
-2022-09-07T12:08:06,279 [main] INFO  (RestUtility.java:81) - fetching the  details for the project Radar_L2_RM
-2022-09-07T12:08:09,259 [main] INFO  (RestUtility.java:131) - fetching the component details for the component Radar_L2_RM
-2022-09-07T12:08:10,181 [main] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test4.conti.de/rm4/cm/stream/_filoAP-tEeusT-PEspLcQA   Not Found
-2022-09-07T12:08:11,513 [main] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test4.conti.de/rm4/cm/stream/_f0gwYP-rEeusT-PEspLcQA   Not Found
-2022-09-07T12:08:12,614 [main] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test4.conti.de/rm4/cm/stream/_TwJ3IIQEEeytoNwqecO6PA   Not Found
-2022-09-07T12:08:13,231 [main] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test4.conti.de/rm4/cm/stream/_428xEJ-DEey988JOu-sPaw   Not Found
-2022-09-07T12:08:13,882 [main] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test4.conti.de/rm4/cm/stream/_GWQPEBFLEeyF0IdCJXe4gg   Not Found
-2022-09-07T12:08:14,681 [main] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test4.conti.de/rm4/cm/stream/_M5rq8CLSEeyys6waAK36Sg   Not Found
-2022-09-07T12:08:15,620 [main] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test4.conti.de/rm4/cm/stream/_UNAUMCH5Eeyys6waAK36Sg   Not Found
-2022-09-07T12:08:16,439 [main] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test4.conti.de/rm4/cm/stream/_HCwv8DiAEeyM9O69iEXi7A   Not Found
-2022-09-07T12:08:17,294 [main] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test4.conti.de/rm4/cm/stream/_DBrwoLWGEeyzEYnLQiW_fw   Not Found
-2022-09-07T12:08:18,211 [main] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test4.conti.de/rm4/cm/stream/_QPqjMLTpEeyzEYnLQiW_fw   Not Found
-2022-09-07T12:08:18,845 [main] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test4.conti.de/rm4/cm/stream/_gWK88H_8EeurGPKvtMglaQ   Not Found
-2022-09-07T12:08:19,538 [main] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test4.conti.de/rm4/cm/stream/_jnuFANjXEeupLJ3XCVU6kA   Not Found
-2022-09-07T12:08:20,535 [main] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test4.conti.de/rm4/cm/stream/_IPDGQLTqEeyzEYnLQiW_fw   Not Found
-2022-09-07T12:08:21,380 [main] INFO  (RestUtility.java:81) - fetching the  details for the project LIB_L3_SW_RM
-2022-09-07T12:08:24,623 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L3_SW_LogTrace_RM
-2022-09-07T12:08:24,840 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L3_SW_Selftest_RM
-2022-09-07T12:08:25,053 [main] INFO  (RestUtility.java:131) - fetching the component details for the component old_LIB_L3_SW_RM_do _not_use
-2022-09-07T12:08:25,273 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L3_SW_PIP_RM
-2022-09-07T12:08:25,498 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L3_SW_OSE_DF_RM
-2022-09-07T12:08:25,743 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L3_SW_SWLoading_RM
-2022-09-07T12:08:25,943 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L3_SW_FRS_Radar_RM
-2022-09-07T12:08:26,176 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L3_SW_ThirdParty_RM
-2022-09-07T12:08:26,389 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L3_SW_CyberSecurity_RM
-2022-09-07T12:08:26,607 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L3_SW_RCTA_RM
-2022-09-07T12:08:26,873 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L3_SW_VDY_RM
-2022-09-07T12:08:27,107 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L3_SW_RSP_RM
-2022-09-07T12:08:27,518 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L3_SW_Errorhandling_RM
-2022-09-07T12:08:27,738 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L3_SW_ALN_RM
-2022-09-07T12:08:28,036 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L3_SW_BSD_RM
-2022-09-07T12:08:28,257 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L3_SW_HIL_RM
-2022-09-07T12:08:28,455 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L3_SW_BSIS_RM
-2022-09-07T12:08:28,670 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L3_SW_LCA_RM
-2022-09-07T12:08:28,938 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L3_SW_EDR_RM
-2022-09-07T12:08:29,162 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L3_SW_CTM_RM
-2022-09-07T12:08:29,402 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L3_SW_MTSI_RM
-2022-09-07T12:08:29,623 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L3_SW_Sensor_BringUp_RM
-2022-09-07T12:08:29,862 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L3_SW_TMW_RM
-2022-09-07T12:08:30,090 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L3_SW_RPCP_RM
-2022-09-07T12:08:30,283 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L3_SW_ACAL_RM
-2022-09-07T12:08:30,479 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L3_SW_Diagnostics_RM
-2022-09-07T12:08:30,753 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L3_SW_PLCM_RM
-2022-09-07T12:08:31,066 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L3_SW_EM_RM
-2022-09-07T12:08:31,297 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L3_SW_RCTB_RM
-2022-09-07T12:08:31,527 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L3_SW_FCTA_RM
-2022-09-07T12:08:31,736 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L3_SW_EOL_Services_RM
-2022-09-07T12:08:31,991 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L3_SW_Prime_DF_RM
-2022-09-07T12:08:32,218 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L3_SW_ACTL_RM
-2022-09-07T12:08:32,417 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L3_SW_Heater_RM
-2022-09-07T12:08:32,627 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L3_SW_ProductSheet_RM
-2022-09-07T12:08:32,837 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L4_SWC_All_RM
-2022-09-07T12:08:33,225 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L3_SW_Communication_RM
-2022-09-07T12:08:33,496 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L3_SW_RadarDetection_RM
-2022-09-07T12:08:47,043 [main] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test4.conti.de/rm4/cm/stream/_7I_1QTy0EeyM9O69iEXi7A   Not Found
-2022-09-07T12:08:48,725 [main] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test4.conti.de/rm4/cm/stream/_fPI3gCDeEeyys6waAK36Sg   Not Found
-2022-09-07T12:09:06,142 [main] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test4.conti.de/rm4/cm/stream/_czh7kB98Eeyys6waAK36Sg   Not Found
-2022-09-07T12:09:14,749 [main] INFO  (RestUtility.java:81) - fetching the  details for the project Camera_L3_EE_RM
-2022-09-07T12:09:16,957 [main] INFO  (RestUtility.java:131) - fetching the component details for the component Camera_L3_EE_RM
-2022-09-07T12:09:17,723 [main] INFO  (RestUtility.java:81) - fetching the  details for the project BU4_Playground_SYS_RM
-2022-09-07T12:09:19,861 [main] INFO  (RestUtility.java:131) - fetching the component details for the component BU4_Playground_SYS_RM
-2022-09-07T12:09:20,750 [main] INFO  (RestUtility.java:81) - fetching the  details for the project Camera_Stakeholder_Group_BMW_RM
-2022-09-07T12:09:22,785 [main] INFO  (RestUtility.java:131) - fetching the component details for the component Camera_Stakeholder_Group_BMW_RM
-2022-09-07T12:09:24,154 [main] INFO  (RestUtility.java:81) - fetching the  details for the project BU4_Playground_SW_RM
-2022-09-07T12:09:26,488 [main] INFO  (RestUtility.java:131) - fetching the component details for the component BU4_Playground_SW_RM
-2022-09-07T12:09:27,122 [main] INFO  (RestUtility.java:81) - fetching the  details for the project ADSystems_Stakeholder_Group_VW_RM
-2022-09-07T12:09:29,564 [main] INFO  (RestUtility.java:131) - fetching the component details for the component ADSystems_Stakeholder_Group_VW_RM
-2022-09-07T12:09:30,594 [main] INFO  (RestUtility.java:81) - fetching the  details for the project Radar_L3_EE_RM
-2022-09-07T12:09:33,311 [main] INFO  (RestUtility.java:131) - fetching the component details for the component Radar_L3_EE_RM
-2022-09-07T12:09:35,475 [main] INFO  (RestUtility.java:81) - fetching the  details for the project Camera_Stakeholder_Group_Continental_RM
-2022-09-07T12:09:37,722 [main] INFO  (RestUtility.java:131) - fetching the component details for the component Camera_Stakeholder_Group_Continental_RM
-2022-09-07T12:09:38,382 [main] INFO  (RestUtility.java:81) - fetching the  details for the project Template_ProjectArea_BU4_RM_V26
-2022-09-07T12:09:40,569 [main] INFO  (RestUtility.java:131) - fetching the component details for the component Template_ProjectArea_BU4_RM_V26
-2022-09-07T12:09:41,184 [main] INFO  (RestUtility.java:81) - fetching the  details for the project Radar_Stakeholder_StandardsRegulations_RM
-2022-09-07T12:09:43,389 [main] INFO  (RestUtility.java:131) - fetching the component details for the component Radar_Stakeholder_StandardsRegulations_RM
-2022-09-07T12:09:44,239 [main] INFO  (RestUtility.java:81) - fetching the  details for the project ADSystems_Stakeholder_Group_Continental_RM
-2022-09-07T12:09:46,323 [main] INFO  (RestUtility.java:131) - fetching the component details for the component ADSystems_Stakeholder_Group_Continental_RM
-2022-09-07T12:09:47,466 [main] INFO  (RestUtility.java:81) - fetching the  details for the project Camera_L3_ME_RM
-2022-09-07T12:09:50,971 [main] INFO  (RestUtility.java:131) - fetching the component details for the component Camera_L3_ME_RM
-2022-09-07T12:09:51,592 [main] INFO  (RestUtility.java:81) - fetching the  details for the project ADCU_L3_EE_RM
-2022-09-07T12:09:53,735 [main] INFO  (RestUtility.java:131) - fetching the component details for the component ADCU_L3_EE_RM
-2022-09-07T12:09:55,103 [main] INFO  (RestUtility.java:81) - fetching the  details for the project BU4_Playground_SYS_Design_AM
-2022-09-07T12:09:57,308 [main] INFO  (RestUtility.java:131) - fetching the component details for the component BU4_Playground_SYS_Design_AM
-2022-09-07T12:09:57,975 [main] INFO  (RestUtility.java:81) - fetching the  details for the project LIB_Stakeholder_Group_VW_RM
-2022-09-07T12:10:01,198 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_Stakeholder_Group_VW_RM
-2022-09-07T12:10:01,802 [main] INFO  (RestUtility.java:81) - fetching the  details for the project CUS_L3_ME_RM
-2022-09-07T12:10:04,627 [main] INFO  (RestUtility.java:131) - fetching the component details for the component CUS_L3_ME_RM
-2022-09-07T12:10:05,258 [main] INFO  (RestUtility.java:81) - fetching the  details for the project Radar_Stakeholder_Group_Continental_RM
-2022-09-07T12:10:09,151 [main] INFO  (RestUtility.java:131) - fetching the component details for the component Radar_Stakeholder_Group_Continental_RM
-2022-09-07T12:10:09,896 [main] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test4.conti.de/rm4/cm/stream/_EF3aEKN1Eey988JOu-sPaw   Not Found
-2022-09-07T12:10:11,974 [main] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test4.conti.de/rm4/cm/stream/_S152YPtBEeusT-PEspLcQA   Not Found
-2022-09-07T12:10:12,600 [main] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test4.conti.de/rm4/cm/stream/_hcwPMElaEeyxEp1YGWAVMQ   Not Found
-2022-09-07T12:10:13,923 [main] INFO  (RestUtility.java:81) - fetching the  details for the project Radar_Stakeholder_Group_Daimler_RM
-2022-09-07T12:10:17,099 [main] INFO  (RestUtility.java:131) - fetching the component details for the component Radar_Stakeholder_Group_Daimler_RM
-2022-09-07T12:10:17,921 [main] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test4.conti.de/rm4/cm/stream/_04-n4Bq2Eeyys6waAK36Sg   Not Found
-2022-09-07T12:10:19,758 [main] INFO  (RestUtility.java:81) - fetching the  details for the project LIB_L2_Security_Privacy_RM
-2022-09-07T12:10:22,735 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L2_Security_Privacy_RM
-2022-09-07T12:10:23,753 [main] INFO  (RestUtility.java:81) - fetching the  details for the project Radar_Stakeholder_Group_BMW_RM
-2022-09-07T12:10:26,212 [main] INFO  (RestUtility.java:131) - fetching the component details for the component Radar_Stakeholder_Group_BMW_RM
-2022-09-07T12:10:27,129 [main] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test4.conti.de/rm4/cm/stream/_PeH4EPkZEeu_AazFEPSazw   Not Found
-2022-09-07T12:10:28,416 [main] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test4.conti.de/rm4/cm/stream/_0tqGsDWnEeyM9O69iEXi7A   Not Found
-2022-09-07T12:10:29,056 [main] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test4.conti.de/rm4/cm/stream/_TFODoOu9EeupLJ3XCVU6kA   Not Found
-2022-09-07T12:10:30,081 [main] INFO  (RestUtility.java:81) - fetching the  details for the project ADCU_Stakeholder_Group_VW_RM
-2022-09-07T12:10:32,868 [main] INFO  (RestUtility.java:131) - fetching the component details for the component ADCU_Stakeholder_Group_VW_RM
-2022-09-07T12:10:33,891 [main] INFO  (RestUtility.java:81) - fetching the  details for the project ADSystems_Stakeholder_StandardsRegulations_RM
-2022-09-07T12:10:36,557 [main] INFO  (RestUtility.java:131) - fetching the component details for the component ADSystems_Stakeholder_StandardsRegulations_RM
-2022-09-07T12:10:38,602 [main] INFO  (RestUtility.java:81) - fetching the  details for the project ADSystems_L1_Design_AM
-2022-09-07T12:10:42,699 [main] INFO  (RestUtility.java:131) - fetching the component details for the component ADSystems_L1_Design_AM
-2022-09-07T12:10:43,414 [main] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test4.conti.de/rm4/cm/stream/_RXhRwLo8Eey0GOgUCoteOw   Not Found
-2022-09-07T12:10:44,236 [main] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test4.conti.de/rm4/cm/stream/_iOpxILAvEeyzEYnLQiW_fw   Not Found
-2022-09-07T12:10:45,667 [main] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test4.conti.de/rm4/cm/stream/_vUbpoLD1EeyzEYnLQiW_fw   Not Found
-2022-09-07T12:10:46,581 [main] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test4.conti.de/rm4/cm/stream/_cFAYoLD7EeyzEYnLQiW_fw   Not Found
-2022-09-07T12:10:47,818 [main] INFO  (RestUtility.java:81) - fetching the  details for the project ADCU_Stakeholder_StandardsRegulations_RM
-2022-09-07T12:10:54,168 [main] INFO  (RestUtility.java:131) - fetching the component details for the component ADCU_Stakeholder_StandardsRegulations_RM
-2022-09-07T12:10:59,384 [main] INFO  (RestUtility.java:81) - fetching the  details for the project ADCU_L3_ME_RM
-2022-09-07T12:11:08,711 [main] INFO  (RestUtility.java:131) - fetching the component details for the component ADCU_L3_ME_RM
-2022-09-07T12:11:11,888 [main] INFO  (RestUtility.java:81) - fetching the  details for the project BU4_Playground_STH_RM
-2022-09-07T12:11:15,162 [main] INFO  (RestUtility.java:131) - fetching the component details for the component BU4_Playground_STH_RM
-2022-09-07T12:11:16,903 [main] INFO  (RestUtility.java:81) - fetching the  details for the project Radar_Stakeholder_Group_TATA_RM
-2022-09-07T12:11:21,206 [main] INFO  (RestUtility.java:131) - fetching the component details for the component Radar_Stakeholder_Group_TATA_RM
-2022-09-07T12:11:23,252 [main] INFO  (RestUtility.java:81) - fetching the  details for the project LIB_L1_Functions_RM
-2022-09-07T12:11:27,560 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L1_BSD_RM
-2022-09-07T12:11:28,096 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L1_TMA_RM
-2022-09-07T12:11:28,378 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L1_RCTA_RM
-2022-09-07T12:11:28,764 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L1_ESA_RM
-2022-09-07T12:11:29,956 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L1_RCTB_RM
-2022-09-07T12:11:31,140 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L1_SSF_RM
-2022-09-07T12:11:31,405 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L1_CTM_RM
-2022-09-07T12:11:31,753 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L1_TJCP_CCP_RM
-2022-09-07T12:11:34,313 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L1_LSA_RM
-2022-09-07T12:11:34,722 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L1_RPCP_RM
-2022-09-07T12:11:35,066 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L1_LCA_RM
-2022-09-07T12:11:35,687 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L1_LGA_RM
-2022-09-07T12:11:35,950 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L1_OSE_RM
-2022-09-07T12:11:36,359 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L1_MRM_RM
-2022-09-07T12:11:36,872 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L1_FCTA_RM
-2022-09-07T12:11:38,203 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L1_EBA_RM
-2022-09-07T12:11:39,842 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L1_ACC_RM
-2022-09-07T12:11:40,149 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L1_ESPF_RM
-2022-09-07T12:11:40,456 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L1_BSIS_RM
-2022-09-07T12:11:40,763 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L1_SilentTesting_RM
-2022-09-07T12:11:41,074 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L1_SALC_RM
-2022-09-07T12:12:18,447 [main] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test4.conti.de/rm4/cm/stream/_MjyjANwoEey1Kta7r2e74w   Not Found
-2022-09-07T12:12:23,365 [main] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test4.conti.de/rm4/cm/stream/_x3w-MKOxEey988JOu-sPaw   Not Found
-2022-09-07T12:12:31,405 [main] INFO  (RestUtility.java:81) - fetching the  details for the project EngineeringEcoSystem_RM
-2022-09-07T12:12:33,810 [main] INFO  (RestUtility.java:131) - fetching the component details for the component EngineeringEcoSystem_RM
-2022-09-07T12:12:34,730 [main] INFO  (RestUtility.java:81) - fetching the  details for the project ADSystems_L1_RM
-2022-09-07T12:12:37,187 [main] INFO  (RestUtility.java:131) - fetching the component details for the component ADSystems_L1_RM
-2022-09-07T12:12:38,931 [main] INFO  (RestUtility.java:81) - fetching the  details for the project Camera_L2_RM
-2022-09-07T12:12:41,284 [main] INFO  (RestUtility.java:131) - fetching the component details for the component Camera_L2_RM
-2022-09-07T12:12:44,950 [main] INFO  (RestUtility.java:81) - fetching the  details for the project Camera_Stakeholder_StandardsRegulations_RM
-2022-09-07T12:12:48,769 [main] INFO  (RestUtility.java:131) - fetching the component details for the component Camera_Stakeholder_StandardsRegulations_RM
-2022-09-07T12:12:49,579 [main] INFO  (RestUtility.java:81) - fetching the  details for the project ADCU_Stakeholder_Group_Continental_RM
-2022-09-07T12:12:52,242 [main] INFO  (RestUtility.java:131) - fetching the component details for the component ADCU_Stakeholder_Group_Continental_RM
-2022-09-07T12:12:53,781 [main] INFO  (RestUtility.java:81) - fetching the  details for the project ADCU_L2_RM
-2022-09-07T12:12:56,032 [main] INFO  (RestUtility.java:131) - fetching the component details for the component ADCU_L2_RM
-2022-09-07T12:12:57,668 [main] INFO  (RestUtility.java:81) - fetching the  details for the project ADCU_L2_Design_AM
-2022-09-07T12:13:00,029 [main] INFO  (RestUtility.java:131) - fetching the component details for the component ADCU_L2_Design_AM
-2022-09-07T12:13:00,843 [main] INFO  (RestUtility.java:81) - fetching the  details for the project Template_ProjectArea_BU4_AM_V6
-2022-09-07T12:13:03,518 [main] INFO  (RestUtility.java:131) - fetching the component details for the component Template_ProjectArea_BU4_AM_V6
-2022-09-07T12:13:04,127 [main] INFO  (RestUtility.java:81) - fetching the  details for the project CUS_L2_RM
-2022-09-07T12:13:07,000 [main] INFO  (RestUtility.java:131) - fetching the component details for the component CUS_L2_RM
-2022-09-07T12:13:08,293 [main] INFO  (RestUtility.java:81) - fetching the  details for the project CUS_L3_SW_RM
-2022-09-07T12:13:10,880 [main] INFO  (RestUtility.java:131) - fetching the component details for the component CUS_L3_SW_RM
-2022-09-07T12:13:11,698 [main] INFO  (RestUtility.java:81) - fetching the  details for the project Radar_L3_ME_RM
-2022-09-07T12:13:15,696 [main] INFO  (RestUtility.java:131) - fetching the component details for the component Radar_L3_ME_RM
-2022-09-07T12:13:18,357 [main] INFO  (RestUtility.java:81) - fetching the  details for the project ADSystems_Stakeholder_Group_BMW_RM
-2022-09-07T12:13:20,712 [main] INFO  (RestUtility.java:131) - fetching the component details for the component ADSystems_Stakeholder_Group_BMW_RM
-2022-09-07T12:13:21,270 [main] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test4.conti.de/rm4/cm/stream/_bvRD8EIzEeyM9O69iEXi7A   Not Found
-2022-09-07T12:13:22,255 [main] INFO  (RestUtility.java:81) - fetching the  details for the project LIB_L2_System_RM
-2022-09-07T12:13:26,365 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L2_System_RM
-2022-09-07T12:13:26,649 [main] INFO  (RestUtility.java:131) - fetching the component details for the component LIB_L2_System_PIP_RM
-2022-09-07T12:13:27,876 [main] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test4.conti.de/rm4/cm/stream/_duFb0EMJEeyM9O69iEXi7A   Not Found
-2022-09-07T12:13:28,492 [main] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test4.conti.de/rm4/cm/stream/_V_6SEElSEeyxEp1YGWAVMQ   Not Found
-2022-09-07T12:13:29,543 [main] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test4.conti.de/rm4/cm/stream/_vCnJQElMEeyxEp1YGWAVMQ   Not Found
-2022-09-07T12:13:31,878 [main] INFO  (RestUtility.java:81) - fetching the  details for the project Radar_Stakeholder_Group_Toyota_RM
-2022-09-07T12:13:35,115 [main] INFO  (RestUtility.java:131) - fetching the component details for the component Radar_Stakeholder_Group_Toyota_RM
-2022-09-07T12:13:36,174 [main] INFO  (RestUtility.java:81) - fetching the  details for the project ADCU_L3_SW_Design_AM
-2022-09-07T12:13:39,961 [main] INFO  (RestUtility.java:131) - fetching the component details for the component ADCU_L3_SW_Design_AM
-2022-09-07T12:13:40,680 [main] INFO  (RestUtility.java:81) - fetching the  details for the project BU4_Playground_SW_Design_AM
-2022-09-07T12:13:43,855 [main] INFO  (RestUtility.java:131) - fetching the component details for the component BU4_Playground_SW_Design_AM
-2022-09-07T12:13:44,674 [main] INFO  (RestUtility.java:81) - fetching the  details for the project CUS_L3_EE_RM
-2022-09-07T12:13:47,461 [main] INFO  (RestUtility.java:131) - fetching the component details for the component CUS_L3_EE_RM
-2022-09-07T12:13:48,514 [main] INFO  (RestUtility.java:81) - fetching the  details for the project CUS_Stakeholder_Group_Continental_RM
-2022-09-07T12:13:51,240 [main] INFO  (RestUtility.java:131) - fetching the component details for the component CUS_Stakeholder_Group_Continental_RM
-2022-09-07T12:13:51,847 [main] INFO  (RestUtility.java:81) - fetching the  details for the project CUS_Stakeholder_StandardsRegulations_RM
-2022-09-07T12:13:54,300 [main] INFO  (RestUtility.java:131) - fetching the component details for the component CUS_Stakeholder_StandardsRegulations_RM
+2022-11-03T16:21:54,109 [Thread-0] INFO  (DNGLoginUtility.java:51) - DNGLogin succesfull!
+2022-11-03T16:21:54,129 [Thread-0] INFO  (RestUtility.java:45) - Fetching the project details for the server https://jazz-test6.conti.de/rm4
+2022-11-03T16:21:54,431 [Thread-0] INFO  (RestUtility.java:81) - fetching the  details for the project ADAS_PG_SW_DesignAM
+2022-11-03T16:21:56,614 [Thread-0] INFO  (RestUtility.java:131) - fetching the component details for the component ADAS_PG_SW_DesignAM
+2022-11-03T16:21:58,001 [Thread-0] INFO  (RestUtility.java:81) - fetching the  details for the project Template_ProjectArea_BU4_RM_V24
+2022-11-03T16:21:59,796 [Thread-0] INFO  (RestUtility.java:131) - fetching the component details for the component Template_DataModel_BU4_RM_V24
+2022-11-03T16:22:00,447 [Thread-0] INFO  (RestUtility.java:81) - fetching the  details for the project ADAS_PG_SYS_RM
+2022-11-03T16:22:04,098 [Thread-0] INFO  (RestUtility.java:131) - fetching the component details for the component ADAS_PG_SYS_RM
+2022-11-03T16:22:11,308 [Thread-0] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test6.conti.de/rm4/cm/stream/_YkTmsCswEeyV0ve2WVyLQA   Not Found
+2022-11-03T16:22:19,037 [Thread-0] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test6.conti.de/rm4/cm/stream/_4sCUwARQEe2ElJh91aOrbw   Not Found
+2022-11-03T16:22:32,163 [Thread-0] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test6.conti.de/rm4/cm/stream/_Z3dIMElOEeywGf2P2QzSqA   Not Found
+2022-11-03T16:22:44,944 [Thread-0] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test6.conti.de/rm4/cm/stream/_kSwKkP3FEeyElJh91aOrbw   Not Found
+2022-11-03T16:23:00,617 [Thread-0] INFO  (RestUtility.java:81) - fetching the  details for the project ADAS_PG_SW_RM
+2022-11-03T16:23:03,902 [Thread-0] INFO  (RestUtility.java:131) - fetching the component details for the component ADAS_PG_SW_RM
+2022-11-03T16:23:07,372 [Thread-0] INFO  (RestUtility.java:81) - fetching the  details for the project ADAS_PG_STH_RM
+2022-11-03T16:23:11,263 [Thread-0] INFO  (RestUtility.java:131) - fetching the component details for the component ADAS_PG_STH_RM
+2022-11-03T16:23:12,297 [Thread-0] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test6.conti.de/rm4/cm/stream/_UK3VQFLEEeybb5qGPqhBnw   Not Found
+2022-11-03T16:23:12,988 [Thread-0] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test6.conti.de/rm4/cm/stream/_PBv70FLDEeybb5qGPqhBnw   Not Found
+2022-11-03T16:23:13,612 [Thread-0] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test6.conti.de/rm4/cm/stream/_Cl60EF6GEeybb5qGPqhBnw   Not Found
+2022-11-03T16:23:14,845 [Thread-0] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test6.conti.de/rm4/cm/stream/_W22P0FLDEeybb5qGPqhBnw   Not Found
+2022-11-03T16:23:16,164 [Thread-0] INFO  (RestUtility.java:81) - fetching the  details for the project ADAS_PG_SYS_DesignAM
+2022-11-03T16:23:17,920 [Thread-0] INFO  (RestUtility.java:131) - fetching the component details for the component ADAS_PG_SYS_DesignAM
+2022-11-03T16:23:21,307 [Thread-0] INFO  (RestUtility.java:81) - fetching the  details for the project Template_ProjectArea_BU4_AM_V2
+2022-11-03T16:23:24,781 [Thread-0] INFO  (RestUtility.java:131) - fetching the component details for the component Template_ProjectArea_BU4_AM_V2
+2022-11-03T16:23:24,965 [Thread-0] INFO  (RestUtility.java:131) - fetching the component details for the component Template_ProjectArea_Automotive_AM_V6
+2022-11-03T16:23:26,315 [Thread-0] INFO  (RestUtility.java:81) - fetching the  details for the project Template_ProjectArea_BU4_RM_V26
+2022-11-03T16:23:29,490 [Thread-0] INFO  (RestUtility.java:131) - fetching the component details for the component Template_ProjectArea_BU4_RM_V26
+2022-11-03T16:28:05,961 [Thread-0] ERROR (DNGLoginUtility.java:56) - Exception while logging in DNGorg.eclipse.lyo.client.exception.RootServicesException: OSLCC003: An error occurred processing the root services document.  Server location: qetrqetr.
+2022-11-03T16:28:05,967 [Thread-0] ERROR (ProjectDetailsApplication.java:183) - Unable to login to server 
+2022-11-03T16:28:31,184 [Thread-0] ERROR (DNGLoginUtility.java:56) - Exception while logging in DNGorg.eclipse.lyo.client.exception.RootServicesException: OSLCC003: An error occurred processing the root services document.  Server location: wtt.
+2022-11-03T16:28:31,190 [Thread-0] ERROR (ProjectDetailsApplication.java:183) - Unable to login to server 
+2022-11-03T16:34:44,110 [Thread-0] INFO  (DNGLoginUtility.java:51) - DNGLogin succesfull!
+2022-11-03T16:34:45,653 [Thread-0] ERROR (DNGLoginUtility.java:64) - Exception while logging in DNGjava.lang.RuntimeException: A javax.ws.rs.ext.MessageBodyReader implementation was not found for class org.eclipse.lyo.oslc4j.core.model.ServiceProviderCatalog type and application/octet-stream media type.  Verify that all entity providers are correctly registered.  Add a custom javax.ws.rs.ext.MessageBodyReader provider to handle the type and media type if a JAX-RS entity provider does not currently exist.
+2022-11-03T16:34:45,653 [Thread-0] ERROR (ProjectDetailsApplication.java:185) - Unable to login to server 
+2022-11-03T16:36:43,380 [Thread-0] ERROR (DNGLoginUtility.java:64) - Exception while logging in DNGorg.eclipse.lyo.client.exception.RootServicesException: OSLCC003: An error occurred processing the root services document.  Server location: https://jazz-test6.conti.de/rm.
+2022-11-03T16:36:43,388 [Thread-0] ERROR (ProjectDetailsApplication.java:185) - Unable to login to server 
+2022-11-03T16:37:07,927 [Thread-1] INFO  (DNGLoginUtility.java:51) - DNGLogin succesfull!
+2022-11-03T16:37:10,864 [Thread-1] INFO  (DNGLoginUtility.java:132) - unable to fetch servercapability urlorg.eclipse.lyo.client.exception.ResourceNotFoundException: OSLCC004: The requested resource could not be found.  Resource: https://jazz-test6.conti.de/rm4/oslc_rm/catalog  Value: null.
+2022-11-03T16:37:10,870 [Thread-1] ERROR (DNGLoginUtility.java:64) - Exception while logging in DNGorg.apache.wink.client.ClientRuntimeException: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.IllegalStateException: Target host is null
+2022-11-03T16:37:10,870 [Thread-1] ERROR (ProjectDetailsApplication.java:185) - Unable to login to server 
+2022-11-03T16:39:47,287 [Thread-0] INFO  (DNGLoginUtility.java:51) - DNGLogin succesfull!
+2022-11-03T16:39:50,079 [Thread-0] ERROR (DNGLoginUtility.java:64) - Exception while logging in DNGjava.lang.RuntimeException: A javax.ws.rs.ext.MessageBodyReader implementation was not found for class org.eclipse.lyo.oslc4j.core.model.ServiceProviderCatalog type and application/octet-stream media type.  Verify that all entity providers are correctly registered.  Add a custom javax.ws.rs.ext.MessageBodyReader provider to handle the type and media type if a JAX-RS entity provider does not currently exist.
+2022-11-03T16:39:55,674 [Thread-0] ERROR (ProjectDetailsApplication.java:166) - Unable to login to server 
+2022-11-03T16:43:37,246 [Thread-1] INFO  (DNGLoginUtility.java:51) - DNGLogin succesfull!
+2022-11-03T16:43:40,540 [Thread-1] INFO  (DNGLoginUtility.java:132) - unable to fetch servercapability urlorg.eclipse.lyo.client.exception.ResourceNotFoundException: OSLCC004: The requested resource could not be found.  Resource: https://jazz-test6.conti.de/rm4/oslc_rm/catalog  Value: null.
+2022-11-03T16:43:40,566 [Thread-1] ERROR (DNGLoginUtility.java:64) - Exception while logging in DNGorg.apache.wink.client.ClientRuntimeException: java.lang.RuntimeException: java.lang.RuntimeException: java.lang.IllegalStateException: Target host is null
+2022-11-03T16:43:40,569 [Thread-1] ERROR (ProjectDetailsApplication.java:166) - Unable to login to server 
+2022-11-03T16:48:15,418 [Thread-0] INFO  (DNGLoginUtility.java:51) - DNGLogin succesfull!
+2022-11-03T16:48:15,425 [Thread-0] INFO  (RestUtility.java:45) - Fetching the project details for the server https://jazz-test6.conti.de/rm4
+2022-11-03T16:48:16,001 [Thread-0] INFO  (RestUtility.java:81) - fetching the  details for the project ADAS_PG_SW_DesignAM
+2022-11-03T16:48:21,042 [Thread-0] INFO  (RestUtility.java:131) - fetching the component details for the component ADAS_PG_SW_DesignAM
+2022-11-03T16:48:25,138 [Thread-0] INFO  (RestUtility.java:81) - fetching the  details for the project Template_ProjectArea_BU4_RM_V24
+2022-11-03T16:48:29,660 [Thread-0] INFO  (RestUtility.java:131) - fetching the component details for the component Template_DataModel_BU4_RM_V24
+2022-11-03T16:48:30,358 [Thread-0] INFO  (RestUtility.java:81) - fetching the  details for the project ADAS_PG_SYS_RM
+2022-11-03T16:48:33,738 [Thread-0] INFO  (RestUtility.java:131) - fetching the component details for the component ADAS_PG_SYS_RM
+2022-11-03T16:49:05,282 [Thread-0] INFO  (DNGLoginUtility.java:51) - DNGLogin succesfull!
+2022-11-03T16:49:05,289 [Thread-0] INFO  (RestUtility.java:45) - Fetching the project details for the server https://jazz-test6.conti.de/rm4
+2022-11-03T16:49:05,581 [Thread-0] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test6.conti.de/rm4/oslc_rm/catalog   Unauthorized
+2022-11-03T16:49:05,583 [Thread-0] ERROR (ProjectDetailsApplication.java:152) - No project details found to update in the excel
+2022-11-03T17:10:12,548 [Thread-0] INFO  (DNGLoginUtility.java:51) - DNGLogin succesfull!
+2022-11-03T17:10:12,555 [Thread-0] INFO  (RestUtility.java:45) - Fetching the project details for the server https://jazz-test6.conti.de/rm4
+2022-11-03T17:10:12,923 [Thread-0] INFO  (RestUtility.java:81) - fetching the  details for the project ADAS_PG_SW_DesignAM
+2022-11-03T17:10:16,153 [Thread-0] INFO  (RestUtility.java:131) - fetching the component details for the component ADAS_PG_SW_DesignAM
+2022-11-03T17:10:18,530 [Thread-0] INFO  (RestUtility.java:81) - fetching the  details for the project Template_ProjectArea_BU4_RM_V24
+2022-11-03T17:10:22,001 [Thread-0] INFO  (RestUtility.java:131) - fetching the component details for the component Template_DataModel_BU4_RM_V24
+2022-11-03T17:10:22,613 [Thread-0] INFO  (RestUtility.java:81) - fetching the  details for the project ADAS_PG_SYS_RM
+2022-11-03T17:10:24,373 [Thread-0] INFO  (RestUtility.java:131) - fetching the component details for the component ADAS_PG_SYS_RM
+2022-11-03T17:10:32,949 [Thread-0] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test6.conti.de/rm4/cm/stream/_YkTmsCswEeyV0ve2WVyLQA   Not Found
+2022-11-03T17:10:42,656 [Thread-0] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test6.conti.de/rm4/cm/stream/_4sCUwARQEe2ElJh91aOrbw   Not Found
+2022-11-03T17:10:55,883 [Thread-0] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test6.conti.de/rm4/cm/stream/_Z3dIMElOEeywGf2P2QzSqA   Not Found
+2022-11-03T17:11:10,626 [Thread-0] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test6.conti.de/rm4/cm/stream/_kSwKkP3FEeyElJh91aOrbw   Not Found
+2022-11-03T17:11:26,401 [Thread-0] INFO  (RestUtility.java:81) - fetching the  details for the project ADAS_PG_SW_RM
+2022-11-03T17:11:29,366 [Thread-0] INFO  (RestUtility.java:131) - fetching the component details for the component ADAS_PG_SW_RM
+2022-11-03T17:11:35,000 [Thread-0] INFO  (RestUtility.java:81) - fetching the  details for the project ADAS_PG_STH_RM
+2022-11-03T17:11:37,660 [Thread-0] INFO  (RestUtility.java:131) - fetching the component details for the component ADAS_PG_STH_RM
+2022-11-03T17:11:39,296 [Thread-0] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test6.conti.de/rm4/cm/stream/_UK3VQFLEEeybb5qGPqhBnw   Not Found
+2022-11-03T17:11:40,118 [Thread-0] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test6.conti.de/rm4/cm/stream/_PBv70FLDEeybb5qGPqhBnw   Not Found
+2022-11-03T17:11:40,833 [Thread-0] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test6.conti.de/rm4/cm/stream/_Cl60EF6GEeybb5qGPqhBnw   Not Found
+2022-11-03T17:11:43,188 [Thread-0] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test6.conti.de/rm4/cm/stream/_W22P0FLDEeybb5qGPqhBnw   Not Found
+2022-11-03T17:11:45,033 [Thread-0] INFO  (RestUtility.java:81) - fetching the  details for the project ADAS_PG_SYS_DesignAM
+2022-11-03T17:11:48,725 [Thread-0] INFO  (RestUtility.java:131) - fetching the component details for the component ADAS_PG_SYS_DesignAM
+2022-11-03T17:11:53,942 [Thread-0] INFO  (RestUtility.java:81) - fetching the  details for the project Template_ProjectArea_BU4_AM_V2
+2022-11-03T17:11:57,322 [Thread-0] INFO  (RestUtility.java:131) - fetching the component details for the component Template_ProjectArea_BU4_AM_V2
+2022-11-03T17:11:57,526 [Thread-0] INFO  (RestUtility.java:131) - fetching the component details for the component Template_ProjectArea_Automotive_AM_V6
+2022-11-03T17:12:00,085 [Thread-0] INFO  (RestUtility.java:81) - fetching the  details for the project Template_ProjectArea_BU4_RM_V26
+2022-11-03T17:12:03,874 [Thread-0] INFO  (RestUtility.java:131) - fetching the component details for the component Template_ProjectArea_BU4_RM_V26
+2022-11-03T17:12:06,213 [Thread-0] ERROR (ExcelUtility.java:123) - exception while creating excel java.io.FileNotFoundException: D:\GIT\Conti_AM\ProjectDetailsApplication\ProjectDetailsReport_2022\11\03_171206.xlsx (The system cannot find the path specified)
+2022-11-03T17:12:06,214 [Thread-0] ERROR (ProjectDetailsApplication.java:177) - Exception in the main application java.lang.NullPointerException
+2022-11-03T17:14:52,950 [Thread-0] INFO  (DNGLoginUtility.java:51) - DNGLogin succesfull!
+2022-11-03T17:14:52,957 [Thread-0] INFO  (RestUtility.java:45) - Fetching the project details for the server https://jazz-test6.conti.de/rm4
+2022-11-03T17:14:53,492 [Thread-0] INFO  (RestUtility.java:81) - fetching the  details for the project ADAS_PG_SW_DesignAM
+2022-11-03T17:14:56,729 [Thread-0] INFO  (RestUtility.java:131) - fetching the component details for the component ADAS_PG_SW_DesignAM
+2022-11-03T17:14:59,799 [Thread-0] INFO  (RestUtility.java:81) - fetching the  details for the project Template_ProjectArea_BU4_RM_V24
+2022-11-03T17:15:01,948 [Thread-0] INFO  (RestUtility.java:131) - fetching the component details for the component Template_DataModel_BU4_RM_V24
+2022-11-03T17:15:03,083 [Thread-0] INFO  (RestUtility.java:81) - fetching the  details for the project ADAS_PG_SYS_RM
+2022-11-03T17:15:07,173 [Thread-0] INFO  (RestUtility.java:131) - fetching the component details for the component ADAS_PG_SYS_RM
+2022-11-03T17:15:16,490 [Thread-0] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test6.conti.de/rm4/cm/stream/_YkTmsCswEeyV0ve2WVyLQA   Not Found
+2022-11-03T17:15:28,364 [Thread-0] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test6.conti.de/rm4/cm/stream/_4sCUwARQEe2ElJh91aOrbw   Not Found
+2022-11-03T17:15:44,850 [Thread-0] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test6.conti.de/rm4/cm/stream/_Z3dIMElOEeywGf2P2QzSqA   Not Found
+2022-11-03T17:16:07,179 [Thread-0] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test6.conti.de/rm4/cm/stream/_kSwKkP3FEeyElJh91aOrbw   Not Found
+2022-11-03T17:16:33,596 [Thread-0] INFO  (RestUtility.java:81) - fetching the  details for the project ADAS_PG_SW_RM
+2022-11-03T17:16:36,897 [Thread-0] INFO  (RestUtility.java:131) - fetching the component details for the component ADAS_PG_SW_RM
+2022-11-03T17:16:40,558 [Thread-0] INFO  (RestUtility.java:81) - fetching the  details for the project ADAS_PG_STH_RM
+2022-11-03T17:16:45,188 [Thread-0] INFO  (RestUtility.java:131) - fetching the component details for the component ADAS_PG_STH_RM
+2022-11-03T17:16:46,904 [Thread-0] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test6.conti.de/rm4/cm/stream/_UK3VQFLEEeybb5qGPqhBnw   Not Found
+2022-11-03T17:16:47,723 [Thread-0] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test6.conti.de/rm4/cm/stream/_PBv70FLDEeybb5qGPqhBnw   Not Found
+2022-11-03T17:16:49,054 [Thread-0] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test6.conti.de/rm4/cm/stream/_Cl60EF6GEeybb5qGPqhBnw   Not Found
+2022-11-03T17:16:51,923 [Thread-0] ERROR (RestUtility.java:278) - The GET response could not be obtained for the url https://jazz-test6.conti.de/rm4/cm/stream/_W22P0FLDEeybb5qGPqhBnw   Not Found
+2022-11-03T17:16:53,866 [Thread-0] INFO  (RestUtility.java:81) - fetching the  details for the project ADAS_PG_SYS_DesignAM
+2022-11-03T17:16:57,764 [Thread-0] INFO  (RestUtility.java:131) - fetching the component details for the component ADAS_PG_SYS_DesignAM
+2022-11-03T17:17:02,576 [Thread-0] INFO  (RestUtility.java:81) - fetching the  details for the project Template_ProjectArea_BU4_AM_V2
+2022-11-03T17:17:06,874 [Thread-0] INFO  (RestUtility.java:131) - fetching the component details for the component Template_ProjectArea_BU4_AM_V2
+2022-11-03T17:17:07,080 [Thread-0] INFO  (RestUtility.java:131) - fetching the component details for the component Template_ProjectArea_Automotive_AM_V6
+2022-11-03T17:17:08,717 [Thread-0] INFO  (RestUtility.java:81) - fetching the  details for the project Template_ProjectArea_BU4_RM_V26
+2022-11-03T17:17:11,996 [Thread-0] INFO  (RestUtility.java:131) - fetching the component details for the component Template_ProjectArea_BU4_RM_V26

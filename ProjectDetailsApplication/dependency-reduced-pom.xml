@@ -18,7 +18,7 @@
             <configuration>
               <transformers>
                 <transformer>
-                  <mainClass>com.conti.application.ProjectDetailsApplication</mainClass>
+                  <mainClass>com.conti.frontEnd.ProjectDetailsGUI</mainClass>
                 </transformer>
               </transformers>
             </configuration>
