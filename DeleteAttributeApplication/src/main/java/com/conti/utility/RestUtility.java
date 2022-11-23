@@ -45,87 +45,116 @@ public class RestUtility {
 
 	private static Logger logger = LogManager.getLogger(RestUtility.class);
 	static Document propertiesDoc = null;
-	
-	public boolean updateWorkflow(JazzFormAuthClient client, String artifactTypeName, String workflowName , ProjectDetailsPojo projectDetailsPojo)
-	{
-		String workflowURL= null;
-		String artifactTypeUrl= null;
-		Document artifactTypeNode= null;
-		HashMap<String, String> workFlowDetailsMap= getWorkFlowDetails(client);
-		for(Entry<String, String> entry :workFlowDetailsMap.entrySet())
-		{
-			if(entry.getKey().contains(workflowName))
-			{
-				workflowURL= entry.getValue();
+
+	public boolean updateWorkflow(JazzFormAuthClient client, String artifactTypeName, String workflowName,
+			ProjectDetailsPojo projectDetailsPojo) {
+
+		HashMap<String, String> workFlowDetailsMap = getWorkFlowDetails(client);
+		for (Entry<String, String> entry : workFlowDetailsMap.entrySet()) {
+			if (entry.getKey().contains(workflowName)) {
+				String workflowURL = entry.getValue();
 				NodeList artifactTypeNodes = propertiesDoc.getElementsByTagName("rm:ObjectType");
 				for (int i = 0; i < artifactTypeNodes.getLength(); i++) {
 
 					NodeList artifactTypeChildnodes = artifactTypeNodes.item(i).getChildNodes();
 					for (int j = 0; j < artifactTypeChildnodes.getLength(); j++) {
 						if (artifactTypeChildnodes.item(j).getNodeName().equals("dcterms:title")) {
-							if (artifactTypeChildnodes.item(j).getTextContent().equals(artifactTypeName))
-							{	
-								if(checkIfWorkflowExists(artifactTypeNodes.item(i)))
-								{
+							if (artifactTypeChildnodes.item(j).getTextContent().equals(artifactTypeName)) {
+								if (checkIfWorkflowExists(artifactTypeNodes.item(i))) {
+									updateExistingWorkflow(client, projectDetailsPojo, artifactTypeNodes.item(i), artifactTypeName, workflowName, workflowURL);
 									
+								} else {
+									 return createWorkflowForArtifact(client, projectDetailsPojo, artifactTypeNodes.item(i),
+											artifactTypeName, workflowName, workflowURL);
 								}
-								else
-								{
-									artifactTypeUrl=  artifactTypeNodes.item(i).getAttributes().item(0).getTextContent();
-									artifactTypeNode=getDocumentfromNode(artifactTypeNodes.item(i));
-									Element hasWorkflowAttributeElement = artifactTypeNode.createElement("rm:hasWorkflowAttribute");
-									hasWorkflowAttributeElement.setAttribute(Constants.Resource, workflowURL);
-									
-									Element hasAttributeElement = artifactTypeNode.createElement("rm:hasAttribute");
-									hasAttributeElement.setAttribute(Constants.Resource, workflowURL);
-									Node root = artifactTypeNode.getFirstChild();
-									
-									root.appendChild(hasWorkflowAttributeElement);
-									root.appendChild(hasAttributeElement);
-									if(updateArtifactType(client, artifactTypeNode, projectDetailsPojo, artifactTypeUrl))
-									{
-										logger.info("Artifact type " + artifactTypeName + "  has been updated with workflow " + workflowName);
-										return true;
-									}
-									else
-									{
-										logger.error("Artifact type " + artifactTypeName + "  has not been updated with workflow " + workflowName);
-										return false;
-									}
-								}
-							
-								}
+
+							}
 						}
 					}
 				}
-								
-			
-						
+
 			}
-		
+
 		}
 		return false;
 	}
-	
-	public boolean checkIfWorkflowExists(Node artifactTypeNode)
-	{
+
+	public boolean checkIfWorkflowExists(Node artifactTypeNode) {
 		NodeList artifactTypeChildnodes = artifactTypeNode.getChildNodes();
-		for(int i=0 ; i< artifactTypeChildnodes.getLength();i++)
-		{
-			if (artifactTypeChildnodes.item(i).getNodeName().equals("rm:hasWorkflowAttribute"))
-			{
+		for (int i = 0; i < artifactTypeChildnodes.getLength(); i++) {
+			if (artifactTypeChildnodes.item(i).getNodeName().equals("rm:hasWorkflowAttribute")) {
 				return true;
 			}
 		}
 		return false;
 	}
 	
-	public boolean updateArtifactType(JazzFormAuthClient client, Document doc ,ProjectDetailsPojo projectDetailsPojo, String artifactTypeUrl)
+	public boolean updateExistingWorkflow(JazzFormAuthClient client, ProjectDetailsPojo projectDetailsPojo,
+			Node artifactTypeNode, String artifactTypeName, String workflowName, String workflowURL)
 	{
-		String artifactTypeBody= null;
+		String artifactTypeUrl = null;
+		Document artifactTypeNodeDoc = null;
+		artifactTypeUrl = artifactTypeNode.getAttributes().item(0).getTextContent();
+		
+		NodeList artifactTypeChildnodes = artifactTypeNode.getChildNodes();
+		for (int j = 0; j < artifactTypeChildnodes.getLength(); j++)
+		{
+			if (artifactTypeChildnodes.item(j).getNodeName().equals("rm:hasWorkflowAttribute")) {
+				
+				artifactTypeChildnodes.item(j).getAttributes().item(0).setTextContent(workflowURL);
+			}
+			
+			else if(artifactTypeChildnodes.item(j).getNodeName().equals("rm:hasAttribute") &&
+					artifactTypeChildnodes.item(j).getAttributes().item(0).getTextContent().contains("types/workflow/attrdef"))
+			{
+				artifactTypeChildnodes.item(j).getAttributes().item(0).setTextContent(workflowURL);
+			}
+			
+		}
+		
+		artifactTypeNodeDoc = getDocumentfromNode(artifactTypeNode);
+		
+		if (updateArtifactType(client, artifactTypeNodeDoc, projectDetailsPojo, artifactTypeUrl)) {
+			logger.info("Artifact type " + artifactTypeName + "  has been updated with workflow " + workflowName);
+			return true;
+		} else {
+			logger.error("Artifact type " + artifactTypeName + "  has not been updated with workflow " + workflowName);
+			return false;
+		}
+		
+	}
+	
+	public boolean createWorkflowForArtifact(JazzFormAuthClient client, ProjectDetailsPojo projectDetailsPojo,
+			Node artifactTypeNode, String artifactTypeName, String workflowName, String workflowURL) {
+
+		String artifactTypeUrl = null;
+		Document artifactTypeNodeDoc = null;
+		artifactTypeUrl = artifactTypeNode.getAttributes().item(0).getTextContent();
+		artifactTypeNodeDoc = getDocumentfromNode(artifactTypeNode);
+		Element hasWorkflowAttributeElement = artifactTypeNodeDoc.createElement("rm:hasWorkflowAttribute");
+		hasWorkflowAttributeElement.setAttribute(Constants.Resource, workflowURL);
+
+		Element hasAttributeElement = artifactTypeNodeDoc.createElement("rm:hasAttribute");
+		hasAttributeElement.setAttribute(Constants.Resource, workflowURL);
+		Node root = artifactTypeNode.getFirstChild();
+
+		root.appendChild(hasWorkflowAttributeElement);
+		root.appendChild(hasAttributeElement);
+		if (updateArtifactType(client, artifactTypeNodeDoc, projectDetailsPojo, artifactTypeUrl)) {
+			logger.info("Artifact type " + artifactTypeName + "  has been updated with workflow " + workflowName);
+			return true;
+		} else {
+			logger.error("Artifact type " + artifactTypeName + "  has not been updated with workflow " + workflowName);
+			return false;
+		}
+	}
+
+	public boolean updateArtifactType(JazzFormAuthClient client, Document doc, ProjectDetailsPojo projectDetailsPojo,
+			String artifactTypeUrl) {
+		String artifactTypeBody = null;
 		artifactTypeBody = getStringFromDocument(doc);
-		artifactTypeBody=artifactTypeBody.replaceAll("\\<\\?xml(.+?)\\?\\>", "").trim();
-		artifactTypeBody= Constants.putResponseBody.replace("actualResponse", artifactTypeBody);
+		artifactTypeBody = artifactTypeBody.replaceAll("\\<\\?xml(.+?)\\?\\>", "").trim();
+		artifactTypeBody = Constants.putResponseBody.replace("actualResponse", artifactTypeBody);
 		HashMap<String, String> putRequestHeaders = HeaderUtility
 				.createHeadersForChangeSet_withContent(projectDetailsPojo);
 		HttpResponse response = putRequestforUrl(client, artifactTypeUrl, artifactTypeBody, putRequestHeaders);
@@ -135,28 +164,27 @@ public class RestUtility {
 			return false;
 		}
 	}
-	
-	public HashMap<String, String> getWorkFlowDetails(JazzFormAuthClient client)
-	{
-		HashMap<String, String> workflowMap= new HashMap<>();
+
+	public HashMap<String, String> getWorkFlowDetails(JazzFormAuthClient client) {
+		HashMap<String, String> workflowMap = new HashMap<>();
 		NodeList attributeNodes = propertiesDoc.getElementsByTagName(Constants.RM_AttributeDef);
 		for (int i = 0; i < attributeNodes.getLength(); i++) {
-			if(attributeNodes.item(i).getAttributes().item(0).getTextContent().contains(client.getAuthUrl()+"/types/workflow/attrdef"))
-			{
+			if (attributeNodes.item(i).getAttributes().item(0).getTextContent()
+					.contains(client.getAuthUrl() + "/types/workflow/attrdef")) {
 				NodeList attributeValueNodes = attributeNodes.item(i).getChildNodes();
 				for (int j = 0; j < attributeValueNodes.getLength(); j++) {
-					if (attributeValueNodes.item(j).getNodeName().equals(Constants.Dcterms_Title))
-					{
-						workflowMap.put(attributeValueNodes.item(j).getTextContent(), attributeNodes.item(i).getAttributes().item(0).getTextContent());
+					if (attributeValueNodes.item(j).getNodeName().equals(Constants.Dcterms_Title)) {
+						workflowMap.put(attributeValueNodes.item(j).getTextContent(),
+								attributeNodes.item(i).getAttributes().item(0).getTextContent());
 						break;
 					}
-							
+
 				}
 			}
 		}
-		System.out.println();
-		return workflowMap;
 		
+		return workflowMap;
+
 	}
 
 	public boolean deleteAttributesFromArtifact(JazzFormAuthClient client, String artifactTypeName,
@@ -190,10 +218,9 @@ public class RestUtility {
 
 	}
 
-	public Document getProjectPropertiesDetails(JazzFormAuthClient client,ProjectDetailsPojo projectDetailsPojo)
-	{
+	public Document getProjectPropertiesDetails(JazzFormAuthClient client, ProjectDetailsPojo projectDetailsPojo) {
 		String getDNGPropertiesURL = client.getAuthUrl() + Constants.Resource_Context + "=" + client.getAuthUrl()
-		+ Constants.Project_area + projectDetailsPojo.getProjectUUID();
+				+ Constants.Project_area + projectDetailsPojo.getProjectUUID();
 		propertiesDoc = getRequestforUrl(client, getDNGPropertiesURL, projectDetailsPojo.getStreamUrl());
 		return propertiesDoc;
 	}
@@ -240,7 +267,7 @@ public class RestUtility {
 		NodeList artifactTypeChildnodes = artifactTypeNode.getChildNodes();
 		artifactTypeUrl = artifactTypeNode.getAttributes().item(0).getTextContent();
 		for (Entry<String, String> entry : attributeUrlMap.entrySet()) {
-			attributeName = attributeName +" , "+entry.getKey();
+			attributeName = attributeName + " , " + entry.getKey();
 			attributeUrl = entry.getValue();
 			for (int j = 0; j < artifactTypeChildnodes.getLength(); j++) {
 				if (artifactTypeChildnodes.item(j).getNodeName().equals("rm:hasAttribute") && artifactTypeChildnodes
@@ -261,8 +288,8 @@ public class RestUtility {
 		}
 		Document artifactTypeDoc = getDocumentfromNode(artifactTypeNode);
 		artifactTypeBody = getStringFromDocument(artifactTypeDoc);
-		artifactTypeBody=artifactTypeBody.replaceAll("\\<\\?xml(.+?)\\?\\>", "").trim();
-		artifactTypeBody= Constants.putResponseBody.replace("actualResponse", artifactTypeBody);
+		artifactTypeBody = artifactTypeBody.replaceAll("\\<\\?xml(.+?)\\?\\>", "").trim();
+		artifactTypeBody = Constants.putResponseBody.replace("actualResponse", artifactTypeBody);
 		HashMap<String, String> putRequestHeaders = HeaderUtility
 				.createHeadersForChangeSet_withContent(projectDetailsPojo);
 		HttpResponse response = putRequestforUrl(client, artifactTypeUrl, artifactTypeBody, putRequestHeaders);
@@ -426,7 +453,7 @@ public class RestUtility {
 			InputSource is = new InputSource(new StringReader(xml));
 			DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 			factory.setNamespaceAware(true);
-			
+
 			DocumentBuilder builder = null;
 			builder = factory.newDocumentBuilder();
 			Document doc = builder.parse(is);
@@ -520,7 +547,7 @@ public class RestUtility {
 	 * @param headersMap
 	 * @return HTTPresponse
 	 */
-	public HttpResponse deleteRequestforUrl(JazzFormAuthClient client, String deleteRequestUrl, 
+	public HttpResponse deleteRequestforUrl(JazzFormAuthClient client, String deleteRequestUrl,
 			HashMap<String, String> headersMap) {
 		HttpResponse response = null;
 		HttpDelete deleteRequest = new HttpDelete(deleteRequestUrl);
