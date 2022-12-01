@@ -1,6 +1,7 @@
 package com.conti.pojo;
 
 import org.eclipse.lyo.client.oslc.jazz.JazzFormAuthClient;
+import org.w3c.dom.Document;
 
 @SuppressWarnings("deprecation")
 public class ProjectDetailsPojo {
@@ -14,9 +15,16 @@ public class ProjectDetailsPojo {
 	private String changeSetUrl;
 	private String projectUUID;
 	private JazzFormAuthClient client;
+	private Document projectPropertiesDoc;
 	
 	
 	
+	public Document getProjectPropertiesDoc() {
+		return projectPropertiesDoc;
+	}
+	public void setProjectPropertiesDoc(Document projectPropertiesDoc) {
+		this.projectPropertiesDoc = projectPropertiesDoc;
+	}
 	public JazzFormAuthClient getClient() {
 		return client;
 	}

@@ -37,6 +37,7 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.InputSource;
 
 import com.conti.constants.Constants;
+import com.conti.pojo.ArtifactAttributePojo;
 import com.conti.pojo.AttributeDetailsPojo;
 import com.conti.pojo.ProjectDetailsPojo;
 
@@ -44,16 +45,17 @@ import com.conti.pojo.ProjectDetailsPojo;
 public class RestUtility {
 
 	private static Logger logger = LogManager.getLogger(RestUtility.class);
-	static Document propertiesDoc = null;
+	//static Document propertiesDoc = null;
 
 	public boolean updateWorkflow(JazzFormAuthClient client, String artifactTypeName, String workflowName,
 			ProjectDetailsPojo projectDetailsPojo) {
 
-		HashMap<String, String> workFlowDetailsMap = getWorkFlowDetails(client);
+		HashMap<String, String> workFlowDetailsMap = getWorkFlowDetails(client, projectDetailsPojo);
+		Document projectProperitesDoc= projectDetailsPojo.getProjectPropertiesDoc();
 		for (Entry<String, String> entry : workFlowDetailsMap.entrySet()) {
 			if (entry.getKey().contains(workflowName)) {
 				String workflowURL = entry.getValue();
-				NodeList artifactTypeNodes = propertiesDoc.getElementsByTagName("rm:ObjectType");
+				NodeList artifactTypeNodes = projectProperitesDoc.getElementsByTagName("rm:ObjectType");
 				for (int i = 0; i < artifactTypeNodes.getLength(); i++) {
 
 					NodeList artifactTypeChildnodes = artifactTypeNodes.item(i).getChildNodes();
@@ -136,7 +138,7 @@ public class RestUtility {
 
 		Element hasAttributeElement = artifactTypeNodeDoc.createElement("rm:hasAttribute");
 		hasAttributeElement.setAttribute(Constants.Resource, workflowURL);
-		Node root = artifactTypeNode.getFirstChild();
+		Node root = artifactTypeNodeDoc.getFirstChild();
 
 		root.appendChild(hasWorkflowAttributeElement);
 		root.appendChild(hasAttributeElement);
@@ -165,9 +167,10 @@ public class RestUtility {
 		}
 	}
 
-	public HashMap<String, String> getWorkFlowDetails(JazzFormAuthClient client) {
+	public HashMap<String, String> getWorkFlowDetails(JazzFormAuthClient client , ProjectDetailsPojo projectDetailsPojo) {
 		HashMap<String, String> workflowMap = new HashMap<>();
-		NodeList attributeNodes = propertiesDoc.getElementsByTagName(Constants.RM_AttributeDef);
+		Document projectProperitesDoc= projectDetailsPojo.getProjectPropertiesDoc();
+		NodeList attributeNodes = projectProperitesDoc.getElementsByTagName(Constants.RM_AttributeDef);
 		for (int i = 0; i < attributeNodes.getLength(); i++) {
 			if (attributeNodes.item(i).getAttributes().item(0).getTextContent()
 					.contains(client.getAuthUrl() + "/types/workflow/attrdef")) {
@@ -188,53 +191,68 @@ public class RestUtility {
 	}
 
 	public boolean deleteAttributesFromArtifact(JazzFormAuthClient client, String artifactTypeName,
-			ProjectDetailsPojo projectDetailsPojo, AttributeDetailsPojo attributeDetailsPojo) {
+			ProjectDetailsPojo projectDetailsPojo, AttributeDetailsPojo attributeDetailsPojo, ArtifactAttributePojo attributePojo) {
 
 		ArrayList<String> artifactAttributeList = new ArrayList<>();
-		NodeList artifactTypeNodes = propertiesDoc.getElementsByTagName("rm:ObjectType");
+		Boolean artifactTypeFound= false;
+		String attributeName= attributePojo.getAttributeName();
+		Document projectProperitesDoc= projectDetailsPojo.getProjectPropertiesDoc();
+		NodeList artifactTypeNodes = projectProperitesDoc.getElementsByTagName("rm:ObjectType");
+		
 		for (int i = 0; i < artifactTypeNodes.getLength(); i++) {
 
 			NodeList artifactTypeChildnodes = artifactTypeNodes.item(i).getChildNodes();
 			for (int j = 0; j < artifactTypeChildnodes.getLength(); j++) {
 				if (artifactTypeChildnodes.item(j).getNodeName().equals("dcterms:title")) {
+					
 					if (artifactTypeChildnodes.item(j).getTextContent().equals(artifactTypeName)) {
 						j = 0;
+						artifactTypeFound= true;
 						while (!artifactTypeChildnodes.item(j).getNodeName().equals("rm:attributeOrdering")) {
 							j++;
 						}
 						String artifactAttributes = artifactTypeChildnodes.item(j).getTextContent();
 						String[] artifactAttributesArr = artifactAttributes.split(",");
 						artifactAttributeList.addAll(Arrays.asList(artifactAttributesArr));
-						return removeAttributesFromArtifact(client, artifactTypeNodes.item(i), artifactAttributeList,
-								attributeDetailsPojo, projectDetailsPojo, artifactTypeName);
+						return removeAttributeFromArtifact(client, artifactTypeNodes.item(i), artifactAttributeList,
+								attributeDetailsPojo, projectDetailsPojo, artifactTypeName,attributeName);
 
 					}
 
 				}
 			}
 		}
+			if(!artifactTypeFound)
+			{
+				logger.error("Artifact Type "+  artifactTypeName +" not found in the project "
+			+ projectDetailsPojo.getProjectName() + " , "
+			+ projectDetailsPojo.getComponentName() + " , "
+			+ projectDetailsPojo.getStreamName());
+				return false;
+		}
 
+	
 		return true;
-
 	}
 
 	public Document getProjectPropertiesDetails(JazzFormAuthClient client, ProjectDetailsPojo projectDetailsPojo) {
 		String getDNGPropertiesURL = client.getAuthUrl() + Constants.Resource_Context + "=" + client.getAuthUrl()
 				+ Constants.Project_area + projectDetailsPojo.getProjectUUID();
-		propertiesDoc = getRequestforUrl(client, getDNGPropertiesURL, projectDetailsPojo.getStreamUrl());
+		 Document propertiesDoc = getRequestforUrl(client, getDNGPropertiesURL, projectDetailsPojo.getStreamUrl());
+		
 		return propertiesDoc;
 	}
 
-	public boolean deleteAttribute(JazzFormAuthClient client, HashMap<String, String> attributeDetailsMap,
+	public boolean deleteAttribute(JazzFormAuthClient client, ArrayList<ArtifactAttributePojo> artifactAttributePojos,
 			ProjectDetailsPojo projectDetailsPojo, AttributeDetailsPojo attributeDetailsPojo) {
 		String attributeName = null;
 		String attributeUrl = null;
 		try {
 			HashMap<String, String> attributeUrlMap = attributeDetailsPojo.getAttributeUrlMap();
 			HashMap<String, String> headersMap = HeaderUtility.createHeadersForChangeSet(projectDetailsPojo);
-			for (Entry<String, String> entry : attributeDetailsMap.entrySet()) {
-				if (entry.getValue().equals("Delete attribute completely")) {
-					attributeName = entry.getKey();
+			for (ArtifactAttributePojo artifactAttributePojo:artifactAttributePojos) {
+				if (artifactAttributePojo.getAction().equals("Delete attribute completely")) {
+					attributeName = artifactAttributePojo.getAttributeName();
 					attributeUrl = attributeUrlMap.get(attributeName);
 
 					HttpResponse response = deleteRequestforUrl(client, attributeUrl, headersMap);
@@ -255,24 +273,24 @@ public class RestUtility {
 		}
 	}
 
-	public Boolean removeAttributesFromArtifact(JazzFormAuthClient client, Node artifactTypeNode,
+	public Boolean removeAttributeFromArtifact(JazzFormAuthClient client, Node artifactTypeNode,
 			ArrayList<String> artifactAttributeList, AttributeDetailsPojo attributeDetailsPojo,
-			ProjectDetailsPojo projectDetailsPojo, String artifactTypeName) {
+			ProjectDetailsPojo projectDetailsPojo, String artifactTypeName, String attributeName) {
 
 		String artifactTypeUrl = null;
 		String artifactTypeBody = null;
-		String attributeName = "";
+		
 		String attributeUrl = null;
+		Boolean attributeExists= false;
 		HashMap<String, String> attributeUrlMap = attributeDetailsPojo.getAttributeUrlMap();
 		NodeList artifactTypeChildnodes = artifactTypeNode.getChildNodes();
 		artifactTypeUrl = artifactTypeNode.getAttributes().item(0).getTextContent();
-		for (Entry<String, String> entry : attributeUrlMap.entrySet()) {
-			attributeName = attributeName + " , " + entry.getKey();
-			attributeUrl = entry.getValue();
+		attributeUrl= attributeUrlMap.get(attributeName);
 			for (int j = 0; j < artifactTypeChildnodes.getLength(); j++) {
 				if (artifactTypeChildnodes.item(j).getNodeName().equals("rm:hasAttribute") && artifactTypeChildnodes
 						.item(j).getAttributes().item(0).getTextContent().equals(attributeUrl)) {
 					artifactTypeNode.removeChild(artifactTypeChildnodes.item(j));
+					attributeExists= true;
 				}
 
 				else if (artifactTypeChildnodes.item(j).getNodeName().equals("rm:attributeOrdering")) {
@@ -285,22 +303,30 @@ public class RestUtility {
 					}
 				}
 			}
+		
+		if(attributeExists)
+		{
+			Document artifactTypeDoc = getDocumentfromNode(artifactTypeNode);
+			artifactTypeBody = getStringFromDocument(artifactTypeDoc);
+			artifactTypeBody = artifactTypeBody.replaceAll("\\<\\?xml(.+?)\\?\\>", "").trim();
+			artifactTypeBody = Constants.putResponseBody.replace("actualResponse", artifactTypeBody);
+			HashMap<String, String> putRequestHeaders = HeaderUtility
+					.createHeadersForChangeSet_withContent(projectDetailsPojo);
+			HttpResponse response = putRequestforUrl(client, artifactTypeUrl, artifactTypeBody, putRequestHeaders);
+			if (response.getStatusLine().getStatusCode() == 200 || response.getStatusLine().getStatusCode() == 400) {
+				logger.info("Attributes " + attributeName + " has been removed from the artifact type " + artifactTypeName);
+				return true;
+			} else {
+				logger.error(
+						"Attributes " + attributeName + " has not been removed from the artifact type " + artifactTypeName);
+				return false;
+			}
 		}
-		Document artifactTypeDoc = getDocumentfromNode(artifactTypeNode);
-		artifactTypeBody = getStringFromDocument(artifactTypeDoc);
-		artifactTypeBody = artifactTypeBody.replaceAll("\\<\\?xml(.+?)\\?\\>", "").trim();
-		artifactTypeBody = Constants.putResponseBody.replace("actualResponse", artifactTypeBody);
-		HashMap<String, String> putRequestHeaders = HeaderUtility
-				.createHeadersForChangeSet_withContent(projectDetailsPojo);
-		HttpResponse response = putRequestforUrl(client, artifactTypeUrl, artifactTypeBody, putRequestHeaders);
-		if (response.getStatusLine().getStatusCode() == 200 || response.getStatusLine().getStatusCode() == 400) {
-			logger.info("Attributes " + attributeName + " has been removed from the artifact type " + artifactTypeName);
+		else
+		{
 			return true;
-		} else {
-			logger.error(
-					"Attributes " + attributeName + " has not been removed from the artifact type " + artifactTypeName);
-			return false;
 		}
+
 
 	}
 
@@ -316,29 +342,34 @@ public class RestUtility {
 			AttributeDetailsPojo attributeDetailsPojo, ProjectDetailsPojo projectDetailsPojo) {
 		String attributeName = null;
 		String attributeURL = null;
+		Boolean attributeExists= false;
 		HashMap<String, String> attributeURlmap = new HashMap<>();
-		HashMap<String, String> attributeDetailsMap = attributeDetailsPojo.getAttributeDeletionMap();
+		
+		ArrayList<ArtifactAttributePojo> artifactAttributePojos= attributeDetailsPojo.getArtifactAttributePojos();
 
 		try {
-
-			NodeList attributeNodes = propertiesDoc.getElementsByTagName(Constants.RM_AttributeDef);
+			Document projectProperitesDoc= projectDetailsPojo.getProjectPropertiesDoc();
+			NodeList attributeNodes = projectProperitesDoc.getElementsByTagName(Constants.RM_AttributeDef);
 			for (int i = 0; i < attributeNodes.getLength(); i++) {
 				NodeList attributeValueNodes = attributeNodes.item(i).getChildNodes();
 				for (int j = 0; j < attributeValueNodes.getLength(); j++) {
-					for (Entry<String, String> entry : attributeDetailsMap.entrySet()) {
-						if (attributeValueNodes.item(j).getNodeName().equals(Constants.Dcterms_Title)
-								&& attributeValueNodes.item(j).getTextContent().equals(entry.getKey().trim())) {
+					
+						for(ArtifactAttributePojo artifactAttributePojo:artifactAttributePojos)
+						{
+							if (attributeValueNodes.item(j).getNodeName().equals(Constants.Dcterms_Title)
+									&& attributeValueNodes.item(j).getTextContent().equals(artifactAttributePojo.getAttributeName().trim())) {
+								attributeExists= true;
+								attributeName = attributeValueNodes.item(j).getTextContent();
+								attributeURL = attributeNodes.item(i).getAttributes().item(0).getTextContent();
+								// attributeUUID = attributeURL.substring(attributeURL.lastIndexOf('/') + 1);
 
-							attributeName = attributeValueNodes.item(j).getTextContent();
-							attributeURL = attributeNodes.item(i).getAttributes().item(0).getTextContent();
-							// attributeUUID = attributeURL.substring(attributeURL.lastIndexOf('/') + 1);
-
-							attributeURlmap.put(attributeName, attributeURL);
+								attributeURlmap.put(attributeName, attributeURL);
+							}
 						}
-					}
-
+					
 				}
 			}
+			
 			attributeDetailsPojo.setAttributeUrlMap(attributeURlmap);
 			return attributeDetailsPojo;
 		} catch (Exception e) {

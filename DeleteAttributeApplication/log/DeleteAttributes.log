@@ -1,22 +1,17 @@
-2022-11-23T11:43:40,586 [Thread-0] INFO  (RestUtility.java:604) - baseline test_delete has been created for the project ADAS_PG_SYS_RM,WeatherStation_RM_VM_HEP_Training_20220113_GF
-2022-11-23T11:43:41,710 [Thread-0] INFO  (DeleteAttributeApplication.java:232) - Changeset WeatherStation_RM_VM_HEP_Training_20220113_GF_test_delete has been created 
-2022-11-23T11:43:48,583 [Thread-0] INFO  (DeleteAttributeApplication.java:160) - ------------Deleting attributes started for the project ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , WeatherStation_RM_VM_HEP_Training_20220113_GF------------------
-2022-11-23T11:43:49,180 [Thread-0] INFO  (RestUtility.java:249) - Attributes  , test21 has been removed from the artifact type Legacy
-2022-11-23T11:43:50,210 [Thread-0] INFO  (RestUtility.java:81) - Artifact type Legacy  has been updated with workflow Stakeholder Request Workflow
-2022-11-23T11:43:51,333 [Thread-0] INFO  (RestUtility.java:81) - Artifact type Parameter  has been updated with workflow 
-2022-11-23T11:44:02,394 [Thread-0] INFO  (RestUtility.java:604) - baseline test_delete has been created for the project ADAS_PG_SYS_RM,WeatherStation_RM_VM_HEP_Training_20220113_TIC
-2022-11-23T11:44:03,544 [Thread-0] INFO  (DeleteAttributeApplication.java:232) - Changeset WeatherStation_RM_VM_HEP_Training_20220113_TIC_test_delete has been created 
-2022-11-23T11:44:10,085 [Thread-0] INFO  (DeleteAttributeApplication.java:160) - ------------Deleting attributes started for the project ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , WeatherStation_RM_VM_HEP_Training_20220113_TIC------------------
-2022-11-23T11:44:10,696 [Thread-0] INFO  (RestUtility.java:249) - Attributes  , test21 has been removed from the artifact type Legacy
-2022-11-23T11:44:11,731 [Thread-0] INFO  (RestUtility.java:81) - Artifact type Legacy  has been updated with workflow Stakeholder Request Workflow
-2022-11-23T11:44:12,836 [Thread-0] INFO  (RestUtility.java:81) - Artifact type Parameter  has been updated with workflow 
-2022-11-23T12:36:46,826 [Thread-0] INFO  (RestUtility.java:604) - baseline test_del has been created for the project ADAS_PG_SYS_RM,WeatherStation_RM_VM_HEP_Training_20220113_GF
-2022-11-23T12:36:51,478 [Thread-0] INFO  (DeleteAttributeApplication.java:232) - Changeset WeatherStation_RM_VM_HEP_Training_20220113_GF_test_del has been created 
-2022-11-23T12:38:45,460 [Thread-0] INFO  (DeleteAttributeApplication.java:160) - ------------Deleting attributes started for the project ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , WeatherStation_RM_VM_HEP_Training_20220113_GF------------------
-2022-11-23T12:59:22,930 [Thread-0] INFO  (RestUtility.java:249) - Attributes  , test21 has been removed from the artifact type Legacy
-2022-11-23T13:04:18,019 [Thread-0] INFO  (RestUtility.java:81) - Artifact type Legacy  has been updated with workflow Standard Workflow
-2022-11-23T13:05:29,430 [Thread-0] INFO  (RestUtility.java:604) - baseline test_del has been created for the project ADAS_PG_SYS_RM,WeatherStation_RM_VM_HEP_Training_20220113_TIC
-2022-11-23T13:05:38,727 [Thread-0] INFO  (DeleteAttributeApplication.java:232) - Changeset WeatherStation_RM_VM_HEP_Training_20220113_TIC_test_del has been created 
-2022-11-23T13:06:05,603 [Thread-0] INFO  (DeleteAttributeApplication.java:160) - ------------Deleting attributes started for the project ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , WeatherStation_RM_VM_HEP_Training_20220113_TIC------------------
-2022-11-23T13:06:56,632 [Thread-0] INFO  (RestUtility.java:249) - Attributes  , test21 has been removed from the artifact type Legacy
-2022-11-23T13:08:21,770 [Thread-0] INFO  (RestUtility.java:81) - Artifact type Legacy  has been updated with workflow Standard Workflow
+2022-12-01T12:00:37,216 [Thread-0] INFO  (RestUtility.java:683) - baseline test_bl has been created for the project ADAS_PG_SYS_RM,WeatherStationSystems_L1_RM_Generic_20210915_AM_BLR_20210928173821
+2022-12-01T12:00:38,136 [Thread-0] INFO  (DeleteAttributeApplication.java:262) - Changeset WeatherStationSystems_L1_RM_Generic_20210915_AM_BLR_20210928173821_test_cs21 has been created 
+2022-12-01T12:00:55,380 [Thread-0] INFO  (DeleteAttributeApplication.java:179) - ------------Deleting attributes for the project ADAS_PG_SYS_RM , ADAS , WeatherStationSystems_L1_RM_Generic_20210915_AM_BLR_20210928173821------------------
+2022-12-01T12:04:08,896 [Thread-0] INFO  (RestUtility.java:683) - baseline test_bl11 has been created for the project ADAS_PG_SYS_RM,WeatherStationSystems_L1_RM_Generic_20210915_AM_BLR_20210928173821
+2022-12-01T12:04:09,592 [Thread-0] INFO  (DeleteAttributeApplication.java:262) - Changeset WeatherStationSystems_L1_RM_Generic_20210915_AM_BLR_20210928173821_test_cs342 has been created 
+2022-12-01T12:04:15,513 [Thread-0] INFO  (DeleteAttributeApplication.java:179) - ------------Deleting attributes for the project ADAS_PG_SYS_RM , ADAS , WeatherStationSystems_L1_RM_Generic_20210915_AM_BLR_20210928173821------------------
+2022-12-01T12:05:44,368 [Thread-0] INFO  (RestUtility.java:317) - Attributes test1 has been removed from the artifact type Legacy
+2022-12-01T12:06:48,893 [Thread-0] INFO  (RestUtility.java:317) - Attributes test1 has been removed from the artifact type Parameter
+2022-12-01T12:07:38,735 [Thread-0] INFO  (DeleteAttributeApplication.java:179) - ------------Deleting attributes for the project ADAS_PG_SYS_RM , ADAS , WeatherStationSystems_L1_RM_Generic_20210915_AM_BLR_20210928173821------------------
+2022-12-01T12:08:47,667 [Thread-0] INFO  (RestUtility.java:317) - Attributes test2 has been removed from the artifact type Parameter
+2022-12-01T12:53:16,103 [Thread-0] ERROR (DNGLoginUtility.java:65) - Server url not accessibleorg.eclipse.lyo.client.exception.RootServicesException: OSLCC003: An error occurred processing the root services document.  Server location: wewe.
+2022-12-01T12:57:34,171 [Thread-0] ERROR (DNGLoginUtility.java:65) - Server url not accessibleorg.eclipse.lyo.client.exception.RootServicesException: OSLCC003: An error occurred processing the root services document.  Server location: qe.
+2022-12-01T13:07:53,841 [Thread-0] ERROR (DNGLoginUtility.java:65) - Server url not accessibleorg.eclipse.lyo.client.exception.RootServicesException: OSLCC003: An error occurred processing the root services document.  Server location: we.
+2022-12-01T13:24:12,001 [Thread-0] ERROR (DNGLoginUtility.java:65) - Server url not accessibleorg.eclipse.lyo.client.exception.RootServicesException: OSLCC003: An error occurred processing the root services document.  Server location: qeqe.
+2022-12-01T18:11:38,091 [Thread-0] ERROR (DNGLoginUtility.java:65) - Server url not accessibleorg.eclipse.lyo.client.exception.RootServicesException: OSLCC003: An error occurred processing the root services document.  Server location: wqw.
+2022-12-01T18:12:29,001 [Thread-0] ERROR (DNGLoginUtility.java:65) - Server url not accessibleorg.eclipse.lyo.client.exception.RootServicesException: OSLCC003: An error occurred processing the root services document.  Server location: w.
+2022-12-01T18:19:39,881 [Thread-0] ERROR (DNGLoginUtility.java:65) - Server url not accessibleorg.eclipse.lyo.client.exception.RootServicesException: OSLCC003: An error occurred processing the root services document.  Server location: sas.

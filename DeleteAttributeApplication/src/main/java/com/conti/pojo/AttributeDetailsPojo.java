@@ -7,10 +7,19 @@ import java.util.HashMap;
 
 public class AttributeDetailsPojo {
 	
-	private HashMap<String, String> attributeDeletionMap = new HashMap<>();
+	
 	private ArrayList<String> artifactTypeList = new ArrayList<>();
 	private HashMap<String, String> attributeUrlMap = new HashMap<>();
 	private HashMap<String, String> workflowDetailsMap= new HashMap<>();
+	private ArrayList<ArtifactAttributePojo> artifactAttributePojos= new ArrayList<>();
+
+	public ArrayList<ArtifactAttributePojo> getArtifactAttributePojos() {
+		return artifactAttributePojos;
+	}
+
+	public void setArtifactAttributePojos(ArrayList<ArtifactAttributePojo> artifactAttributePojos) {
+		this.artifactAttributePojos = artifactAttributePojos;
+	}
 
 	public HashMap<String, String> getWorkflowDetailsMap() {
 		return workflowDetailsMap;
@@ -26,12 +35,7 @@ public class AttributeDetailsPojo {
 	public void setAttributeUrlMap(HashMap<String, String> attributeUrlMap) {
 		this.attributeUrlMap = attributeUrlMap;
 	}
-	public HashMap<String, String> getAttributeDeletionMap() {
-		return attributeDeletionMap;
-	}
-	public void setAttributeDeletionMap(HashMap<String, String> attributeDeletionMap) {
-		this.attributeDeletionMap = attributeDeletionMap;
-	}
+
 	public ArrayList<String> getArtifactTypeList() {
 		return artifactTypeList;
 	}

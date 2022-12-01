@@ -1,6 +1,7 @@
 package com.conti.application.main;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -14,6 +15,7 @@ import org.w3c.dom.Document;
 
 import com.conti.constants.Constants;
 import com.conti.login.DNGLoginUtility;
+import com.conti.pojo.ArtifactAttributePojo;
 import com.conti.pojo.AttributeDetailsPojo;
 import com.conti.pojo.ConfigDetailsPojo;
 import com.conti.pojo.ProjectDetailsPojo;
@@ -21,6 +23,11 @@ import com.conti.utility.ChangeSetUtility;
 import com.conti.utility.ExcelUtility;
 import com.conti.utility.RestUtility;
 
+/**
+ * 
+ * @author uif34242
+ *
+ */
 @SuppressWarnings("deprecation")
 public class DeleteAttributeApplication {
 
@@ -31,10 +38,11 @@ public class DeleteAttributeApplication {
 	private static String changeSetName = null;
 	private static String baselineName = null;
 	private static String deliverChangeSet = null;
-	private static HashMap<String, String> attributeDeletionMap = null;
+	
 	private static HashMap<String, String> workflowUpdateMap = null;
-	private static ArrayList<String> artifactTypeList = null;
+	
 	private static Boolean deleteFlag = false, updateFlag = false,delete_update= false;
+	private static ArrayList<ArtifactAttributePojo> artifactAttributePojos= null;
 
 	static String currentDir = System.getProperty("user.dir");
 	private static Logger logger = LogManager.getLogger(DeleteAttributeApplication.class);
@@ -55,10 +63,11 @@ public class DeleteAttributeApplication {
 			changeSetName = configDetailsPojo.getChangeSetName();
 			baselineName = configDetailsPojo.getBaselineName();
 			deliverChangeSet = configDetailsPojo.getDeliverChangeSet();
-			if(attributeDetailsPojo.getAttributeDeletionMap().size()>0)
+			if(attributeDetailsPojo.getArtifactAttributePojos().size()>0)
 			{
-			attributeDeletionMap = attributeDetailsPojo.getAttributeDeletionMap();
-			artifactTypeList = attributeDetailsPojo.getArtifactTypeList();
+			
+			
+			artifactAttributePojos= attributeDetailsPojo.getArtifactAttributePojos();
 			}
 			if(attributeDetailsPojo.getWorkflowDetailsMap().size()>0)
 			{
@@ -86,8 +95,16 @@ public class DeleteAttributeApplication {
 
 	}
 	
+	/**
+	 * 
+	 * @param projectDetailsPojo
+	 * @return
+	 */
 	public static boolean updateWorkflow(ProjectDetailsPojo projectDetailsPojo )
 	{
+		logger.info("------------Updating workflow for the project "
+				+ projectDetailsPojo.getProjectName() + " , " + projectDetailsPojo.getComponentName()
+				+ " , " + projectDetailsPojo.getStreamName() +"------------------");
 		RestUtility restUtility= new RestUtility();
 		Boolean workflowStatus= false;
 		String artifactTypeName= null;
@@ -112,6 +129,7 @@ public class DeleteAttributeApplication {
 	
 	public static boolean DeleteAttribute_UpdateWorkflowApplication()
 	{
+		System.out.println("-------------Delete attributes & Update workflow application started-----------------");
 		ExcelUtility excelUtility= new ExcelUtility();
 		DNGLoginUtility dngLoginUtility= new DNGLoginUtility();
 		ArrayList<ProjectDetailsPojo> projectDetailsPojoList = excelUtility.readInputData(inputFileName);
@@ -127,7 +145,7 @@ public class DeleteAttributeApplication {
 					}
 					
 					projectDetailsPojo.setClient(client);
-					projectDetailsPojo=loadConfigAttributes(client,projectDetailsPojo);
+					projectDetailsPojo=loadConfigAttributes(projectDetailsPojo);
 					
 					if(deleteFlag)
 					{
@@ -155,22 +173,40 @@ public class DeleteAttributeApplication {
 	{
 		RestUtility restUtility= new RestUtility();
 		AttributeDetailsPojo attributeDetailsPojo = new AttributeDetailsPojo();
+		
 		Boolean deleteAttributeArtifactStatus = false,deleteAttributeStatus = false;
 		
-		logger.info("------------Deleting attributes started for the project "
+		logger.info("------------Deleting attributes for the project "
 				+ projectDetailsPojo.getProjectName() + " , " + projectDetailsPojo.getComponentName()
 				+ " , " + projectDetailsPojo.getStreamName() +"------------------");
 		
 		
-		attributeDetailsPojo.setArtifactTypeList(artifactTypeList);
-		attributeDetailsPojo.setAttributeDeletionMap(attributeDeletionMap);
+		
+		attributeDetailsPojo.setArtifactAttributePojos(artifactAttributePojos);
 		attributeDetailsPojo=restUtility.getAttributeDetails(projectDetailsPojo.getClient(), attributeDetailsPojo, projectDetailsPojo);
-		for (String artifactType : artifactTypeList) {
-			deleteAttributeArtifactStatus = restUtility.deleteAttributesFromArtifact(projectDetailsPojo.getClient(),
-					artifactType, projectDetailsPojo, attributeDetailsPojo);
+		
+		
+		for(ArtifactAttributePojo attributePojo:artifactAttributePojos)
+		{
+			ArrayList<String> artifactTypes= new ArrayList<>();
+			if(attributePojo.getArtifactType()!=null && attributePojo.getArtifactType()!="")
+			{	
+				artifactTypes.addAll( Arrays.asList(attributePojo.getArtifactType().split(",")));
+				
+				for(String artifactType :artifactTypes )
+				{
+					if(artifactType!="NA")
+					{
+						deleteAttributeArtifactStatus = restUtility.deleteAttributesFromArtifact(projectDetailsPojo.getClient(),
+								artifactType, projectDetailsPojo, attributeDetailsPojo,attributePojo);
+					}
+					
+				}
+				
+			}
 		}
 
-		deleteAttributeStatus = restUtility.deleteAttribute(projectDetailsPojo.getClient(), attributeDeletionMap,
+		deleteAttributeStatus = restUtility.deleteAttribute(projectDetailsPojo.getClient(), artifactAttributePojos,
 				projectDetailsPojo, attributeDetailsPojo);
 		DeleteAttributeApplication.deliverChangeset(projectDetailsPojo.getClient(), projectDetailsPojo);
 		
@@ -204,7 +240,7 @@ public class DeleteAttributeApplication {
 		}
 	}
 
-	public static ProjectDetailsPojo loadConfigAttributes(JazzFormAuthClient client, ProjectDetailsPojo projectDetailsPojo) {
+	public static ProjectDetailsPojo loadConfigAttributes( ProjectDetailsPojo projectDetailsPojo) {
 
 		
 		RestUtility restUtility = new RestUtility();
@@ -213,26 +249,26 @@ public class DeleteAttributeApplication {
 		String changeSetUrl = null;
 		String projectUUID = null;
 		String serviceXmlUrl = null;
-		
-		System.out.println("-------------Delete attributes & update workflow application started-----------------");
-		
+		Document projectPropertiesDoc= null;
+				
 		try
 		{			
-					serviceXmlUrl = dngLoginUtility.getServiceProviderURI(client);
+					serviceXmlUrl = dngLoginUtility.getServiceProviderURI(projectDetailsPojo.getClient());
 					projectUUID = serviceXmlUrl.substring(
 							serviceXmlUrl.lastIndexOf('/', serviceXmlUrl.lastIndexOf('/') - 1) + 1,
 							serviceXmlUrl.lastIndexOf('/'));
 					projectDetailsPojo.setProjectUUID(projectUUID);
 
-					if (restUtility.createBaseline(client, projectDetailsPojo, baselineName)) {
-						changeSetUrl = changeSetUtility.createChangeSet(client, projectDetailsPojo, changeSetName);
+					if (restUtility.createBaseline(projectDetailsPojo.getClient(), projectDetailsPojo, baselineName)) {
+						changeSetUrl = changeSetUtility.createChangeSet(projectDetailsPojo.getClient(), projectDetailsPojo, changeSetName);
 
 						if (changeSetUrl != null && !changeSetUrl.isEmpty()) {
 							projectDetailsPojo.setChangeSetUrl(changeSetUrl);
 							logger.info("Changeset " + projectDetailsPojo.getStreamName() + "_" + changeSetName
 									+ " has been created ");
 						}
-							restUtility.getProjectPropertiesDetails(client, projectDetailsPojo);
+						projectPropertiesDoc=restUtility.getProjectPropertiesDetails(projectDetailsPojo.getClient(), projectDetailsPojo);
+						projectDetailsPojo.setProjectPropertiesDoc(projectPropertiesDoc);
 					}
 					
 					return projectDetailsPojo;
