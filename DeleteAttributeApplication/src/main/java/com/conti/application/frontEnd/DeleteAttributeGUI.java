@@ -399,11 +399,11 @@ public class DeleteAttributeGUI extends JFrame implements ActionListener {
 				
 				if(attributeTable.getModel().getValueAt(count, 1)!=null)
 				{
-				artifactAttributePojo.setAttributeName(attributeTable.getModel().getValueAt(count, 1).toString());
-				artifactAttributePojo.setArtifactType(attributeTable.getModel().getValueAt(count, 2).toString());
+				artifactAttributePojo.setAttributeName(attributeTable.getModel().getValueAt(count, 1).toString().trim());
+				artifactAttributePojo.setArtifactType(attributeTable.getModel().getValueAt(count, 2).toString().trim());
 				}
 				
-				artifactAttributePojo.setAction(attributeTable.getModel().getValueAt(count, 0).toString());
+				artifactAttributePojo.setAction(attributeTable.getModel().getValueAt(count, 0).toString().trim());
 				artifactAttributePojos.add(artifactAttributePojo);
 				
 			}
@@ -411,8 +411,11 @@ public class DeleteAttributeGUI extends JFrame implements ActionListener {
 			{
 				ArtifactAttributePojo artifactAttributePojo= new ArtifactAttributePojo();
 				artifactAttributePojo.setAction("");
-				artifactAttributePojo.setAttributeName(attributeTable.getModel().getValueAt(count, 1).toString());
-				artifactAttributePojo.setArtifactType(attributeTable.getModel().getValueAt(count, 2).toString());
+				artifactAttributePojo.setAttributeName(attributeTable.getModel().getValueAt(count, 1).toString().trim());
+				if(attributeTable.getModel().getValueAt(count, 2)!=null)
+				{
+				artifactAttributePojo.setArtifactType(attributeTable.getModel().getValueAt(count, 2).toString().trim());
+				}
 				artifactAttributePojos.add(artifactAttributePojo);
 			}
 			
@@ -421,7 +424,7 @@ public class DeleteAttributeGUI extends JFrame implements ActionListener {
 				ArtifactAttributePojo artifactAttributePojo= new ArtifactAttributePojo();
 				artifactAttributePojo.setAction("");
 				artifactAttributePojo.setAttributeName("");
-				artifactAttributePojo.setArtifactType(attributeTable.getModel().getValueAt(count, 2).toString());
+				artifactAttributePojo.setArtifactType(attributeTable.getModel().getValueAt(count, 2).toString().trim());
 				artifactAttributePojos.add(artifactAttributePojo);
 			}
 			
@@ -446,8 +449,8 @@ public class DeleteAttributeGUI extends JFrame implements ActionListener {
 			// String attributeName= attributeTable.getModel().getValueAt(count, 0);
 			if (workflowTable.getModel().getValueAt(count, 0) != null) {
 
-				workFlowDetailsMap.put(workflowTable.getModel().getValueAt(count, 0).toString(),
-						workflowTable.getModel().getValueAt(count, 1).toString());
+				workFlowDetailsMap.put(workflowTable.getModel().getValueAt(count, 0).toString().trim(),
+						workflowTable.getModel().getValueAt(count, 1).toString().trim());
 			} else {
 
 				continue;
@@ -469,8 +472,6 @@ public class DeleteAttributeGUI extends JFrame implements ActionListener {
 			tabbedPane.setSelectedIndex(0);
 
 		}
-		
-			
 		else if (e.getSource()==updatewf)
          {
 			 	
@@ -504,10 +505,21 @@ public class DeleteAttributeGUI extends JFrame implements ActionListener {
 											jb1.setIndeterminate(false);
 											tabbedPane.setEnabledAt(0, true);
 										    tabbedPane.setEnabledAt(1, true);
-											jb1.setString("Updating Workflows Completed");
+											jb1.setVisible(false);
+											updatewf.setVisible(true);
 											JOptionPane.showMessageDialog(null, "Updating Workflows Completed");
 											
 										}
+										else
+										{
+											jb1.setIndeterminate(false);
+											tabbedPane.setEnabledAt(0, true);
+										    tabbedPane.setEnabledAt(1, true);
+										    jb1.setVisible(false);
+											updatewf.setVisible(true);
+											JOptionPane.showMessageDialog(null, "Updating Workflows Completed with errors. Please check the logs!!");
+										}
+											
 
 									}
 								});
@@ -531,8 +543,6 @@ public class DeleteAttributeGUI extends JFrame implements ActionListener {
 					JOptionPane.showMessageDialog(null, "Please enter all the values in the table for each artifact Type!!");
 				}
 
-			
-			 
 				else if (attributeDetailsPojo.getWorkflowDetailsMap().size() < 1) {
 					JOptionPane.showMessageDialog(null, "Please enter the artifact types & workflow that needs to be updated!!");
 				}
@@ -561,10 +571,18 @@ public class DeleteAttributeGUI extends JFrame implements ActionListener {
 										jb2.setIndeterminate(false);
 										tabbedPane.setEnabledAt(0, true);
 									    tabbedPane.setEnabledAt(1, true);
-										jb2.setString("Deleting Attributes Completed");
-										JOptionPane.showMessageDialog(null, "Deleting attributes completed");
+									    jb2.setVisible(false);
+										updateboth.setVisible(true);
+										JOptionPane.showMessageDialog(null, "Deleting attributes and updating workflow completed");
 										
-										
+									}
+									else {
+										jb2.setIndeterminate(false);
+										tabbedPane.setEnabledAt(0, true);
+									    tabbedPane.setEnabledAt(1, true);
+										jb2.setVisible(false);
+										updateboth.setVisible(true);
+										JOptionPane.showMessageDialog(null, "Deleting attributes and updating workflow completed completed with some errors. Please check logs!!");
 									}
 
 								}
@@ -583,8 +601,6 @@ public class DeleteAttributeGUI extends JFrame implements ActionListener {
 				 JOptionPane.showMessageDialog(null, "Please enter all the values in the table for each attribute!!");
 			}
 
-			 
-			 
 			else
 			{
 				ArrayList<ArtifactAttributePojo> artifactAttributes= attributeDetailsPojo.getArtifactAttributePojos();
@@ -623,6 +639,15 @@ public class DeleteAttributeGUI extends JFrame implements ActionListener {
 									JOptionPane.showMessageDialog(null, "Deleting attributes completed");
 									
 								}
+								else {
+									jb.setIndeterminate(false);
+									tabbedPane.setEnabledAt(0, true);
+								    tabbedPane.setEnabledAt(2, true);
+									jb.setVisible(false);
+									b1.setVisible(true);
+									JOptionPane.showMessageDialog(null, "Deleting attributes completed with errors. Please check the logs!!");
+									
+								}
 
 							}
 						});
@@ -646,13 +671,13 @@ public class DeleteAttributeGUI extends JFrame implements ActionListener {
 		String changeSetName = textField8.getText();// get user entered pasword from the textField2
 		String deliverChangeSet = group.getSelection().getActionCommand();
 
-		configDetailsPojo.setUserName(userValue);
-		configDetailsPojo.setPassword(passValue);
-		configDetailsPojo.setRepositoryUrl(serverUrl);
-		configDetailsPojo.setInputFileName(inputFile);
-		configDetailsPojo.setBaselineName(baseLineName);
-		configDetailsPojo.setChangeSetName(changeSetName);
-		configDetailsPojo.setDeliverChangeSet(deliverChangeSet);
+		configDetailsPojo.setUserName(userValue.trim());
+		configDetailsPojo.setPassword(passValue.trim());
+		configDetailsPojo.setRepositoryUrl(serverUrl.trim());
+		configDetailsPojo.setInputFileName(inputFile.trim());
+		configDetailsPojo.setBaselineName(baseLineName.trim());
+		configDetailsPojo.setChangeSetName(changeSetName.trim());
+		configDetailsPojo.setDeliverChangeSet(deliverChangeSet.trim());
 		
 		return configDetailsPojo;
 	}

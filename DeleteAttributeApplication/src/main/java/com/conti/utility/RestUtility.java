@@ -41,208 +41,388 @@ import com.conti.pojo.ArtifactAttributePojo;
 import com.conti.pojo.AttributeDetailsPojo;
 import com.conti.pojo.ProjectDetailsPojo;
 
+/**
+ * 
+ * @author uif34242
+ *
+ */
 @SuppressWarnings("deprecation")
 public class RestUtility {
 
 	private static Logger logger = LogManager.getLogger(RestUtility.class);
-	//static Document propertiesDoc = null;
+	// static Document propertiesDoc = null;
 
+	/**
+	 * method to update the workflow for a given artifact type
+	 * 
+	 * @param client
+	 * @param artifactTypeName
+	 * @param workflowName
+	 * @param projectDetailsPojo
+	 * @return Boolean status
+	 */
 	public boolean updateWorkflow(JazzFormAuthClient client, String artifactTypeName, String workflowName,
 			ProjectDetailsPojo projectDetailsPojo) {
 
-		HashMap<String, String> workFlowDetailsMap = getWorkFlowDetails(client, projectDetailsPojo);
-		Document projectProperitesDoc= projectDetailsPojo.getProjectPropertiesDoc();
-		for (Entry<String, String> entry : workFlowDetailsMap.entrySet()) {
-			if (entry.getKey().contains(workflowName)) {
-				String workflowURL = entry.getValue();
-				NodeList artifactTypeNodes = projectProperitesDoc.getElementsByTagName("rm:ObjectType");
-				for (int i = 0; i < artifactTypeNodes.getLength(); i++) {
+		Boolean workflowExists = false;
+		try {
+			logger.info("updating the workflow for the artifact type " + artifactTypeName);
+			HashMap<String, String> workFlowDetailsMap = getWorkFlowDetails(client, projectDetailsPojo);
+			if (workFlowDetailsMap.size() > 0) {
+				Document projectProperitesDoc = projectDetailsPojo.getProjectPropertiesDoc();
+				for (Entry<String, String> entry : workFlowDetailsMap.entrySet()) {
+					if (entry.getKey().contains(workflowName)) {
+						String workflowURL = entry.getValue();
+						workflowExists = true;
+						NodeList artifactTypeNodes = projectProperitesDoc.getElementsByTagName("rm:ObjectType");
+						for (int i = 0; i < artifactTypeNodes.getLength(); i++) {
+							NodeList artifactTypeChildnodes = artifactTypeNodes.item(i).getChildNodes();
+							for (int j = 0; j < artifactTypeChildnodes.getLength(); j++) {
+								if (artifactTypeChildnodes.item(j).getNodeName().equals("dcterms:title")) {
+									if (artifactTypeChildnodes.item(j).getTextContent().equals(artifactTypeName)) {
+										if (checkIfWorkflowExists(artifactTypeNodes.item(i))) {
+											return updateExistingWorkflow(client, projectDetailsPojo,
+													artifactTypeNodes.item(i), artifactTypeName, workflowName,
+													workflowURL);
 
-					NodeList artifactTypeChildnodes = artifactTypeNodes.item(i).getChildNodes();
-					for (int j = 0; j < artifactTypeChildnodes.getLength(); j++) {
-						if (artifactTypeChildnodes.item(j).getNodeName().equals("dcterms:title")) {
-							if (artifactTypeChildnodes.item(j).getTextContent().equals(artifactTypeName)) {
-								if (checkIfWorkflowExists(artifactTypeNodes.item(i))) {
-									updateExistingWorkflow(client, projectDetailsPojo, artifactTypeNodes.item(i), artifactTypeName, workflowName, workflowURL);
-									
-								} else {
-									 return createWorkflowForArtifact(client, projectDetailsPojo, artifactTypeNodes.item(i),
-											artifactTypeName, workflowName, workflowURL);
+										} else {
+											return createWorkflowForArtifact(client, projectDetailsPojo,
+													artifactTypeNodes.item(i), artifactTypeName, workflowName,
+													workflowURL);
+										}
+
+									}
 								}
-
 							}
 						}
+
 					}
+				}
+			}
+			if (!workflowExists) {
+				logger.error("Workflow " + workflowName + " does not exist in the project "
+						+ projectDetailsPojo.getProjectName() + " , " + projectDetailsPojo.getComponentName() + " , "
+						+ projectDetailsPojo.getStreamName());
+				return false;
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+			logger.error("Exception while updating the workflow " + workflowName + " for the artifact type "
+					+ artifactTypeName + "in the project " + projectDetailsPojo.getProjectName() + " , "
+					+ projectDetailsPojo.getComponentName() + " , " + projectDetailsPojo.getStreamName());
+			logger.error(e);
+			return false;
+		}
+
+		return true;
+	}
+
+	/**
+	 * method to check if the workflow exists for the artifact type
+	 * 
+	 * @param artifactTypeNode
+	 * @return boolean status
+	 */
+	public boolean checkIfWorkflowExists(Node artifactTypeNode) {
+		try {
+			NodeList artifactTypeChildnodes = artifactTypeNode.getChildNodes();
+			for (int i = 0; i < artifactTypeChildnodes.getLength(); i++) {
+				if (artifactTypeChildnodes.item(i).getNodeName().equals("rm:hasWorkflowAttribute")) {
+					return true;
+				}
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+			logger.error("Exception while checking the workflow exists " + e);
+			return false;
+		}
+		return true;
+	}
+
+	/**
+	 * method to update the existing workflow of an artifact type
+	 * 
+	 * @param client
+	 * @param projectDetailsPojo
+	 * @param artifactTypeNode
+	 * @param artifactTypeName
+	 * @param workflowName
+	 * @param workflowURL
+	 * @return boolean status
+	 */
+	public boolean updateExistingWorkflow(JazzFormAuthClient client, ProjectDetailsPojo projectDetailsPojo,
+			Node artifactTypeNode, String artifactTypeName, String workflowName, String workflowURL) {
+		String artifactTypeUrl = null;
+		Document artifactTypeNodeDoc = null;
+
+		try {
+			artifactTypeUrl = artifactTypeNode.getAttributes().item(0).getTextContent();
+			NodeList artifactTypeChildnodes = artifactTypeNode.getChildNodes();
+			for (int j = 0; j < artifactTypeChildnodes.getLength(); j++) {
+				if (artifactTypeChildnodes.item(j).getNodeName().equals("rm:hasWorkflowAttribute")) {
+
+					artifactTypeChildnodes.item(j).getAttributes().item(0).setTextContent(workflowURL);
+				}
+
+				else if (artifactTypeChildnodes.item(j).getNodeName().equals("rm:hasAttribute")
+						&& artifactTypeChildnodes.item(j).getAttributes().item(0).getTextContent()
+								.contains("types/workflow/attrdef")) {
+					artifactTypeChildnodes.item(j).getAttributes().item(0).setTextContent(workflowURL);
 				}
 
 			}
 
-		}
-		return false;
-	}
-
-	public boolean checkIfWorkflowExists(Node artifactTypeNode) {
-		NodeList artifactTypeChildnodes = artifactTypeNode.getChildNodes();
-		for (int i = 0; i < artifactTypeChildnodes.getLength(); i++) {
-			if (artifactTypeChildnodes.item(i).getNodeName().equals("rm:hasWorkflowAttribute")) {
-				return true;
+			artifactTypeNodeDoc = getDocumentfromNode(artifactTypeNode);
+			if (artifactTypeNodeDoc != null) {
+				if (updateArtifactType(client, artifactTypeNodeDoc, projectDetailsPojo, artifactTypeUrl,
+						artifactTypeName)) {
+					logger.info(
+							"Artifact type " + artifactTypeName + "  has been updated with workflow " + workflowName);
+					return true;
+				} else {
+					logger.error("Artifact type " + artifactTypeName + "  has not been updated with workflow "
+							+ workflowName);
+					return false;
+				}
 			}
-		}
-		return false;
-	}
-	
-	public boolean updateExistingWorkflow(JazzFormAuthClient client, ProjectDetailsPojo projectDetailsPojo,
-			Node artifactTypeNode, String artifactTypeName, String workflowName, String workflowURL)
-	{
-		String artifactTypeUrl = null;
-		Document artifactTypeNodeDoc = null;
-		artifactTypeUrl = artifactTypeNode.getAttributes().item(0).getTextContent();
-		
-		NodeList artifactTypeChildnodes = artifactTypeNode.getChildNodes();
-		for (int j = 0; j < artifactTypeChildnodes.getLength(); j++)
-		{
-			if (artifactTypeChildnodes.item(j).getNodeName().equals("rm:hasWorkflowAttribute")) {
-				
-				artifactTypeChildnodes.item(j).getAttributes().item(0).setTextContent(workflowURL);
-			}
-			
-			else if(artifactTypeChildnodes.item(j).getNodeName().equals("rm:hasAttribute") &&
-					artifactTypeChildnodes.item(j).getAttributes().item(0).getTextContent().contains("types/workflow/attrdef"))
-			{
-				artifactTypeChildnodes.item(j).getAttributes().item(0).setTextContent(workflowURL);
-			}
-			
-		}
-		
-		artifactTypeNodeDoc = getDocumentfromNode(artifactTypeNode);
-		
-		if (updateArtifactType(client, artifactTypeNodeDoc, projectDetailsPojo, artifactTypeUrl)) {
-			logger.info("Artifact type " + artifactTypeName + "  has been updated with workflow " + workflowName);
-			return true;
-		} else {
-			logger.error("Artifact type " + artifactTypeName + "  has not been updated with workflow " + workflowName);
+			return false;
+		} catch (Exception e) {
+			// TODO: handle exception
+			logger.error("Exception while updating the existing workflow for the artifact type " + artifactTypeName
+					+ " in the project " + projectDetailsPojo.getProjectName() + " , "
+					+ projectDetailsPojo.getComponentName() + " , " + projectDetailsPojo.getStreamName());
+			logger.error(e);
 			return false;
 		}
-		
+
 	}
-	
+
+	/**
+	 * method to create workflow element for artifact type
+	 * 
+	 * @param client
+	 * @param projectDetailsPojo
+	 * @param artifactTypeNode
+	 * @param artifactTypeName
+	 * @param workflowName
+	 * @param workflowURL
+	 * @return boolean value
+	 */
 	public boolean createWorkflowForArtifact(JazzFormAuthClient client, ProjectDetailsPojo projectDetailsPojo,
 			Node artifactTypeNode, String artifactTypeName, String workflowName, String workflowURL) {
 
 		String artifactTypeUrl = null;
 		Document artifactTypeNodeDoc = null;
-		artifactTypeUrl = artifactTypeNode.getAttributes().item(0).getTextContent();
-		artifactTypeNodeDoc = getDocumentfromNode(artifactTypeNode);
-		Element hasWorkflowAttributeElement = artifactTypeNodeDoc.createElement("rm:hasWorkflowAttribute");
-		hasWorkflowAttributeElement.setAttribute(Constants.Resource, workflowURL);
+		try {
+			artifactTypeUrl = artifactTypeNode.getAttributes().item(0).getTextContent();
+			artifactTypeNodeDoc = getDocumentfromNode(artifactTypeNode);
+			Element hasWorkflowAttributeElement = artifactTypeNodeDoc.createElement("rm:hasWorkflowAttribute");
+			hasWorkflowAttributeElement.setAttribute(Constants.Resource, workflowURL);
 
-		Element hasAttributeElement = artifactTypeNodeDoc.createElement("rm:hasAttribute");
-		hasAttributeElement.setAttribute(Constants.Resource, workflowURL);
-		Node root = artifactTypeNodeDoc.getFirstChild();
+			Element hasAttributeElement = artifactTypeNodeDoc.createElement("rm:hasAttribute");
+			hasAttributeElement.setAttribute(Constants.Resource, workflowURL);
+			Node root = artifactTypeNodeDoc.getFirstChild();
 
-		root.appendChild(hasWorkflowAttributeElement);
-		root.appendChild(hasAttributeElement);
-		if (updateArtifactType(client, artifactTypeNodeDoc, projectDetailsPojo, artifactTypeUrl)) {
-			logger.info("Artifact type " + artifactTypeName + "  has been updated with workflow " + workflowName);
-			return true;
-		} else {
-			logger.error("Artifact type " + artifactTypeName + "  has not been updated with workflow " + workflowName);
+			root.appendChild(hasWorkflowAttributeElement);
+			root.appendChild(hasAttributeElement);
+			if (updateArtifactType(client, artifactTypeNodeDoc, projectDetailsPojo, artifactTypeUrl,
+					artifactTypeName)) {
+				logger.info("Artifact type " + artifactTypeName + "  has been updated with workflow " + workflowName);
+				return true;
+			} else {
+				logger.error(
+						"Artifact type " + artifactTypeName + "  has not been updated with workflow " + workflowName);
+				return false;
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+			logger.error("Exception while creating workflow " + workflowName + "  for the artifact type "
+					+ artifactTypeName + " in the project " + projectDetailsPojo.getProjectName() + " , "
+					+ projectDetailsPojo.getComponentName() + " , " + projectDetailsPojo.getStreamName());
+			logger.error(e);
 			return false;
+
 		}
+
 	}
 
+	/**
+	 * method to update the artifact type
+	 * 
+	 * @param client
+	 * @param doc
+	 * @param projectDetailsPojo
+	 * @param artifactTypeUrl
+	 * @return boolean status
+	 */
 	public boolean updateArtifactType(JazzFormAuthClient client, Document doc, ProjectDetailsPojo projectDetailsPojo,
-			String artifactTypeUrl) {
+			String artifactTypeUrl, String artifactTypeName) {
 		String artifactTypeBody = null;
-		artifactTypeBody = getStringFromDocument(doc);
-		artifactTypeBody = artifactTypeBody.replaceAll("\\<\\?xml(.+?)\\?\\>", "").trim();
-		artifactTypeBody = Constants.putResponseBody.replace("actualResponse", artifactTypeBody);
-		HashMap<String, String> putRequestHeaders = HeaderUtility
-				.createHeadersForChangeSet_withContent(projectDetailsPojo);
-		HttpResponse response = putRequestforUrl(client, artifactTypeUrl, artifactTypeBody, putRequestHeaders);
-		if (response.getStatusLine().getStatusCode() == 200 || response.getStatusLine().getStatusCode() == 400) {
-			return true;
-		} else {
-			return false;
-		}
-	}
-
-	public HashMap<String, String> getWorkFlowDetails(JazzFormAuthClient client , ProjectDetailsPojo projectDetailsPojo) {
-		HashMap<String, String> workflowMap = new HashMap<>();
-		Document projectProperitesDoc= projectDetailsPojo.getProjectPropertiesDoc();
-		NodeList attributeNodes = projectProperitesDoc.getElementsByTagName(Constants.RM_AttributeDef);
-		for (int i = 0; i < attributeNodes.getLength(); i++) {
-			if (attributeNodes.item(i).getAttributes().item(0).getTextContent()
-					.contains(client.getAuthUrl() + "/types/workflow/attrdef")) {
-				NodeList attributeValueNodes = attributeNodes.item(i).getChildNodes();
-				for (int j = 0; j < attributeValueNodes.getLength(); j++) {
-					if (attributeValueNodes.item(j).getNodeName().equals(Constants.Dcterms_Title)) {
-						workflowMap.put(attributeValueNodes.item(j).getTextContent(),
-								attributeNodes.item(i).getAttributes().item(0).getTextContent());
-						break;
-					}
+		try {
+			artifactTypeBody = getStringFromDocument(doc);
+			if (artifactTypeBody != null && artifactTypeBody != "") {
+				artifactTypeBody = artifactTypeBody.replaceAll("\\<\\?xml(.+?)\\?\\>", "").trim();
+				artifactTypeBody = Constants.putResponseBody.replace("actualResponse", artifactTypeBody);
+				HashMap<String, String> putRequestHeaders = HeaderUtility
+						.createHeadersForChangeSet_withContent(projectDetailsPojo);
+				HttpResponse response = putRequestforUrl(client, artifactTypeUrl, artifactTypeBody, putRequestHeaders);
+				if (response.getStatusLine().getStatusCode() == 200
+						|| response.getStatusLine().getStatusCode() == 400) {
+					return true;
+				} else {
+					return false;
 
 				}
 			}
+		} catch (Exception e) {
+			// TODO: handle exception
+			logger.error("Exception while updating the artifact type " + artifactTypeName + " in the project "
+					+ projectDetailsPojo.getProjectName() + " , " + projectDetailsPojo.getComponentName() + " , "
+					+ projectDetailsPojo.getStreamName());
+			logger.error(e);
+			return false;
 		}
-		
-		return workflowMap;
+		return false;
 
 	}
 
+	/**
+	 * method to get the workflow details
+	 * 
+	 * @param client
+	 * @param projectDetailsPojo
+	 * @return worklfow map with its url
+	 */
+	public HashMap<String, String> getWorkFlowDetails(JazzFormAuthClient client,
+			ProjectDetailsPojo projectDetailsPojo) {
+		HashMap<String, String> workflowMap = new HashMap<>();
+		try {
+			Document projectProperitesDoc = projectDetailsPojo.getProjectPropertiesDoc();
+			NodeList attributeNodes = projectProperitesDoc.getElementsByTagName(Constants.RM_AttributeDef);
+			for (int i = 0; i < attributeNodes.getLength(); i++) {
+				if (attributeNodes.item(i).getAttributes().item(0).getTextContent()
+						.contains(client.getAuthUrl() + "/types/workflow/attrdef")) {
+					NodeList attributeValueNodes = attributeNodes.item(i).getChildNodes();
+					for (int j = 0; j < attributeValueNodes.getLength(); j++) {
+						if (attributeValueNodes.item(j).getNodeName().equals(Constants.Dcterms_Title)) {
+							workflowMap.put(attributeValueNodes.item(j).getTextContent(),
+									attributeNodes.item(i).getAttributes().item(0).getTextContent());
+							break;
+						}
+
+					}
+				}
+			}
+
+			return workflowMap;
+		} catch (Exception e) {
+			// TODO: handle exception
+			logger.error("Exception while getting the workflow details for the project "
+					+ projectDetailsPojo.getProjectName() + " , " + projectDetailsPojo.getComponentName() + " , "
+					+ projectDetailsPojo.getStreamName());
+			logger.error(e);
+			return null;
+		}
+
+	}
+
+	/**
+	 * method to delete the attributes for the artifact
+	 * 
+	 * @param client
+	 * @param artifactTypeName
+	 * @param projectDetailsPojo
+	 * @param attributeDetailsPojo
+	 * @param attributePojo
+	 * @return boolean status
+	 */
 	public boolean deleteAttributesFromArtifact(JazzFormAuthClient client, String artifactTypeName,
-			ProjectDetailsPojo projectDetailsPojo, AttributeDetailsPojo attributeDetailsPojo, ArtifactAttributePojo attributePojo) {
+			ProjectDetailsPojo projectDetailsPojo, AttributeDetailsPojo attributeDetailsPojo,
+			ArtifactAttributePojo attributePojo) {
 
 		ArrayList<String> artifactAttributeList = new ArrayList<>();
-		Boolean artifactTypeFound= false;
-		String attributeName= attributePojo.getAttributeName();
-		Document projectProperitesDoc= projectDetailsPojo.getProjectPropertiesDoc();
-		NodeList artifactTypeNodes = projectProperitesDoc.getElementsByTagName("rm:ObjectType");
-		
-		for (int i = 0; i < artifactTypeNodes.getLength(); i++) {
+		Boolean artifactTypeFound = false;
+		String attributeName = null;
+		try {
+			attributeName = attributePojo.getAttributeName();
+			Document projectProperitesDoc = projectDetailsPojo.getProjectPropertiesDoc();
+			NodeList artifactTypeNodes = projectProperitesDoc.getElementsByTagName("rm:ObjectType");
+			logger.info("Deleting the attribute " + attributeName + "  from the artifact type " + artifactTypeName);
+			for (int i = 0; i < artifactTypeNodes.getLength(); i++) {
 
-			NodeList artifactTypeChildnodes = artifactTypeNodes.item(i).getChildNodes();
-			for (int j = 0; j < artifactTypeChildnodes.getLength(); j++) {
-				if (artifactTypeChildnodes.item(j).getNodeName().equals("dcterms:title")) {
-					
-					if (artifactTypeChildnodes.item(j).getTextContent().equals(artifactTypeName)) {
-						j = 0;
-						artifactTypeFound= true;
-						while (!artifactTypeChildnodes.item(j).getNodeName().equals("rm:attributeOrdering")) {
-							j++;
+				NodeList artifactTypeChildnodes = artifactTypeNodes.item(i).getChildNodes();
+				for (int j = 0; j < artifactTypeChildnodes.getLength(); j++) {
+					if (artifactTypeChildnodes.item(j).getNodeName().equals("dcterms:title")) {
+
+						if (artifactTypeChildnodes.item(j).getTextContent().equals(artifactTypeName)) {
+							j = 0;
+							artifactTypeFound = true;
+							while (!artifactTypeChildnodes.item(j).getNodeName().equals("rm:attributeOrdering")) {
+								j++;
+							}
+							String artifactAttributes = artifactTypeChildnodes.item(j).getTextContent();
+							String[] artifactAttributesArr = artifactAttributes.split(",");
+							artifactAttributeList.addAll(Arrays.asList(artifactAttributesArr));
+							return removeAttributeFromArtifact(client, artifactTypeNodes.item(i), artifactAttributeList,
+									attributeDetailsPojo, projectDetailsPojo, artifactTypeName, attributeName);
+
 						}
-						String artifactAttributes = artifactTypeChildnodes.item(j).getTextContent();
-						String[] artifactAttributesArr = artifactAttributes.split(",");
-						artifactAttributeList.addAll(Arrays.asList(artifactAttributesArr));
-						return removeAttributeFromArtifact(client, artifactTypeNodes.item(i), artifactAttributeList,
-								attributeDetailsPojo, projectDetailsPojo, artifactTypeName,attributeName);
 
 					}
-
 				}
 			}
-		}
-			if(!artifactTypeFound)
-			{
-				logger.error("Artifact Type "+  artifactTypeName +" not found in the project "
-			+ projectDetailsPojo.getProjectName() + " , "
-			+ projectDetailsPojo.getComponentName() + " , "
-			+ projectDetailsPojo.getStreamName());
+			if (!artifactTypeFound) {
+				logger.error("Artifact Type " + artifactTypeName + " not found in the project "
+						+ projectDetailsPojo.getProjectName() + " , " + projectDetailsPojo.getComponentName() + " , "
+						+ projectDetailsPojo.getStreamName());
 				return false;
+			}
+
+			return false;
+		} catch (Exception e) {
+			// TODO: handle exception
+			logger.error("Exception while deleting the attribute " + attributeName + "  from the artifact type "
+					+ artifactTypeName + " in the project " + projectDetailsPojo.getProjectName() + " , "
+					+ projectDetailsPojo.getComponentName() + " , " + projectDetailsPojo.getStreamName());
+			return false;
 		}
 
-	
-		return true;
 	}
 
+	/**
+	 * method to the XMl of the project properties
+	 * 
+	 * @param client
+	 * @param projectDetailsPojo
+	 * @return XML doc
+	 */
 	public Document getProjectPropertiesDetails(JazzFormAuthClient client, ProjectDetailsPojo projectDetailsPojo) {
-		String getDNGPropertiesURL = client.getAuthUrl() + Constants.Resource_Context + "=" + client.getAuthUrl()
-				+ Constants.Project_area + projectDetailsPojo.getProjectUUID();
-		 Document propertiesDoc = getRequestforUrl(client, getDNGPropertiesURL, projectDetailsPojo.getStreamUrl());
-		
-		return propertiesDoc;
+
+		try {
+			String getDNGPropertiesURL = client.getAuthUrl() + Constants.Resource_Context + "=" + client.getAuthUrl()
+					+ Constants.Project_area + projectDetailsPojo.getProjectUUID();
+			Document propertiesDoc = getRequestforUrl(client, getDNGPropertiesURL, projectDetailsPojo.getStreamUrl());
+
+			return propertiesDoc;
+		} catch (Exception e) {
+			// TODO: handle exception
+			logger.error("Exception while getting the project properties details " + e + " in the project "
+					+ projectDetailsPojo.getProjectName() + " , " + projectDetailsPojo.getComponentName() + " , "
+					+ projectDetailsPojo.getStreamName());
+			return null;
+		}
+
 	}
 
+	/**
+	 * method to delete the attribute completely from the project properties
+	 * 
+	 * @param client
+	 * @param artifactAttributePojos
+	 * @param projectDetailsPojo
+	 * @param attributeDetailsPojo
+	 * @return
+	 */
 	public boolean deleteAttribute(JazzFormAuthClient client, ArrayList<ArtifactAttributePojo> artifactAttributePojos,
 			ProjectDetailsPojo projectDetailsPojo, AttributeDetailsPojo attributeDetailsPojo) {
 		String attributeName = null;
@@ -250,7 +430,7 @@ public class RestUtility {
 		try {
 			HashMap<String, String> attributeUrlMap = attributeDetailsPojo.getAttributeUrlMap();
 			HashMap<String, String> headersMap = HeaderUtility.createHeadersForChangeSet(projectDetailsPojo);
-			for (ArtifactAttributePojo artifactAttributePojo:artifactAttributePojos) {
+			for (ArtifactAttributePojo artifactAttributePojo : artifactAttributePojos) {
 				if (artifactAttributePojo.getAction().equals("Delete attribute completely")) {
 					attributeName = artifactAttributePojo.getAttributeName();
 					attributeUrl = attributeUrlMap.get(attributeName);
@@ -259,38 +439,57 @@ public class RestUtility {
 					if (response.getStatusLine().getStatusCode() == 200
 							|| response.getStatusLine().getStatusCode() == 400) {
 						logger.info("Attribute " + attributeName + " has been deleted completely");
+						return true;
 					} else {
 						logger.error("Attribute " + attributeName + " has not been deleted completely ");
+						return false;
 
 					}
 				}
 
 			}
-			return true;
+
 		} catch (Exception e) {
 			// TODO: handle exception
+			logger.error("Exception while deleting the attribute " + attributeName
+					+ " from the project properties in the project " + projectDetailsPojo.getProjectName() + " , "
+					+ projectDetailsPojo.getComponentName() + " , " + projectDetailsPojo.getStreamName());
 			return false;
 		}
+		return true;
 	}
 
+	/**
+	 * method to remove the attribute from the artifact type
+	 * 
+	 * @param client
+	 * @param artifactTypeNode
+	 * @param artifactAttributeList
+	 * @param attributeDetailsPojo
+	 * @param projectDetailsPojo
+	 * @param artifactTypeName
+	 * @param attributeName
+	 * @return boolean status
+	 */
 	public Boolean removeAttributeFromArtifact(JazzFormAuthClient client, Node artifactTypeNode,
 			ArrayList<String> artifactAttributeList, AttributeDetailsPojo attributeDetailsPojo,
 			ProjectDetailsPojo projectDetailsPojo, String artifactTypeName, String attributeName) {
 
 		String artifactTypeUrl = null;
 		String artifactTypeBody = null;
-		
 		String attributeUrl = null;
-		Boolean attributeExists= false;
-		HashMap<String, String> attributeUrlMap = attributeDetailsPojo.getAttributeUrlMap();
-		NodeList artifactTypeChildnodes = artifactTypeNode.getChildNodes();
-		artifactTypeUrl = artifactTypeNode.getAttributes().item(0).getTextContent();
-		attributeUrl= attributeUrlMap.get(attributeName);
+		Boolean attributeExists = false;
+		try {
+
+			HashMap<String, String> attributeUrlMap = attributeDetailsPojo.getAttributeUrlMap();
+			NodeList artifactTypeChildnodes = artifactTypeNode.getChildNodes();
+			artifactTypeUrl = artifactTypeNode.getAttributes().item(0).getTextContent();
+			attributeUrl = attributeUrlMap.get(attributeName);
 			for (int j = 0; j < artifactTypeChildnodes.getLength(); j++) {
 				if (artifactTypeChildnodes.item(j).getNodeName().equals("rm:hasAttribute") && artifactTypeChildnodes
 						.item(j).getAttributes().item(0).getTextContent().equals(attributeUrl)) {
 					artifactTypeNode.removeChild(artifactTypeChildnodes.item(j));
-					attributeExists= true;
+					attributeExists = true;
 				}
 
 				else if (artifactTypeChildnodes.item(j).getNodeName().equals("rm:attributeOrdering")) {
@@ -303,30 +502,35 @@ public class RestUtility {
 					}
 				}
 			}
-		
-		if(attributeExists)
-		{
-			Document artifactTypeDoc = getDocumentfromNode(artifactTypeNode);
-			artifactTypeBody = getStringFromDocument(artifactTypeDoc);
-			artifactTypeBody = artifactTypeBody.replaceAll("\\<\\?xml(.+?)\\?\\>", "").trim();
-			artifactTypeBody = Constants.putResponseBody.replace("actualResponse", artifactTypeBody);
-			HashMap<String, String> putRequestHeaders = HeaderUtility
-					.createHeadersForChangeSet_withContent(projectDetailsPojo);
-			HttpResponse response = putRequestforUrl(client, artifactTypeUrl, artifactTypeBody, putRequestHeaders);
-			if (response.getStatusLine().getStatusCode() == 200 || response.getStatusLine().getStatusCode() == 400) {
-				logger.info("Attributes " + attributeName + " has been removed from the artifact type " + artifactTypeName);
-				return true;
-			} else {
-				logger.error(
-						"Attributes " + attributeName + " has not been removed from the artifact type " + artifactTypeName);
-				return false;
-			}
-		}
-		else
-		{
-			return true;
-		}
 
+			if (attributeExists) {
+				Document artifactTypeDoc = getDocumentfromNode(artifactTypeNode);
+				artifactTypeBody = getStringFromDocument(artifactTypeDoc);
+				artifactTypeBody = artifactTypeBody.replaceAll("\\<\\?xml(.+?)\\?\\>", "").trim();
+				artifactTypeBody = Constants.putResponseBody.replace("actualResponse", artifactTypeBody);
+				HashMap<String, String> putRequestHeaders = HeaderUtility
+						.createHeadersForChangeSet_withContent(projectDetailsPojo);
+				HttpResponse response = putRequestforUrl(client, artifactTypeUrl, artifactTypeBody, putRequestHeaders);
+				if (response.getStatusLine().getStatusCode() == 200
+						|| response.getStatusLine().getStatusCode() == 400) {
+					logger.info("Attributes " + attributeName + " has been removed from the artifact type "
+							+ artifactTypeName);
+					return true;
+				} else {
+					logger.error("Attributes " + attributeName + " has not been removed from the artifact type "
+							+ artifactTypeName);
+					return false;
+				}
+			} else {
+				return true;
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+			logger.error("Exception while removing the attribute " + attributeName + " from the artifact type "
+					+ artifactTypeName + " in the project " + projectDetailsPojo.getProjectName() + " , "
+					+ projectDetailsPojo.getComponentName() + " , " + projectDetailsPojo.getStreamName());
+			return false;
+		}
 
 	}
 
@@ -342,34 +546,37 @@ public class RestUtility {
 			AttributeDetailsPojo attributeDetailsPojo, ProjectDetailsPojo projectDetailsPojo) {
 		String attributeName = null;
 		String attributeURL = null;
-		Boolean attributeExists= false;
 		HashMap<String, String> attributeURlmap = new HashMap<>();
-		
-		ArrayList<ArtifactAttributePojo> artifactAttributePojos= attributeDetailsPojo.getArtifactAttributePojos();
+		ArrayList<ArtifactAttributePojo> artifactAttributePojos = attributeDetailsPojo.getArtifactAttributePojos();
 
 		try {
-			Document projectProperitesDoc= projectDetailsPojo.getProjectPropertiesDoc();
-			NodeList attributeNodes = projectProperitesDoc.getElementsByTagName(Constants.RM_AttributeDef);
-			for (int i = 0; i < attributeNodes.getLength(); i++) {
-				NodeList attributeValueNodes = attributeNodes.item(i).getChildNodes();
-				for (int j = 0; j < attributeValueNodes.getLength(); j++) {
+			Document projectProperitesDoc = projectDetailsPojo.getProjectPropertiesDoc();
+			for (ArtifactAttributePojo artifactAttributePojo : artifactAttributePojos) {
+				Boolean attributeExists= false;
+				NodeList attributeNodes = projectProperitesDoc.getElementsByTagName(Constants.RM_AttributeDef);
+				outerloop: for (int i = 0; i < attributeNodes.getLength(); i++) {
 					
-						for(ArtifactAttributePojo artifactAttributePojo:artifactAttributePojos)
-						{
-							if (attributeValueNodes.item(j).getNodeName().equals(Constants.Dcterms_Title)
-									&& attributeValueNodes.item(j).getTextContent().equals(artifactAttributePojo.getAttributeName().trim())) {
-								attributeExists= true;
-								attributeName = attributeValueNodes.item(j).getTextContent();
-								attributeURL = attributeNodes.item(i).getAttributes().item(0).getTextContent();
-								// attributeUUID = attributeURL.substring(attributeURL.lastIndexOf('/') + 1);
-
-								attributeURlmap.put(attributeName, attributeURL);
-							}
+					NodeList attributeValueNodes = attributeNodes.item(i).getChildNodes();
+					for (int j = 0; j < attributeValueNodes.getLength(); j++) {
+						if (attributeValueNodes.item(j).getNodeName().equals(Constants.Dcterms_Title)
+								&& attributeValueNodes.item(j).getTextContent()
+										.equals(artifactAttributePojo.getAttributeName().trim())) {
+							attributeExists= true;
+							attributeName = attributeValueNodes.item(j).getTextContent();
+							attributeURL = attributeNodes.item(i).getAttributes().item(0).getTextContent();
+							// attributeUUID = attributeURL.substring(attributeURL.lastIndexOf('/') + 1);
+							attributeURlmap.put(attributeName, attributeURL);
+							break outerloop;
 						}
-					
+					}
+				}
+				if(!attributeExists)
+				{
+					logger.error("Attribute "+attributeName+" does not exist in the project "+projectDetailsPojo.getProjectName() + " , " + projectDetailsPojo.getComponentName() + " , "
+							+ projectDetailsPojo.getStreamName());
 				}
 			}
-			
+
 			attributeDetailsPojo.setAttributeUrlMap(attributeURlmap);
 			return attributeDetailsPojo;
 		} catch (Exception e) {
