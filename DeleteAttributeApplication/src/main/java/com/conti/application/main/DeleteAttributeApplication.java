@@ -184,9 +184,8 @@ public class DeleteAttributeApplication {
 		AttributeDetailsPojo attributeDetailsPojo = new AttributeDetailsPojo();
 		Boolean deleteAttributeArtifactStatus = false, deleteAttributeStatus = false;
 
-		logger.info("------------Deleting attributes for the project " + projectDetailsPojo.getProjectName() + " , "
-				+ projectDetailsPojo.getComponentName() + " , " + projectDetailsPojo.getStreamName()
-				+ "------------------");
+		logger.info("Deleting attributes for the project " + projectDetailsPojo.getProjectName() + " , "
+				+ projectDetailsPojo.getComponentName() + " , " + projectDetailsPojo.getStreamName());
 		
 		try
 		{
