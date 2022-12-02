@@ -100,7 +100,7 @@ public class RestUtility {
 				}
 			}
 			if (!workflowExists) {
-				logger.error("Workflow " + workflowName + " does not exist in the project "
+				logger.error("Workflow " + workflowName + " does not exist in the project area"
 						+ projectDetailsPojo.getProjectName() + " , " + projectDetailsPojo.getComponentName() + " , "
 						+ projectDetailsPojo.getStreamName());
 				return false;
