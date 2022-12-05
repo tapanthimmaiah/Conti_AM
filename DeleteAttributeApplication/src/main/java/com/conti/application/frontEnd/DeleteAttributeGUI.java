@@ -383,7 +383,13 @@ public class DeleteAttributeGUI extends JFrame implements ActionListener {
 	public String inputFileAction() {
 		JFileChooser inputFile = new JFileChooser();
 		inputFile.showOpenDialog(this);
+		if(inputFile.getSelectedFile()!=null)
+		{
 		return inputFile.getSelectedFile().getAbsolutePath();
+		}
+		else {
+			return null;
+		}
 
 	}
 

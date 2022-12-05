@@ -152,7 +152,8 @@ public class DeleteAttributeApplication {
 							updateWorkflow(projectDetailsPojo);
 							
 						}
-
+						System.out.println("Execution completed for project "+projectDetailsPojo.getProjectName() + " , "
+								+ projectDetailsPojo.getComponentName() + " , " + projectDetailsPojo.getStreamName());
 					}
 				}
 				System.out.println("-------------Delete attributes & Update workflow application completed-----------------");
