@@ -71,12 +71,18 @@ public class Constants {
 	public static final String Resource_Context="/types?resourceContext";
 	public static final String Project_area="/process/project-areas/";
 	public static final String string="string";
+	public static final String workflow_types="types/workflow/attrdef";
+	public static final String Actual_Response="actualResponse";
 	
 	public static final String RM_AttributeDef="rm:AttributeDefinition";
 	public static final String Dcterms_Title="dcterms:title";
 	public static final String OWL_Sameas="owl:sameAs";
 	public static final String RM_Range ="rm:range";
 	public static final String RDFS_Label="rdfs:label";
+	public static final String RM_ObjectType="rm:ObjectType";
+	public static final String RM_hasWorkFlowAttr="rm:hasWorkflowAttribute";
+	public static final String RM_hasAttribute="rm:hasAttribute";
+	public static final String RM_AttrOrdering="rm:attributeOrdering";
 	
 	public static final String NS_containedResources= "ns:containedResources";
 	public static final String DELIVERY_Session_body="<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n"

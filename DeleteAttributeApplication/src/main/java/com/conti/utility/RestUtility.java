@@ -74,11 +74,11 @@ public class RestUtility {
 					if (entry.getKey().contains(workflowName)) {
 						String workflowURL = entry.getValue();
 						workflowExists = true;
-						NodeList artifactTypeNodes = projectProperitesDoc.getElementsByTagName("rm:ObjectType");
+						NodeList artifactTypeNodes = projectProperitesDoc.getElementsByTagName(Constants.RM_ObjectType);
 						for (int i = 0; i < artifactTypeNodes.getLength(); i++) {
 							NodeList artifactTypeChildnodes = artifactTypeNodes.item(i).getChildNodes();
 							for (int j = 0; j < artifactTypeChildnodes.getLength(); j++) {
-								if (artifactTypeChildnodes.item(j).getNodeName().equals("dcterms:title")) {
+								if (artifactTypeChildnodes.item(j).getNodeName().equals(Constants.Dcterms_Title)) {
 									if (artifactTypeChildnodes.item(j).getTextContent().equals(artifactTypeName)) {
 										if (checkIfWorkflowExists(artifactTypeNodes.item(i))) {
 											return updateExistingWorkflow(client, projectDetailsPojo,
@@ -127,7 +127,7 @@ public class RestUtility {
 		try {
 			NodeList artifactTypeChildnodes = artifactTypeNode.getChildNodes();
 			for (int i = 0; i < artifactTypeChildnodes.getLength(); i++) {
-				if (artifactTypeChildnodes.item(i).getNodeName().equals("rm:hasWorkflowAttribute")) {
+				if (artifactTypeChildnodes.item(i).getNodeName().equals(Constants.RM_hasWorkFlowAttr)) {
 					return true;
 				}
 			}
@@ -159,14 +159,14 @@ public class RestUtility {
 			artifactTypeUrl = artifactTypeNode.getAttributes().item(0).getTextContent();
 			NodeList artifactTypeChildnodes = artifactTypeNode.getChildNodes();
 			for (int j = 0; j < artifactTypeChildnodes.getLength(); j++) {
-				if (artifactTypeChildnodes.item(j).getNodeName().equals("rm:hasWorkflowAttribute")) {
+				if (artifactTypeChildnodes.item(j).getNodeName().equals(Constants.RM_hasWorkFlowAttr)) {
 
 					artifactTypeChildnodes.item(j).getAttributes().item(0).setTextContent(workflowURL);
 				}
 
-				else if (artifactTypeChildnodes.item(j).getNodeName().equals("rm:hasAttribute")
+				else if (artifactTypeChildnodes.item(j).getNodeName().equals(Constants.RM_hasAttribute)
 						&& artifactTypeChildnodes.item(j).getAttributes().item(0).getTextContent()
-								.contains("types/workflow/attrdef")) {
+								.contains(Constants.workflow_types)) {
 					artifactTypeChildnodes.item(j).getAttributes().item(0).setTextContent(workflowURL);
 				}
 
@@ -216,10 +216,10 @@ public class RestUtility {
 		try {
 			artifactTypeUrl = artifactTypeNode.getAttributes().item(0).getTextContent();
 			artifactTypeNodeDoc = getDocumentfromNode(artifactTypeNode);
-			Element hasWorkflowAttributeElement = artifactTypeNodeDoc.createElement("rm:hasWorkflowAttribute");
+			Element hasWorkflowAttributeElement = artifactTypeNodeDoc.createElement(Constants.RM_hasWorkFlowAttr);
 			hasWorkflowAttributeElement.setAttribute(Constants.Resource, workflowURL);
 
-			Element hasAttributeElement = artifactTypeNodeDoc.createElement("rm:hasAttribute");
+			Element hasAttributeElement = artifactTypeNodeDoc.createElement(Constants.RM_hasAttribute);
 			hasAttributeElement.setAttribute(Constants.Resource, workflowURL);
 			Node root = artifactTypeNodeDoc.getFirstChild();
 
@@ -262,7 +262,7 @@ public class RestUtility {
 			artifactTypeBody = getStringFromDocument(doc);
 			if (artifactTypeBody != null && artifactTypeBody != "") {
 				artifactTypeBody = artifactTypeBody.replaceAll("\\<\\?xml(.+?)\\?\\>", "").trim();
-				artifactTypeBody = Constants.putResponseBody.replace("actualResponse", artifactTypeBody);
+				artifactTypeBody = Constants.putResponseBody.replace(Constants.Actual_Response, artifactTypeBody);
 				HashMap<String, String> putRequestHeaders = HeaderUtility
 						.createHeadersForChangeSet_withContent(projectDetailsPojo);
 				HttpResponse response = putRequestforUrl(client, artifactTypeUrl, artifactTypeBody, putRequestHeaders);
@@ -301,7 +301,7 @@ public class RestUtility {
 			NodeList attributeNodes = projectProperitesDoc.getElementsByTagName(Constants.RM_AttributeDef);
 			for (int i = 0; i < attributeNodes.getLength(); i++) {
 				if (attributeNodes.item(i).getAttributes().item(0).getTextContent()
-						.contains(client.getAuthUrl() + "/types/workflow/attrdef")) {
+						.contains(client.getAuthUrl() + Constants.workflow_types)) {
 					NodeList attributeValueNodes = attributeNodes.item(i).getChildNodes();
 					for (int j = 0; j < attributeValueNodes.getLength(); j++) {
 						if (attributeValueNodes.item(j).getNodeName().equals(Constants.Dcterms_Title)) {
@@ -346,18 +346,18 @@ public class RestUtility {
 		try {
 			attributeName = attributePojo.getAttributeName();
 			Document projectProperitesDoc = projectDetailsPojo.getProjectPropertiesDoc();
-			NodeList artifactTypeNodes = projectProperitesDoc.getElementsByTagName("rm:ObjectType");
+			NodeList artifactTypeNodes = projectProperitesDoc.getElementsByTagName(Constants.RM_ObjectType);
 			logger.info("Deleting the attribute " + attributeName + "  from the artifact type " + artifactTypeName);
 			for (int i = 0; i < artifactTypeNodes.getLength(); i++) {
 
 				NodeList artifactTypeChildnodes = artifactTypeNodes.item(i).getChildNodes();
 				for (int j = 0; j < artifactTypeChildnodes.getLength(); j++) {
-					if (artifactTypeChildnodes.item(j).getNodeName().equals("dcterms:title")) {
+					if (artifactTypeChildnodes.item(j).getNodeName().equals(Constants.Dcterms_Title)) {
 
 						if (artifactTypeChildnodes.item(j).getTextContent().equals(artifactTypeName)) {
 							j = 0;
 							artifactTypeFound = true;
-							while (!artifactTypeChildnodes.item(j).getNodeName().equals("rm:attributeOrdering")) {
+							while (!artifactTypeChildnodes.item(j).getNodeName().equals(Constants.RM_AttrOrdering)) {
 								j++;
 							}
 							String artifactAttributes = artifactTypeChildnodes.item(j).getTextContent();
@@ -476,7 +476,6 @@ public class RestUtility {
 			ProjectDetailsPojo projectDetailsPojo, String artifactTypeName, String attributeName) {
 
 		String artifactTypeUrl = null;
-		String artifactTypeBody = null;
 		String attributeUrl = null;
 		Boolean attributeExists = false;
 		try {
@@ -486,13 +485,13 @@ public class RestUtility {
 			artifactTypeUrl = artifactTypeNode.getAttributes().item(0).getTextContent();
 			attributeUrl = attributeUrlMap.get(attributeName);
 			for (int j = 0; j < artifactTypeChildnodes.getLength(); j++) {
-				if (artifactTypeChildnodes.item(j).getNodeName().equals("rm:hasAttribute") && artifactTypeChildnodes
+				if (artifactTypeChildnodes.item(j).getNodeName().equals(Constants.RM_hasAttribute) && artifactTypeChildnodes
 						.item(j).getAttributes().item(0).getTextContent().equals(attributeUrl)) {
 					artifactTypeNode.removeChild(artifactTypeChildnodes.item(j));
 					attributeExists = true;
 				}
 
-				else if (artifactTypeChildnodes.item(j).getNodeName().equals("rm:attributeOrdering")) {
+				else if (artifactTypeChildnodes.item(j).getNodeName().equals(Constants.RM_AttrOrdering)) {
 					if (artifactAttributeList.contains(attributeUrl)) {
 						Node oldNode = artifactTypeChildnodes.item(j);
 						artifactAttributeList.remove(attributeUrl);
@@ -505,22 +504,7 @@ public class RestUtility {
 
 			if (attributeExists) {
 				Document artifactTypeDoc = getDocumentfromNode(artifactTypeNode);
-				artifactTypeBody = getStringFromDocument(artifactTypeDoc);
-				artifactTypeBody = artifactTypeBody.replaceAll("\\<\\?xml(.+?)\\?\\>", "").trim();
-				artifactTypeBody = Constants.putResponseBody.replace("actualResponse", artifactTypeBody);
-				HashMap<String, String> putRequestHeaders = HeaderUtility
-						.createHeadersForChangeSet_withContent(projectDetailsPojo);
-				HttpResponse response = putRequestforUrl(client, artifactTypeUrl, artifactTypeBody, putRequestHeaders);
-				if (response.getStatusLine().getStatusCode() == 200
-						|| response.getStatusLine().getStatusCode() == 400) {
-					logger.info("Attributes " + attributeName + " has been removed from the artifact type "
-							+ artifactTypeName);
-					return true;
-				} else {
-					logger.error("Attributes " + attributeName + " has not been removed from the artifact type "
-							+ artifactTypeName);
-					return false;
-				}
+				return updateArtifactType(client, artifactTypeDoc, projectDetailsPojo, artifactTypeUrl, artifactTypeName);
 			} else {
 				return true;
 			}
