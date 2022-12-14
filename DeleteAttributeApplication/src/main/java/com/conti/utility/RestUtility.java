@@ -136,7 +136,7 @@ public class RestUtility {
 			logger.error("Exception while checking the workflow exists " + e);
 			return false;
 		}
-		return true;
+		return false;
 	}
 
 	/**
@@ -301,7 +301,7 @@ public class RestUtility {
 			NodeList attributeNodes = projectProperitesDoc.getElementsByTagName(Constants.RM_AttributeDef);
 			for (int i = 0; i < attributeNodes.getLength(); i++) {
 				if (attributeNodes.item(i).getAttributes().item(0).getTextContent()
-						.contains(client.getAuthUrl() + Constants.workflow_types)) {
+						.contains(client.getAuthUrl() +"/"+ Constants.workflow_types)) {
 					NodeList attributeValueNodes = attributeNodes.item(i).getChildNodes();
 					for (int j = 0; j < attributeValueNodes.getLength(); j++) {
 						if (attributeValueNodes.item(j).getNodeName().equals(Constants.Dcterms_Title)) {

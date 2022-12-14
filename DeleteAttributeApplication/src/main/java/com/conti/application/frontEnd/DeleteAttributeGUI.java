@@ -513,6 +513,7 @@ public class DeleteAttributeGUI extends JFrame implements ActionListener {
 										    tabbedPane.setEnabledAt(1, true);
 											jb1.setVisible(false);
 											updatewf.setVisible(true);
+											workflowTable.setEnabled(true);
 											JOptionPane.showMessageDialog(null, "Updating Workflows Completed");
 											
 										}
@@ -523,6 +524,7 @@ public class DeleteAttributeGUI extends JFrame implements ActionListener {
 										    tabbedPane.setEnabledAt(1, true);
 										    jb1.setVisible(false);
 											updatewf.setVisible(true);
+											workflowTable.setEnabled(true);
 											JOptionPane.showMessageDialog(null, "Updating Workflows Completed with errors. Please check the logs!!");
 										}
 											
@@ -579,6 +581,7 @@ public class DeleteAttributeGUI extends JFrame implements ActionListener {
 									    tabbedPane.setEnabledAt(1, true);
 									    jb2.setVisible(false);
 										updateboth.setVisible(true);
+										workflowTable.setEnabled(true);
 										JOptionPane.showMessageDialog(null, "Deleting attributes and updating workflow completed");
 										
 									}
@@ -588,6 +591,7 @@ public class DeleteAttributeGUI extends JFrame implements ActionListener {
 									    tabbedPane.setEnabledAt(1, true);
 										jb2.setVisible(false);
 										updateboth.setVisible(true);
+										workflowTable.setEnabled(true);
 										JOptionPane.showMessageDialog(null, "Deleting attributes and updating workflow completed completed with some errors. Please check logs!!");
 									}
 
