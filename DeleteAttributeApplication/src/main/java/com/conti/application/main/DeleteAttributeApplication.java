@@ -209,7 +209,10 @@ public class DeleteAttributeApplication {
 
 			deleteAttributeStatus = restUtility.deleteAttribute(projectDetailsPojo.getClient(), artifactAttributePojos,
 					projectDetailsPojo, attributeDetailsPojo);
+			if(!delete_update)
+			{
 			DeleteAttributeApplication.deliverChangeset(projectDetailsPojo.getClient(), projectDetailsPojo);
+			}
 
 			if (deleteAttributeArtifactStatus && deleteAttributeStatus) {
 				return true;
