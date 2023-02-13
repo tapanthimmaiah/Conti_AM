@@ -202,6 +202,7 @@ public class Main extends JFrame implements ActionListener {
 			b3.setEnabled(false);
 			jb.setVisible(true);
 			jb.setIndeterminate(true);
+			
 			String userValue = textField1.getText(); // get user entered username from the textField1
 			String passValue = textField2.getText();
 			String serverUrl = textField3.getText();
@@ -226,10 +227,21 @@ public class Main extends JFrame implements ActionListener {
 			new Thread(new Runnable() {
 				public void run() {
 
-					DeleteLinksApplication.deleteLinks();
+					final Boolean deleteCompleted=DeleteLinksApplication.deleteLinks();
 
 					SwingUtilities.invokeLater(new Runnable() {
 						public void run() {
+							if(deleteCompleted)
+            				{
+            					jb.setIndeterminate(false);
+            					jb.setVisible(false);
+            					b1.setVisible(true);
+            					b2.setEnabled(true);
+            					b3.setEnabled(true);
+            					
+            					//jb.setString("Merge Completed");
+            					JOptionPane.showMessageDialog(null, "Deleting Links Completed!!");
+            				}
 
 						}
 					});

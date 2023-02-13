@@ -21,7 +21,7 @@ public class Constants {
 	public static final String Name= "name";
 	public static final String Config_ID="configurationId";
 	public static final String Description ="description";
-	public static final String Baseline_Desc="baseline created for Merge attributes";
+	public static final String Baseline_Desc="baseline created for Deleting links";
 	public static final String Config_Component ="oslc_config:component";
 	public static final String OSLC_Config_Context="?oslc_config.context=";
 	public static final String Resource ="rdf:resource";

@@ -10,6 +10,7 @@ import java.net.URISyntaxException;
 import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
 import java.util.Map.Entry;
 
@@ -60,43 +61,83 @@ public class RestUtility {
 
 	private static Logger logger = LogManager.getLogger(RestUtility.class);
 
-	public void deleteLinksForArtifacts(JazzFormAuthClient client, ProjectDetailsPojo projectDetailsPojo,
-			String serviceXmlUrl, ArrayList<String> linksTobeDeletedList, HashMap<String, String> workflowStatesMap) {
-
-		ArrayList<String> moduleList = getAllModules(client, projectDetailsPojo, serviceXmlUrl);
-		for (String module : moduleList) {
-			// module="https://jazz-test6.conti.de/rm4/resources/MD__zVhERMWEe21E5_Yq1_zqA";
-			URI[] artifactUrisofModule = getArtifactsOfModule(client, projectDetailsPojo, module);
-			for (int i = 0; i < artifactUrisofModule.length; i++) {
-				String artifactUri = artifactUrisofModule[i].toString();
-				removeLinksOfArtifacts(client, projectDetailsPojo, artifactUri, linksTobeDeletedList,
-						workflowStatesMap);
+	public boolean deleteLinksForArtifacts(JazzFormAuthClient client, ProjectDetailsPojo projectDetailsPojo,
+			String serviceXmlUrl, HashMap<String, String> linkDetails, HashMap<String, String> workflowStatesMap) {
+		
+		HashSet<Boolean> returnValues= new HashSet<>();
+		try
+		{
+			ArrayList<String> moduleList = getAllModules(client, projectDetailsPojo, serviceXmlUrl);
+			for (String module : moduleList) {
+				// module="https://jazz-test6.conti.de/rm4/resources/MD__zVhERMWEe21E5_Yq1_zqA";
+				ClientResponse response = client.getResource(module, OslcMediaType.APPLICATION_RDF_XML);
+				RequirementCollection requirementModule = response.getEntity(RequirementCollection.class);
+				logger.info("Deleting links for the module " +requirementModule.getIdentifier() +" for the project " + projectDetailsPojo.getProjectName() + " , "
+											+ projectDetailsPojo.getComponentName() + " , "
+											+ projectDetailsPojo.getStreamName());
+				URI[] artifactUrisofModule = getArtifactsOfModule(client, projectDetailsPojo, module);
+				for (int i = 0; i < artifactUrisofModule.length; i++) {
+					String artifactUri = artifactUrisofModule[i].toString();
+					 returnValues.add(removeLinksOfArtifacts(client, projectDetailsPojo, artifactUri, linkDetails,workflowStatesMap));
+				}
 			}
+			for(Boolean value: returnValues)
+			{
+				if(!value)
+				{
+					return false;
+				}
+				else
+				{
+					return true;
+				}
+			}
+			
 		}
+		catch (Exception e) {
+			// TODO: handle exception
+			logger.error("Exception while deleting the links for the project "+ projectDetailsPojo.getProjectName() + " , "
+					+ projectDetailsPojo.getComponentName() + " , "
+					+ projectDetailsPojo.getStreamName());
+			logger.error(e);
+			return false;
+		}
+		return false;
+		
 	}
 
 	public ArrayList<String> getAllModules(JazzFormAuthClient client, ProjectDetailsPojo projectDetailsPojo,
 			String serviceXmlUrl) {
 		String moduleUri = null;
-		System.out.println();
 		ArrayList<String> ModuleUriList = new ArrayList<>();
-		Document serviceDoc = getRequestforUrl(client, serviceXmlUrl, projectDetailsPojo.getStreamUrl());
-		NodeList nodes = serviceDoc.getElementsByTagName("oslc_rm:RequirementCollection");
-		for (int i = 0; i < nodes.getLength(); i++) {
-			if (nodes.item(i).getAttributes().getNamedItem("rdf:about").getTextContent().contains("resources")) {
-				moduleUri = nodes.item(i).getAttributes().getNamedItem("rdf:about").getTextContent();
-				ModuleUriList.add(moduleUri);
+		try
+		{
+			Document serviceDoc = getRequestforUrl(client, serviceXmlUrl, projectDetailsPojo.getChangeSetUrl());
+			NodeList nodes = serviceDoc.getElementsByTagName("oslc_rm:RequirementCollection");
+			for (int i = 0; i < nodes.getLength(); i++) {
+				if (nodes.item(i).getAttributes().getNamedItem("rdf:about").getTextContent().contains("resources")) {
+					moduleUri = nodes.item(i).getAttributes().getNamedItem("rdf:about").getTextContent();
+					ModuleUriList.add(moduleUri);
+				}
 			}
-		}
 
-		return ModuleUriList;
+			return ModuleUriList;
+		}
+		catch (Exception e) {
+			// TODO: handle exception
+			logger.error("Exception while getting all the modules for the project "+ projectDetailsPojo.getProjectName() + " , "
+					+ projectDetailsPojo.getComponentName() + " , "
+					+ projectDetailsPojo.getStreamName());
+			return null;
+		}
+		
 	}
 
 	public URI[] getArtifactsOfModule(JazzFormAuthClient client, ProjectDetailsPojo projectDetailsPojo,
 			String moduleUri) {
 		ClientResponse response = null;
 		try {
-			String encodedURI = encode(projectDetailsPojo.getStreamUrl());
+			String encodedURI = encode(projectDetailsPojo.getChangeSetUrl());
 			moduleUri = moduleUri + "?oslc_config.context=" + encodedURI;
 			response = client.getResource(moduleUri, OSLCConstants.CT_RDF);
 			RequirementCollection modulereq = response.getEntity(RequirementCollection.class);
@@ -110,25 +151,25 @@ public class RestUtility {
 		}
 	}
 
-	public void removeLinksOfArtifacts(JazzFormAuthClient client, ProjectDetailsPojo projectDetailsPojo,
-			String artifactUri, ArrayList<String> linksTobeDeletedList, HashMap<String, String> workflowStatesMap) {
+	public boolean removeLinksOfArtifacts(JazzFormAuthClient client, ProjectDetailsPojo projectDetailsPojo,
+			String artifactUri, HashMap<String, String> linkDetails, HashMap<String, String> workflowStatesMap) {
 		// artifactUri="https://jazz-test6.conti.de/rm4/resources/BI_Rg8E8JYhEe2CD59zRfhNPg";
 
-		String encodedURI = encode(projectDetailsPojo.getStreamUrl());
+		String encodedURI = encode(projectDetailsPojo.getChangeSetUrl());
 		artifactUri = artifactUri + "?oslc_config.context=" + encodedURI;
 		String namespaceURI = null, localPart = null, linkTypeRdfUri = null;
-
+		HashSet<Boolean> returnValues= new HashSet<>();
+		Requirement requirement=null;
 		ClientResponse response1;
 		try {
 
 			response1 = client.getResource(artifactUri, OslcMediaType.APPLICATION_RDF_XML);
-			Requirement requirement = response1.getEntity(Requirement.class);
+			 requirement = response1.getEntity(Requirement.class);
 			Map<QName, Object> getMap = requirement.getExtendedProperties();
 			String etag = null;
 			if (isRequirementOfSelectedState(client, projectDetailsPojo, getMap, workflowStatesMap)) {
 
-				HashMap<String, String> linkDetails = getLinkTypesOfProject(client, projectDetailsPojo,
-						linksTobeDeletedList);
+				
 				etag = getEtagValue(client, projectDetailsPojo, artifactUri);
 				for (Entry<String, String> entry : linkDetails.entrySet()) {
 					linkTypeRdfUri = entry.getKey();
@@ -144,29 +185,37 @@ public class RestUtility {
 								(Object) requirement, OslcMediaType.APPLICATION_RDF_XML,
 								OslcMediaType.APPLICATION_RDF_XML, etag);
 						updateResponse.consumeContent();
-						if (updateResponse.getStatusCode() == 200 || updateResponse.getStatusCode() == 400) {
-							logger.info("Updating custom attribute for artifact : " + requirement.getIdentifier());
+						if (updateResponse.getStatusCode() != 200 && updateResponse.getStatusCode() != 400) {
+							logger.error("Cannot remove the links for the artifact : " + requirement.getIdentifier()
+							+ " - Error Code : " + updateResponse.getStatusCode());
+							returnValues.add(false);
 
-						} else {
-							logger.error("Cannot update custom attribute for artifact : " + requirement.getIdentifier()
-									+ " - Error Code : " + updateResponse.getStatusCode());
-
-						}
+						} 
 					}
 
 				}
 			}
-
-		} catch (IOException e) {
+			
+			for(Boolean value: returnValues)
+			{
+				if(!value)
+				{
+					return false;
+				}
+				else
+				{
+					return true;
+				}
+			}
+				return true;
+		} catch (Exception e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (OAuthException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (URISyntaxException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+			logger.error("Exception while removing the links for the requirement " + requirement.getIdentifier()+" in the project "+ projectDetailsPojo.getProjectName() + " , "
+					+ projectDetailsPojo.getComponentName() + " , "
+					+ projectDetailsPojo.getStreamName());
+			logger.error(e);
+			return false;
+		} 
 
 	}
 
@@ -178,9 +227,7 @@ public class RestUtility {
 			if (entry.getKey().toString().contains("http://www.ibm.com/xmlns/rdm/workflow")) {
 				requirementState = entry.getValue().toString();
 				break;
-
 			}
-
 		}
 		if (workflowStates.containsKey(requirementState)) {
 			return true;
@@ -198,7 +245,7 @@ public class RestUtility {
 		for (Entry<String, String> entry : workflowMap.entrySet()) {
 			workflowUrl = entry.getValue();
 			workflowUrl = workflowUrl.replace("attrdef", "attrtype");
-			Document workflowDoc = getRequestforUrl(client, workflowUrl, projectDetailsPojo.getStreamUrl());
+			Document workflowDoc = getRequestforUrl(client, workflowUrl, projectDetailsPojo.getChangeSetUrl());
 			NodeList nodes = workflowDoc.getElementsByTagName("rdf:Description");
 			for (int i = 0; i < nodes.getLength(); i++) {
 				Element pageElement = (Element) workflowDoc.getElementsByTagName("rdf:Description").item(i);
