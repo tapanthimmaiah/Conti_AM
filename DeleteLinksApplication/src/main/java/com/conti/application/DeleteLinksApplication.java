@@ -18,6 +18,13 @@ import com.conti.utility.ChangeSetUtility;
 import com.conti.utility.ExcelUtility;
 import com.conti.utility.RestUtility;
 
+
+/**
+ * 
+ * @author uif34242
+ *
+ */
+@SuppressWarnings("deprecation")
 public class DeleteLinksApplication {
 
 	private static String serverUrl = null;
@@ -59,7 +66,7 @@ public class DeleteLinksApplication {
 		}
 	}
 
-	@SuppressWarnings("deprecation")
+	
 	public static boolean deleteLinks() {
 		ExcelUtility excelUtility = new ExcelUtility();
 		RestUtility restUtility = new RestUtility();
@@ -144,6 +151,7 @@ public class DeleteLinksApplication {
 					}
 				}
 				System.out.println("Deleting links application execution completed!!");
+				logger.info("Deleting links application execution completed!!");
 			}
 			return true;
 		} catch (Exception e) {

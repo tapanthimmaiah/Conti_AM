@@ -24,9 +24,7 @@ public class Constants {
 	public static final String Baseline_Desc="baseline created for Deleting links";
 	public static final String Config_Component ="oslc_config:component";
 	public static final String OSLC_Config_Context="?oslc_config.context=";
-	public static final String Resource ="rdf:resource";
 	public static final String Configurations ="/configurations";
-	public static final String Member ="rdfs:member";
 	public static final String Stream ="stream";
 	public static final String Title ="dcterms:title";
 	public static final String RM_Projects= "/rm-projects/";
@@ -39,8 +37,6 @@ public class Constants {
 	public static final String Root ="root";
 	public static final String Admin= "admin";
 	public static final String Folders ="/folders";
-	public static final String RDF_About="rdf:about";
-	public static final String RDF_Type= "rdf:type";
 	public static final String NS_Title="ns:title";
 	public static final String AdminFolderName= "Administration_Artifacts";
 	public static final String ContainedResources="?containedResources";
@@ -72,12 +68,24 @@ public class Constants {
 	public static final String Project_area="/process/project-areas/";
 	public static final String string="string";
 	public static final String workflow_types="types/workflow/attrdef";
+	public static final String Resources="resources";
+	public static final String IBM_Worklfow= "http://www.ibm.com/xmlns/rdm/workflow";
+	public static final String AttrDef="attrdef";
+	public static final String AttrType="attrtype";
 	
+	public static final String Resource ="rdf:resource";
+	public static final String Member ="rdfs:member";
 	public static final String RM_AttributeDef="rm:AttributeDefinition";
 	public static final String Dcterms_Title="dcterms:title";
 	public static final String OWL_Sameas="owl:sameAs";
 	public static final String RM_Range ="rm:range";
 	public static final String RDFS_Label="rdfs:label";
+	public static final String Requiement_collection="oslc_rm:RequirementCollection";
+	public static final String RDF_About="rdf:about";
+	public static final String RDF_Type= "rdf:type";
+	public static final String RDF_Description="rdf:Description";
+	public static final String RM_Linktype="rm:LinkType";
+	public static final String RM_SubectToObject="rm:subjectToObjectLabel";
 	
 	public static final String NS_containedResources= "ns:containedResources";
 	public static final String DELIVERY_Session_body="<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n"
