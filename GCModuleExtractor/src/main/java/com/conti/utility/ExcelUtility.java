@@ -35,6 +35,7 @@ public class ExcelUtility {
 	private static XSSFFont font = workbook.createFont();
 	private static Row row;
 	private static Row row1;
+	 static int sheetcount=0;
 	
 	private static Logger logger = LogManager.getLogger(ExcelUtility.class);
 	
@@ -82,7 +83,8 @@ public class ExcelUtility {
 			for(ProjectDetailsPojo projectDetailsPojo: projectPojoList)
 			{
 				rowCount = 1;
-				XSSFSheet sheet1 = workbook.createSheet(projectDetailsPojo.getStreamName());
+				
+				XSSFSheet sheet1 = workbook.createSheet(++ sheetcount +projectDetailsPojo.getStreamName());
 				
 					row1 = sheet1.createRow(0);
 					row1.createCell(0).setCellValue("Module ID");
