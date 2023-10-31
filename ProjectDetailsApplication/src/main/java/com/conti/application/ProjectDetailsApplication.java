@@ -67,12 +67,17 @@ public class ProjectDetailsApplication {
 			{
 				for(String projectName: projectNameList)
 				{
-					//projectName="Template_ProjectArea_BU4_AM_V2";
-					ProjectDetailsPojo projectDetailsPojo=new ProjectDetailsPojo();
-					HashSet<String> componentUrlList=restUtility.getProjectComponentDetails(client, projectName);
-					ProjectDetailsPojo projectDetailsPojo2 =getComponentDetails(componentUrlList,client,projectDetailsPojo);
-					projectDetailsPojo2.setProjectName(projectName);
-					projectDetailsPojosObjectList.add(projectDetailsPojo2);
+					//if(projectName.equals("BU4_Playground_SYS_RM"))
+					
+						ProjectDetailsPojo projectDetailsPojo=new ProjectDetailsPojo();
+						HashSet<String> componentUrlList=restUtility.getProjectComponentDetails(client, projectName);
+						ProjectDetailsPojo projectDetailsPojo2 =getComponentDetails(componentUrlList,client,projectDetailsPojo);
+						projectDetailsPojo2.setProjectName(projectName);
+						projectDetailsPojosObjectList.add(projectDetailsPojo2);
+					
+					
+							
+				
 				}
 			}
 		}
@@ -96,21 +101,25 @@ public class ProjectDetailsApplication {
 	{
 		
 		HashMap<String, ArrayList<String>> componentStreamNameMAp = new HashMap<>();
-		HashMap<String, String> streamDetails = new HashMap<>();
+		
+		HashMap<String, HashMap<String, String>> componentStreamDetailsMap= new HashMap<>();
 		RestUtility restUtility= new RestUtility();
 		try
 		{
 			HashMap<String, String> componentDetails = restUtility.getComponentDetails(componentUrlList, client);
 			for(String componentUrl: componentUrlList)
 			{
+				HashMap<String, String> streamDetails = new HashMap<>();
 				ArrayList<String> streamUrlList=restUtility.getComponentStreamUrlDetails(client, componentUrl);
-				streamDetails.putAll( restUtility.getStreamDetails(streamUrlList, client));			  
+				streamDetails.putAll( restUtility.getStreamDetails(streamUrlList, client));		
+				componentStreamDetailsMap.put(componentUrl,streamDetails);
 				componentStreamNameMAp.putAll(restUtility.getStreamDetails(client,streamUrlList,componentUrl, streamDetails));
 				   
 			  }
-			 	projectDetailsPojo.setStreamDetails(streamDetails);
+			 	//projectDetailsPojo.setStreamDetails(streamDetails);
 				projectDetailsPojo.setComponentStreamNameMapping(componentStreamNameMAp);
 			    projectDetailsPojo.setComponentDetails(componentDetails);
+			    projectDetailsPojo.setComponentStreamDetails(componentStreamDetailsMap);
 			
 		}
 		catch (Exception e) {

@@ -163,7 +163,7 @@ public class RestUtility {
 			Node nStreamNode = nStreamList.item(0);
 			Element eStreamElement = (Element) nStreamNode;
 			streamName = eStreamElement.getTextContent();
-			streamDetails.put(streamName, streamUrl);
+			streamDetails.put(streamUrl,streamName);
 			}
 		}
 		}
@@ -235,9 +235,9 @@ public class RestUtility {
 				{
 					for(Entry<String, String> entry: streamDetails.entrySet())
 					{
-						if(entry.getValue().equals(streamUrl))
+						if(entry.getKey().equals(streamUrl))
 						{
-							streamName= entry.getKey();
+							streamName= entry.getValue();
 							streamNameList.add(streamName);
 						}
 					}

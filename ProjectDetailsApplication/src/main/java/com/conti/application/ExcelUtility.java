@@ -94,7 +94,26 @@ public class ExcelUtility {
 							row.createCell(1).setCellValue(entry.getKey());
 							row.createCell(0).setCellValue(projectDetailsPojo.getProjectName());
 							row.createCell(4).setCellValue(projectDetailsPojo.getComponentDetails().get(entry.getKey()));
-							row.createCell(5).setCellValue(projectDetailsPojo.getStreamDetails().get(stream));
+							HashMap<String, HashMap<String, String>> componentProjectDetails= projectDetailsPojo.getComponentStreamDetails();
+							outerloop:for(Entry<String, HashMap<String, String>> streamEntry :componentProjectDetails.entrySet() )
+							{
+								
+								if(streamEntry.getKey().equals(projectDetailsPojo.getComponentDetails().get(entry.getKey())))
+								{
+									HashMap<String, String> streamDetails=  streamEntry.getValue();
+									for(Entry<String, String> entry2 : streamDetails.entrySet())
+									{
+										if(entry2.getValue().equals(stream))
+										{	
+											
+											row.createCell(5).setCellValue(entry2.getKey());
+											break outerloop;
+										}
+									}
+									
+								}
+							}
+							
 							
 						}
 						else
@@ -104,7 +123,25 @@ public class ExcelUtility {
 							row1.createCell(1).setCellValue(entry.getKey());
 							row1.createCell(0).setCellValue(projectDetailsPojo.getProjectName());
 							row1.createCell(4).setCellValue(projectDetailsPojo.getComponentDetails().get(entry.getKey()));
-							row1.createCell(5).setCellValue(projectDetailsPojo.getStreamDetails().get(stream));
+							
+							HashMap<String, HashMap<String, String>> componentProjectDetails= projectDetailsPojo.getComponentStreamDetails();
+							for(Entry<String, HashMap<String, String>> streamEntry :componentProjectDetails.entrySet() )
+							{
+								if(streamEntry.getKey().equals(projectDetailsPojo.getComponentDetails().get(entry.getKey())))
+								{
+									HashMap<String, String> streamDetails=  streamEntry.getValue();
+									for(Entry<String, String> entry2 : streamDetails.entrySet())
+									{
+										if(entry2.getValue().equals(stream))
+										{
+											System.out.println(entry2.getKey());
+											row1.createCell(5).setCellValue(entry2.getKey());
+											break;
+										}
+									}
+									
+								}
+							}
 							
 						}
 					}

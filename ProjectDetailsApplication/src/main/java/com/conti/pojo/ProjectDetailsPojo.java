@@ -15,10 +15,17 @@ public class ProjectDetailsPojo {
 	
 	private HashMap<String, String> componentDetails= new HashMap<>();
 	private HashMap<String, String> streamDetails= new HashMap<>();
+	private HashMap<String, HashMap<String, String>> componentStreamDetails = new HashMap<>();
 	
 	
 	
 		
+	public HashMap<String, HashMap<String, String>> getComponentStreamDetails() {
+		return componentStreamDetails;
+	}
+	public void setComponentStreamDetails(HashMap<String, HashMap<String, String>> componentStreamDetails) {
+		this.componentStreamDetails = componentStreamDetails;
+	}
 	public HashMap<String, String> getComponentDetails() {
 		return componentDetails;
 	}
