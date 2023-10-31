@@ -1,10 +1,16 @@
 package com.conti.pojo;
 
+/**
+ * 
+ * @author uif34242
+ *
+ */
 public class ArtifactAttributePojo {
 	
 	private String attributeName;
 	private String artifactType;
 	private String action;
+	
 	public String getAttributeName() {
 		return attributeName;
 	}

@@ -36,6 +36,7 @@ import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableColumn;
 import com.conti.application.main.DeleteAttributeApplication;
 import com.conti.pojo.ArtifactAttributePojo;
+import com.conti.pojo.AttributeDataTypePojo;
 import com.conti.pojo.AttributeDetailsPojo;
 import com.conti.pojo.ConfigDetailsPojo;
 
@@ -43,19 +44,20 @@ import com.conti.pojo.ConfigDetailsPojo;
 @SuppressWarnings("serial")
 public class DeleteAttributeGUI extends JFrame implements ActionListener {
 
-	JButton b1, b2, nextButton1, nextButton2, updatewf, updateboth;
+	JButton b1, b2,b3, nextButton1, nextButton2,nextButton3, updatewf, updateboth;
 	JRadioButton rb1, rb2, rb3, rb4;
-	final JProgressBar jb, jb1,jb2;
+	final JProgressBar jb, jb1,jb2,jb3;
 	ButtonGroup group, group1;
 	JPanel newPanel, buttonPanel, radioButtonPanel1, attributePanel;
 	JLabel userLabel, passLabel, serverUrlLabel, inputFileNameLabel, baselineNameLabel, changeSetNameLabel,
 			deliverChangeSetLabel, artifactTypeDetailsLabel;
 	DefaultTableModel model;
-	JTable attributeTable, workflowTable;
+	JTable attributeTable, workflowTable,attributeDataTypeTable;
 	JTabbedPane tabbedPane;
 	final static String Config_PANEL = "Config Details";
 	final static String Attribute_PANEL = "Attribute Details";
 	final static String Workflow_PANEL = "Workflow Details";
+	final static String AttributeDataType_PANEL = "Attribute Data Type Details";
 
 	final JTextField textField1, textField2, textField3, textField4, textField7, textField8;
 	
@@ -96,6 +98,13 @@ public class DeleteAttributeGUI extends JFrame implements ActionListener {
 				tabbedPane.setSelectedIndex(tabbedPane.getSelectedIndex() + 1);
 			}
 		});
+		
+		nextButton3 = new JButton("Next >>");
+		nextButton3.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				tabbedPane.setSelectedIndex(tabbedPane.getSelectedIndex() + 1);
+			}
+		});
 
 		nextButton2 = new JButton("Next >>");
 		nextButton2.addActionListener(new ActionListener() {
@@ -125,9 +134,10 @@ public class DeleteAttributeGUI extends JFrame implements ActionListener {
 		group.setSelected(rb2.getModel(), true);
 
 		b1 = new JButton("Delete Attributes");
+		b3= new JButton ("Delete/Update Data Types");
 
 		updatewf = new JButton("Update Workflow");
-		updateboth = new JButton("Delete Attributes & Update Workflow");
+		updateboth = new JButton("Update All");
 		// b1.setBackground(new Color(255, 204, 153));
 
 		buttonPanel = new JPanel(new FlowLayout(FlowLayout.CENTER));
@@ -153,10 +163,16 @@ public class DeleteAttributeGUI extends JFrame implements ActionListener {
 		jb1.setVisible(false);
 		
 		jb2 = new JProgressBar();
-		jb2.setString("Deleting Attributes & Updating Workflow.....");
+		jb2.setString("Updating All.....");
 		jb2.setStringPainted(true);
 		jb2.setFocusable(false);
 		jb2.setVisible(false);
+		
+		jb3 = new JProgressBar();
+		jb3.setString("Updating Attribute Data Type......");
+		jb3.setStringPainted(true);
+		jb3.setFocusable(false);
+		jb3.setVisible(false);
 
 		GridBagConstraints gbc = new GridBagConstraints();
 		gbc.gridwidth = GridBagConstraints.REMAINDER;
@@ -187,6 +203,7 @@ public class DeleteAttributeGUI extends JFrame implements ActionListener {
 		buttonPanel.add(nextButton1, gbc);
 
 		JFrame attributeFrame = setupAttributeDetailsPanel();
+		JFrame attributeDataTypeFrame= setupAttributeDataTypeDetailsPanel();
 		JFrame Workflowframe = setupWorkflowPanel();
 
 		gui.add(newPanel);
@@ -194,15 +211,17 @@ public class DeleteAttributeGUI extends JFrame implements ActionListener {
 
 		tabbedPane.addTab(Config_PANEL, gui);
 		tabbedPane.addTab(Attribute_PANEL, attributeFrame.getContentPane());
+		tabbedPane.addTab(AttributeDataType_PANEL, attributeDataTypeFrame.getContentPane());
 		tabbedPane.add(Workflow_PANEL, Workflowframe.getContentPane());
 
 		this.setContentPane(tabbedPane);
 
 		b1.addActionListener(this);
+		b3.addActionListener(this);
 		updatewf.addActionListener(this);
 		updateboth.addActionListener(this);
 
-		setTitle("DELETE ATTRIBUTES & UPDATE WORKFLOW APPLICATION V1.0");
+		setTitle("DELETE ATTRIBUTES & UPDATE WORKFLOW APPLICATION V2.0");
 
 	}
 
@@ -239,6 +258,62 @@ public class DeleteAttributeGUI extends JFrame implements ActionListener {
 
 	}
 	
+	public JFrame setupAttributeDataTypeDetailsPanel()
+	{
+		JFrame frame = new JFrame();
+		frame.setLayout(new BorderLayout());
+		JPanel btnPnl = new JPanel(new BorderLayout());
+		JPanel bottombtnPnl = new JPanel(new FlowLayout(FlowLayout.CENTER));
+		final JTable table = createAttributeDataTypeTable();
+		table.getModel().addTableModelListener(new TableModelListener() {
+
+			  public void tableChanged(TableModelEvent e) {
+			    
+				if(e.getColumn()==0)
+				{
+					int row = e.getFirstRow();
+		            int col = e.getColumn();
+					Object value = table.getModel().getValueAt(row, col);
+					if(value!= null && value.toString().equals("Delete Data Type Completely"))
+					{
+						table.getModel().setValueAt("NA", row, 2);
+						
+					}
+					else if(value=="") {
+						table.getModel().setValueAt("", row, 2);
+						table.getModel().setValueAt("", row, 1);
+					}
+					else
+					{
+						table.getModel().setValueAt("", row, 2);
+					}
+				}
+				
+			  }
+			});
+	
+		
+		
+		JScrollPane scrollPane = new JScrollPane(table);
+		scrollPane.setBounds(10, 38, 500, 5);
+		bottombtnPnl.add(b3);
+		bottombtnPnl.add(jb3);
+		bottombtnPnl.add(nextButton3);
+		bottombtnPnl.setBackground(new Color(229, 255, 204));
+
+		
+		btnPnl.add(bottombtnPnl, BorderLayout.CENTER);
+		btnPnl.setBackground(new Color(229, 255, 204));
+		btnPnl.setPreferredSize(new Dimension(100, 100));
+		btnPnl.setLayout(new GridBagLayout());
+
+		// frame.add(table.getTableHeader(), BorderLayout.NORTH);
+		frame.add(scrollPane,BorderLayout.CENTER);
+		
+		frame.add(btnPnl, BorderLayout.SOUTH);
+		frame.setUndecorated(true);
+		return frame;
+	}
 
 	public JFrame setupAttributeDetailsPanel() {
 		
@@ -259,7 +334,7 @@ public class DeleteAttributeGUI extends JFrame implements ActionListener {
 					int row = e.getFirstRow();
 		            int col = e.getColumn();
 					Object value = table.getModel().getValueAt(row, col);
-					if(value!= null && value.toString().equals("Delete attribute completely"))
+					if(value!= null && value.toString().equals("Delete Attribute Completely"))
 					{
 						table.getModel().setValueAt("NA", row, 2);
 						
@@ -347,10 +422,34 @@ public class DeleteAttributeGUI extends JFrame implements ActionListener {
 			return preConditonsSet;
 		
 	}
+	
+	public Boolean attributeDataTypeTablePreCondtions(AttributeDataTypePojo attributeDataTypePojo)
+	{
+		Boolean preConditonsSet= true;
+		
+			if(attributeDataTypePojo.getAction()== null ||attributeDataTypePojo.getAction().isEmpty() )
+			{
+				JOptionPane.showMessageDialog(null, "Please select the action for the attribute "+attributeDataTypePojo.getAttributeDataTypeName());
+				preConditonsSet= false;
+			}
+			else if(attributeDataTypePojo.getAttributeDataTypeName()== null || attributeDataTypePojo.getAttributeDataTypeName().isEmpty())
+			{
+				JOptionPane.showMessageDialog(null, "Please enter the attribute name to be deleted");
+				preConditonsSet= false;
+			}
+			else if(attributeDataTypePojo.getDataTypeValues()== null || attributeDataTypePojo.getDataTypeValues().isEmpty())
+			{
+				JOptionPane.showMessageDialog(null, "Please enter the artifact type for the attribute "+attributeDataTypePojo.getAttributeDataTypeName());
+				preConditonsSet= false;
+			}
+			
+			return preConditonsSet;
+		
+	}
 
 	public JTable createAttributeTable() {
 
-		String[] actionValues = new String[] {"", "Delete attribute completely", "Remove from artifact type only" };
+		String[] actionValues = new String[] {"", "Delete Attribute Completely", "Remove from artifact type only" };
 		JComboBox<?> cb = new JComboBox<Object>(actionValues);
 
 		String[] cols = {"<html><b>Action", "<html><b>Attribute Name" , "<html><b>Artifact Types"};
@@ -362,6 +461,21 @@ public class DeleteAttributeGUI extends JFrame implements ActionListener {
 
 		return attributeTable;
 
+	}
+	
+	public JTable createAttributeDataTypeTable()
+	{
+		String[] actionValues = new String[] {"", "Delete Data Type Completely", "Remove Values From Data Type" };
+		JComboBox<?> cb = new JComboBox<Object>(actionValues);
+
+		String[] cols = {"<html><b>Action", "<html><b>Attribute Data Type Name" , "<html><b>Data Type Values"};
+		model = new DefaultTableModel(cols, 10);
+		attributeDataTypeTable = new JTable(model);
+		// table.setBounds(30,40,200,300);
+		TableColumn actionColumn = attributeDataTypeTable.getColumnModel().getColumn(0);
+		actionColumn.setCellEditor(new DefaultCellEditor(cb));
+
+		return attributeDataTypeTable;
 	}
 
 	public JTable createWorkFlowTable() {
@@ -391,6 +505,58 @@ public class DeleteAttributeGUI extends JFrame implements ActionListener {
 			return null;
 		}
 
+	}
+	
+	public AttributeDetailsPojo readAttributeDataTypePaneDetails()
+	{
+		AttributeDetailsPojo attributeDetailsPojo = new AttributeDetailsPojo();
+		ArrayList<AttributeDataTypePojo> attributeDataTypePojos= new ArrayList<>();
+		
+		for(int count = 0; count < attributeDataTypeTable.getModel().getRowCount(); count++)
+		{
+			if (attributeDataTypeTable.getModel().getValueAt(count, 0) != null && attributeDataTypeTable.getModel().getValueAt(count, 0) !="") {
+				AttributeDataTypePojo attributeDataTypePojo= new AttributeDataTypePojo();
+				
+				if(attributeDataTypeTable.getModel().getValueAt(count, 1)!=null)
+				{
+					attributeDataTypePojo.setAttributeDataTypeName(attributeDataTypeTable.getModel().getValueAt(count, 1).toString().trim());
+					attributeDataTypePojo.setDataTypeValues(attributeDataTypeTable.getModel().getValueAt(count, 2).toString().trim());
+				}
+				
+				attributeDataTypePojo.setAction(attributeDataTypeTable.getModel().getValueAt(count, 0).toString().trim());
+				attributeDataTypePojos.add(attributeDataTypePojo);
+				
+			}
+			else if (attributeDataTypeTable.getModel().getValueAt(count, 1)!=null  && attributeDataTypeTable.getModel().getValueAt(count, 1) !="")
+			{
+				AttributeDataTypePojo attributeDataTypePojo= new AttributeDataTypePojo();
+				attributeDataTypePojo.setAction("");
+				attributeDataTypePojo.setAttributeDataTypeName(attributeDataTypeTable.getModel().getValueAt(count, 1).toString().trim());
+				if(attributeDataTypeTable.getModel().getValueAt(count, 2)!=null)
+				{
+					attributeDataTypePojo.setDataTypeValues(attributeDataTypeTable.getModel().getValueAt(count, 2).toString().trim());
+				}
+				attributeDataTypePojos.add(attributeDataTypePojo);
+			}
+			
+			else if (attributeDataTypeTable.getModel().getValueAt(count, 2)!=null  && attributeDataTypeTable.getModel().getValueAt(count, 2) !="")
+			{
+				AttributeDataTypePojo attributeDataTypePojo= new AttributeDataTypePojo();
+				attributeDataTypePojo.setAction("");
+				attributeDataTypePojo.setAttributeDataTypeName("");
+				attributeDataTypePojo.setDataTypeValues(attributeDataTypeTable.getModel().getValueAt(count, 2).toString().trim());
+				attributeDataTypePojos.add(attributeDataTypePojo);
+			}
+			
+			
+			else {
+
+				continue;
+			}
+		}
+				
+		attributeDetailsPojo.setAttributeDataTypePojos(attributeDataTypePojos);
+		return attributeDetailsPojo;
 	}
 
 	public AttributeDetailsPojo readAttributePaneDetails() {
@@ -543,7 +709,10 @@ public class DeleteAttributeGUI extends JFrame implements ActionListener {
 		{
 			AttributeDetailsPojo attributeDetailsPojo = readAttributePaneDetails();
 			AttributeDetailsPojo attributeDetailsPojo2 = readWorkFlowPanelDetails();
+			AttributeDetailsPojo attributeDetailsPojo3 = readAttributeDataTypePaneDetails();
 			attributeDetailsPojo.setWorkflowDetailsMap(attributeDetailsPojo2.getWorkflowDetailsMap());
+			attributeDetailsPojo.setAttributeDataTypePojos(attributeDetailsPojo3.getAttributeDataTypePojos());
+			
 			ConfigDetailsPojo configDetailsPojo = setConfigDetails();
 			
 			
@@ -555,6 +724,11 @@ public class DeleteAttributeGUI extends JFrame implements ActionListener {
 					JOptionPane.showMessageDialog(null, "Please enter the artifact types & workflow that needs to be updated!!");
 				}
 			 
+				else if (attributeDetailsPojo3.getAttributeDataTypePojos().size()<1)
+				{
+					JOptionPane.showMessageDialog(null, "Please enter all the values in the table for each attribute data Type!!!!");
+				}
+			 
 				else
 				{
 					updatewf.setVisible(false);
@@ -563,6 +737,7 @@ public class DeleteAttributeGUI extends JFrame implements ActionListener {
 					jb2.setIndeterminate(true);
 					tabbedPane.setEnabledAt(0, false);
 				    tabbedPane.setEnabledAt(1, false);
+				    tabbedPane.setEnabledAt(2, false);
 				    workflowTable.setEnabled(false);
 					DeleteAttributeApplication.loadConfigProperties(configDetailsPojo, attributeDetailsPojo , "Delete_Update");
 					new Thread(new Runnable() {
@@ -582,7 +757,7 @@ public class DeleteAttributeGUI extends JFrame implements ActionListener {
 									    jb2.setVisible(false);
 										updateboth.setVisible(true);
 										workflowTable.setEnabled(true);
-										JOptionPane.showMessageDialog(null, "Deleting attributes and updating workflow completed");
+										JOptionPane.showMessageDialog(null, "Deleting attributes , data types and updating workflow completed . Please check the logs for any errors");
 										
 									}
 									else {
@@ -627,9 +802,10 @@ public class DeleteAttributeGUI extends JFrame implements ActionListener {
 				jb.setIndeterminate(true);
 				tabbedPane.setEnabledAt(0, false);
 			    tabbedPane.setEnabledAt(2, false);
+			    tabbedPane.setEnabledAt(3, false);
 			    
 			    //ConfigDetailsPojo configDetailsPojo = setConfigDetails();
-				DeleteAttributeApplication.loadConfigProperties(configDetailsPojo, attributeDetailsPojo, "Delete");
+				DeleteAttributeApplication.loadConfigProperties(configDetailsPojo, attributeDetailsPojo, "Delete_Attribute");
 				new Thread(new Runnable() {
 					@Override
 					public void run() {
@@ -644,6 +820,7 @@ public class DeleteAttributeGUI extends JFrame implements ActionListener {
 									jb.setIndeterminate(false);
 									tabbedPane.setEnabledAt(0, true);
 								    tabbedPane.setEnabledAt(2, true);
+								    tabbedPane.setEnabledAt(3, true);
 									jb.setVisible(false);
 									b1.setVisible(true);
 									JOptionPane.showMessageDialog(null, "Deleting attributes completed");
@@ -653,6 +830,7 @@ public class DeleteAttributeGUI extends JFrame implements ActionListener {
 									jb.setIndeterminate(false);
 									tabbedPane.setEnabledAt(0, true);
 								    tabbedPane.setEnabledAt(2, true);
+								    tabbedPane.setEnabledAt(3, true);
 									jb.setVisible(false);
 									b1.setVisible(true);
 									JOptionPane.showMessageDialog(null, "Deleting attributes completed with errors. Please check the logs!!");
@@ -667,6 +845,73 @@ public class DeleteAttributeGUI extends JFrame implements ActionListener {
 
 			}
 			}
+		
+		else if(e.getSource()==b3) {
+			
+			AttributeDetailsPojo attributeDataTypeDetailsPojo = readAttributeDataTypePaneDetails();
+			ConfigDetailsPojo configDetailsPojo = setConfigDetails();
+			
+			 if (attributeDataTypeDetailsPojo.getAttributeDataTypePojos().size() < 1) {
+				 JOptionPane.showMessageDialog(null, "Please enter all the values in the table for each attribute data type!!");
+			}
+			 else
+			 {
+				 ArrayList<AttributeDataTypePojo> attibuteDetialsList= attributeDataTypeDetailsPojo.getAttributeDataTypePojos();
+					for(AttributeDataTypePojo attributeDataTypePojo:attibuteDetialsList)
+					{
+						if(!attributeDataTypeTablePreCondtions(attributeDataTypePojo))
+						{
+							return;
+						}
+					}
+					b3.setVisible(false);
+					nextButton3.setVisible(false);
+					jb3.setVisible(true);
+					jb3.setIndeterminate(true);
+					tabbedPane.setEnabledAt(0, false);
+					tabbedPane.setEnabledAt(1, false);
+				    tabbedPane.setEnabledAt(3, false);
+				    
+				    DeleteAttributeApplication.loadConfigProperties(configDetailsPojo, attributeDataTypeDetailsPojo, "Delete_DataType");
+					new Thread(new Runnable() {
+						@Override
+						public void run() {
+
+							final Boolean deleteCompleted = DeleteAttributeApplication.DeleteAttribute_UpdateWorkflowApplication();
+
+							SwingUtilities.invokeLater(new Runnable() {
+								@Override
+								public void run() {
+
+									if (deleteCompleted) {
+										jb3.setIndeterminate(false);
+										tabbedPane.setEnabledAt(0, true);
+									    tabbedPane.setEnabledAt(1, true);
+									    tabbedPane.setEnabledAt(3, true);
+										jb3.setVisible(false);
+										b3.setVisible(true);
+										JOptionPane.showMessageDialog(null, "Deleting attribute data type completed. Please check the logs for any errors.");
+										
+									}
+									else {
+										jb3.setIndeterminate(false);
+										tabbedPane.setEnabledAt(0, true);
+									    tabbedPane.setEnabledAt(1, true);
+									    tabbedPane.setEnabledAt(3, true);
+										jb3.setVisible(false);
+										b3.setVisible(true);
+										JOptionPane.showMessageDialog(null, "Deleting attribute data type completed with errors. Please check the logs!!");
+										
+									}
+
+								}
+							});
+
+						}
+					}).start();
+
+			 }
+		}
 			
 	}
 	

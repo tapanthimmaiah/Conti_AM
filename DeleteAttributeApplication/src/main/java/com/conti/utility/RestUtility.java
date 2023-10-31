@@ -38,6 +38,7 @@ import org.xml.sax.InputSource;
 
 import com.conti.constants.Constants;
 import com.conti.pojo.ArtifactAttributePojo;
+import com.conti.pojo.AttributeDataTypePojo;
 import com.conti.pojo.AttributeDetailsPojo;
 import com.conti.pojo.ProjectDetailsPojo;
 
@@ -301,7 +302,7 @@ public class RestUtility {
 			NodeList attributeNodes = projectProperitesDoc.getElementsByTagName(Constants.RM_AttributeDef);
 			for (int i = 0; i < attributeNodes.getLength(); i++) {
 				if (attributeNodes.item(i).getAttributes().item(0).getTextContent()
-						.contains(client.getAuthUrl() +"/"+ Constants.workflow_types)) {
+						.contains(client.getAuthUrl() + "/" + Constants.workflow_types)) {
 					NodeList attributeValueNodes = attributeNodes.item(i).getChildNodes();
 					for (int j = 0; j < attributeValueNodes.getLength(); j++) {
 						if (attributeValueNodes.item(j).getNodeName().equals(Constants.Dcterms_Title)) {
@@ -324,6 +325,118 @@ public class RestUtility {
 			return null;
 		}
 
+	}
+
+	/**
+	 * method to delete the enum values from the data type
+	 * 
+	 * @param client
+	 * @param dataTypeValues
+	 * @param projectDetailsPojo
+	 * @param attributeDetailsPojo
+	 * @param attributeDataTypePojo
+	 * @return boolean status
+	 */
+	public Boolean deleteDataTypeValuesFromAttribute(JazzFormAuthClient client, ArrayList<String> dataTypeValues,
+			ProjectDetailsPojo projectDetailsPojo, AttributeDetailsPojo attributeDetailsPojo,
+			AttributeDataTypePojo attributeDataTypePojo) {
+		// TODO Auto-generated method stub
+
+		Boolean attributeDataTypeFound = false;
+		String dataTypeName = null;
+		String dataTypeUrl = null;
+
+		try {
+			Document projectPropertiesDoc = getProjectPropertiesDetails(client, projectDetailsPojo);
+			NodeList attributeDataTypeNodes = projectPropertiesDoc.getElementsByTagName(Constants.RM_AttributeType);
+			for (int i = 0; i < attributeDataTypeNodes.getLength(); i++) {
+				Document attributeDataTypeDoc = getDocumentfromNode(attributeDataTypeNodes.item(i));
+				NodeList titleNodes = attributeDataTypeDoc.getElementsByTagName(Constants.Title);
+				for (int l = 0; l < titleNodes.getLength(); l++) {
+					if (!titleNodes.item(l).getParentNode().getNodeName().equals(Constants.RM_EnumEntry)) {
+						dataTypeName = attributeDataTypeDoc.getElementsByTagName(Constants.Title).item(l)
+								.getTextContent();
+						break;
+					}
+				}
+				if (dataTypeName.equals(attributeDataTypePojo.getAttributeDataTypeName())) {
+					dataTypeUrl = attributeDataTypeNodes.item(i).getAttributes().getNamedItem(Constants.RDF_About)
+							.getTextContent();
+					attributeDataTypeFound = true;
+					attributeDataTypeDoc = removeEnumNodefromDataType(dataTypeValues, attributeDataTypeDoc, dataTypeName, projectDetailsPojo);
+					return updateArtifactType(client, attributeDataTypeDoc, projectDetailsPojo, dataTypeUrl,
+							dataTypeName);
+				}
+				
+			}
+			if (!attributeDataTypeFound) {
+				logger.error("Attribute data type " + dataTypeName + " not found in the project "
+						+ projectDetailsPojo.getProjectName() + " , " + projectDetailsPojo.getComponentName()
+						+ " , " + projectDetailsPojo.getStreamName());
+				return false;
+			}
+
+		} catch (Exception e) {
+			// TODO: handle exception
+			logger.error(e);
+			logger.error("Exception while deleting data type value from attribute data type " +dataTypeName+ " for the project "+ projectDetailsPojo.getProjectName() + " , "
+					+ projectDetailsPojo.getComponentName() + " , " + projectDetailsPojo.getStreamName()); 
+			return false;
+		}
+		
+		return false;
+	}
+
+	/**
+	 * method to remove the enum node from attribute data type Doc
+	 * @param dataTypeValues
+	 * @param attributeDataTypedoc
+	 * @param dataTypeName
+	 * @param projectDetailsPojo
+	 * @return attribute data type doc
+	 */
+	public Document removeEnumNodefromDataType(ArrayList<String> dataTypeValues, Document attributeDataTypedoc,
+			String dataTypeName, ProjectDetailsPojo projectDetailsPojo) {
+
+		Boolean enumValueFound = false;
+		try
+		{
+			NodeList enumNodes = attributeDataTypedoc.getElementsByTagName(Constants.RM_EnumEntry);
+			for (String dataTypeValue : dataTypeValues) {
+				outerloop: for (int j = 0; j < enumNodes.getLength(); j++) {
+					NodeList enumChildNodes = enumNodes.item(j).getChildNodes();
+					for (int k = 0; k < enumChildNodes.getLength(); k++) {
+						String enumNode = enumChildNodes.item(k).getNodeName();
+						if (enumNode.equals(Constants.Title)) {
+							String enumValue = enumChildNodes.item(k).getTextContent();
+							if (enumValue.equals(dataTypeValue.trim())) {
+								enumValueFound = true;
+								Node nodeToBeReomved = enumNodes.item(j).getParentNode();
+								enumNodes.item(j).getParentNode().getParentNode().removeChild(nodeToBeReomved);
+								logger.info("Enum value "+dataTypeValue+" has been removed from the data type " + dataTypeName + " in the project " +projectDetailsPojo.getProjectName() + " , "
+										+ projectDetailsPojo.getComponentName() + " , " + projectDetailsPojo.getStreamName());
+								break outerloop;
+							}
+						}
+					}
+				}
+
+				if (!enumValueFound) {
+					logger.error("Enum value " + dataTypeValue + " not found for the attribute data type " + dataTypeName
+							+ "  for the project " + projectDetailsPojo.getProjectName() + " , "
+							+ projectDetailsPojo.getComponentName() + " , " + projectDetailsPojo.getStreamName());
+					
+				}
+			}
+		}
+		catch (Exception e) {
+			// TODO: handle exception
+			logger.error(e);
+			logger.error("Excpetion while deleting enum node from attribute data type " + dataTypeName + " for the project " +projectDetailsPojo.getProjectName() + " , "
+							+ projectDetailsPojo.getComponentName() + " , " + projectDetailsPojo.getStreamName());
+				
+		}
+		return attributeDataTypedoc;
 	}
 
 	/**
@@ -401,7 +514,7 @@ public class RestUtility {
 		try {
 			String getDNGPropertiesURL = client.getAuthUrl() + Constants.Resource_Context + "=" + client.getAuthUrl()
 					+ Constants.Project_area + projectDetailsPojo.getProjectUUID();
-			Document propertiesDoc = getRequestforUrl(client, getDNGPropertiesURL, projectDetailsPojo.getStreamUrl());
+			Document propertiesDoc = getRequestforUrl(client, getDNGPropertiesURL, projectDetailsPojo.getChangeSetUrl());
 
 			return propertiesDoc;
 		} catch (Exception e) {
@@ -412,6 +525,84 @@ public class RestUtility {
 			return null;
 		}
 
+	}
+
+	/**
+	 * method to delete the attribute data type
+	 * 
+	 * @param client
+	 * @param attributeDataTypePojo
+	 * @param projectDetailsPojo
+	 * @param attributeDetailsPojo
+	 * @return boolean status
+	 */
+	public boolean deleteAttributeDataType(JazzFormAuthClient client, AttributeDataTypePojo attributeDataTypePojo,
+			ProjectDetailsPojo projectDetailsPojo, AttributeDetailsPojo attributeDetailsPojo) {
+		String attributeDataTypeName = null;
+		String attributeDataTypeUrl = null;
+		String attributeDataTypeUsageurl = null;
+		Boolean dataTypeUsed = false;
+		
+
+		try {
+
+			HashMap<String, String> attributeDataTypeurlMap = attributeDetailsPojo.getAttributeDataTypeUrlMap();
+			HashMap<String, String> headersMap = HeaderUtility.createHeadersForChangeSet(projectDetailsPojo);
+
+			attributeDataTypeName = attributeDataTypePojo.getAttributeDataTypeName();
+			attributeDataTypeUrl = attributeDataTypeurlMap.get(attributeDataTypeName);
+			
+			if(attributeDataTypeUrl==null || attributeDataTypeUrl.isEmpty())
+			{
+				logger.error("Attribute data type "+ attributeDataTypeName + " does not exist in the project area " +projectDetailsPojo.getProjectName() + " , " + projectDetailsPojo.getComponentName() + " , "
+						+ projectDetailsPojo.getStreamName());
+				return false;
+			}
+
+			Document projectPropertiesDoc = getProjectPropertiesDetails(client, projectDetailsPojo);
+			NodeList attributeNodes = projectPropertiesDoc.getElementsByTagName(Constants.RM_AttributeDef);
+			outerloop: for (int i = 0; i < attributeNodes.getLength(); i++) {
+				Document attributeNode = getDocumentfromNode(attributeNodes.item(i));
+				attributeDataTypeUsageurl = attributeNode.getElementsByTagName(Constants.RM_Range).item(0)
+						.getAttributes().getNamedItem(Constants.Resource).getTextContent();
+				if (attributeDataTypeUrl.equals(attributeDataTypeUsageurl)) {
+					dataTypeUsed = true;
+					logger.error("The attribute data type " + attributeDataTypeName
+							+ " has been used in one of the attribute in the project "
+							+ projectDetailsPojo.getProjectName() + " , " + projectDetailsPojo.getComponentName()
+							+ " , " + projectDetailsPojo.getStreamName() + " and hence cannot be deleted!!");
+					System.out.println("The attribute data type " + attributeDataTypeName
+							+ " has been used in one of the attribute in the project "
+							+ projectDetailsPojo.getProjectName() + " , " + projectDetailsPojo.getComponentName()
+							+ " , " + projectDetailsPojo.getStreamName() + " and hence cannot be deleted!!");
+					break outerloop;
+				}
+
+			}
+
+			if (!dataTypeUsed) {
+				HttpResponse response = deleteRequestforUrl(client, attributeDataTypeUrl, headersMap);
+				if (response.getStatusLine().getStatusCode() == 200
+						|| response.getStatusLine().getStatusCode() == 400) {
+					logger.info("Attribute data type " + attributeDataTypeName + " has been deleted completely");
+					return true;
+				} else {
+					logger.error("Attribute data type " + attributeDataTypeName + " has not been deleted completely ");
+					return false;
+
+				}
+			}
+
+		} catch (Exception e) {
+			// TODO: handle exception
+			logger.error(e);
+			logger.error("Execption while deleting the attribute data type " + attributeDataTypeName
+					+ " in the project " + projectDetailsPojo.getProjectName() + " , "
+					+ projectDetailsPojo.getComponentName() + " , " + projectDetailsPojo.getStreamName());
+
+		}
+
+		return true;
 	}
 
 	/**
@@ -431,7 +622,7 @@ public class RestUtility {
 			HashMap<String, String> attributeUrlMap = attributeDetailsPojo.getAttributeUrlMap();
 			HashMap<String, String> headersMap = HeaderUtility.createHeadersForChangeSet(projectDetailsPojo);
 			for (ArtifactAttributePojo artifactAttributePojo : artifactAttributePojos) {
-				if (artifactAttributePojo.getAction().equals("Delete attribute completely")) {
+				if (artifactAttributePojo.getAction().equals("Delete Attribute Completely")) {
 					attributeName = artifactAttributePojo.getAttributeName();
 					attributeUrl = attributeUrlMap.get(attributeName);
 
@@ -485,8 +676,9 @@ public class RestUtility {
 			artifactTypeUrl = artifactTypeNode.getAttributes().item(0).getTextContent();
 			attributeUrl = attributeUrlMap.get(attributeName);
 			for (int j = 0; j < artifactTypeChildnodes.getLength(); j++) {
-				if (artifactTypeChildnodes.item(j).getNodeName().equals(Constants.RM_hasAttribute) && artifactTypeChildnodes
-						.item(j).getAttributes().item(0).getTextContent().equals(attributeUrl)) {
+				if (artifactTypeChildnodes.item(j).getNodeName().equals(Constants.RM_hasAttribute)
+						&& artifactTypeChildnodes.item(j).getAttributes().item(0).getTextContent()
+								.equals(attributeUrl)) {
 					artifactTypeNode.removeChild(artifactTypeChildnodes.item(j));
 					attributeExists = true;
 				}
@@ -504,7 +696,8 @@ public class RestUtility {
 
 			if (attributeExists) {
 				Document artifactTypeDoc = getDocumentfromNode(artifactTypeNode);
-				return updateArtifactType(client, artifactTypeDoc, projectDetailsPojo, artifactTypeUrl, artifactTypeName);
+				return updateArtifactType(client, artifactTypeDoc, projectDetailsPojo, artifactTypeUrl,
+						artifactTypeName);
 			} else {
 				return true;
 			}
@@ -516,6 +709,64 @@ public class RestUtility {
 			return false;
 		}
 
+	}
+	
+	/**
+	 * method to get the attribute data type details
+	 * @param client
+	 * @param attributeDetailsPojo
+	 * @param projectDetailsPojo
+	 * @return AttributeDetailsPojo
+	 */
+	public AttributeDetailsPojo getAttributeDataTypeDetails(JazzFormAuthClient client,
+			AttributeDetailsPojo attributeDetailsPojo, ProjectDetailsPojo projectDetailsPojo) {
+		String attributeDataTypeName = null;
+		String attributeDataTypeUrl = null;
+		HashMap<String, String> attributeDataTypeURlmap = new HashMap<>();
+		ArrayList<AttributeDataTypePojo> attributeDataTypePojos = attributeDetailsPojo.getAttributeDataTypePojos();
+
+		try {
+			Document projectProperitesDoc = projectDetailsPojo.getProjectPropertiesDoc();
+			for (AttributeDataTypePojo attributeDataTypePojo : attributeDataTypePojos) {
+				Boolean attributeDataTypeExists = false;
+				NodeList attributeDataTypeNodes = projectProperitesDoc.getElementsByTagName(Constants.RM_AttributeType);
+				outerloop: for (int i = 0; i < attributeDataTypeNodes.getLength(); i++) {
+
+					NodeList attributeDataTypeValueNodes = attributeDataTypeNodes.item(i).getChildNodes();
+					for (int j = 0; j < attributeDataTypeValueNodes.getLength(); j++) {
+						if (attributeDataTypeValueNodes.item(j).getNodeName().equals(Constants.Dcterms_Title)
+								&& attributeDataTypeValueNodes.item(j).getTextContent()
+										.equals(attributeDataTypePojo.getAttributeDataTypeName().trim())) {
+							attributeDataTypeExists = true;
+							attributeDataTypeName = attributeDataTypeValueNodes.item(j).getTextContent();
+							logger.info("Getting the attribute data type details for " + attributeDataTypeName + " in the project "+ projectDetailsPojo.getProjectName() + " , " + projectDetailsPojo.getComponentName()
+							+ " , " + projectDetailsPojo.getStreamName());
+							attributeDataTypeUrl = attributeDataTypeNodes.item(i).getAttributes().item(0)
+									.getTextContent();
+							// attributeUUID = attributeURL.substring(attributeURL.lastIndexOf('/') + 1);
+							attributeDataTypeURlmap.put(attributeDataTypeName, attributeDataTypeUrl);
+							break outerloop;
+						}
+					}
+				}
+
+				if (!attributeDataTypeExists) {
+					logger.error("Attribute " + attributeDataTypeName + " does not exist in the project "
+							+ projectDetailsPojo.getProjectName() + " , " + projectDetailsPojo.getComponentName()
+							+ " , " + projectDetailsPojo.getStreamName());
+				}
+			}
+
+			attributeDetailsPojo.setAttributeDataTypeUrlMap(attributeDataTypeURlmap);
+			return attributeDetailsPojo;
+		} catch (Exception e) {
+			// TODO: handle exception
+			logger.error(e);
+			logger.error("Exception while getting the attribute details " + attributeDataTypeName + " in the project"
+					+ projectDetailsPojo.getProjectName() + " , " + projectDetailsPojo.getComponentName() + " , "
+					+ projectDetailsPojo.getStreamName());
+			return null;
+		}
 	}
 
 	/**
@@ -536,16 +787,16 @@ public class RestUtility {
 		try {
 			Document projectProperitesDoc = projectDetailsPojo.getProjectPropertiesDoc();
 			for (ArtifactAttributePojo artifactAttributePojo : artifactAttributePojos) {
-				Boolean attributeExists= false;
+				Boolean attributeExists = false;
 				NodeList attributeNodes = projectProperitesDoc.getElementsByTagName(Constants.RM_AttributeDef);
 				outerloop: for (int i = 0; i < attributeNodes.getLength(); i++) {
-					
+
 					NodeList attributeValueNodes = attributeNodes.item(i).getChildNodes();
 					for (int j = 0; j < attributeValueNodes.getLength(); j++) {
 						if (attributeValueNodes.item(j).getNodeName().equals(Constants.Dcterms_Title)
 								&& attributeValueNodes.item(j).getTextContent()
 										.equals(artifactAttributePojo.getAttributeName().trim())) {
-							attributeExists= true;
+							attributeExists = true;
 							attributeName = attributeValueNodes.item(j).getTextContent();
 							attributeURL = attributeNodes.item(i).getAttributes().item(0).getTextContent();
 							// attributeUUID = attributeURL.substring(attributeURL.lastIndexOf('/') + 1);
@@ -554,10 +805,10 @@ public class RestUtility {
 						}
 					}
 				}
-				if(!attributeExists)
-				{
-					logger.error("Attribute "+attributeName+" does not exist in the project "+projectDetailsPojo.getProjectName() + " , " + projectDetailsPojo.getComponentName() + " , "
-							+ projectDetailsPojo.getStreamName());
+				if (!attributeExists) {
+					logger.error("Attribute " + attributeName + " does not exist in the project "
+							+ projectDetailsPojo.getProjectName() + " , " + projectDetailsPojo.getComponentName()
+							+ " , " + projectDetailsPojo.getStreamName());
 				}
 			}
 

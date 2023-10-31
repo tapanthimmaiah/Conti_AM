@@ -12,6 +12,7 @@ import org.w3c.dom.Document;
 import com.conti.constants.Constants;
 import com.conti.login.DNGLoginUtility;
 import com.conti.pojo.ArtifactAttributePojo;
+import com.conti.pojo.AttributeDataTypePojo;
 import com.conti.pojo.AttributeDetailsPojo;
 import com.conti.pojo.ConfigDetailsPojo;
 import com.conti.pojo.ProjectDetailsPojo;
@@ -35,8 +36,9 @@ public class DeleteAttributeApplication {
 	private static String baselineName = null;
 	private static String deliverChangeSet = null;
 	private static HashMap<String, String> workflowUpdateMap = null;
-	private static Boolean deleteFlag = false, updateFlag = false, delete_update = false;
+	private static Boolean deleteAttributeFlag = false,deleteDataTypeFlag=false, updateFlag = false, delete_update = false;
 	private static ArrayList<ArtifactAttributePojo> artifactAttributePojos = null;
+	private static ArrayList<AttributeDataTypePojo> attributeDataTypePojos = null;
 	static String currentDir = System.getProperty("user.dir");
 	private static Logger logger = LogManager.getLogger(DeleteAttributeApplication.class);
 
@@ -59,12 +61,22 @@ public class DeleteAttributeApplication {
 			if (attributeDetailsPojo.getArtifactAttributePojos().size() > 0) {
 				artifactAttributePojos = attributeDetailsPojo.getArtifactAttributePojos();
 			}
+			if(attributeDetailsPojo.getAttributeDataTypePojos().size()>0)
+			{
+				attributeDataTypePojos= attributeDetailsPojo.getAttributeDataTypePojos();
+			}
+			
 			if (attributeDetailsPojo.getWorkflowDetailsMap().size() > 0) {
 				workflowUpdateMap = attributeDetailsPojo.getWorkflowDetailsMap();
 			}
-			if (action.equals("Delete")) {
-				deleteFlag = true;
-			} else if (action.equals("Update")) {
+			if (action.equals("Delete_Attribute")) {
+				deleteAttributeFlag = true;
+			} 
+			else if (action.equals("Delete_DataType"))
+			{
+				deleteDataTypeFlag= true;
+			}
+			else if (action.equals("Update")) {
 				updateFlag = true;
 			} else if (action.equals("Delete_Update")) {
 				delete_update = true;
@@ -142,13 +154,18 @@ public class DeleteAttributeApplication {
 
 						projectDetailsPojo.setClient(client);
 						projectDetailsPojo = loadConfigAttributes(projectDetailsPojo);
-						if (deleteFlag) {
+						if (deleteAttributeFlag) {
 							 deleteAttributes(projectDetailsPojo);
+						}
+						else if (deleteDataTypeFlag)
+						{
+							deleteAttributeDataType(projectDetailsPojo);
 						}
 						else if (updateFlag) {
 							 updateWorkflow(projectDetailsPojo);
 						} else if (delete_update) {
 							deleteAttributes(projectDetailsPojo) ;
+							deleteAttributeDataType(projectDetailsPojo);
 							updateWorkflow(projectDetailsPojo);
 							
 						}
@@ -183,7 +200,7 @@ public class DeleteAttributeApplication {
 	public static boolean deleteAttributes(ProjectDetailsPojo projectDetailsPojo) {
 		RestUtility restUtility = new RestUtility();
 		AttributeDetailsPojo attributeDetailsPojo = new AttributeDetailsPojo();
-		Boolean deleteAttributeArtifactStatus = false, deleteAttributeStatus = false;
+		Boolean deleteAttributeArtifactStatus = true, deleteAttributeStatus = true;
 
 		logger.info("Deleting attributes for the project " + projectDetailsPojo.getProjectName() + " , "
 				+ projectDetailsPojo.getComponentName() + " , " + projectDetailsPojo.getStreamName());
@@ -215,6 +232,7 @@ public class DeleteAttributeApplication {
 			}
 
 			if (deleteAttributeArtifactStatus && deleteAttributeStatus) {
+				
 				return true;
 			} else {
 				return false;
@@ -228,6 +246,67 @@ public class DeleteAttributeApplication {
 		}
 
 
+	}
+	
+	/**
+	 * method to delete the attribute data type
+	 * @param projectDetailsPojo
+	 * @return boolean status
+	 */
+	public static boolean deleteAttributeDataType(ProjectDetailsPojo projectDetailsPojo) {
+		
+		RestUtility restUtility = new RestUtility();
+		AttributeDetailsPojo attributeDetailsPojo = new AttributeDetailsPojo();
+		Boolean deleteDataTypeStatus = true, deleteDataTypeValueStatus = true;
+		logger.info("Updating attribute data type for the project " + projectDetailsPojo.getProjectName() + " , "
+				+ projectDetailsPojo.getComponentName() + " , " + projectDetailsPojo.getStreamName());
+		
+		try
+		{
+			attributeDetailsPojo.setAttributeDataTypePojos(attributeDataTypePojos);
+			attributeDetailsPojo = restUtility.getAttributeDataTypeDetails(projectDetailsPojo.getClient(), attributeDetailsPojo,
+					projectDetailsPojo);
+			for(AttributeDataTypePojo attributeDataTypePojo :attributeDataTypePojos)
+			{
+				ArrayList<String> dataTypeValues = new ArrayList<>();
+				
+				if(attributeDataTypePojo.getAction().equals("Delete Data Type Completely"))
+				{
+					deleteDataTypeStatus = restUtility.deleteAttributeDataType(projectDetailsPojo.getClient(), attributeDataTypePojo, projectDetailsPojo, attributeDetailsPojo);
+				}
+				else if (attributeDataTypePojo.getDataTypeValues() != null && attributeDataTypePojo.getDataTypeValues() != "")
+				{
+					
+					dataTypeValues.addAll(Arrays.asList(attributeDataTypePojo.getDataTypeValues().split(",")));
+					deleteDataTypeValueStatus = restUtility.deleteDataTypeValuesFromAttribute(
+									projectDetailsPojo.getClient(), dataTypeValues, projectDetailsPojo, attributeDetailsPojo,
+									attributeDataTypePojo);
+				}
+					
+			}
+			
+			if(!delete_update)
+			{
+			DeleteAttributeApplication.deliverChangeset(projectDetailsPojo.getClient(), projectDetailsPojo);
+			}
+
+			if (deleteDataTypeValueStatus && deleteDataTypeStatus) {
+				return true;
+			} else {
+				return false;
+			}
+		}
+		catch (Exception e) {
+			// TODO: handle exception
+			logger.error(e);
+			logger.error("Exception while deleting the attribute data type for the project "+projectDetailsPojo.getProjectName()
+			+ " , " + projectDetailsPojo.getComponentName() + " , " + projectDetailsPojo.getStreamName());
+			
+			return false;
+		
+		}
+		
+		
 	}
 
 	/**

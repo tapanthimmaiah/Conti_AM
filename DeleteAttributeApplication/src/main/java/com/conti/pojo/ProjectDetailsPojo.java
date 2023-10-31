@@ -3,6 +3,11 @@ package com.conti.pojo;
 import org.eclipse.lyo.client.oslc.jazz.JazzFormAuthClient;
 import org.w3c.dom.Document;
 
+/**
+ * 
+ * @author uif34242
+ *
+ */
 @SuppressWarnings("deprecation")
 public class ProjectDetailsPojo {
 	

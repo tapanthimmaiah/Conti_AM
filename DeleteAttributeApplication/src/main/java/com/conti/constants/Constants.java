@@ -75,6 +75,8 @@ public class Constants {
 	public static final String Actual_Response="actualResponse";
 	
 	public static final String RM_AttributeDef="rm:AttributeDefinition";
+	public static final String RM_AttributeType = "rm:AttributeType";
+	public static final String RM_EnumEntry= "rm:enumEntry";
 	public static final String Dcterms_Title="dcterms:title";
 	public static final String OWL_Sameas="owl:sameAs";
 	public static final String RM_Range ="rm:range";

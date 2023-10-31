@@ -3,7 +3,11 @@ package com.conti.pojo;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-
+/**
+ * 
+ * @author uif34242
+ *
+ */
 
 public class AttributeDetailsPojo {
 	
@@ -11,7 +15,27 @@ public class AttributeDetailsPojo {
 	private ArrayList<String> artifactTypeList = new ArrayList<>();
 	private HashMap<String, String> attributeUrlMap = new HashMap<>();
 	private HashMap<String, String> workflowDetailsMap= new HashMap<>();
+	private HashMap<String, String> attributeDataTypeUrlMap = new HashMap<>();
 	private ArrayList<ArtifactAttributePojo> artifactAttributePojos= new ArrayList<>();
+	private ArrayList<AttributeDataTypePojo> attributeDataTypePojos= new ArrayList<>();
+	
+	
+
+	public HashMap<String, String> getAttributeDataTypeUrlMap() {
+		return attributeDataTypeUrlMap;
+	}
+
+	public void setAttributeDataTypeUrlMap(HashMap<String, String> attributeDataTypeUrlMap) {
+		this.attributeDataTypeUrlMap = attributeDataTypeUrlMap;
+	}
+
+	public ArrayList<AttributeDataTypePojo> getAttributeDataTypePojos() {
+		return attributeDataTypePojos;
+	}
+
+	public void setAttributeDataTypePojos(ArrayList<AttributeDataTypePojo> attributeDataTypePojos) {
+		this.attributeDataTypePojos = attributeDataTypePojos;
+	}
 
 	public ArrayList<ArtifactAttributePojo> getArtifactAttributePojos() {
 		return artifactAttributePojos;
