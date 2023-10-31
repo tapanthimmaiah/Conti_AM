@@ -89,14 +89,18 @@ public class RestUtility {
 					String getRequestUrl = serverUrl + Constants.Publish_modules + projectUri + "&"+Constants.VVC_Configuration+"="
 							+ rmStreamUrl;
 					Document doc = getRequestforUrl(client, getRequestUrl, "");
-					projectDetailsPojo = getModuleCount(client, rmStreamUrl, serverUrl, projectUri, projectDetailsPojo);
-					Element pageElement = (Element) doc.getElementsByTagName(Constants.DS_Project).item(0);
-					NodeList result = pageElement.getElementsByTagName(Constants.RRM_Title);
-					projectTitle = result.item(0).getTextContent();
+					if(doc!=null )
+					{
+						projectDetailsPojo = getModuleCount(client, rmStreamUrl, serverUrl, projectUri, projectDetailsPojo);
+						Element pageElement = (Element) doc.getElementsByTagName(Constants.DS_Project).item(0);
+						NodeList result = pageElement.getElementsByTagName(Constants.RRM_Title);
+						projectTitle = result.item(0).getTextContent();
 
-					projectDetailsPojo.setProjectName(projectTitle);
-					projectDetailsPojo.setStreamUrl(rmStreamUrl);
-					projectDetailsPojos.add(projectDetailsPojo);
+						projectDetailsPojo.setProjectName(projectTitle);
+						projectDetailsPojo.setStreamUrl(rmStreamUrl);
+						projectDetailsPojos.add(projectDetailsPojo);
+					}
+			
 				}
 				
 
