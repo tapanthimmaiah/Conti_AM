@@ -1,0 +1,817 @@
+2024-10-17T15:29:02,762 [pool-2-thread-8] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T15:29:02,762 [pool-2-thread-4] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T15:29:02,785 [pool-2-thread-6] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T15:29:02,802 [pool-2-thread-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T15:29:02,850 [pool-2-thread-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T15:29:02,878 [pool-2-thread-9] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T15:29:03,174 [pool-4-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T15:29:03,184 [pool-2-thread-4] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (HBS) is 0.0
+2024-10-17T15:29:03,209 [pool-7-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T15:29:03,210 [pool-2-thread-8] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA7 is 0.0
+2024-10-17T15:29:03,225 [pool-5-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T15:29:03,226 [pool-2-thread-2] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AN is 0.0
+2024-10-17T15:29:03,238 [pool-6-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T15:29:03,239 [pool-2-thread-6] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (PSS) is 0.0
+2024-10-17T15:29:03,272 [pool-9-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T15:29:03,273 [pool-2-thread-9] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA8 is 0.0
+2024-10-17T15:29:03,306 [pool-2-thread-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T15:29:03,373 [pool-2-thread-5] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T15:29:03,413 [pool-2-thread-7] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T15:29:03,705 [pool-10-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T15:29:03,706 [pool-2-thread-4] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (HBS) is 0.0
+2024-10-17T15:29:03,708 [pool-15-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T15:29:03,710 [pool-2-thread-3] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (VED) is 0.0
+2024-10-17T15:29:03,712 [pool-11-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T15:29:03,713 [pool-2-thread-8] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA7 is 0.0
+2024-10-17T15:29:03,749 [pool-12-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T15:29:03,751 [pool-2-thread-2] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AN is 0.0
+2024-10-17T15:29:03,762 [pool-16-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T15:29:03,767 [pool-2-thread-5] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AM is 0.0
+2024-10-17T15:29:03,805 [pool-13-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T15:29:03,806 [pool-2-thread-6] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (PSS) is 0.0
+2024-10-17T15:29:03,816 [pool-14-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T15:29:03,819 [pool-2-thread-9] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA8 is 0.0
+2024-10-17T15:29:03,823 [pool-2-thread-8] ERROR (ExcelUtility.java:153) -  Exception while updating the excel java.lang.IllegalArgumentException: This Style does not belong to the supplied Workbook Styles Source. Are you trying to assign a style from one workbook to the cell of a different workbook?
+2024-10-17T15:29:03,829 [pool-17-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T15:29:03,831 [pool-2-thread-7] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA6 is 0.0
+2024-10-17T15:29:03,848 [pool-2-thread-9] ERROR (POIXMLDocumentPart.java:655) - Skipped invalid entry /xl/theme/theme1.xml
+2024-10-17T15:29:03,848 [pool-2-thread-9] ERROR (POIXMLDocumentPart.java:655) - Skipped invalid entry /xl/styles.xml
+2024-10-17T15:29:03,849 [pool-2-thread-9] ERROR (POIXMLDocumentPart.java:655) - Skipped invalid entry /xl/sharedStrings.xml
+2024-10-17T15:29:03,850 [pool-2-thread-9] ERROR (POIXMLDocumentPart.java:655) - Skipped invalid entry /xl/worksheets/sheet7.xml
+2024-10-17T15:29:03,850 [pool-2-thread-9] ERROR (POIXMLDocumentPart.java:655) - Skipped invalid entry /xl/worksheets/sheet8.xml
+2024-10-17T15:29:03,854 [pool-2-thread-9] ERROR (POIXMLDocumentPart.java:655) - Skipped invalid entry /xl/worksheets/sheet9.xml
+2024-10-17T15:29:03,900 [pool-2-thread-9] WARN  (XSSFWorkbook.java:463) - Sheet with name BA6 and r:id rId7 was defined, but didn't exist in package, skipping
+2024-10-17T15:29:03,901 [pool-2-thread-9] WARN  (XSSFWorkbook.java:463) - Sheet with name BA7 and r:id rId8 was defined, but didn't exist in package, skipping
+2024-10-17T15:29:03,902 [pool-2-thread-9] WARN  (XSSFWorkbook.java:463) - Sheet with name BA8 and r:id rId9 was defined, but didn't exist in package, skipping
+2024-10-17T15:29:03,903 [pool-2-thread-9] ERROR (ExcelUtility.java:153) -  Exception while updating the excel java.lang.IllegalArgumentException: The workbook already contains a sheet named 'BA8'
+2024-10-17T15:29:03,920 [pool-2-thread-6] ERROR (ZipContentTypeManager.java:73) - Cannot write: [Content_Types].xml in Zip !
+java.io.IOException: Stream Closed
+	at java.io.FileOutputStream.writeBytes(Native Method) ~[?:?]
+	at java.io.FileOutputStream.write(FileOutputStream.java:349) ~[?:?]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor$OutputStreamCompressor.writeOut(StreamCompressor.java:306) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.writeCounted(StreamCompressor.java:273) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.writeCounted(StreamCompressor.java:269) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.writeCounted(ZipArchiveOutputStream.java:1060) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.writeLocalFileHeader(ZipArchiveOutputStream.java:1175) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.putArchiveEntry(ZipArchiveOutputStream.java:881) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.putArchiveEntry(ZipArchiveOutputStream.java:821) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.poi.openxml4j.opc.internal.ZipContentTypeManager.saveImpl(ZipContentTypeManager.java:65) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.internal.ContentTypeManager.save(ContentTypeManager.java:450) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:563) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.OPCPackage.save(OPCPackage.java:1490) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.ooxml.POIXMLDocument.write(POIXMLDocument.java:227) [poi-ooxml-5.2.2.jar:5.2.2]
+	at com.conti.utility.ExcelUtility.updateExcel(ExcelUtility.java:149) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.getDetails(DNGPerformanceAnalyzerApplication.java:135) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.access$0(DNGPerformanceAnalyzerApplication.java:105) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication$MyTask.run(DNGPerformanceAnalyzerApplication.java:97) [classes/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+2024-10-17T15:29:03,912 [pool-2-thread-4] ERROR (ZipContentTypeManager.java:73) - Cannot write: [Content_Types].xml in Zip !
+java.io.IOException: Stream Closed
+	at java.io.FileOutputStream.writeBytes(Native Method) ~[?:?]
+	at java.io.FileOutputStream.write(FileOutputStream.java:349) ~[?:?]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor$OutputStreamCompressor.writeOut(StreamCompressor.java:306) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.writeCounted(StreamCompressor.java:273) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.writeCounted(StreamCompressor.java:269) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.writeCounted(ZipArchiveOutputStream.java:1060) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.writeLocalFileHeader(ZipArchiveOutputStream.java:1175) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.putArchiveEntry(ZipArchiveOutputStream.java:881) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.putArchiveEntry(ZipArchiveOutputStream.java:821) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.poi.openxml4j.opc.internal.ZipContentTypeManager.saveImpl(ZipContentTypeManager.java:65) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.internal.ContentTypeManager.save(ContentTypeManager.java:450) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:563) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.OPCPackage.save(OPCPackage.java:1490) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.ooxml.POIXMLDocument.write(POIXMLDocument.java:227) [poi-ooxml-5.2.2.jar:5.2.2]
+	at com.conti.utility.ExcelUtility.updateExcel(ExcelUtility.java:149) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.getDetails(DNGPerformanceAnalyzerApplication.java:135) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.access$0(DNGPerformanceAnalyzerApplication.java:105) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication$MyTask.run(DNGPerformanceAnalyzerApplication.java:97) [classes/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+2024-10-17T15:29:03,929 [pool-2-thread-6] ERROR (ZipPartMarshaller.java:188) - Cannot create zip entry /_rels/.rels
+java.io.IOException: Stream Closed
+	at java.io.FileOutputStream.writeBytes(Native Method) ~[?:?]
+	at java.io.FileOutputStream.write(FileOutputStream.java:349) ~[?:?]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor$OutputStreamCompressor.writeOut(StreamCompressor.java:306) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.writeCounted(StreamCompressor.java:273) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.deflate(StreamCompressor.java:264) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.flushDeflater(StreamCompressor.java:229) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.flushDeflater(ZipArchiveOutputStream.java:690) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.closeArchiveEntry(ZipArchiveOutputStream.java:601) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.putArchiveEntry(ZipArchiveOutputStream.java:842) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.putArchiveEntry(ZipArchiveOutputStream.java:821) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.poi.openxml4j.opc.internal.marshallers.ZipPartMarshaller.marshallRelationshipPart(ZipPartMarshaller.java:181) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:567) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.OPCPackage.save(OPCPackage.java:1490) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.ooxml.POIXMLDocument.write(POIXMLDocument.java:227) [poi-ooxml-5.2.2.jar:5.2.2]
+	at com.conti.utility.ExcelUtility.updateExcel(ExcelUtility.java:149) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.getDetails(DNGPerformanceAnalyzerApplication.java:135) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.access$0(DNGPerformanceAnalyzerApplication.java:105) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication$MyTask.run(DNGPerformanceAnalyzerApplication.java:97) [classes/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+2024-10-17T15:29:03,929 [pool-2-thread-4] ERROR (ZipPartMarshaller.java:188) - Cannot create zip entry /_rels/.rels
+java.io.IOException: Stream Closed
+	at java.io.FileOutputStream.writeBytes(Native Method) ~[?:?]
+	at java.io.FileOutputStream.write(FileOutputStream.java:349) ~[?:?]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor$OutputStreamCompressor.writeOut(StreamCompressor.java:306) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.writeCounted(StreamCompressor.java:273) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.deflate(StreamCompressor.java:264) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.flushDeflater(StreamCompressor.java:229) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.flushDeflater(ZipArchiveOutputStream.java:690) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.closeArchiveEntry(ZipArchiveOutputStream.java:601) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.putArchiveEntry(ZipArchiveOutputStream.java:842) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.putArchiveEntry(ZipArchiveOutputStream.java:821) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.poi.openxml4j.opc.internal.marshallers.ZipPartMarshaller.marshallRelationshipPart(ZipPartMarshaller.java:181) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:567) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.OPCPackage.save(OPCPackage.java:1490) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.ooxml.POIXMLDocument.write(POIXMLDocument.java:227) [poi-ooxml-5.2.2.jar:5.2.2]
+	at com.conti.utility.ExcelUtility.updateExcel(ExcelUtility.java:149) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.getDetails(DNGPerformanceAnalyzerApplication.java:135) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.access$0(DNGPerformanceAnalyzerApplication.java:105) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication$MyTask.run(DNGPerformanceAnalyzerApplication.java:97) [classes/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+2024-10-17T15:29:03,932 [pool-2-thread-6] ERROR (ZipPartMarshaller.java:94) - Cannot write: /docMetadata/LabelInfo.xml: in ZIP
+java.io.IOException: Stream Closed
+	at java.io.FileOutputStream.writeBytes(Native Method) ~[?:?]
+	at java.io.FileOutputStream.write(FileOutputStream.java:349) ~[?:?]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor$OutputStreamCompressor.writeOut(StreamCompressor.java:306) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.writeCounted(StreamCompressor.java:273) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.writeCounted(StreamCompressor.java:269) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.writeCounted(ZipArchiveOutputStream.java:1060) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.writeDataDescriptor(ZipArchiveOutputStream.java:1312) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.closeEntry(ZipArchiveOutputStream.java:636) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.closeArchiveEntry(ZipArchiveOutputStream.java:608) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.putArchiveEntry(ZipArchiveOutputStream.java:842) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.putArchiveEntry(ZipArchiveOutputStream.java:821) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.poi.openxml4j.opc.internal.marshallers.ZipPartMarshaller.marshall(ZipPartMarshaller.java:85) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.ZipPackagePart.save(ZipPackagePart.java:127) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.internal.marshallers.DefaultMarshaller.marshall(DefaultMarshaller.java:46) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:584) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.OPCPackage.save(OPCPackage.java:1490) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.ooxml.POIXMLDocument.write(POIXMLDocument.java:227) [poi-ooxml-5.2.2.jar:5.2.2]
+	at com.conti.utility.ExcelUtility.updateExcel(ExcelUtility.java:149) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.getDetails(DNGPerformanceAnalyzerApplication.java:135) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.access$0(DNGPerformanceAnalyzerApplication.java:105) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication$MyTask.run(DNGPerformanceAnalyzerApplication.java:97) [classes/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+2024-10-17T15:29:03,932 [pool-2-thread-4] ERROR (ZipPartMarshaller.java:94) - Cannot write: /docMetadata/LabelInfo.xml: in ZIP
+java.io.IOException: Stream Closed
+	at java.io.FileOutputStream.writeBytes(Native Method) ~[?:?]
+	at java.io.FileOutputStream.write(FileOutputStream.java:349) ~[?:?]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor$OutputStreamCompressor.writeOut(StreamCompressor.java:306) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.writeCounted(StreamCompressor.java:273) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.writeCounted(StreamCompressor.java:269) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.writeCounted(ZipArchiveOutputStream.java:1060) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.writeDataDescriptor(ZipArchiveOutputStream.java:1312) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.closeEntry(ZipArchiveOutputStream.java:636) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.closeArchiveEntry(ZipArchiveOutputStream.java:608) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.putArchiveEntry(ZipArchiveOutputStream.java:842) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.putArchiveEntry(ZipArchiveOutputStream.java:821) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.poi.openxml4j.opc.internal.marshallers.ZipPartMarshaller.marshall(ZipPartMarshaller.java:85) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.ZipPackagePart.save(ZipPackagePart.java:127) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.internal.marshallers.DefaultMarshaller.marshall(DefaultMarshaller.java:46) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:584) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.OPCPackage.save(OPCPackage.java:1490) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.ooxml.POIXMLDocument.write(POIXMLDocument.java:227) [poi-ooxml-5.2.2.jar:5.2.2]
+	at com.conti.utility.ExcelUtility.updateExcel(ExcelUtility.java:149) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.getDetails(DNGPerformanceAnalyzerApplication.java:135) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.access$0(DNGPerformanceAnalyzerApplication.java:105) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication$MyTask.run(DNGPerformanceAnalyzerApplication.java:97) [classes/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+2024-10-17T15:29:03,933 [pool-2-thread-6] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.openxml4j.exceptions.OpenXML4JRuntimeException: Fail to save: an error occurs while saving the package : The part /docMetadata/LabelInfo.xml failed to be saved in the stream with marshaller org.apache.poi.openxml4j.opc.internal.marshallers.DefaultMarshaller@135a2164. Enable logging via Log4j 2 for more details.
+2024-10-17T15:29:03,933 [pool-2-thread-4] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.openxml4j.exceptions.OpenXML4JRuntimeException: Fail to save: an error occurs while saving the package : The part /docMetadata/LabelInfo.xml failed to be saved in the stream with marshaller org.apache.poi.openxml4j.opc.internal.marshallers.DefaultMarshaller@1d08bf6f. Enable logging via Log4j 2 for more details.
+2024-10-17T15:29:04,220 [pool-18-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T15:29:04,221 [pool-2-thread-3] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (VED) is 0.0
+2024-10-17T15:29:04,293 [pool-19-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T15:29:04,294 [pool-2-thread-5] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AM is 0.0
+2024-10-17T15:29:04,393 [pool-2-thread-5] ERROR (ZipContentTypeManager.java:73) - Cannot write: [Content_Types].xml in Zip !
+java.io.IOException: Stream Closed
+	at java.io.FileOutputStream.writeBytes(Native Method) ~[?:?]
+	at java.io.FileOutputStream.write(FileOutputStream.java:349) ~[?:?]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor$OutputStreamCompressor.writeOut(StreamCompressor.java:306) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.writeCounted(StreamCompressor.java:273) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.writeCounted(StreamCompressor.java:269) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.writeCounted(ZipArchiveOutputStream.java:1060) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.writeLocalFileHeader(ZipArchiveOutputStream.java:1175) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.putArchiveEntry(ZipArchiveOutputStream.java:881) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.putArchiveEntry(ZipArchiveOutputStream.java:821) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.poi.openxml4j.opc.internal.ZipContentTypeManager.saveImpl(ZipContentTypeManager.java:65) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.internal.ContentTypeManager.save(ContentTypeManager.java:450) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:563) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.OPCPackage.save(OPCPackage.java:1490) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.ooxml.POIXMLDocument.write(POIXMLDocument.java:227) [poi-ooxml-5.2.2.jar:5.2.2]
+	at com.conti.utility.ExcelUtility.updateExcel(ExcelUtility.java:149) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.getDetails(DNGPerformanceAnalyzerApplication.java:135) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.access$0(DNGPerformanceAnalyzerApplication.java:105) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication$MyTask.run(DNGPerformanceAnalyzerApplication.java:97) [classes/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+2024-10-17T15:29:04,395 [pool-2-thread-5] ERROR (ZipPartMarshaller.java:188) - Cannot create zip entry /_rels/.rels
+java.io.IOException: Stream Closed
+	at java.io.FileOutputStream.writeBytes(Native Method) ~[?:?]
+	at java.io.FileOutputStream.write(FileOutputStream.java:349) ~[?:?]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor$OutputStreamCompressor.writeOut(StreamCompressor.java:306) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.writeCounted(StreamCompressor.java:273) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.deflate(StreamCompressor.java:264) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.flushDeflater(StreamCompressor.java:229) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.flushDeflater(ZipArchiveOutputStream.java:690) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.closeArchiveEntry(ZipArchiveOutputStream.java:601) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.putArchiveEntry(ZipArchiveOutputStream.java:842) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.putArchiveEntry(ZipArchiveOutputStream.java:821) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.poi.openxml4j.opc.internal.marshallers.ZipPartMarshaller.marshallRelationshipPart(ZipPartMarshaller.java:181) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:567) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.OPCPackage.save(OPCPackage.java:1490) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.ooxml.POIXMLDocument.write(POIXMLDocument.java:227) [poi-ooxml-5.2.2.jar:5.2.2]
+	at com.conti.utility.ExcelUtility.updateExcel(ExcelUtility.java:149) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.getDetails(DNGPerformanceAnalyzerApplication.java:135) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.access$0(DNGPerformanceAnalyzerApplication.java:105) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication$MyTask.run(DNGPerformanceAnalyzerApplication.java:97) [classes/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+2024-10-17T15:29:04,396 [pool-2-thread-5] ERROR (ZipPartMarshaller.java:94) - Cannot write: /docMetadata/LabelInfo.xml: in ZIP
+java.io.IOException: Stream Closed
+	at java.io.FileOutputStream.writeBytes(Native Method) ~[?:?]
+	at java.io.FileOutputStream.write(FileOutputStream.java:349) ~[?:?]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor$OutputStreamCompressor.writeOut(StreamCompressor.java:306) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.writeCounted(StreamCompressor.java:273) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.writeCounted(StreamCompressor.java:269) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.writeCounted(ZipArchiveOutputStream.java:1060) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.writeDataDescriptor(ZipArchiveOutputStream.java:1312) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.closeEntry(ZipArchiveOutputStream.java:636) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.closeArchiveEntry(ZipArchiveOutputStream.java:608) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.putArchiveEntry(ZipArchiveOutputStream.java:842) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.putArchiveEntry(ZipArchiveOutputStream.java:821) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.poi.openxml4j.opc.internal.marshallers.ZipPartMarshaller.marshall(ZipPartMarshaller.java:85) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.ZipPackagePart.save(ZipPackagePart.java:127) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.internal.marshallers.DefaultMarshaller.marshall(DefaultMarshaller.java:46) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:584) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.OPCPackage.save(OPCPackage.java:1490) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.ooxml.POIXMLDocument.write(POIXMLDocument.java:227) [poi-ooxml-5.2.2.jar:5.2.2]
+	at com.conti.utility.ExcelUtility.updateExcel(ExcelUtility.java:149) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.getDetails(DNGPerformanceAnalyzerApplication.java:135) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.access$0(DNGPerformanceAnalyzerApplication.java:105) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication$MyTask.run(DNGPerformanceAnalyzerApplication.java:97) [classes/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+2024-10-17T15:29:04,397 [pool-2-thread-5] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.openxml4j.exceptions.OpenXML4JRuntimeException: Fail to save: an error occurs while saving the package : The part /docMetadata/LabelInfo.xml failed to be saved in the stream with marshaller org.apache.poi.openxml4j.opc.internal.marshallers.DefaultMarshaller@5e38f2f6. Enable logging via Log4j 2 for more details.
+2024-10-17T15:29:04,423 [pool-20-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T15:29:04,424 [pool-2-thread-7] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA6 is 0.0
+2024-10-17T15:29:04,426 [pool-2-thread-7] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+2024-10-17T15:29:05,165 [pool-2-thread-1] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA Rmfed is 2.126
+2024-10-17T15:29:15,027 [pool-2-thread-1] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA Rmfed is 9.859
+2024-10-17T15:29:15,027 [pool-2-thread-1] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+2024-10-17T15:33:18,132 [pool-2-thread-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T15:33:18,132 [pool-2-thread-4] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T15:33:18,132 [pool-2-thread-6] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T15:33:18,186 [pool-2-thread-7] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T15:33:18,361 [pool-2-thread-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T15:33:18,371 [pool-2-thread-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T15:33:18,405 [pool-2-thread-9] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T15:33:18,546 [pool-5-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T15:33:18,549 [pool-2-thread-4] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (HBS) is 0.0
+2024-10-17T15:33:18,554 [pool-7-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T15:33:18,557 [pool-4-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T15:33:18,558 [pool-2-thread-3] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (VED) is 0.0
+2024-10-17T15:33:18,560 [pool-2-thread-7] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA6 is 0.0
+2024-10-17T15:33:18,580 [pool-6-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T15:33:18,581 [pool-2-thread-6] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (PSS) is 0.0
+2024-10-17T15:33:18,662 [pool-2-thread-5] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T15:33:18,730 [pool-2-thread-8] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T15:33:18,782 [pool-14-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T15:33:18,783 [pool-2-thread-9] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA8 is 0.0
+2024-10-17T15:33:19,061 [pool-9-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T15:33:19,062 [pool-2-thread-4] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (HBS) is 0.0
+2024-10-17T15:33:19,063 [pool-2-thread-4] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+2024-10-17T15:33:19,133 [pool-16-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T15:33:19,133 [pool-13-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T15:33:19,133 [pool-2-thread-6] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (PSS) is 0.0
+2024-10-17T15:33:19,133 [pool-2-thread-5] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AM is 0.0
+2024-10-17T15:33:19,134 [pool-2-thread-6] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+2024-10-17T15:33:19,139 [pool-12-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T15:33:19,140 [pool-2-thread-7] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA6 is 0.0
+2024-10-17T15:33:19,142 [pool-2-thread-7] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+2024-10-17T15:33:19,226 [pool-17-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T15:33:19,227 [pool-2-thread-8] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA7 is 0.0
+2024-10-17T15:33:19,317 [pool-15-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T15:33:19,318 [pool-2-thread-9] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA8 is 0.0
+2024-10-17T15:33:19,319 [pool-2-thread-9] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+2024-10-17T15:33:19,518 [pool-2-thread-1] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA Rmfed is 0.971
+2024-10-17T15:33:19,734 [pool-18-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T15:33:19,735 [pool-2-thread-5] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AM is 0.0
+2024-10-17T15:33:19,736 [pool-2-thread-5] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+2024-10-17T15:33:19,866 [pool-19-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T15:33:19,867 [pool-2-thread-8] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA7 is 0.0
+2024-10-17T15:33:19,873 [pool-2-thread-8] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+2024-10-17T15:33:22,429 [pool-2-thread-2] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AN is 3.865
+2024-10-17T15:33:23,991 [pool-2-thread-1] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA Rmfed is 4.47
+2024-10-17T15:33:23,993 [pool-2-thread-1] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+2024-10-17T15:33:35,326 [pool-2-thread-2] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AN is 12.895
+2024-10-17T15:33:35,329 [pool-2-thread-2] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+2024-10-17T15:34:09,727 [pool-2-thread-3] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (VED) is 51.168
+2024-10-17T15:34:09,729 [pool-2-thread-3] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+2024-10-17T15:37:32,164 [pool-2-thread-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T15:37:32,180 [pool-2-thread-4] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T15:37:32,180 [pool-2-thread-6] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T15:37:32,669 [pool-2-thread-7] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T15:37:32,764 [pool-2-thread-5] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T15:37:32,769 [pool-2-thread-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T15:37:32,940 [pool-2-thread-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T15:37:32,976 [pool-2-thread-8] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T15:37:33,269 [pool-2-thread-9] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T15:38:07,141 [pool-2-thread-1] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA Rmfed is 25.315
+2024-10-17T15:46:06,121 [pool-2-thread-8] ERROR (RestUtility.java:92) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-10-17T15:46:07,343 [pool-2-thread-9] ERROR (RestUtility.java:92) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-10-17T15:46:27,142 [pool-2-thread-1] ERROR (RestUtility.java:92) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-10-17T15:52:12,038 [pool-2-thread-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T15:52:12,101 [pool-2-thread-8] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T15:52:12,199 [pool-2-thread-5] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T15:52:12,200 [pool-2-thread-4] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T15:52:12,250 [pool-2-thread-6] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T15:52:12,252 [pool-2-thread-7] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T15:52:12,570 [pool-2-thread-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T15:52:12,693 [pool-6-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T15:52:12,693 [pool-7-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T15:52:12,694 [pool-5-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T15:52:12,696 [pool-2-thread-5] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AM is 0.0
+2024-10-17T15:52:12,697 [pool-2-thread-8] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA7 is 0.0
+2024-10-17T15:52:12,698 [pool-2-thread-4] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (HBS) is 0.0
+2024-10-17T15:52:12,730 [pool-2-thread-9] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T15:52:12,771 [pool-9-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T15:52:12,772 [pool-2-thread-7] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA6 is 0.0
+2024-10-17T15:52:12,782 [pool-8-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T15:52:12,783 [pool-2-thread-6] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (PSS) is 0.0
+2024-10-17T15:52:13,304 [pool-16-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T15:52:13,305 [pool-2-thread-9] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA8 is 0.0
+2024-10-17T15:52:13,662 [pool-12-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T15:52:13,662 [pool-10-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T15:52:13,663 [pool-2-thread-5] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AM is 0.0
+2024-10-17T15:52:13,663 [pool-2-thread-4] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (HBS) is 0.0
+2024-10-17T15:52:13,666 [pool-2-thread-4] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+2024-10-17T15:52:13,669 [pool-11-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T15:52:13,672 [pool-2-thread-5] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+2024-10-17T15:52:13,674 [pool-2-thread-8] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA7 is 0.0
+2024-10-17T15:52:13,677 [pool-2-thread-8] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+2024-10-17T15:52:13,726 [pool-2-thread-1] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA Rmfed is 1.45
+2024-10-17T15:52:13,754 [pool-15-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T15:52:13,755 [pool-2-thread-6] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (PSS) is 0.0
+2024-10-17T15:52:13,756 [pool-2-thread-6] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+2024-10-17T15:52:13,760 [pool-14-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T15:52:13,761 [pool-2-thread-7] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA6 is 0.0
+2024-10-17T15:52:13,761 [pool-2-thread-7] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+2024-10-17T15:52:13,902 [pool-2-thread-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T15:52:14,105 [pool-17-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T15:52:14,107 [pool-2-thread-9] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA8 is 0.0
+2024-10-17T15:52:14,108 [pool-2-thread-9] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+2024-10-17T15:52:14,325 [pool-19-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T15:52:14,325 [pool-2-thread-3] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (VED) is 0.0
+2024-10-17T15:52:15,182 [pool-2-thread-2] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AN is 2.411
+2024-10-17T15:52:18,506 [pool-2-thread-1] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA Rmfed is 4.779
+2024-10-17T15:52:18,508 [pool-2-thread-1] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+2024-10-17T15:52:27,033 [pool-2-thread-2] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AN is 11.849
+2024-10-17T15:52:27,035 [pool-2-thread-2] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+2024-10-17T15:52:32,838 [pool-2-thread-3] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (VED) is 18.511
+2024-10-17T15:52:32,839 [pool-2-thread-3] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+2024-10-17T16:03:13,577 [pool-2-thread-4] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:03:13,577 [pool-2-thread-5] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:03:13,577 [pool-2-thread-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:03:13,577 [pool-2-thread-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:03:14,006 [pool-2-thread-7] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:03:14,022 [pool-2-thread-8] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:03:14,106 [pool-5-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T16:03:14,110 [pool-2-thread-3] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (VED) is 0.0
+2024-10-17T16:03:14,210 [pool-2-thread-9] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:03:14,210 [pool-2-thread-6] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:03:14,247 [pool-2-thread-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:03:15,604 [pool-2-thread-1] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA Rmfed is 1.136
+2024-10-17T16:03:15,743 [pool-2-thread-2] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AN is 1.939
+2024-10-17T16:03:15,914 [pool-2-thread-8] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA7 is 1.694
+2024-10-17T16:03:16,362 [pool-2-thread-7] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA6 is 2.09
+2024-10-17T16:03:16,768 [pool-2-thread-9] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA8 is 2.302
+2024-10-17T16:03:17,382 [pool-2-thread-6] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (PSS) is 2.917
+2024-10-17T16:03:18,099 [pool-2-thread-4] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (HBS) is 4.294
+2024-10-17T16:03:20,456 [pool-2-thread-1] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA Rmfed is 4.849
+2024-10-17T16:03:20,458 [pool-2-thread-1] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+2024-10-17T16:03:21,784 [pool-2-thread-5] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AM is 7.981
+2024-10-17T16:03:22,093 [pool-2-thread-9] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA8 is 5.323
+2024-10-17T16:03:22,093 [pool-2-thread-2] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AN is 6.347
+2024-10-17T16:03:22,094 [pool-2-thread-9] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+2024-10-17T16:03:22,094 [pool-2-thread-2] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+2024-10-17T16:03:22,912 [pool-2-thread-8] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA7 is 6.995
+2024-10-17T16:03:22,914 [pool-2-thread-8] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+2024-10-17T16:03:23,219 [pool-2-thread-7] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA6 is 6.85
+2024-10-17T16:03:23,221 [pool-2-thread-7] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+2024-10-17T16:03:23,526 [pool-2-thread-6] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (PSS) is 6.142
+2024-10-17T16:03:23,527 [pool-2-thread-6] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+2024-10-17T16:03:30,899 [pool-2-thread-4] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (HBS) is 12.797
+2024-10-17T16:03:30,900 [pool-2-thread-4] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+2024-10-17T16:03:33,765 [pool-2-thread-3] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (VED) is 19.652
+2024-10-17T16:03:33,766 [pool-2-thread-3] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+2024-10-17T16:03:39,905 [pool-2-thread-5] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AM is 18.117
+2024-10-17T16:03:39,907 [pool-2-thread-5] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+2024-10-17T16:10:35,088 [pool-2-thread-6] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:10:35,088 [pool-2-thread-7] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:10:35,088 [pool-2-thread-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:10:35,095 [pool-2-thread-5] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:10:35,494 [pool-2-thread-9] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:10:35,669 [pool-2-thread-4] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:10:35,690 [pool-2-thread-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:10:35,694 [pool-2-thread-8] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:10:35,819 [pool-2-thread-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:10:36,251 [pool-12-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T16:10:36,254 [pool-2-thread-3] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (VED) is 0.0
+2024-10-17T16:10:36,393 [pool-2-thread-7] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA6 is 1.096
+2024-10-17T16:10:36,620 [pool-2-thread-6] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (PSS) is 1.322
+2024-10-17T16:10:36,958 [pool-2-thread-2] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AN is 1.66
+2024-10-17T16:10:36,998 [pool-2-thread-1] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA Rmfed is 1.126
+2024-10-17T16:10:37,000 [pool-2-thread-9] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA8 is 1.309
+2024-10-17T16:10:37,303 [pool-2-thread-8] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA7 is 1.425
+2024-10-17T16:10:37,903 [pool-2-thread-4] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (HBS) is 2.048
+2024-10-17T16:10:41,771 [pool-2-thread-7] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA6 is 5.376
+2024-10-17T16:10:41,835 [pool-2-thread-7] ERROR (ExcelUtility.java:153) -  Exception while updating the excel java.io.FileNotFoundException: D:\Workspace\PeformanceMonitorDNG\E2EOutput.xlsx (The process cannot access the file because it is being used by another process)
+2024-10-17T16:10:42,180 [pool-2-thread-1] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA Rmfed is 5.18
+2024-10-17T16:10:42,238 [pool-2-thread-5] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AM is 6.958
+2024-10-17T16:10:42,240 [pool-2-thread-1] ERROR (ExcelUtility.java:153) -  Exception while updating the excel java.io.FileNotFoundException: D:\Workspace\PeformanceMonitorDNG\E2EOutput.xlsx (The process cannot access the file because it is being used by another process)
+2024-10-17T16:10:42,390 [pool-2-thread-9] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA8 is 5.386
+2024-10-17T16:10:42,449 [pool-2-thread-9] ERROR (ExcelUtility.java:153) -  Exception while updating the excel java.io.FileNotFoundException: D:\Workspace\PeformanceMonitorDNG\E2EOutput.xlsx (The process cannot access the file because it is being used by another process)
+2024-10-17T16:10:42,693 [pool-2-thread-8] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA7 is 5.388
+2024-10-17T16:10:42,741 [pool-2-thread-8] ERROR (ExcelUtility.java:153) -  Exception while updating the excel java.io.FileNotFoundException: D:\Workspace\PeformanceMonitorDNG\E2EOutput.xlsx (The process cannot access the file because it is being used by another process)
+2024-10-17T16:10:42,771 [pool-2-thread-6] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (PSS) is 6.148
+2024-10-17T16:10:42,830 [pool-2-thread-6] ERROR (ExcelUtility.java:153) -  Exception while updating the excel java.io.FileNotFoundException: D:\Workspace\PeformanceMonitorDNG\E2EOutput.xlsx (The process cannot access the file because it is being used by another process)
+2024-10-17T16:10:43,189 [pool-2-thread-2] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AN is 6.229
+2024-10-17T16:10:43,250 [pool-2-thread-2] ERROR (ExcelUtility.java:153) -  Exception while updating the excel java.io.FileNotFoundException: D:\Workspace\PeformanceMonitorDNG\E2EOutput.xlsx (The process cannot access the file because it is being used by another process)
+2024-10-17T16:10:48,736 [pool-2-thread-4] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (HBS) is 10.828
+2024-10-17T16:10:58,561 [pool-2-thread-3] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (VED) is 22.305
+2024-10-17T16:11:08,189 [pool-2-thread-5] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AM is 25.95
+2024-10-17T16:11:31,820 [pool-2-thread-4] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:11:31,820 [pool-2-thread-9] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:11:31,835 [pool-2-thread-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:11:32,161 [pool-2-thread-6] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:11:32,267 [pool-2-thread-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:11:32,482 [pool-2-thread-7] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:11:32,503 [pool-2-thread-5] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:11:32,571 [pool-2-thread-8] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:11:32,691 [pool-2-thread-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:11:33,125 [pool-12-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T16:11:33,128 [pool-2-thread-3] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (VED) is 0.0
+2024-10-17T16:11:33,209 [pool-2-thread-9] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA8 is 1.191
+2024-10-17T16:11:33,341 [pool-2-thread-4] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (HBS) is 1.322
+2024-10-17T16:11:33,442 [pool-2-thread-2] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AN is 1.361
+2024-10-17T16:11:33,469 [pool-2-thread-1] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA Rmfed is 0.999
+2024-10-17T16:11:33,708 [pool-2-thread-7] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA6 is 1.046
+2024-10-17T16:11:33,749 [pool-2-thread-6] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (PSS) is 1.393
+2024-10-17T16:11:34,292 [pool-2-thread-8] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA7 is 1.545
+2024-10-17T16:11:35,734 [pool-2-thread-5] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AM is 2.992
+2024-10-17T16:11:38,193 [pool-2-thread-4] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (HBS) is 4.846
+2024-10-17T16:11:38,503 [pool-2-thread-1] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA Rmfed is 5.031
+2024-10-17T16:11:38,908 [pool-2-thread-7] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA6 is 5.198
+2024-10-17T16:11:39,217 [pool-2-thread-9] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA8 is 6.006
+2024-10-17T16:11:39,319 [pool-2-thread-6] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (PSS) is 5.567
+2024-10-17T16:11:39,729 [pool-2-thread-2] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AN is 6.284
+2024-10-17T16:11:40,218 [pool-2-thread-8] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA7 is 5.922
+2024-10-17T16:11:58,095 [pool-2-thread-3] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (VED) is 24.965
+2024-10-17T16:12:05,850 [pool-2-thread-5] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AM is 30.112
+2024-10-17T16:14:37,412 [pool-2-thread-6] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:14:37,435 [pool-2-thread-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:14:37,442 [pool-2-thread-9] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:14:37,582 [pool-2-thread-7] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:14:37,582 [pool-2-thread-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:14:37,604 [pool-2-thread-4] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:14:37,629 [pool-2-thread-5] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:14:37,663 [pool-2-thread-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:14:37,713 [pool-2-thread-8] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:14:38,016 [pool-7-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T16:14:38,019 [pool-2-thread-3] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (VED) is 0.0
+2024-10-17T16:14:38,557 [pool-2-thread-1] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA Rmfed is 0.943
+2024-10-17T16:14:38,896 [pool-2-thread-4] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (HBS) is 1.119
+2024-10-17T16:14:38,962 [pool-2-thread-9] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA8 is 1.341
+2024-10-17T16:14:39,017 [pool-2-thread-6] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (PSS) is 1.402
+2024-10-17T16:14:39,060 [pool-2-thread-7] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA6 is 1.284
+2024-10-17T16:14:39,266 [pool-2-thread-8] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA7 is 1.364
+2024-10-17T16:14:39,335 [pool-2-thread-2] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AN is 1.489
+2024-10-17T16:14:42,806 [pool-2-thread-1] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA Rmfed is 4.247
+2024-10-17T16:14:42,875 [pool-2-thread-1] ERROR (ExcelUtility.java:153) -  Exception while updating the excel java.io.FileNotFoundException: D:\Workspace\PeformanceMonitorDNG\E2EOutput.xlsx (The process cannot access the file because it is being used by another process)
+2024-10-17T16:14:43,933 [pool-2-thread-4] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (HBS) is 5.034
+2024-10-17T16:14:43,986 [pool-2-thread-4] ERROR (ExcelUtility.java:153) -  Exception while updating the excel java.io.FileNotFoundException: D:\Workspace\PeformanceMonitorDNG\E2EOutput.xlsx (The process cannot access the file because it is being used by another process)
+2024-10-17T16:14:44,136 [pool-2-thread-9] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA8 is 5.171
+2024-10-17T16:14:44,186 [pool-2-thread-9] ERROR (ExcelUtility.java:153) -  Exception while updating the excel java.io.FileNotFoundException: D:\Workspace\PeformanceMonitorDNG\E2EOutput.xlsx (The process cannot access the file because it is being used by another process)
+2024-10-17T16:14:44,262 [pool-2-thread-7] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA6 is 5.198
+2024-10-17T16:14:44,320 [pool-2-thread-7] ERROR (ExcelUtility.java:153) -  Exception while updating the excel java.io.FileNotFoundException: D:\Workspace\PeformanceMonitorDNG\E2EOutput.xlsx (The process cannot access the file because it is being used by another process)
+2024-10-17T16:14:44,443 [pool-2-thread-8] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA7 is 5.173
+2024-10-17T16:14:44,497 [pool-2-thread-8] ERROR (ExcelUtility.java:153) -  Exception while updating the excel java.io.FileNotFoundException: D:\Workspace\PeformanceMonitorDNG\E2EOutput.xlsx (The process cannot access the file because it is being used by another process)
+2024-10-17T16:14:44,752 [pool-2-thread-6] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (PSS) is 5.732
+2024-10-17T16:14:44,800 [pool-2-thread-6] ERROR (ExcelUtility.java:153) -  Exception while updating the excel java.io.FileNotFoundException: D:\Workspace\PeformanceMonitorDNG\E2EOutput.xlsx (The process cannot access the file because it is being used by another process)
+2024-10-17T16:14:45,160 [pool-2-thread-5] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AM is 7.354
+2024-10-17T16:14:45,644 [pool-2-thread-2] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AN is 6.307
+2024-10-17T16:14:45,702 [pool-2-thread-2] ERROR (ExcelUtility.java:153) -  Exception while updating the excel java.io.FileNotFoundException: D:\Workspace\PeformanceMonitorDNG\E2EOutput.xlsx (The process cannot access the file because it is being used by another process)
+2024-10-17T16:15:01,135 [pool-2-thread-3] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (VED) is 23.113
+2024-10-17T16:15:01,186 [pool-2-thread-3] ERROR (ExcelUtility.java:153) -  Exception while updating the excel java.io.FileNotFoundException: D:\Workspace\PeformanceMonitorDNG\E2EOutput.xlsx (The process cannot access the file because it is being used by another process)
+2024-10-17T16:15:16,291 [pool-2-thread-5] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AM is 31.129
+2024-10-17T16:15:16,351 [pool-2-thread-5] ERROR (ExcelUtility.java:153) -  Exception while updating the excel java.io.FileNotFoundException: D:\Workspace\PeformanceMonitorDNG\E2EOutput.xlsx (The process cannot access the file because it is being used by another process)
+2024-10-17T16:20:08,426 [pool-2-thread-4] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:20:08,476 [pool-2-thread-8] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:20:08,490 [pool-2-thread-5] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:20:08,490 [pool-2-thread-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:20:08,534 [pool-2-thread-7] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:20:08,736 [pool-2-thread-6] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:20:09,272 [pool-2-thread-9] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:20:09,272 [pool-2-thread-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:20:09,452 [pool-2-thread-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:20:09,799 [pool-2-thread-1] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA Rmfed is 1.059
+2024-10-17T16:20:09,902 [pool-2-thread-8] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA7 is 1.234
+2024-10-17T16:20:09,967 [pool-12-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T16:20:09,968 [pool-2-thread-3] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (VED) is 0.0
+2024-10-17T16:20:09,981 [pool-2-thread-4] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (HBS) is 1.314
+2024-10-17T16:20:10,027 [pool-2-thread-7] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA6 is 1.288
+2024-10-17T16:20:10,456 [pool-2-thread-6] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (PSS) is 1.401
+2024-10-17T16:20:10,903 [pool-2-thread-2] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AN is 1.45
+2024-10-17T16:20:10,948 [pool-2-thread-9] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA8 is 1.466
+2024-10-17T16:20:13,973 [pool-2-thread-1] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA Rmfed is 4.171
+2024-10-17T16:20:14,055 [pool-2-thread-1] ERROR (ExcelUtility.java:153) -  Exception while updating the excel java.io.FileNotFoundException: D:\Workspace\PeformanceMonitorDNG\E2EOutput.xlsx (The process cannot access the file because it is being used by another process)
+2024-10-17T16:20:15,095 [pool-2-thread-7] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA6 is 5.065
+2024-10-17T16:20:15,156 [pool-2-thread-7] ERROR (ExcelUtility.java:153) -  Exception while updating the excel java.io.FileNotFoundException: D:\Workspace\PeformanceMonitorDNG\E2EOutput.xlsx (The process cannot access the file because it is being used by another process)
+2024-10-17T16:20:15,299 [pool-2-thread-8] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA7 is 5.393
+2024-10-17T16:20:15,347 [pool-2-thread-8] ERROR (ExcelUtility.java:153) -  Exception while updating the excel java.io.FileNotFoundException: D:\Workspace\PeformanceMonitorDNG\E2EOutput.xlsx (The process cannot access the file because it is being used by another process)
+2024-10-17T16:20:15,402 [pool-2-thread-4] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (HBS) is 5.418
+2024-10-17T16:20:15,466 [pool-2-thread-4] ERROR (ExcelUtility.java:153) -  Exception while updating the excel java.io.FileNotFoundException: D:\Workspace\PeformanceMonitorDNG\E2EOutput.xlsx (The process cannot access the file because it is being used by another process)
+2024-10-17T16:20:15,812 [pool-2-thread-6] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (PSS) is 5.352
+2024-10-17T16:20:15,877 [pool-2-thread-6] ERROR (ExcelUtility.java:153) -  Exception while updating the excel java.io.FileNotFoundException: D:\Workspace\PeformanceMonitorDNG\E2EOutput.xlsx (The process cannot access the file because it is being used by another process)
+2024-10-17T16:20:16,427 [pool-2-thread-9] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA8 is 5.47
+2024-10-17T16:20:16,483 [pool-2-thread-9] ERROR (ExcelUtility.java:153) -  Exception while updating the excel java.io.FileNotFoundException: D:\Workspace\PeformanceMonitorDNG\E2EOutput.xlsx (The process cannot access the file because it is being used by another process)
+2024-10-17T16:20:16,530 [pool-2-thread-5] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AM is 7.793
+2024-10-17T16:20:16,867 [pool-2-thread-2] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AN is 5.959
+2024-10-17T16:20:16,938 [pool-2-thread-2] ERROR (ExcelUtility.java:153) -  Exception while updating the excel java.io.FileNotFoundException: D:\Workspace\PeformanceMonitorDNG\E2EOutput.xlsx (The process cannot access the file because it is being used by another process)
+2024-10-17T16:20:31,869 [pool-2-thread-3] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (VED) is 21.898
+2024-10-17T16:20:31,921 [pool-2-thread-3] ERROR (ExcelUtility.java:153) -  Exception while updating the excel java.io.FileNotFoundException: D:\Workspace\PeformanceMonitorDNG\E2EOutput.xlsx (The process cannot access the file because it is being used by another process)
+2024-10-17T16:20:43,861 [pool-2-thread-5] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AM is 27.331
+2024-10-17T16:20:43,928 [pool-2-thread-5] ERROR (ExcelUtility.java:153) -  Exception while updating the excel java.io.FileNotFoundException: D:\Workspace\PeformanceMonitorDNG\E2EOutput.xlsx (The process cannot access the file because it is being used by another process)
+2024-10-17T16:21:33,316 [pool-2-thread-4] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:21:33,316 [pool-2-thread-8] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:21:33,318 [pool-2-thread-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:21:33,701 [pool-2-thread-5] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:21:33,705 [pool-2-thread-7] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:21:33,705 [pool-2-thread-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:21:34,040 [pool-2-thread-6] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:21:34,098 [pool-7-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T16:21:34,103 [pool-2-thread-3] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (VED) is 0.0
+2024-10-17T16:21:34,271 [pool-2-thread-9] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:21:34,917 [pool-2-thread-8] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA7 is 1.403
+2024-10-17T16:21:34,938 [pool-2-thread-7] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA6 is 1.044
+2024-10-17T16:21:34,982 [pool-2-thread-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:21:35,022 [pool-2-thread-2] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AN is 1.507
+2024-10-17T16:21:35,637 [pool-2-thread-6] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (PSS) is 1.405
+2024-10-17T16:21:35,688 [pool-2-thread-4] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (HBS) is 2.174
+2024-10-17T16:21:35,812 [pool-2-thread-9] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA8 is 1.358
+2024-10-17T16:21:36,408 [pool-2-thread-1] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA Rmfed is 1.19
+2024-10-17T16:21:39,950 [pool-2-thread-7] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA6 is 5.01
+2024-10-17T16:21:40,116 [pool-2-thread-8] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA7 is 5.195
+2024-10-17T16:21:40,127 [pool-2-thread-8] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.ooxml.POIXMLException: OOXML file structure broken/invalid - core document '/xl/workbook.xml' not found.
+2024-10-17T16:21:40,133 [pool-2-thread-7] ERROR (ZipPartMarshaller.java:94) - Cannot write: /xl/sharedStrings.xml: in ZIP
+java.io.IOException: Stream Closed
+	at java.io.FileOutputStream.writeBytes(Native Method) ~[?:?]
+	at java.io.FileOutputStream.write(FileOutputStream.java:349) ~[?:?]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor$OutputStreamCompressor.writeOut(StreamCompressor.java:306) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.writeCounted(StreamCompressor.java:273) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.writeCounted(StreamCompressor.java:269) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.writeCounted(ZipArchiveOutputStream.java:1060) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.writeDataDescriptor(ZipArchiveOutputStream.java:1315) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.closeEntry(ZipArchiveOutputStream.java:636) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.closeArchiveEntry(ZipArchiveOutputStream.java:608) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.poi.openxml4j.opc.internal.marshallers.ZipPartMarshaller.marshall(ZipPartMarshaller.java:91) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.internal.MemoryPackagePart.save(MemoryPackagePart.java:111) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.internal.marshallers.DefaultMarshaller.marshall(DefaultMarshaller.java:46) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:584) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.OPCPackage.save(OPCPackage.java:1490) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.ooxml.POIXMLDocument.write(POIXMLDocument.java:227) [poi-ooxml-5.2.2.jar:5.2.2]
+	at com.conti.utility.ExcelUtility.updateExcel(ExcelUtility.java:149) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.getDetails(DNGPerformanceAnalyzerApplication.java:135) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.access$0(DNGPerformanceAnalyzerApplication.java:105) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication$MyTask.run(DNGPerformanceAnalyzerApplication.java:97) [classes/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+2024-10-17T16:21:40,140 [pool-2-thread-7] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.openxml4j.exceptions.OpenXML4JRuntimeException: Fail to save: an error occurs while saving the package : The part /xl/sharedStrings.xml failed to be saved in the stream with marshaller org.apache.poi.openxml4j.opc.internal.marshallers.DefaultMarshaller@2ecc3fb1. Enable logging via Log4j 2 for more details.
+2024-10-17T16:21:40,854 [pool-2-thread-9] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA8 is 5.038
+2024-10-17T16:21:40,862 [pool-2-thread-9] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.ooxml.POIXMLException: OOXML file structure broken/invalid - core document '/xl/workbook.xml' not found.
+2024-10-17T16:21:40,866 [pool-2-thread-1] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA Rmfed is 4.456
+2024-10-17T16:21:40,874 [pool-2-thread-1] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.ooxml.POIXMLException: OOXML file structure broken/invalid - core document '/xl/workbook.xml' not found.
+2024-10-17T16:21:40,951 [pool-2-thread-6] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (PSS) is 5.312
+2024-10-17T16:21:40,958 [pool-2-thread-6] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.ooxml.POIXMLException: OOXML file structure broken/invalid - core document '/xl/workbook.xml' not found.
+2024-10-17T16:21:41,035 [pool-2-thread-2] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AN is 6.009
+2024-10-17T16:21:41,043 [pool-2-thread-2] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.ooxml.POIXMLException: OOXML file structure broken/invalid - core document '/xl/workbook.xml' not found.
+2024-10-17T16:21:41,901 [pool-2-thread-5] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AM is 8.001
+2024-10-17T16:21:46,541 [pool-2-thread-4] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (HBS) is 10.85
+2024-10-17T16:21:46,550 [pool-2-thread-4] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.ooxml.POIXMLException: OOXML file structure broken/invalid - core document '/xl/workbook.xml' not found.
+2024-10-17T16:21:54,321 [pool-2-thread-3] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (VED) is 20.216
+2024-10-17T16:21:54,334 [pool-2-thread-3] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.ooxml.POIXMLException: OOXML file structure broken/invalid - core document '/xl/workbook.xml' not found.
+2024-10-17T16:22:08,102 [pool-2-thread-5] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AM is 26.199
+2024-10-17T16:22:08,110 [pool-2-thread-5] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.ooxml.POIXMLException: OOXML file structure broken/invalid - core document '/xl/workbook.xml' not found.
+2024-10-17T16:24:54,871 [pool-2-thread-4] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:24:54,891 [pool-2-thread-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:24:54,935 [pool-2-thread-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:24:54,960 [pool-2-thread-6] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:24:55,104 [pool-2-thread-5] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:24:55,107 [pool-2-thread-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:24:55,170 [pool-2-thread-9] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:24:55,376 [pool-2-thread-7] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:24:55,393 [pool-6-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T16:24:55,398 [pool-2-thread-3] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (VED) is 0.0
+2024-10-17T16:24:55,553 [pool-2-thread-8] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:24:56,153 [pool-2-thread-1] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA Rmfed is 1.045
+2024-10-17T16:24:56,644 [pool-2-thread-2] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AN is 1.343
+2024-10-17T16:24:56,748 [pool-2-thread-9] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA8 is 1.389
+2024-10-17T16:24:56,782 [pool-2-thread-7] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA6 is 1.214
+2024-10-17T16:24:57,175 [pool-2-thread-6] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (PSS) is 1.973
+2024-10-17T16:24:57,437 [pool-2-thread-8] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA7 is 1.689
+2024-10-17T16:24:57,583 [pool-2-thread-4] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (HBS) is 2.475
+2024-10-17T16:24:58,124 [pool-2-thread-5] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AM is 2.8
+2024-10-17T16:25:01,687 [pool-2-thread-1] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA Rmfed is 5.531
+2024-10-17T16:25:01,715 [pool-2-thread-1] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.ooxml.POIXMLException: OOXML file structure broken/invalid - core document '/xl/workbook.xml' not found.
+2024-10-17T16:25:02,474 [pool-2-thread-9] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA8 is 5.724
+2024-10-17T16:25:02,483 [pool-2-thread-9] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.ooxml.POIXMLException: OOXML file structure broken/invalid - core document '/xl/workbook.xml' not found.
+2024-10-17T16:25:02,583 [pool-2-thread-7] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA6 is 5.799
+2024-10-17T16:25:02,593 [pool-2-thread-7] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.ooxml.POIXMLException: OOXML file structure broken/invalid - core document '/xl/workbook.xml' not found.
+2024-10-17T16:25:03,163 [pool-2-thread-8] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA7 is 5.724
+2024-10-17T16:25:03,174 [pool-2-thread-8] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.ooxml.POIXMLException: OOXML file structure broken/invalid - core document '/xl/workbook.xml' not found.
+2024-10-17T16:25:03,384 [pool-2-thread-6] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (PSS) is 6.205
+2024-10-17T16:25:03,396 [pool-2-thread-6] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.ooxml.POIXMLException: OOXML file structure broken/invalid - core document '/xl/workbook.xml' not found.
+2024-10-17T16:25:04,244 [pool-2-thread-2] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AN is 7.597
+2024-10-17T16:25:04,253 [pool-2-thread-2] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.ooxml.POIXMLException: OOXML file structure broken/invalid - core document '/xl/workbook.xml' not found.
+2024-10-17T16:25:09,452 [pool-2-thread-4] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (HBS) is 11.864
+2024-10-17T16:25:09,459 [pool-2-thread-4] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.ooxml.POIXMLException: OOXML file structure broken/invalid - core document '/xl/workbook.xml' not found.
+2024-10-17T16:25:19,214 [pool-2-thread-3] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (VED) is 23.813
+2024-10-17T16:25:19,224 [pool-2-thread-3] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.ooxml.POIXMLException: OOXML file structure broken/invalid - core document '/xl/workbook.xml' not found.
+2024-10-17T16:25:22,628 [pool-2-thread-5] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AM is 24.502
+2024-10-17T16:25:22,636 [pool-2-thread-5] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.ooxml.POIXMLException: OOXML file structure broken/invalid - core document '/xl/workbook.xml' not found.
+2024-10-17T16:36:00,066 [pool-2-thread-7] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:36:00,137 [pool-2-thread-9] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:36:00,273 [pool-2-thread-4] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:36:00,301 [pool-2-thread-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:36:00,570 [pool-2-thread-5] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:36:01,068 [pool-2-thread-8] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:36:01,092 [pool-2-thread-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:36:01,092 [pool-2-thread-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:36:01,508 [pool-2-thread-6] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T16:36:01,825 [pool-9-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T16:36:01,828 [pool-2-thread-3] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (VED) is 0.0
+2024-10-17T16:36:02,547 [pool-2-thread-1] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA Rmfed is 1.971
+2024-10-17T16:36:02,683 [pool-2-thread-7] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA6 is 2.405
+2024-10-17T16:36:02,821 [pool-2-thread-8] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA7 is 1.482
+2024-10-17T16:36:02,958 [pool-2-thread-9] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA8 is 2.627
+2024-10-17T16:36:03,281 [pool-2-thread-6] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (PSS) is 1.525
+2024-10-17T16:36:03,883 [pool-2-thread-2] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AN is 2.566
+2024-10-17T16:36:04,189 [pool-2-thread-4] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (HBS) is 3.612
+2024-10-17T16:36:04,824 [pool-2-thread-5] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AM is 4.059
+2024-10-17T16:36:07,017 [pool-2-thread-1] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA Rmfed is 4.468
+2024-10-17T16:36:07,664 [pool-2-thread-7] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA6 is 4.979
+2024-10-17T16:36:08,043 [pool-2-thread-8] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA7 is 5.214
+2024-10-17T16:36:08,059 [pool-2-thread-9] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA8 is 5.097
+2024-10-17T16:36:08,157 [pool-2-thread-9] ERROR (ZipPartMarshaller.java:94) - Cannot write: /xl/worksheets/sheet2.xml: in ZIP
+java.io.IOException: Stream Closed
+	at java.io.FileOutputStream.writeBytes(Native Method) ~[?:?]
+	at java.io.FileOutputStream.write(FileOutputStream.java:349) ~[?:?]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor$OutputStreamCompressor.writeOut(StreamCompressor.java:306) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.writeCounted(StreamCompressor.java:273) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.writeCounted(StreamCompressor.java:269) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.writeCounted(ZipArchiveOutputStream.java:1060) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.writeLocalFileHeader(ZipArchiveOutputStream.java:1175) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.putArchiveEntry(ZipArchiveOutputStream.java:881) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.putArchiveEntry(ZipArchiveOutputStream.java:821) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.poi.openxml4j.opc.internal.marshallers.ZipPartMarshaller.marshall(ZipPartMarshaller.java:85) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.internal.MemoryPackagePart.save(MemoryPackagePart.java:111) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.internal.marshallers.DefaultMarshaller.marshall(DefaultMarshaller.java:46) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:584) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.OPCPackage.save(OPCPackage.java:1490) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.ooxml.POIXMLDocument.write(POIXMLDocument.java:227) [poi-ooxml-5.2.2.jar:5.2.2]
+	at com.conti.utility.ExcelUtility.updateExcel(ExcelUtility.java:149) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.getDetails(DNGPerformanceAnalyzerApplication.java:135) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.access$0(DNGPerformanceAnalyzerApplication.java:105) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication$MyTask.run(DNGPerformanceAnalyzerApplication.java:97) [classes/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+2024-10-17T16:36:08,173 [pool-2-thread-9] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.openxml4j.exceptions.OpenXML4JRuntimeException: Fail to save: an error occurs while saving the package : The part /xl/worksheets/sheet2.xml failed to be saved in the stream with marshaller org.apache.poi.openxml4j.opc.internal.marshallers.DefaultMarshaller@13b9b226. Enable logging via Log4j 2 for more details.
+2024-10-17T16:36:09,444 [pool-2-thread-6] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (PSS) is 6.159
+2024-10-17T16:36:15,833 [pool-2-thread-2] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AN is 11.946
+2024-10-17T16:36:15,881 [pool-2-thread-4] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (HBS) is 11.688
+2024-10-17T16:36:23,386 [pool-2-thread-3] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (VED) is 21.555
+2024-10-17T16:36:27,322 [pool-2-thread-5] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AM is 22.497
+2024-10-17T17:21:45,613 [pool-2-thread-6] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T17:21:45,613 [pool-2-thread-9] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T17:21:45,627 [pool-2-thread-8] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T17:21:45,684 [pool-2-thread-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T17:21:45,686 [pool-2-thread-4] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T17:21:45,864 [pool-2-thread-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T17:21:45,933 [pool-2-thread-5] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T17:21:46,219 [pool-2-thread-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T17:21:46,627 [pool-7-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-17T17:21:46,630 [pool-2-thread-3] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (VED) is 0.0
+2024-10-17T17:21:46,732 [pool-2-thread-7] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-17T17:21:47,422 [pool-2-thread-1] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA Rmfed is 1.362
+2024-10-17T17:21:47,806 [pool-2-thread-9] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA8 is 1.993
+2024-10-17T17:21:47,891 [pool-2-thread-6] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (PSS) is 2.035
+2024-10-17T17:21:47,932 [pool-2-thread-8] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA7 is 2.108
+2024-10-17T17:21:48,345 [pool-2-thread-7] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA6 is 1.38
+2024-10-17T17:21:48,886 [pool-2-thread-2] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AN is 2.46
+2024-10-17T17:21:49,006 [pool-2-thread-4] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (HBS) is 3.119
+2024-10-17T17:21:51,499 [pool-2-thread-1] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA Rmfed is 4.074
+2024-10-17T17:21:53,243 [pool-2-thread-9] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA8 is 5.433
+2024-10-17T17:21:53,345 [pool-2-thread-8] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA7 is 5.411
+2024-10-17T17:21:53,534 [pool-2-thread-8] ERROR (ZipContentTypeManager.java:73) - Cannot write: [Content_Types].xml in Zip !
+java.io.IOException: Stream Closed
+	at java.io.FileOutputStream.writeBytes(Native Method) ~[?:?]
+	at java.io.FileOutputStream.write(FileOutputStream.java:349) ~[?:?]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor$OutputStreamCompressor.writeOut(StreamCompressor.java:306) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.writeCounted(StreamCompressor.java:273) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.writeCounted(StreamCompressor.java:269) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.writeCounted(ZipArchiveOutputStream.java:1060) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.writeLocalFileHeader(ZipArchiveOutputStream.java:1175) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.putArchiveEntry(ZipArchiveOutputStream.java:881) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.putArchiveEntry(ZipArchiveOutputStream.java:821) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.poi.openxml4j.opc.internal.ZipContentTypeManager.saveImpl(ZipContentTypeManager.java:65) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.internal.ContentTypeManager.save(ContentTypeManager.java:450) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:563) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.OPCPackage.save(OPCPackage.java:1490) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.ooxml.POIXMLDocument.write(POIXMLDocument.java:227) [poi-ooxml-5.2.2.jar:5.2.2]
+	at com.conti.utility.ExcelUtility.updateExcel(ExcelUtility.java:149) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.getDetails(DNGPerformanceAnalyzerApplication.java:135) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.access$0(DNGPerformanceAnalyzerApplication.java:105) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication$MyTask.run(DNGPerformanceAnalyzerApplication.java:97) [classes/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+2024-10-17T17:21:53,550 [pool-2-thread-8] ERROR (ZipPartMarshaller.java:188) - Cannot create zip entry /_rels/.rels
+java.io.IOException: Stream Closed
+	at java.io.FileOutputStream.writeBytes(Native Method) ~[?:?]
+	at java.io.FileOutputStream.write(FileOutputStream.java:349) ~[?:?]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor$OutputStreamCompressor.writeOut(StreamCompressor.java:306) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.writeCounted(StreamCompressor.java:273) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.deflate(StreamCompressor.java:264) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.flushDeflater(StreamCompressor.java:229) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.flushDeflater(ZipArchiveOutputStream.java:690) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.closeArchiveEntry(ZipArchiveOutputStream.java:601) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.putArchiveEntry(ZipArchiveOutputStream.java:842) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.putArchiveEntry(ZipArchiveOutputStream.java:821) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.poi.openxml4j.opc.internal.marshallers.ZipPartMarshaller.marshallRelationshipPart(ZipPartMarshaller.java:181) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:567) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.OPCPackage.save(OPCPackage.java:1490) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.ooxml.POIXMLDocument.write(POIXMLDocument.java:227) [poi-ooxml-5.2.2.jar:5.2.2]
+	at com.conti.utility.ExcelUtility.updateExcel(ExcelUtility.java:149) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.getDetails(DNGPerformanceAnalyzerApplication.java:135) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.access$0(DNGPerformanceAnalyzerApplication.java:105) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication$MyTask.run(DNGPerformanceAnalyzerApplication.java:97) [classes/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+2024-10-17T17:21:53,552 [pool-2-thread-8] ERROR (ZipPartMarshaller.java:94) - Cannot write: /docMetadata/LabelInfo.xml: in ZIP
+java.io.IOException: Stream Closed
+	at java.io.FileOutputStream.writeBytes(Native Method) ~[?:?]
+	at java.io.FileOutputStream.write(FileOutputStream.java:349) ~[?:?]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor$OutputStreamCompressor.writeOut(StreamCompressor.java:306) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.writeCounted(StreamCompressor.java:273) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.writeCounted(StreamCompressor.java:269) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.writeCounted(ZipArchiveOutputStream.java:1060) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.writeDataDescriptor(ZipArchiveOutputStream.java:1312) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.closeEntry(ZipArchiveOutputStream.java:636) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.closeArchiveEntry(ZipArchiveOutputStream.java:608) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.putArchiveEntry(ZipArchiveOutputStream.java:842) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.putArchiveEntry(ZipArchiveOutputStream.java:821) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.poi.openxml4j.opc.internal.marshallers.ZipPartMarshaller.marshall(ZipPartMarshaller.java:85) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.ZipPackagePart.save(ZipPackagePart.java:127) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.internal.marshallers.DefaultMarshaller.marshall(DefaultMarshaller.java:46) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:584) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.OPCPackage.save(OPCPackage.java:1490) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.ooxml.POIXMLDocument.write(POIXMLDocument.java:227) [poi-ooxml-5.2.2.jar:5.2.2]
+	at com.conti.utility.ExcelUtility.updateExcel(ExcelUtility.java:149) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.getDetails(DNGPerformanceAnalyzerApplication.java:135) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.access$0(DNGPerformanceAnalyzerApplication.java:105) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication$MyTask.run(DNGPerformanceAnalyzerApplication.java:97) [classes/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+2024-10-17T17:21:53,553 [pool-2-thread-8] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.openxml4j.exceptions.OpenXML4JRuntimeException: Fail to save: an error occurs while saving the package : The part /docMetadata/LabelInfo.xml failed to be saved in the stream with marshaller org.apache.poi.openxml4j.opc.internal.marshallers.DefaultMarshaller@7f30c7b4. Enable logging via Log4j 2 for more details.
+2024-10-17T17:21:53,660 [pool-2-thread-7] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA6 is 5.313
+2024-10-17T17:21:53,663 [pool-2-thread-7] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+2024-10-17T17:21:54,059 [pool-2-thread-6] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (PSS) is 6.166
+2024-10-17T17:21:54,060 [pool-2-thread-6] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+2024-10-17T17:21:56,517 [pool-2-thread-5] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AM is 10.324
+2024-10-17T17:21:59,692 [pool-2-thread-4] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (HBS) is 10.683
+2024-10-17T17:21:59,694 [pool-2-thread-4] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+2024-10-17T17:22:00,610 [pool-2-thread-2] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AN is 11.721
+2024-10-17T17:22:00,611 [pool-2-thread-2] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+2024-10-17T17:22:13,850 [pool-2-thread-3] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (VED) is 27.218
+2024-10-17T17:22:13,851 [pool-2-thread-3] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+2024-10-17T17:22:30,103 [pool-2-thread-5] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AM is 33.584
+2024-10-17T17:22:30,105 [pool-2-thread-5] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file

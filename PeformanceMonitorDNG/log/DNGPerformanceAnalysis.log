@@ -1,0 +1,115 @@
+2025-01-20T11:22:43,673 [main] ERROR (DNGLoginUtility.java:63) - Exception while logging in DNGorg.eclipse.lyo.client.exception.RootServicesException: OSLCC003: An error occurred processing the root services document.  Server location: .
+2025-01-20T11:22:43,673 [ForkJoinPool.commonPool-worker-4] ERROR (DNGLoginUtility.java:63) - Exception while logging in DNGorg.eclipse.lyo.client.exception.RootServicesException: OSLCC003: An error occurred processing the root services document.  Server location: .
+2025-01-20T11:22:43,673 [ForkJoinPool.commonPool-worker-8] ERROR (DNGLoginUtility.java:63) - Exception while logging in DNGorg.eclipse.lyo.client.exception.RootServicesException: OSLCC003: An error occurred processing the root services document.  Server location: .
+2025-01-20T11:22:43,673 [ForkJoinPool.commonPool-worker-1] ERROR (DNGLoginUtility.java:63) - Exception while logging in DNGorg.eclipse.lyo.client.exception.RootServicesException: OSLCC003: An error occurred processing the root services document.  Server location: .
+2025-01-20T11:22:43,673 [ForkJoinPool.commonPool-worker-2] ERROR (DNGLoginUtility.java:63) - Exception while logging in DNGorg.eclipse.lyo.client.exception.RootServicesException: OSLCC003: An error occurred processing the root services document.  Server location: .
+2025-01-20T11:22:43,673 [ForkJoinPool.commonPool-worker-6] ERROR (DNGLoginUtility.java:63) - Exception while logging in DNGorg.eclipse.lyo.client.exception.RootServicesException: OSLCC003: An error occurred processing the root services document.  Server location: .
+2025-01-20T11:22:43,673 [ForkJoinPool.commonPool-worker-3] ERROR (DNGLoginUtility.java:63) - Exception while logging in DNGorg.eclipse.lyo.client.exception.RootServicesException: OSLCC003: An error occurred processing the root services document.  Server location: .
+2025-01-20T11:22:43,673 [ForkJoinPool.commonPool-worker-7] ERROR (DNGLoginUtility.java:63) - Exception while logging in DNGorg.eclipse.lyo.client.exception.RootServicesException: OSLCC003: An error occurred processing the root services document.  Server location: .
+2025-01-20T11:22:43,692 [ForkJoinPool.commonPool-worker-1] ERROR (DNGPerformanceAnalyzerApplication.java:165) - Unable to reach the server
+2025-01-20T11:22:43,692 [ForkJoinPool.commonPool-worker-2] ERROR (DNGPerformanceAnalyzerApplication.java:165) - Unable to reach the server
+2025-01-20T11:22:43,692 [ForkJoinPool.commonPool-worker-3] ERROR (DNGPerformanceAnalyzerApplication.java:165) - Unable to reach the server
+2025-01-20T11:22:43,692 [ForkJoinPool.commonPool-worker-6] ERROR (DNGPerformanceAnalyzerApplication.java:165) - Unable to reach the server
+2025-01-20T11:22:43,692 [ForkJoinPool.commonPool-worker-7] ERROR (DNGPerformanceAnalyzerApplication.java:165) - Unable to reach the server
+2025-01-20T11:22:43,692 [main] ERROR (DNGPerformanceAnalyzerApplication.java:165) - Unable to reach the server
+2025-01-20T11:22:43,692 [ForkJoinPool.commonPool-worker-8] ERROR (DNGPerformanceAnalyzerApplication.java:165) - Unable to reach the server
+2025-01-20T11:22:43,692 [ForkJoinPool.commonPool-worker-4] ERROR (DNGPerformanceAnalyzerApplication.java:165) - Unable to reach the server
+2025-01-20T11:22:47,594 [ForkJoinPool.commonPool-worker-5] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-20T11:22:50,674 [ForkJoinPool.commonPool-worker-5] INFO  (ThrottleUtility.java:57) - Throttle check response: {"taskId": "13ad714e-f793-4d33-89e1-63663cfd1c19", "result": "GO", "maxOperationAmount": 1000, "timeLimit": 60}
+2025-01-20T11:22:51,586 [ForkJoinPool.commonPool-worker-5] INFO  (RestUtility.java:88) - Time taken to load the small DNG module for BA Rmfed is 0.896
+2025-01-20T11:22:55,737 [ForkJoinPool.commonPool-worker-5] INFO  (RestUtility.java:88) - Time taken to load the large DNG module for BA Rmfed is 4.147
+2025-01-20T11:22:56,828 [main] ERROR (ExcelUtility.java:164) -  Exception while updating the excel java.lang.IllegalArgumentException: sheetName '' is invalid - character count MUST be greater than or equal to 1 and less than or equal to 31
+2025-01-20T11:22:56,832 [main] ERROR (DNGPerformanceAnalyzerApplication.java:82) - Exception in the main application java.lang.NullPointerException: Cannot invoke "java.io.FileOutputStream.close()" because "com.conti.utility.ExcelUtility.outputstream" is null
+2025-01-20T11:27:26,713 [main] ERROR (DNGLoginUtility.java:63) - Exception while logging in DNGorg.eclipse.lyo.client.exception.RootServicesException: OSLCC003: An error occurred processing the root services document.  Server location: .
+2025-01-20T11:28:00,703 [main] ERROR (DNGLoginUtility.java:63) - Exception while logging in DNGorg.eclipse.lyo.client.exception.RootServicesException: OSLCC003: An error occurred processing the root services document.  Server location: .
+2025-01-20T11:28:00,711 [main] ERROR (DNGPerformanceAnalyzerApplication.java:167) - Unable to reach the server
+2025-01-20T11:28:03,230 [ForkJoinPool.commonPool-worker-3] ERROR (DNGLoginUtility.java:63) - Exception while logging in DNGorg.eclipse.lyo.client.exception.RootServicesException: OSLCC003: An error occurred processing the root services document.  Server location: .
+2025-01-20T11:28:03,231 [ForkJoinPool.commonPool-worker-3] ERROR (DNGPerformanceAnalyzerApplication.java:167) - Unable to reach the server
+2025-01-20T11:28:04,318 [ForkJoinPool.commonPool-worker-2] ERROR (DNGLoginUtility.java:63) - Exception while logging in DNGorg.eclipse.lyo.client.exception.RootServicesException: OSLCC003: An error occurred processing the root services document.  Server location: .
+2025-01-20T11:28:04,319 [ForkJoinPool.commonPool-worker-2] ERROR (DNGPerformanceAnalyzerApplication.java:167) - Unable to reach the server
+2025-01-20T11:28:06,679 [ForkJoinPool.commonPool-worker-1] ERROR (DNGLoginUtility.java:63) - Exception while logging in DNGorg.eclipse.lyo.client.exception.RootServicesException: OSLCC003: An error occurred processing the root services document.  Server location: .
+2025-01-20T11:28:06,680 [ForkJoinPool.commonPool-worker-1] ERROR (DNGPerformanceAnalyzerApplication.java:167) - Unable to reach the server
+2025-01-20T11:28:07,500 [ForkJoinPool.commonPool-worker-5] ERROR (DNGLoginUtility.java:63) - Exception while logging in DNGorg.eclipse.lyo.client.exception.RootServicesException: OSLCC003: An error occurred processing the root services document.  Server location: .
+2025-01-20T11:28:07,500 [ForkJoinPool.commonPool-worker-5] ERROR (DNGPerformanceAnalyzerApplication.java:167) - Unable to reach the server
+2025-01-20T11:28:09,147 [ForkJoinPool.commonPool-worker-7] ERROR (DNGLoginUtility.java:63) - Exception while logging in DNGorg.eclipse.lyo.client.exception.RootServicesException: OSLCC003: An error occurred processing the root services document.  Server location: .
+2025-01-20T11:28:09,148 [ForkJoinPool.commonPool-worker-7] ERROR (DNGPerformanceAnalyzerApplication.java:167) - Unable to reach the server
+2025-01-20T11:28:11,013 [ForkJoinPool.commonPool-worker-4] ERROR (DNGLoginUtility.java:63) - Exception while logging in DNGorg.eclipse.lyo.client.exception.RootServicesException: OSLCC003: An error occurred processing the root services document.  Server location: .
+2025-01-20T11:28:11,017 [ForkJoinPool.commonPool-worker-4] ERROR (DNGPerformanceAnalyzerApplication.java:167) - Unable to reach the server
+2025-01-20T11:28:12,058 [ForkJoinPool.commonPool-worker-6] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-20T11:28:15,024 [ForkJoinPool.commonPool-worker-6] INFO  (ThrottleUtility.java:57) - Throttle check response: {"taskId": "67c49ffa-f3ff-4e78-979c-1ac1d93fd70d", "result": "GO", "maxOperationAmount": 1000, "timeLimit": 60}
+2025-01-20T11:28:16,048 [ForkJoinPool.commonPool-worker-6] INFO  (RestUtility.java:88) - Time taken to load the small DNG module for BA Rmfed is 1.0
+2025-01-20T11:28:20,245 [ForkJoinPool.commonPool-worker-6] INFO  (RestUtility.java:88) - Time taken to load the large DNG module for BA Rmfed is 4.194
+2025-01-20T11:28:31,243 [ForkJoinPool.commonPool-worker-8] ERROR (DNGLoginUtility.java:63) - Exception while logging in DNGorg.eclipse.lyo.client.exception.RootServicesException: OSLCC003: An error occurred processing the root services document.  Server location: .
+2025-01-20T11:28:31,244 [ForkJoinPool.commonPool-worker-8] ERROR (DNGPerformanceAnalyzerApplication.java:167) - Unable to reach the server
+2025-01-20T11:31:33,982 [ForkJoinPool.commonPool-worker-8] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-20T11:31:33,982 [ForkJoinPool.commonPool-worker-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-20T11:31:34,181 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-20T11:31:34,181 [ForkJoinPool.commonPool-worker-5] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-20T11:31:34,182 [ForkJoinPool.commonPool-worker-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-20T11:31:34,181 [ForkJoinPool.commonPool-worker-6] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-20T11:31:34,187 [ForkJoinPool.commonPool-worker-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-20T11:31:34,187 [ForkJoinPool.commonPool-worker-7] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-20T11:31:37,362 [ForkJoinPool.commonPool-worker-2] INFO  (ThrottleUtility.java:57) - Throttle check response: {"taskId": "f0be1ae1-d7bb-4aa0-af4e-3f1d7e066173", "result": "GO", "maxOperationAmount": 1000, "timeLimit": 60}
+2025-01-20T11:31:37,764 [ForkJoinPool.commonPool-worker-6] INFO  (ThrottleUtility.java:57) - Throttle check response: {"taskId": "e973ab80-6206-49aa-9dd7-e2dc6870096a", "result": "GO", "maxOperationAmount": 1000, "timeLimit": 60}
+2025-01-20T11:31:37,764 [ForkJoinPool.commonPool-worker-8] INFO  (ThrottleUtility.java:57) - Throttle check response: {"taskId": "8560dffa-b453-4f48-9cc7-417734983de2", "result": "GO", "maxOperationAmount": 1000, "timeLimit": 60}
+2025-01-20T11:31:37,826 [ForkJoinPool.commonPool-worker-1] INFO  (ThrottleUtility.java:57) - Throttle check response: {"taskId": "2fdd622b-ae51-41aa-9d0f-de8c917dca1e", "result": "GO", "maxOperationAmount": 1000, "timeLimit": 60}
+2025-01-20T11:31:37,855 [ForkJoinPool.commonPool-worker-5] INFO  (ThrottleUtility.java:57) - Throttle check response: {"taskId": "95a35189-ba8f-4941-af42-b6e230595f9b", "result": "GO", "maxOperationAmount": 1000, "timeLimit": 60}
+2025-01-20T11:31:38,447 [ForkJoinPool.commonPool-worker-4] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-20T11:31:38,590 [ForkJoinPool.commonPool-worker-2] INFO  (RestUtility.java:88) - Time taken to load the small DNG module for BA BA7 is 1.214
+2025-01-20T11:31:38,791 [ForkJoinPool.commonPool-worker-5] INFO  (RestUtility.java:88) - Time taken to load the small DNG module for BA Rmfed is 0.933
+2025-01-20T11:31:39,201 [ForkJoinPool.commonPool-worker-8] INFO  (RestUtility.java:88) - Time taken to load the small DNG module for BA BA8 is 1.434
+2025-01-20T11:31:39,455 [main] INFO  (ThrottleUtility.java:57) - Throttle check response: {"taskId": "3513da57-ed83-4e2a-8f3a-b55f0eeb3b27", "result": "GO", "maxOperationAmount": 1000, "timeLimit": 60}
+2025-01-20T11:31:40,019 [ForkJoinPool.commonPool-worker-3] INFO  (ThrottleUtility.java:57) - Throttle check response: {"taskId": "69a5f4e6-b185-4539-b539-f3a615147015", "result": "GO", "maxOperationAmount": 1000, "timeLimit": 60}
+2025-01-20T11:31:40,021 [ForkJoinPool.commonPool-worker-6] INFO  (RestUtility.java:88) - Time taken to load the small DNG module for BA SAM (HBS)-BU3 is 2.253
+2025-01-20T11:31:40,034 [ForkJoinPool.commonPool-worker-7] INFO  (ThrottleUtility.java:57) - Throttle check response: {"taskId": "35eb1065-d654-4c1a-bef0-38fcafcad9f5", "result": "GO", "maxOperationAmount": 1000, "timeLimit": 60}
+2025-01-20T11:31:40,839 [ForkJoinPool.commonPool-worker-4] INFO  (ThrottleUtility.java:57) - Throttle check response: {"taskId": "3e024ad9-da19-4d50-8722-90c5307ae0d9", "result": "GO", "maxOperationAmount": 1000, "timeLimit": 60}
+2025-01-20T11:31:41,253 [ForkJoinPool.commonPool-worker-7] INFO  (RestUtility.java:88) - Time taken to load the small DNG module for BA BA6 is 1.216
+2025-01-20T11:31:41,763 [ForkJoinPool.commonPool-worker-1] INFO  (RestUtility.java:88) - Time taken to load the small DNG module for BA SAM (VED)-BU2 is 3.934
+2025-01-20T11:31:42,273 [main] INFO  (RestUtility.java:88) - Time taken to load the small DNG module for BA SAM (PSS)-BU5 is 2.816
+2025-01-20T11:31:42,374 [ForkJoinPool.commonPool-worker-3] INFO  (RestUtility.java:88) - Time taken to load the small DNG module for BA AN-BU1 is 2.352
+2025-01-20T11:31:42,993 [ForkJoinPool.commonPool-worker-5] INFO  (RestUtility.java:88) - Time taken to load the large DNG module for BA Rmfed is 4.2
+2025-01-20T11:31:43,604 [ForkJoinPool.commonPool-worker-2] INFO  (RestUtility.java:88) - Time taken to load the large DNG module for BA BA7 is 5.011
+2025-01-20T11:31:44,025 [ForkJoinPool.commonPool-worker-8] INFO  (RestUtility.java:88) - Time taken to load the large DNG module for BA BA8 is 4.821
+2025-01-20T11:31:46,016 [ForkJoinPool.commonPool-worker-7] INFO  (RestUtility.java:88) - Time taken to load the large DNG module for BA BA6 is 4.761
+2025-01-20T11:31:47,801 [ForkJoinPool.commonPool-worker-4] INFO  (RestUtility.java:88) - Time taken to load the small DNG module for BA AM-BU4 is 6.959
+2025-01-20T11:31:49,849 [main] INFO  (RestUtility.java:88) - Time taken to load the large DNG module for BA SAM (PSS)-BU5 is 7.572
+2025-01-20T11:31:50,260 [ForkJoinPool.commonPool-worker-6] INFO  (RestUtility.java:88) - Time taken to load the large DNG module for BA SAM (HBS)-BU3 is 10.236
+2025-01-20T11:31:53,639 [ForkJoinPool.commonPool-worker-3] INFO  (RestUtility.java:88) - Time taken to load the large DNG module for BA AN-BU1 is 11.262
+2025-01-20T11:31:59,490 [ForkJoinPool.commonPool-worker-1] INFO  (RestUtility.java:88) - Time taken to load the large DNG module for BA SAM (VED)-BU2 is 17.725
+2025-01-20T11:32:18,012 [ForkJoinPool.commonPool-worker-4] INFO  (RestUtility.java:88) - Time taken to load the large DNG module for BA AM-BU4 is 30.209
+2025-01-20T11:43:03,787 [ForkJoinPool.commonPool-worker-6] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-20T11:43:03,787 [ForkJoinPool.commonPool-worker-5] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-20T11:43:03,787 [ForkJoinPool.commonPool-worker-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-20T11:43:03,787 [ForkJoinPool.commonPool-worker-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-20T11:43:03,787 [ForkJoinPool.commonPool-worker-7] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-20T11:43:03,787 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-20T11:43:03,785 [ForkJoinPool.commonPool-worker-8] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-20T11:43:03,787 [ForkJoinPool.commonPool-worker-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-20T11:43:03,793 [ForkJoinPool.commonPool-worker-4] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-20T11:43:06,410 [ForkJoinPool.commonPool-worker-8] INFO  (ThrottleUtility.java:57) - Throttle check response: {"taskId": "96395634-1e72-476e-83da-57c7321ee68b", "result": "GO", "maxOperationAmount": 1000, "timeLimit": 60}
+2025-01-20T11:43:07,328 [ForkJoinPool.commonPool-worker-4] INFO  (ThrottleUtility.java:57) - Throttle check response: {"taskId": "65fa46bc-85b7-4c8f-b33c-650263cf12db", "result": "GO", "maxOperationAmount": 1000, "timeLimit": 60}
+2025-01-20T11:43:07,840 [ForkJoinPool.commonPool-worker-6] INFO  (ThrottleUtility.java:57) - Throttle check response: {"taskId": "54f43722-6e90-43a2-affc-d9ac9763ac5b", "result": "GO", "maxOperationAmount": 1000, "timeLimit": 60}
+2025-01-20T11:43:07,910 [ForkJoinPool.commonPool-worker-2] INFO  (ThrottleUtility.java:57) - Throttle check response: {"taskId": "6d7b976d-5342-4828-a694-f8338be39629", "result": "GO", "maxOperationAmount": 1000, "timeLimit": 60}
+2025-01-20T11:43:08,454 [ForkJoinPool.commonPool-worker-7] INFO  (ThrottleUtility.java:57) - Throttle check response: {"taskId": "e10180bf-cd99-4f80-b157-80f983e04f58", "result": "GO", "maxOperationAmount": 1000, "timeLimit": 60}
+2025-01-20T11:43:08,657 [ForkJoinPool.commonPool-worker-3] INFO  (ThrottleUtility.java:57) - Throttle check response: {"taskId": "450a2d4f-fa6d-431e-b1ed-9a247db1e905", "result": "GO", "maxOperationAmount": 1000, "timeLimit": 60}
+2025-01-20T11:43:09,079 [ForkJoinPool.commonPool-worker-6] INFO  (RestUtility.java:88) - Time taken to load the small DNG module for BA BA6 is 1.228
+2025-01-20T11:43:09,276 [ForkJoinPool.commonPool-worker-2] INFO  (RestUtility.java:88) - Time taken to load the small DNG module for BA AN-BU1 is 1.363
+2025-01-20T11:43:09,276 [ForkJoinPool.commonPool-worker-4] INFO  (RestUtility.java:88) - Time taken to load the small DNG module for BA SAM (HBS)-BU3 is 1.945
+2025-01-20T11:43:09,478 [ForkJoinPool.commonPool-worker-5] INFO  (ThrottleUtility.java:57) - Throttle check response: {"taskId": "0dbf91d1-c49b-451e-8144-d52d6835531b", "result": "GO", "maxOperationAmount": 1000, "timeLimit": 60}
+2025-01-20T11:43:09,545 [ForkJoinPool.commonPool-worker-7] INFO  (RestUtility.java:88) - Time taken to load the small DNG module for BA BA8 is 1.089
+2025-01-20T11:43:09,584 [ForkJoinPool.commonPool-worker-3] INFO  (RestUtility.java:88) - Time taken to load the small DNG module for BA Rmfed is 0.923
+2025-01-20T11:43:09,786 [main] INFO  (ThrottleUtility.java:57) - Throttle check response: {"taskId": "87088ac8-c241-4f3d-a04c-c9b20db826af", "result": "GO", "maxOperationAmount": 1000, "timeLimit": 60}
+2025-01-20T11:43:09,946 [ForkJoinPool.commonPool-worker-1] INFO  (ThrottleUtility.java:57) - Throttle check response: {"taskId": "80e19869-a1b6-406c-8a42-0e241fa2bd56", "result": "GO", "maxOperationAmount": 1000, "timeLimit": 60}
+2025-01-20T11:43:10,811 [ForkJoinPool.commonPool-worker-5] INFO  (RestUtility.java:88) - Time taken to load the small DNG module for BA BA7 is 1.33
+2025-01-20T11:43:12,652 [main] INFO  (RestUtility.java:88) - Time taken to load the small DNG module for BA SAM (PSS)-BU5 is 2.864
+2025-01-20T11:43:13,065 [ForkJoinPool.commonPool-worker-1] INFO  (RestUtility.java:88) - Time taken to load the small DNG module for BA SAM (VED)-BU2 is 3.115
+2025-01-20T11:43:13,780 [ForkJoinPool.commonPool-worker-3] INFO  (RestUtility.java:88) - Time taken to load the large DNG module for BA Rmfed is 4.193
+2025-01-20T11:43:13,882 [ForkJoinPool.commonPool-worker-6] INFO  (RestUtility.java:88) - Time taken to load the large DNG module for BA BA6 is 4.8
+2025-01-20T11:43:14,395 [ForkJoinPool.commonPool-worker-7] INFO  (RestUtility.java:88) - Time taken to load the large DNG module for BA BA8 is 4.846
+2025-01-20T11:43:15,010 [ForkJoinPool.commonPool-worker-2] INFO  (RestUtility.java:88) - Time taken to load the large DNG module for BA AN-BU1 is 5.731
+2025-01-20T11:43:15,829 [ForkJoinPool.commonPool-worker-5] INFO  (RestUtility.java:88) - Time taken to load the large DNG module for BA BA7 is 5.015
+2025-01-20T11:43:16,032 [ForkJoinPool.commonPool-worker-8] INFO  (RestUtility.java:88) - Time taken to load the small DNG module for BA AM-BU4 is 9.607
+2025-01-20T11:43:19,412 [ForkJoinPool.commonPool-worker-4] INFO  (RestUtility.java:88) - Time taken to load the large DNG module for BA SAM (HBS)-BU3 is 10.133
+2025-01-20T11:43:20,128 [main] INFO  (RestUtility.java:88) - Time taken to load the large DNG module for BA SAM (PSS)-BU5 is 7.473
+2025-01-20T11:43:35,109 [ForkJoinPool.commonPool-worker-1] INFO  (RestUtility.java:88) - Time taken to load the large DNG module for BA SAM (VED)-BU2 is 22.042
+2025-01-20T11:43:42,980 [ForkJoinPool.commonPool-worker-8] INFO  (RestUtility.java:88) - Time taken to load the large DNG module for BA AM-BU4 is 26.945

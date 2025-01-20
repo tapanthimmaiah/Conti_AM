@@ -1,0 +1,65 @@
+2024-10-14T13:05:07,708 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-14T13:05:09,039 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 1
+2024-10-14T13:05:14,006 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 4
+2024-10-14T13:05:21,050 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-14T13:05:21,848 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 0
+2024-10-14T13:05:23,384 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 1
+2024-10-14T13:10:27,711 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-14T13:10:29,334 [main] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA BA1 is 1
+2024-10-14T13:10:35,353 [main] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA BA1 is 6
+2024-10-14T13:10:39,535 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-14T13:10:40,369 [main] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA AM is 0
+2024-10-14T13:10:41,220 [main] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA AM is 0
+2024-10-14T13:11:33,273 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-14T13:11:34,045 [pool-3-thread-1] ERROR (RestUtility.java:39) - Unable to reach the DNG server. Time taken to load the module is 0
+2024-10-14T13:11:34,046 [main] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA BA1 is 0
+2024-10-14T13:11:39,184 [main] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA BA1 is 5
+2024-10-14T13:11:45,715 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-14T13:11:46,633 [main] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA AM is 0
+2024-10-14T13:11:48,044 [main] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA AM is 1
+2024-10-14T13:12:48,303 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-14T13:13:16,744 [pool-3-thread-1] ERROR (RestUtility.java:39) - Unable to reach the DNG server. Time taken to load the module is 0
+2024-10-14T13:21:08,525 [main] ERROR (null:-1) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-10-14T13:29:28,525 [main] ERROR (RestUtility.java:69) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-10-14T14:14:13,200 [ForkJoinPool.commonPool-worker-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-14T14:14:13,788 [pool-3-thread-1] ERROR (RestUtility.java:39) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-14T14:14:13,790 [ForkJoinPool.commonPool-worker-1] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA BA1 is 0
+2024-10-14T14:14:14,250 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-14T14:14:14,806 [pool-5-thread-1] ERROR (RestUtility.java:39) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-14T14:14:14,807 [main] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA BA1 is 0
+2024-10-14T14:14:18,030 [ForkJoinPool.commonPool-worker-1] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA BA1 is 4
+2024-10-14T14:14:19,179 [main] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA BA1 is 4
+2024-10-14T14:17:01,474 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-14T14:17:35,600 [main] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA AM is 0
+2024-10-14T14:26:10,853 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-14T14:26:10,924 [ForkJoinPool.commonPool-worker-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-14T14:26:11,215 [pool-3-thread-1] ERROR (RestUtility.java:39) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-14T14:26:11,218 [ForkJoinPool.commonPool-worker-1] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA BA1 is 0
+2024-10-14T14:26:11,416 [pool-5-thread-1] ERROR (RestUtility.java:39) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-14T14:26:11,417 [main] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA BA1 is 0
+2024-10-14T14:26:15,615 [ForkJoinPool.commonPool-worker-1] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA BA1 is 4
+2024-10-14T14:26:15,844 [main] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA BA1 is 4
+2024-10-14T14:34:09,654 [ForkJoinPool.commonPool-worker-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-14T14:34:09,658 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-14T14:34:09,954 [pool-3-thread-1] ERROR (RestUtility.java:39) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-14T14:34:09,956 [ForkJoinPool.commonPool-worker-1] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA BA1 is 0
+2024-10-14T14:34:10,713 [pool-5-thread-1] ERROR (RestUtility.java:39) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-14T14:34:10,714 [main] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA AM is 0
+2024-10-14T14:34:11,154 [pool-6-thread-1] ERROR (RestUtility.java:39) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-14T14:34:11,156 [main] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA AM is 0
+2024-10-14T14:34:14,231 [ForkJoinPool.commonPool-worker-1] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA BA1 is 4
+2024-10-14T14:41:31,229 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-14T14:41:31,517 [ForkJoinPool.commonPool-worker-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-14T14:41:31,914 [main] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA AM is 0
+2024-10-14T14:41:32,523 [main] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA AM is 0
+2024-10-14T14:41:32,524 [pool-4-thread-1] ERROR (RestUtility.java:39) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-14T14:41:32,526 [ForkJoinPool.commonPool-worker-1] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA BA1 is 0
+2024-10-14T14:41:32,913 [pool-6-thread-1] ERROR (RestUtility.java:39) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-14T14:41:32,914 [ForkJoinPool.commonPool-worker-1] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA BA1 is 0
+2024-10-14T14:48:04,309 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-14T14:48:04,392 [ForkJoinPool.commonPool-worker-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-14T14:48:21,129 [pool-3-thread-1] ERROR (RestUtility.java:39) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-14T14:56:24,534 [ForkJoinPool.commonPool-worker-1] ERROR (RestUtility.java:69) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-10-14T14:56:24,687 [main] ERROR (RestUtility.java:69) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-10-14T15:04:44,539 [ForkJoinPool.commonPool-worker-1] ERROR (RestUtility.java:69) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-10-14T15:04:44,695 [main] ERROR (RestUtility.java:69) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs

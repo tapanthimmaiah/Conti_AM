@@ -1,0 +1,272 @@
+2024-10-15T09:34:34,615 [ForkJoinPool.commonPool-worker-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T09:34:34,944 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T09:34:35,026 [pool-3-thread-1] ERROR (RestUtility.java:39) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-15T09:34:35,030 [ForkJoinPool.commonPool-worker-1] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA BA1 is 0
+2024-10-15T09:34:36,478 [pool-5-thread-1] ERROR (RestUtility.java:39) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-15T09:34:36,484 [main] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA AM is 0
+2024-10-15T09:34:37,093 [pool-6-thread-1] ERROR (RestUtility.java:39) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-15T09:34:37,095 [main] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA AM is 0
+2024-10-15T09:34:44,222 [ForkJoinPool.commonPool-worker-1] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA BA1 is 9
+2024-10-15T09:35:38,860 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T09:35:38,895 [ForkJoinPool.commonPool-worker-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T09:37:06,222 [main] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA AM is 3
+2024-10-15T09:37:39,963 [pool-4-thread-1] ERROR (RestUtility.java:39) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-15T09:37:39,965 [ForkJoinPool.commonPool-worker-1] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA BA1 is 0
+2024-10-15T09:38:04,258 [main] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA AM is 2
+2024-10-15T09:38:20,009 [pool-6-thread-1] ERROR (RestUtility.java:39) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-15T09:38:20,011 [ForkJoinPool.commonPool-worker-1] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA BA1 is 0
+2024-10-15T09:38:35,785 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T09:38:36,189 [ForkJoinPool.commonPool-worker-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T09:38:36,606 [pool-4-thread-1] ERROR (RestUtility.java:39) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-15T09:38:36,610 [ForkJoinPool.commonPool-worker-1] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA BA1 is 0
+2024-10-15T09:38:37,112 [pool-3-thread-1] ERROR (RestUtility.java:39) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-15T09:38:37,113 [main] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA AM is 0
+2024-10-15T09:38:37,725 [pool-6-thread-1] ERROR (RestUtility.java:39) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-15T09:38:37,727 [main] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA AM is 0
+2024-10-15T09:38:40,287 [ForkJoinPool.commonPool-worker-1] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA BA1 is 3
+2024-10-15T09:46:33,085 [pool-2-thread-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T09:46:38,403 [pool-2-thread-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T09:51:12,334 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T09:51:12,734 [pool-3-thread-1] ERROR (RestUtility.java:39) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-15T09:51:12,736 [main] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA BA1 is 0
+2024-10-15T09:51:16,732 [main] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA BA1 is 3
+2024-10-15T09:51:20,414 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T09:51:21,030 [main] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA AM is 0
+2024-10-15T09:51:22,258 [main] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA AM is 1
+2024-10-15T10:28:03,046 [pool-2-thread-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T10:28:03,739 [pool-2-thread-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T10:28:03,914 [pool-2-thread-2] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA AM is 0
+2024-10-15T10:28:04,112 [pool-6-thread-1] ERROR (RestUtility.java:39) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-15T10:28:04,113 [pool-2-thread-1] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA BA1 is 0
+2024-10-15T10:28:04,681 [pool-2-thread-2] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA AM is 0
+2024-10-15T10:28:08,115 [pool-2-thread-1] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA BA1 is 3
+2024-10-15T10:30:54,126 [pool-2-thread-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T10:30:54,206 [pool-2-thread-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T10:31:55,901 [pool-2-thread-2] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA AM is 1
+2024-10-15T10:38:07,279 [pool-2-thread-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T10:38:07,610 [pool-2-thread-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T10:38:08,303 [pool-2-thread-1] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA BA1 is 0
+2024-10-15T10:38:08,444 [pool-2-thread-2] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA AM is 0
+2024-10-15T10:38:09,434 [pool-2-thread-2] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA AM is 0
+2024-10-15T10:38:12,334 [pool-2-thread-1] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA BA1 is 4
+2024-10-15T10:42:35,203 [pool-2-thread-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T10:42:35,243 [pool-2-thread-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T10:42:35,706 [pool-2-thread-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T10:42:36,428 [pool-2-thread-1] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA BA1 is 0
+2024-10-15T10:42:37,040 [pool-2-thread-2] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA BA2 is 0
+2024-10-15T10:42:37,961 [pool-2-thread-2] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA BA2 is 0
+2024-10-15T10:42:40,894 [pool-2-thread-1] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA BA1 is 4
+2024-10-15T10:42:41,238 [pool-2-thread-3] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA AM is 5
+2024-10-15T10:42:45,198 [pool-2-thread-3] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA AM is 3
+2024-10-15T10:51:56,149 [pool-2-thread-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T10:51:56,657 [pool-2-thread-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T10:51:56,757 [pool-2-thread-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T10:59:18,276 [pool-2-thread-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T10:59:18,276 [pool-2-thread-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T10:59:19,338 [pool-2-thread-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T11:00:49,357 [pool-2-thread-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T11:00:49,357 [pool-2-thread-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T11:00:49,357 [pool-2-thread-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T11:02:41,392 [pool-2-thread-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T11:02:41,787 [pool-2-thread-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T11:02:42,705 [pool-2-thread-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T11:05:11,654 [pool-2-thread-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T11:05:11,654 [pool-2-thread-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T11:05:11,772 [pool-2-thread-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T11:07:35,620 [pool-2-thread-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T11:07:35,620 [pool-2-thread-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T11:07:35,764 [pool-2-thread-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T11:07:36,381 [pool-2-thread-2] INFO  (RestUtility.java:65) - Time taken to load the small DNG module for BA BA2 is 0.0
+2024-10-15T11:07:36,894 [pool-2-thread-1] INFO  (RestUtility.java:65) - Time taken to load the small DNG module for BA BA1 is 0.0
+2024-10-15T11:07:37,302 [pool-2-thread-2] INFO  (RestUtility.java:65) - Time taken to load the large DNG module for BA BA2 is 0.0
+2024-10-15T11:07:37,389 [pool-2-thread-2] ERROR (ExcelUtility.java:153) -  Exception while udpating the excel java.io.FileNotFoundException: D:\Workspace\PeformanceMonitorDNG\E2EOutput.xlsx (The process cannot access the file because it is being used by another process)
+2024-10-15T11:07:38,940 [pool-2-thread-3] INFO  (RestUtility.java:65) - Time taken to load the small DNG module for BA AM is 3.0
+2024-10-15T11:07:40,820 [pool-2-thread-1] INFO  (RestUtility.java:65) - Time taken to load the large DNG module for BA BA1 is 3.0
+2024-10-15T11:07:40,908 [pool-2-thread-1] ERROR (ExcelUtility.java:153) -  Exception while udpating the excel java.io.FileNotFoundException: D:\Workspace\PeformanceMonitorDNG\E2EOutput.xlsx (The process cannot access the file because it is being used by another process)
+2024-10-15T11:07:42,525 [pool-2-thread-3] INFO  (RestUtility.java:65) - Time taken to load the large DNG module for BA AM is 3.0
+2024-10-15T11:07:42,585 [pool-2-thread-3] ERROR (ExcelUtility.java:153) -  Exception while udpating the excel java.io.FileNotFoundException: D:\Workspace\PeformanceMonitorDNG\E2EOutput.xlsx (The process cannot access the file because it is being used by another process)
+2024-10-15T11:17:43,719 [pool-2-thread-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T11:17:43,920 [pool-2-thread-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T11:17:43,921 [pool-2-thread-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T11:17:44,437 [pool-2-thread-1] ERROR (RestUtility.java:70) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-10-15T11:17:44,639 [pool-2-thread-2] ERROR (RestUtility.java:70) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-10-15T11:17:44,639 [pool-2-thread-3] ERROR (RestUtility.java:70) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-10-15T11:17:44,951 [pool-2-thread-1] ERROR (RestUtility.java:70) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-10-15T11:17:45,153 [pool-2-thread-2] ERROR (RestUtility.java:70) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-10-15T11:17:45,153 [pool-2-thread-3] ERROR (RestUtility.java:70) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-10-15T11:17:45,155 [pool-2-thread-2] ERROR (ExcelUtility.java:153) -  Exception while udpating the excel java.io.IOException: Truncated ZIP file
+2024-10-15T11:17:45,155 [pool-2-thread-3] ERROR (ExcelUtility.java:153) -  Exception while udpating the excel java.io.IOException: Truncated ZIP file
+2024-10-15T11:17:45,160 [pool-2-thread-1] ERROR (ZipPartMarshaller.java:94) - Cannot write: /xl/sharedStrings.xml: in ZIP
+java.io.IOException: Stream Closed
+	at java.io.FileOutputStream.writeBytes(Native Method) ~[?:?]
+	at java.io.FileOutputStream.write(FileOutputStream.java:349) ~[?:?]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor$OutputStreamCompressor.writeOut(StreamCompressor.java:306) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.writeCounted(StreamCompressor.java:273) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.deflate(StreamCompressor.java:264) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.flushDeflater(StreamCompressor.java:229) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.flushDeflater(ZipArchiveOutputStream.java:690) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.closeArchiveEntry(ZipArchiveOutputStream.java:601) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.poi.openxml4j.opc.internal.marshallers.ZipPartMarshaller.marshall(ZipPartMarshaller.java:91) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.internal.MemoryPackagePart.save(MemoryPackagePart.java:111) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.internal.marshallers.DefaultMarshaller.marshall(DefaultMarshaller.java:46) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:584) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.OPCPackage.save(OPCPackage.java:1490) [poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.ooxml.POIXMLDocument.write(POIXMLDocument.java:227) [poi-ooxml-5.2.2.jar:5.2.2]
+	at com.conti.utility.ExcelUtility.updateExcel(ExcelUtility.java:149) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.getDetails(DNGPerformanceAnalyzerApplication.java:112) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.access$0(DNGPerformanceAnalyzerApplication.java:84) [classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication$MyTask.run(DNGPerformanceAnalyzerApplication.java:80) [classes/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+2024-10-15T11:17:45,175 [pool-2-thread-1] ERROR (ExcelUtility.java:153) -  Exception while udpating the excel org.apache.poi.openxml4j.exceptions.OpenXML4JRuntimeException: Fail to save: an error occurs while saving the package : The part /xl/sharedStrings.xml failed to be saved in the stream with marshaller org.apache.poi.openxml4j.opc.internal.marshallers.DefaultMarshaller@32aba5ed. Enable logging via Log4j 2 for more details.
+2024-10-15T11:18:51,849 [pool-2-thread-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T11:18:52,023 [pool-2-thread-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T11:18:52,336 [pool-2-thread-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T11:18:52,530 [pool-2-thread-2] INFO  (RestUtility.java:65) - Time taken to load the small DNG module for BA BA2 is 0.0
+2024-10-15T11:18:52,723 [pool-2-thread-1] ERROR (RestUtility.java:70) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-10-15T11:18:53,031 [pool-2-thread-2] ERROR (RestUtility.java:70) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-10-15T11:18:53,031 [pool-2-thread-3] ERROR (RestUtility.java:70) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-10-15T11:18:53,035 [pool-2-thread-2] ERROR (ExcelUtility.java:153) -  Exception while udpating the excel java.io.IOException: Truncated ZIP file
+2024-10-15T11:18:53,234 [pool-2-thread-1] ERROR (RestUtility.java:70) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-10-15T11:18:53,238 [pool-2-thread-1] ERROR (ExcelUtility.java:153) -  Exception while udpating the excel java.io.IOException: Truncated ZIP file
+2024-10-15T11:18:53,543 [pool-2-thread-3] ERROR (RestUtility.java:70) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-10-15T11:18:53,546 [pool-2-thread-3] ERROR (ExcelUtility.java:153) -  Exception while udpating the excel java.io.IOException: Truncated ZIP file
+2024-10-15T11:23:26,558 [pool-2-thread-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T11:23:26,558 [pool-2-thread-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T11:23:26,761 [pool-2-thread-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T11:23:27,397 [pool-2-thread-2] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA BA2 is 0
+2024-10-15T11:23:27,784 [pool-2-thread-1] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA BA1 is 1
+2024-10-15T11:23:28,417 [pool-2-thread-2] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA BA2 is 1
+2024-10-15T11:23:28,423 [pool-2-thread-2] ERROR (ExcelUtility.java:153) -  Exception while udpating the excel java.io.IOException: Truncated ZIP file
+2024-10-15T11:23:31,877 [pool-2-thread-1] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA BA1 is 4
+2024-10-15T11:23:31,880 [pool-2-thread-1] ERROR (ExcelUtility.java:153) -  Exception while udpating the excel java.io.IOException: Truncated ZIP file
+2024-10-15T11:23:32,777 [pool-2-thread-3] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA AM is 6
+2024-10-15T11:23:36,382 [pool-2-thread-3] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA AM is 3
+2024-10-15T11:23:36,385 [pool-2-thread-3] ERROR (ExcelUtility.java:153) -  Exception while udpating the excel java.io.IOException: Truncated ZIP file
+2024-10-15T11:25:26,202 [pool-2-thread-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T11:25:26,773 [pool-2-thread-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T11:25:26,850 [pool-2-thread-2] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA BA2 is 0
+2024-10-15T11:25:26,979 [pool-2-thread-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T11:25:27,968 [pool-2-thread-1] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA BA1 is 0
+2024-10-15T11:25:28,215 [pool-2-thread-2] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA BA2 is 1
+2024-10-15T11:25:28,219 [pool-2-thread-2] ERROR (ExcelUtility.java:153) -  Exception while udpating the excel java.io.IOException: Truncated ZIP file
+2024-10-15T11:25:31,075 [pool-2-thread-3] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA AM is 4
+2024-10-15T11:25:31,895 [pool-2-thread-1] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA BA1 is 3
+2024-10-15T11:25:31,898 [pool-2-thread-1] ERROR (ExcelUtility.java:153) -  Exception while udpating the excel java.io.IOException: Truncated ZIP file
+2024-10-15T11:25:34,658 [pool-2-thread-3] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA AM is 3
+2024-10-15T11:25:34,660 [pool-2-thread-3] ERROR (ExcelUtility.java:153) -  Exception while udpating the excel java.io.IOException: Truncated ZIP file
+2024-10-15T11:38:46,011 [pool-2-thread-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T11:38:46,011 [pool-2-thread-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T11:38:46,729 [pool-2-thread-3] ERROR (RestUtility.java:69) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-10-15T11:38:46,729 [pool-2-thread-2] ERROR (RestUtility.java:69) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-10-15T11:38:47,246 [pool-2-thread-3] ERROR (RestUtility.java:69) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-10-15T11:38:47,246 [pool-2-thread-2] ERROR (RestUtility.java:69) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-10-15T11:38:47,249 [pool-2-thread-2] ERROR (ExcelUtility.java:153) -  Exception while udpating the excel java.io.IOException: Truncated ZIP file
+2024-10-15T11:38:47,249 [pool-2-thread-3] ERROR (ExcelUtility.java:153) -  Exception while udpating the excel java.io.IOException: Truncated ZIP file
+2024-10-15T11:38:47,643 [pool-2-thread-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T11:38:48,353 [pool-2-thread-1] ERROR (RestUtility.java:69) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-10-15T11:38:48,869 [pool-2-thread-1] ERROR (RestUtility.java:69) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-10-15T11:38:48,871 [pool-2-thread-1] ERROR (ExcelUtility.java:153) -  Exception while udpating the excel java.io.IOException: Truncated ZIP file
+2024-10-15T11:45:29,715 [pool-2-thread-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T11:45:30,018 [pool-2-thread-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T11:45:30,389 [pool-2-thread-1] ERROR (RestUtility.java:69) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-10-15T11:45:30,390 [pool-2-thread-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T11:45:30,700 [pool-2-thread-3] ERROR (RestUtility.java:69) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-10-15T11:45:30,904 [pool-2-thread-1] ERROR (RestUtility.java:69) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-10-15T11:45:30,908 [pool-2-thread-1] ERROR (ExcelUtility.java:153) -  Exception while udpating the excel java.io.IOException: Truncated ZIP file
+2024-10-15T11:45:31,105 [pool-2-thread-2] ERROR (RestUtility.java:69) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-10-15T11:45:31,214 [pool-2-thread-3] ERROR (RestUtility.java:69) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-10-15T11:45:31,217 [pool-2-thread-3] ERROR (ExcelUtility.java:153) -  Exception while udpating the excel java.io.IOException: Truncated ZIP file
+2024-10-15T11:45:31,618 [pool-2-thread-2] ERROR (RestUtility.java:69) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-10-15T11:45:31,622 [pool-2-thread-2] ERROR (ExcelUtility.java:153) -  Exception while udpating the excel java.io.IOException: Truncated ZIP file
+2024-10-15T11:46:33,650 [pool-2-thread-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T11:46:33,650 [pool-2-thread-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T11:46:33,650 [pool-2-thread-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T11:46:34,393 [pool-2-thread-3] ERROR (RestUtility.java:69) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-10-15T11:46:34,393 [pool-2-thread-2] ERROR (RestUtility.java:69) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-10-15T11:46:34,394 [pool-2-thread-1] ERROR (RestUtility.java:69) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-10-15T11:46:34,909 [pool-2-thread-1] ERROR (RestUtility.java:69) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-10-15T11:46:34,909 [pool-2-thread-3] ERROR (RestUtility.java:69) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-10-15T11:46:34,909 [pool-2-thread-2] ERROR (RestUtility.java:69) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-10-15T11:48:16,443 [pool-2-thread-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T11:48:16,447 [pool-2-thread-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T11:48:16,739 [pool-2-thread-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T11:50:19,984 [pool-2-thread-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T11:50:20,181 [pool-2-thread-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T11:50:20,181 [pool-2-thread-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T12:38:12,795 [pool-2-thread-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T12:38:12,865 [pool-2-thread-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T12:38:12,948 [pool-2-thread-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T12:38:13,847 [pool-2-thread-2] INFO  (RestUtility.java:66) - Time taken to load the small DNG module for BA BA2 is 0.0
+2024-10-15T12:38:13,884 [pool-2-thread-1] INFO  (RestUtility.java:66) - Time taken to load the small DNG module for BA BA1 is 0.0
+2024-10-15T12:38:14,640 [pool-2-thread-2] INFO  (RestUtility.java:66) - Time taken to load the large DNG module for BA BA2 is 0.0
+2024-10-15T12:38:14,641 [pool-2-thread-2] ERROR (ExcelUtility.java:153) -  Exception while udpating the excel java.io.IOException: Truncated ZIP file
+2024-10-15T12:38:17,944 [pool-2-thread-1] INFO  (RestUtility.java:66) - Time taken to load the large DNG module for BA BA1 is 4.0
+2024-10-15T12:38:17,945 [pool-2-thread-1] ERROR (ExcelUtility.java:153) -  Exception while udpating the excel java.io.IOException: Truncated ZIP file
+2024-10-15T12:38:22,078 [pool-2-thread-3] INFO  (RestUtility.java:66) - Time taken to load the small DNG module for BA AM is 9.0
+2024-10-15T12:38:25,600 [pool-2-thread-3] INFO  (RestUtility.java:66) - Time taken to load the large DNG module for BA AM is 3.0
+2024-10-15T12:38:25,601 [pool-2-thread-3] ERROR (ExcelUtility.java:153) -  Exception while udpating the excel java.io.IOException: Truncated ZIP file
+2024-10-15T12:42:06,490 [pool-2-thread-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T12:42:06,562 [pool-2-thread-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T12:42:06,643 [pool-2-thread-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T12:42:07,184 [pool-2-thread-2] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA BA2 is 0
+2024-10-15T12:42:07,533 [pool-2-thread-1] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA BA1 is 0
+2024-10-15T12:42:08,032 [pool-2-thread-2] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA BA2 is 0
+2024-10-15T12:42:08,034 [pool-2-thread-2] ERROR (ExcelUtility.java:153) -  Exception while udpating the excel java.io.IOException: Truncated ZIP file
+2024-10-15T12:42:10,889 [pool-2-thread-3] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA AM is 4
+2024-10-15T12:42:11,354 [pool-2-thread-1] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA BA1 is 3
+2024-10-15T12:42:11,357 [pool-2-thread-1] ERROR (ExcelUtility.java:153) -  Exception while udpating the excel java.io.IOException: Truncated ZIP file
+2024-10-15T12:42:14,286 [pool-2-thread-3] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA AM is 3
+2024-10-15T12:42:14,289 [pool-2-thread-3] ERROR (ExcelUtility.java:153) -  Exception while udpating the excel java.io.IOException: Truncated ZIP file
+2024-10-15T12:44:24,532 [pool-2-thread-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T12:44:24,554 [pool-2-thread-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T12:44:24,586 [pool-2-thread-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T12:44:25,076 [pool-2-thread-2] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA BA2 is 0
+2024-10-15T12:44:25,505 [pool-2-thread-1] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA BA1 is 0
+2024-10-15T12:44:25,845 [pool-2-thread-2] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA BA2 is 0
+2024-10-15T12:44:25,848 [pool-2-thread-2] ERROR (ExcelUtility.java:153) -  Exception while udpating the excel java.io.IOException: Truncated ZIP file
+2024-10-15T12:44:29,098 [pool-2-thread-3] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA AM is 4
+2024-10-15T12:44:29,336 [pool-2-thread-1] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA BA1 is 3
+2024-10-15T12:44:29,338 [pool-2-thread-1] ERROR (ExcelUtility.java:153) -  Exception while udpating the excel java.io.IOException: Truncated ZIP file
+2024-10-15T12:44:32,407 [pool-2-thread-3] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA AM is 3
+2024-10-15T12:44:32,409 [pool-2-thread-3] ERROR (ExcelUtility.java:153) -  Exception while udpating the excel java.io.IOException: Truncated ZIP file
+2024-10-15T12:51:18,001 [pool-2-thread-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T12:51:18,086 [pool-2-thread-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T12:51:18,088 [pool-2-thread-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T12:51:18,554 [pool-2-thread-2] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA BA2 is 0
+2024-10-15T12:51:19,339 [pool-2-thread-1] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA BA1 is 1
+2024-10-15T12:51:19,392 [pool-2-thread-2] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA BA2 is 0
+2024-10-15T12:51:19,421 [pool-2-thread-2] ERROR (ExcelUtility.java:153) -  Exception while updating the excel java.lang.NullPointerException: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFRow.getCell(int)" because the return value of "org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)" is null
+2024-10-15T12:51:21,993 [pool-2-thread-3] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA AM is 3
+2024-10-15T12:51:23,323 [pool-2-thread-1] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA BA1 is 3
+2024-10-15T12:51:23,347 [pool-2-thread-1] ERROR (ExcelUtility.java:153) -  Exception while updating the excel java.lang.NullPointerException: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFRow.getCell(int)" because the return value of "org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)" is null
+2024-10-15T12:51:25,389 [pool-2-thread-3] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA AM is 3
+2024-10-15T12:51:25,417 [pool-2-thread-3] ERROR (ExcelUtility.java:153) -  Exception while updating the excel java.lang.NullPointerException: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFRow.getCell(int)" because the return value of "org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)" is null
+2024-10-15T14:04:41,293 [pool-2-thread-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T14:04:41,449 [pool-2-thread-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T14:04:41,505 [pool-2-thread-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T14:04:42,491 [pool-2-thread-2] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA BA2 is 0
+2024-10-15T14:04:42,565 [pool-2-thread-1] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA BA1 is 0
+2024-10-15T14:04:43,499 [pool-2-thread-2] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA BA2 is 1
+2024-10-15T14:04:46,374 [pool-2-thread-1] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA BA1 is 3
+2024-10-15T14:04:46,976 [pool-2-thread-3] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA AM is 5
+2024-10-15T14:04:50,561 [pool-2-thread-3] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA AM is 3
+2024-10-15T14:10:28,145 [pool-2-thread-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T14:10:28,145 [pool-2-thread-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T14:10:28,145 [pool-2-thread-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T14:10:28,893 [pool-2-thread-2] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA BA2 is 0
+2024-10-15T14:10:29,511 [pool-2-thread-1] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA BA1 is 1
+2024-10-15T14:10:29,712 [pool-2-thread-2] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA BA2 is 0
+2024-10-15T14:10:31,759 [pool-2-thread-3] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA AM is 3
+2024-10-15T14:10:33,602 [pool-2-thread-1] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA BA1 is 4
+2024-10-15T14:10:37,211 [pool-2-thread-3] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA AM is 5
+2024-10-15T14:13:37,522 [pool-2-thread-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T14:13:37,522 [pool-2-thread-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T14:13:37,725 [pool-2-thread-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-15T14:13:38,251 [pool-2-thread-2] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA BA2 is 0
+2024-10-15T14:13:38,645 [pool-2-thread-1] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA BA1 is 0
+2024-10-15T14:13:39,156 [pool-2-thread-2] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA BA2 is 0
+2024-10-15T14:13:42,644 [pool-2-thread-1] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA BA1 is 3
+2024-10-15T14:13:42,946 [pool-2-thread-3] INFO  (RestUtility.java:64) - Time taken to load the small DNG module for BA AM is 5
+2024-10-15T14:13:46,322 [pool-2-thread-3] INFO  (RestUtility.java:64) - Time taken to load the large DNG module for BA AM is 3

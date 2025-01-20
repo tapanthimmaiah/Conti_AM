@@ -1,0 +1,146 @@
+2024-11-14T10:22:51,531 [ForkJoinPool.commonPool-worker-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:22:51,531 [ForkJoinPool.commonPool-worker-5] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:22:51,531 [ForkJoinPool.commonPool-worker-6] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:22:51,566 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:22:51,847 [pool-6-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-11-14T10:22:51,850 [main] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (PSS) - BU5 is 0.0
+2024-11-14T10:22:52,191 [ForkJoinPool.commonPool-worker-7] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:22:52,191 [ForkJoinPool.commonPool-worker-4] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:22:52,191 [ForkJoinPool.commonPool-worker-8] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:22:52,201 [ForkJoinPool.commonPool-worker-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:22:52,287 [pool-7-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-11-14T10:22:52,288 [main] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (PSS) - BU5 is 0.0
+2024-11-14T10:22:52,640 [ForkJoinPool.commonPool-worker-5] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA Rmfed is 0.955
+2024-11-14T10:22:52,861 [ForkJoinPool.commonPool-worker-6] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (HBS)- BU3 is 1.177
+2024-11-14T10:22:53,424 [ForkJoinPool.commonPool-worker-8] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA8 is 1.086
+2024-11-14T10:22:53,506 [ForkJoinPool.commonPool-worker-7] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA6 is 1.168
+2024-11-14T10:22:53,772 [ForkJoinPool.commonPool-worker-2] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA7 is 1.435
+2024-11-14T10:22:53,795 [ForkJoinPool.commonPool-worker-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:22:54,163 [ForkJoinPool.commonPool-worker-3] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AN - BU1 is 2.479
+2024-11-14T10:22:54,538 [ForkJoinPool.commonPool-worker-4] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AM- BU4 is 2.2
+2024-11-14T10:22:56,513 [ForkJoinPool.commonPool-worker-5] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA Rmfed is 3.872
+2024-11-14T10:22:57,664 [ForkJoinPool.commonPool-worker-6] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (HBS)- BU3 is 4.802
+2024-11-14T10:22:58,129 [ForkJoinPool.commonPool-worker-8] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA8 is 4.704
+2024-11-14T10:22:58,519 [ForkJoinPool.commonPool-worker-7] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA6 is 5.011
+2024-11-14T10:22:58,953 [ForkJoinPool.commonPool-worker-1] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (VED)- BU2 is 5.013
+2024-11-14T10:22:59,097 [ForkJoinPool.commonPool-worker-2] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA7 is 5.323
+2024-11-14T10:23:05,280 [ForkJoinPool.commonPool-worker-3] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AN - BU1 is 11.115
+2024-11-14T10:23:07,935 [ForkJoinPool.commonPool-worker-4] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AM- BU4 is 13.395
+2024-11-14T10:23:18,919 [ForkJoinPool.commonPool-worker-1] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (VED)- BU2 is 19.965
+2024-11-14T10:24:01,445 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:24:01,502 [ForkJoinPool.commonPool-worker-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:24:03,943 [ForkJoinPool.commonPool-worker-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:24:05,838 [ForkJoinPool.commonPool-worker-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:24:07,564 [ForkJoinPool.commonPool-worker-5] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:24:08,540 [ForkJoinPool.commonPool-worker-6] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:24:09,194 [ForkJoinPool.commonPool-worker-7] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:24:09,955 [ForkJoinPool.commonPool-worker-4] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:24:10,630 [ForkJoinPool.commonPool-worker-8] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:24:11,098 [ForkJoinPool.commonPool-worker-3] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (HBS)- BU3 is 9.453
+2024-11-14T10:24:12,126 [ForkJoinPool.commonPool-worker-2] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AN - BU1 is 8.027
+2024-11-14T10:24:17,356 [ForkJoinPool.commonPool-worker-1] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (VED)- BU2 is 11.376
+2024-11-14T10:24:21,144 [ForkJoinPool.commonPool-worker-5] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA Rmfed is 13.44
+2024-11-14T10:24:22,083 [ForkJoinPool.commonPool-worker-6] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA6 is 13.404
+2024-11-14T10:24:22,440 [pool-3-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-11-14T10:24:22,441 [main] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (PSS) - BU5 is 0.0
+2024-11-14T10:24:22,755 [ForkJoinPool.commonPool-worker-7] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA8 is 13.42
+2024-11-14T10:24:22,865 [pool-17-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-11-14T10:24:22,866 [main] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (PSS) - BU5 is 0.0
+2024-11-14T10:24:25,047 [ForkJoinPool.commonPool-worker-5] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA Rmfed is 3.901
+2024-11-14T10:24:27,044 [ForkJoinPool.commonPool-worker-6] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA6 is 4.959
+2024-11-14T10:24:27,287 [ForkJoinPool.commonPool-worker-7] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA8 is 4.532
+2024-11-14T10:24:29,975 [ForkJoinPool.commonPool-worker-4] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA7 is 19.865
+2024-11-14T10:24:31,839 [ForkJoinPool.commonPool-worker-8] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AM- BU4 is 21.068
+2024-11-14T10:24:35,087 [ForkJoinPool.commonPool-worker-4] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA7 is 5.11
+2024-11-14T10:24:35,864 [ForkJoinPool.commonPool-worker-3] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (HBS)- BU3 is 24.765
+2024-11-14T10:24:37,078 [ForkJoinPool.commonPool-worker-2] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AN - BU1 is 24.95
+2024-11-14T10:24:38,457 [ForkJoinPool.commonPool-worker-8] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AM- BU4 is 6.618
+2024-11-14T10:24:51,340 [ForkJoinPool.commonPool-worker-1] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (VED)- BU2 is 33.983
+2024-11-14T10:38:51,302 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:38:51,327 [ForkJoinPool.commonPool-worker-6] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:38:51,327 [ForkJoinPool.commonPool-worker-8] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:38:51,327 [ForkJoinPool.commonPool-worker-7] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:38:51,327 [ForkJoinPool.commonPool-worker-4] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:38:51,327 [ForkJoinPool.commonPool-worker-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:38:51,344 [ForkJoinPool.commonPool-worker-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:38:51,344 [ForkJoinPool.commonPool-worker-5] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:38:51,360 [ForkJoinPool.commonPool-worker-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:47:11,445 [main] ERROR (RestUtility.java:92) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-11-14T10:47:11,475 [ForkJoinPool.commonPool-worker-8] ERROR (RestUtility.java:92) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-11-14T10:47:11,475 [ForkJoinPool.commonPool-worker-4] ERROR (RestUtility.java:92) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-11-14T10:47:11,475 [ForkJoinPool.commonPool-worker-6] ERROR (RestUtility.java:92) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-11-14T10:47:11,475 [ForkJoinPool.commonPool-worker-7] ERROR (RestUtility.java:92) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-11-14T10:47:11,475 [ForkJoinPool.commonPool-worker-1] ERROR (RestUtility.java:92) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-11-14T10:47:11,490 [ForkJoinPool.commonPool-worker-3] ERROR (RestUtility.java:92) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-11-14T10:47:11,505 [ForkJoinPool.commonPool-worker-2] ERROR (RestUtility.java:92) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-11-14T10:47:11,536 [ForkJoinPool.commonPool-worker-5] ERROR (RestUtility.java:92) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-11-14T10:51:04,228 [ForkJoinPool.commonPool-worker-8] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:51:04,228 [ForkJoinPool.commonPool-worker-4] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:51:04,238 [ForkJoinPool.commonPool-worker-5] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:51:04,302 [ForkJoinPool.commonPool-worker-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:51:08,112 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:51:08,112 [ForkJoinPool.commonPool-worker-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:51:08,142 [ForkJoinPool.commonPool-worker-7] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:51:08,143 [ForkJoinPool.commonPool-worker-6] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:51:08,143 [ForkJoinPool.commonPool-worker-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:51:15,716 [ForkJoinPool.commonPool-worker-4] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA7 is 1.429
+2024-11-14T10:51:22,875 [ForkJoinPool.commonPool-worker-8] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AM-BU4 is 11.931
+2024-11-14T10:51:25,765 [ForkJoinPool.commonPool-worker-5] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA Rmfed is 0.861
+2024-11-14T10:51:30,834 [ForkJoinPool.commonPool-worker-3] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (HBS)-BU3 is 1.074
+2024-11-14T10:52:12,436 [main] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (PSS)-BU5 is 17.969
+2024-11-14T10:57:26,309 [ForkJoinPool.commonPool-worker-4] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:57:26,309 [ForkJoinPool.commonPool-worker-6] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:57:26,309 [ForkJoinPool.commonPool-worker-7] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:57:26,309 [ForkJoinPool.commonPool-worker-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:57:26,309 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:57:26,352 [ForkJoinPool.commonPool-worker-5] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:57:26,353 [ForkJoinPool.commonPool-worker-8] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:57:26,352 [ForkJoinPool.commonPool-worker-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:57:26,368 [ForkJoinPool.commonPool-worker-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T10:57:27,384 [ForkJoinPool.commonPool-worker-5] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA Rmfed is 0.888
+2024-11-14T10:57:27,623 [ForkJoinPool.commonPool-worker-8] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA8 is 1.129
+2024-11-14T10:57:27,629 [ForkJoinPool.commonPool-worker-7] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA6 is 1.179
+2024-11-14T10:57:27,809 [ForkJoinPool.commonPool-worker-3] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AN-BU1 is 1.359
+2024-11-14T10:57:27,898 [ForkJoinPool.commonPool-worker-2] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA7 is 1.402
+2024-11-14T10:57:28,372 [ForkJoinPool.commonPool-worker-6] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (HBS)-BU3 is 1.923
+2024-11-14T10:57:29,507 [ForkJoinPool.commonPool-worker-1] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (VED)-BU2 is 2.998
+2024-11-14T10:57:30,010 [ForkJoinPool.commonPool-worker-4] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AM-BU4 is 3.559
+2024-11-14T10:57:30,250 [main] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (PSS)-BU5 is 3.798
+2024-11-14T10:57:30,675 [pool-20-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-11-14T10:57:30,676 [main] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (PSS)-BU5 is 0.0
+2024-11-14T10:57:31,221 [ForkJoinPool.commonPool-worker-5] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA Rmfed is 3.835
+2024-11-14T10:57:32,288 [ForkJoinPool.commonPool-worker-7] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA6 is 4.658
+2024-11-14T10:57:32,421 [ForkJoinPool.commonPool-worker-8] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA8 is 4.797
+2024-11-14T10:57:33,188 [ForkJoinPool.commonPool-worker-2] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA7 is 5.288
+2024-11-14T10:57:33,297 [ForkJoinPool.commonPool-worker-3] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AN-BU1 is 5.486
+2024-11-14T10:57:37,946 [ForkJoinPool.commonPool-worker-6] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (HBS)-BU3 is 9.572
+2024-11-14T10:57:43,374 [ForkJoinPool.commonPool-worker-4] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AM-BU4 is 13.362
+2024-11-14T10:57:48,446 [ForkJoinPool.commonPool-worker-1] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (VED)-BU2 is 18.937
+2024-11-14T11:02:34,820 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T11:02:34,820 [ForkJoinPool.commonPool-worker-8] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T11:02:34,820 [ForkJoinPool.commonPool-worker-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T11:02:34,820 [ForkJoinPool.commonPool-worker-7] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T11:02:34,820 [ForkJoinPool.commonPool-worker-5] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T11:02:34,832 [ForkJoinPool.commonPool-worker-6] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T11:02:34,832 [ForkJoinPool.commonPool-worker-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T11:02:34,832 [ForkJoinPool.commonPool-worker-4] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T11:02:34,849 [ForkJoinPool.commonPool-worker-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-14T11:02:35,773 [ForkJoinPool.commonPool-worker-5] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA Rmfed is 0.812
+2024-11-14T11:02:36,018 [ForkJoinPool.commonPool-worker-8] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA8 is 1.057
+2024-11-14T11:02:36,063 [ForkJoinPool.commonPool-worker-7] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA6 is 1.103
+2024-11-14T11:02:36,207 [ForkJoinPool.commonPool-worker-6] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (HBS)-BU3 is 1.235
+2024-11-14T11:02:36,234 [ForkJoinPool.commonPool-worker-3] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AN-BU1 is 1.261
+2024-11-14T11:02:36,331 [ForkJoinPool.commonPool-worker-2] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA7 is 1.342
+2024-11-14T11:02:37,802 [main] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (PSS)-BU5 is 2.843
+2024-11-14T11:02:37,994 [ForkJoinPool.commonPool-worker-4] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AM-BU4 is 3.022
+2024-11-14T11:02:38,228 [pool-18-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-11-14T11:02:38,229 [main] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (PSS)-BU5 is 0.0
+2024-11-14T11:02:38,476 [ForkJoinPool.commonPool-worker-1] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (VED)-BU2 is 3.515
+2024-11-14T11:02:39,696 [ForkJoinPool.commonPool-worker-5] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA Rmfed is 3.922
+2024-11-14T11:02:40,639 [ForkJoinPool.commonPool-worker-8] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA8 is 4.62
+2024-11-14T11:02:40,717 [ForkJoinPool.commonPool-worker-7] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA6 is 4.653
+2024-11-14T11:02:40,790 [ForkJoinPool.commonPool-worker-6] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (HBS)-BU3 is 4.582
+2024-11-14T11:02:41,512 [ForkJoinPool.commonPool-worker-2] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA7 is 5.181
+2024-11-14T11:02:41,808 [ForkJoinPool.commonPool-worker-3] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AN-BU1 is 5.572
+2024-11-14T11:02:51,860 [ForkJoinPool.commonPool-worker-4] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AM-BU4 is 13.864
+2024-11-14T11:02:56,836 [ForkJoinPool.commonPool-worker-1] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (VED)-BU2 is 18.359
