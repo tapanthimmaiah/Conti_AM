@@ -1,0 +1,6 @@
+2024-10-16T12:47:50,206 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-16T12:47:50,601 [pool-3-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-16T12:47:50,604 [main] INFO  (RestUtility.java:86) - Time taken to load the small GC is 0.0
+2024-10-16T12:47:51,119 [pool-4-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-16T12:47:51,120 [main] INFO  (RestUtility.java:86) - Time taken to load the large GC is 0.0
+2024-10-16T12:47:51,273 [main] ERROR (ExcelUtility.java:64) -  Exception while updating the excel java.lang.IllegalArgumentException: This Style does not belong to the supplied Workbook Styles Source. Are you trying to assign a style from one workbook to the cell of a different workbook?

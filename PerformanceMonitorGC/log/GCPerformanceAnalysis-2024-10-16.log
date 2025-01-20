@@ -1,0 +1,20 @@
+2024-10-16T12:53:28,588 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-16T12:53:55,112 [pool-3-thread-1] ERROR (RestUtility.java:51) - Unable to reach the GC stream. Time taken to load is 0
+2024-10-16T12:53:55,116 [main] INFO  (RestUtility.java:86) - Time taken to load the small GC is 0.0
+2024-10-16T12:53:55,644 [pool-4-thread-1] ERROR (RestUtility.java:51) - Unable to reach the GC stream. Time taken to load is 0
+2024-10-16T12:53:55,645 [main] INFO  (RestUtility.java:86) - Time taken to load the large GC is 0.0
+2024-10-16T12:53:56,613 [main] ERROR (ExcelUtility.java:64) -  Exception while updating the excel java.lang.IllegalArgumentException: This Style does not belong to the supplied Workbook Styles Source. Are you trying to assign a style from one workbook to the cell of a different workbook?
+2024-10-16T12:55:16,964 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-16T13:08:41,705 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-16T13:17:05,021 [main] ERROR (RestUtility.java:92) - GC not loading due to performance issue. Time taken to load the GC is more than 500 secs
+2024-10-16T13:25:25,019 [main] ERROR (RestUtility.java:92) - GC not loading due to performance issue. Time taken to load the GC is more than 500 secs
+2024-10-16T13:25:25,227 [main] ERROR (ExcelUtility.java:64) -  Exception while updating the excel java.lang.IllegalArgumentException: This Style does not belong to the supplied Workbook Styles Source. Are you trying to assign a style from one workbook to the cell of a different workbook?
+2024-10-16T13:43:13,592 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-16T13:44:05,437 [main] INFO  (RestUtility.java:87) - Time taken to load the small GC is 30.198
+2024-10-16T13:46:30,087 [main] INFO  (RestUtility.java:87) - Time taken to load the large GC is 0.858
+2024-10-16T13:46:30,313 [main] ERROR (ExcelUtility.java:64) -  Exception while updating the excel java.io.FileNotFoundException: D:\Workspace\PerformanceMonitorGC\E2EOutput.xlsx (The process cannot access the file because it is being used by another process)
+2024-10-16T14:26:04,210 [main] ERROR (DNGLoginUtility.java:63) - Exception while logging in DNGorg.eclipse.lyo.client.exception.RootServicesException: OSLCC003: An error occurred processing the root services document.  Server location: https://jazz-test4.conti.de/rm4.
+2024-10-16T14:26:04,216 [main] ERROR (GCPerformanceAnalyzerApplication.java:69) - Unable to reach the server
+2024-10-16T14:26:58,128 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-16T14:27:09,191 [main] INFO  (RestUtility.java:87) - Time taken to load the small GC is 5.949
+2024-10-16T14:27:11,521 [main] INFO  (RestUtility.java:87) - Time taken to load the large GC is 0.648

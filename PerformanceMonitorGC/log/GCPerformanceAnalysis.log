@@ -1,0 +1,12 @@
+2025-01-20T11:35:59,929 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-20T11:36:01,721 [main] INFO  (ThrottleUtility.java:57) - Throttle check response: {"taskId": "eddea14e-3e45-42e9-83c6-a124613f9354", "result": "GO", "maxOperationAmount": 1000, "timeLimit": 60}
+2025-01-20T11:36:04,161 [main] INFO  (RestUtility.java:87) - Time taken to load the small GC is 2.393
+2025-01-20T11:36:04,672 [main] INFO  (RestUtility.java:87) - Time taken to load the large GC is 0.508
+2025-01-20T11:36:41,401 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-20T11:36:43,031 [main] INFO  (ThrottleUtility.java:57) - Throttle check response: {"taskId": "cdbb6a50-c41e-4964-80ab-298fa15097a8", "result": "GO", "maxOperationAmount": 1000, "timeLimit": 60}
+2025-01-20T11:36:43,242 [main] INFO  (RestUtility.java:87) - Time taken to load the small GC is 0.189
+2025-01-20T11:36:44,047 [main] INFO  (RestUtility.java:87) - Time taken to load the large GC is 0.802
+2025-01-20T11:45:56,707 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-20T11:45:58,517 [main] INFO  (ThrottleUtility.java:57) - Throttle check response: {"taskId": "56fd0a23-1872-4a3e-9d39-7df94d2fd0b1", "result": "GO", "maxOperationAmount": 1000, "timeLimit": 60}
+2025-01-20T11:45:58,754 [main] INFO  (RestUtility.java:87) - Time taken to load the small GC is 0.218
+2025-01-20T11:45:59,370 [main] INFO  (RestUtility.java:87) - Time taken to load the large GC is 0.614

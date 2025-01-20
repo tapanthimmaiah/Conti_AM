@@ -1,0 +1,16 @@
+2024-11-19T09:50:07,653 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-19T09:50:09,497 [main] INFO  (RestUtility.java:87) - Time taken to load the small GC is 0.942
+2024-11-19T09:50:10,203 [main] INFO  (RestUtility.java:87) - Time taken to load the large GC is 0.706
+2024-11-19T09:52:09,807 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-19T09:55:32,770 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-19T09:56:05,849 [main] INFO  (RestUtility.java:87) - Time taken to load the small GC is 0.481
+2024-11-19T09:56:09,636 [main] INFO  (RestUtility.java:87) - Time taken to load the large GC is 1.191
+2024-11-19T09:57:21,160 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-19T09:57:46,424 [main] INFO  (RestUtility.java:87) - Time taken to load the small GC is 0.347
+2024-11-19T09:57:50,393 [main] INFO  (RestUtility.java:87) - Time taken to load the large GC is 0.808
+2024-11-19T09:58:54,209 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-19T09:59:00,644 [main] INFO  (RestUtility.java:87) - Time taken to load the small GC is 0.262
+2024-11-19T09:59:04,736 [main] INFO  (RestUtility.java:87) - Time taken to load the large GC is 0.701
+2024-11-19T10:00:56,246 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-11-19T10:00:57,380 [main] INFO  (RestUtility.java:87) - Time taken to load the small GC is 0.19
+2024-11-19T10:00:58,093 [main] INFO  (RestUtility.java:87) - Time taken to load the large GC is 0.713
