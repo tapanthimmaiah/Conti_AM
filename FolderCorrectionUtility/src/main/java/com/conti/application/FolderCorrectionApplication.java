@@ -74,13 +74,13 @@ public class FolderCorrectionApplication {
 	public static void moveFolderContents(JazzFormAuthClient client, ProjectDetailsPojo projectDetailsPojo,
 			Element sourceFolderElement, Element targetFolderElement) throws Exception {
 		RestUtility restUtility = new RestUtility();
-		try
-		{
+		try {
 			if (restUtility.moveFolderContents(sourceFolderName, targetFodlerName, client, projectDetailsPojo,
 					sourceFolderElement, targetFolderElement)) {
 				logger.info("Folder contents has been moved in project " + projectDetailsPojo.getProjectName() + ","
 						+ projectDetailsPojo.getStreamName());
-				if (restUtility.moveAdminFolderContents(sourceFolderName, targetFodlerName, client, projectDetailsPojo)) {
+				if (restUtility.moveAdminFolderContents(sourceFolderName, targetFodlerName, client,
+						projectDetailsPojo)) {
 					logger.info("Admin Folder contents has been moved in project " + projectDetailsPojo.getProjectName()
 							+ "," + projectDetailsPojo.getStreamName());
 				} else {
@@ -89,16 +89,14 @@ public class FolderCorrectionApplication {
 				}
 
 			} else {
-				logger.error("Folder contents has not been moved in project " + projectDetailsPojo.getProjectName() + ","
-						+ projectDetailsPojo.getStreamName());
+				logger.error("Folder contents has not been moved in project " + projectDetailsPojo.getProjectName()
+						+ "," + projectDetailsPojo.getStreamName());
 			}
-			
-		}
-		catch (Exception e) {
+
+		} catch (Exception e) {
 			// TODO: handle exception
-			logger.error("Exception while moving folder contents " +e);
+			logger.error("Exception while moving folder contents " + e);
 		}
-		
 
 	}
 
@@ -112,8 +110,7 @@ public class FolderCorrectionApplication {
 	public static void renameFolderName(JazzFormAuthClient client, ProjectDetailsPojo projectDetailsPojo)
 			throws Exception {
 		RestUtility restUtility = new RestUtility();
-		try
-		{
+		try {
 			if (restUtility.renameFolderName(sourceFolderName, targetFodlerName, client, projectDetailsPojo,
 					Constants.Root)) {
 				if (restUtility.renameFolderName(sourceFolderName, targetFodlerName, client, projectDetailsPojo,
@@ -121,8 +118,8 @@ public class FolderCorrectionApplication {
 					logger.info("Admin Folder has been renamed in project " + projectDetailsPojo.getProjectName() + ","
 							+ projectDetailsPojo.getStreamName());
 				} else {
-					logger.error("Admin Folder has not been renamed in project " + projectDetailsPojo.getProjectName() + ","
-							+ projectDetailsPojo.getStreamName());
+					logger.error("Admin Folder has not been renamed in project " + projectDetailsPojo.getProjectName()
+							+ "," + projectDetailsPojo.getStreamName());
 				}
 				logger.info("Folder has been renamed in project " + projectDetailsPojo.getProjectName() + ","
 						+ projectDetailsPojo.getStreamName());
@@ -130,13 +127,12 @@ public class FolderCorrectionApplication {
 				logger.error("Folder has not been renamed in project " + projectDetailsPojo.getProjectName() + ","
 						+ projectDetailsPojo.getStreamName());
 			}
-			
-		}
-		catch (Exception e) {
+
+		} catch (Exception e) {
 			// TODO: handle exception
-			logger.error("Exception while renaming the folder" +e);
+			logger.error("Exception while renaming the folder" + e);
 		}
-		
+
 	}
 
 	/**
@@ -149,39 +145,39 @@ public class FolderCorrectionApplication {
 	public static void deleteFolders(JazzFormAuthClient client, Element sourceFolderElement,
 			ProjectDetailsPojo projectDetailsPojo) {
 		RestUtility restUtility = new RestUtility();
-		
-		try
-		{
+
+		try {
 			if (restUtility.deleteFolder(client, sourceFolderElement, projectDetailsPojo)) {
 				logger.info("Source folder has been deleted in the project " + projectDetailsPojo.getProjectName() + ","
 						+ projectDetailsPojo.getStreamName());
 				Element adminSourceFolderElement = restUtility.getFolderDetails(client, sourceFolderName,
 						projectDetailsPojo.getStreamUrl(), Constants.Admin);
-				if(adminSourceFolderElement!=null)
-				{
+				if (adminSourceFolderElement != null) {
 					if (restUtility.deleteFolder(client, adminSourceFolderElement, projectDetailsPojo)) {
-						logger.info("Source folder has been deleted from the Adminstation artifacts folder for the project "
-								+ projectDetailsPojo.getProjectName() + "," + projectDetailsPojo.getStreamName());
+						logger.info(
+								"Source folder has been deleted from the Adminstation artifacts folder for the project "
+										+ projectDetailsPojo.getProjectName() + ","
+										+ projectDetailsPojo.getStreamName());
 					} else {
 						logger.error(
 								"Source folder has not been deleted from the Adminstation artifacts folder for the project "
-										+ projectDetailsPojo.getProjectName() + "," + projectDetailsPojo.getStreamName());
+										+ projectDetailsPojo.getProjectName() + ","
+										+ projectDetailsPojo.getStreamName());
 					}
 				}
-				
 
 			} else {
-				logger.error("Source folder has not been deleted in the project " + projectDetailsPojo.getProjectName() + ","
-						+ projectDetailsPojo.getStreamName());
+				logger.error("Source folder has not been deleted in the project " + projectDetailsPojo.getProjectName()
+						+ "," + projectDetailsPojo.getStreamName());
 			}
 
 		}
-		
+
 		catch (Exception e) {
 			// TODO: handle exception
-			logger.error("Exception while deleting the folder" +e);
+			logger.error("Exception while deleting the folder" + e);
 		}
-		
+
 	}
 
 	/**
@@ -208,7 +204,6 @@ public class FolderCorrectionApplication {
 					if (projectDetailsPojo.getImplementationRequired().equals(Constants.Yes)) {
 						JazzFormAuthClient client = dngLoginUtility.login(userName, password, serverUrl,
 								projectDetailsPojo.getProjectName());
-					
 
 						if (restUtility.createBaseline(client, projectDetailsPojo, baselineName)) {
 
@@ -220,7 +215,8 @@ public class FolderCorrectionApplication {
 									changeSetUrl = chnageSetUtility.createChangeSet(client, projectDetailsPojo,
 											changeSetName);
 									if (changeSetUrl != null && !changeSetUrl.isEmpty()) {
-										logger.info("Changeset "+ projectDetailsPojo.getStreamName()+"_"+ changeSetName +" has been created ");
+										logger.info("Changeset " + projectDetailsPojo.getStreamName() + "_"
+												+ changeSetName + " has been created ");
 										projectDetailsPojo.setChangeSetUrl(changeSetUrl);
 										Element targetFolderElement = restUtility.getFolderDetails(client,
 												targetFodlerName, projectDetailsPojo.getStreamUrl(), Constants.Root);
@@ -267,13 +263,13 @@ public class FolderCorrectionApplication {
 										+ projectDetailsPojo.getStreamName());
 							}
 						}
-						
+
 						System.out.println("Folder correction has been done for the project "
 								+ projectDetailsPojo.getProjectName() + "--> " + projectDetailsPojo.getComponentName()
 								+ "--> " + projectDetailsPojo.getStreamName());
 
 					}
-				
+
 				}
 				System.out.println("-------Folder correction utility has been completed!!----------");
 			}

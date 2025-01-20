@@ -1,0 +1,44 @@
+2022-10-26T10:32:44,391 [main] ERROR (MergeAttributesApplication.java:167) - Exception in main application java.lang.NullPointerException
+2022-10-26T10:44:55,218 [main] INFO  (DNGLoginUtility.java:56) - DNGLogin successful for the project ADAS_PG_SW_DesignAM
+2022-10-26T10:47:44,878 [main] INFO  (MergeAttributesApplication.java:126) - Changeset Radar_SW_Design_AM_PlatformVariant_SSR620_test_CS_MergeAttributes has been created 
+2022-10-26T10:49:34,544 [main] INFO  (DNGLoginUtility.java:56) - DNGLogin successful for the project ADAS_PG_SW_DesignAM
+2022-10-26T10:50:04,046 [main] ERROR (MergeAttributesApplication.java:138) - Attributes Special Characteristic , Test Typedoes not exist in the project area ADAS_PG_SW_DesignAM , ADAS_PG_SW_DesignAM , Radar_SW_Design_AM_PlatformVariant_SSR620
+2022-10-26T10:58:44,147 [main] INFO  (DNGLoginUtility.java:56) - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-10-26T10:59:24,944 [main] ERROR (MergeAttributesApplication.java:138) - Attributes Special Characteristic or Test Type does not exist in the project area ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , BLR_20220708132058
+2022-10-26T11:00:20,904 [main] INFO  (MergeAttributesApplication.java:126) - Changeset BLR_20220708132058_test_CS_MergeAttributes has been created 
+2022-10-26T11:03:11,444 [main] INFO  (DNGLoginUtility.java:56) - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-10-26T11:03:32,508 [main] ERROR (MergeAttributesApplication.java:138) - Attributes Special Characteristic or Test Type does not exist in the project area ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , BLR_20220708132058
+2022-10-26T11:03:46,617 [main] INFO  (MergeAttributesApplication.java:126) - Changeset BLR_20220708132058_test_CS_MergeAttributes has been created 
+2022-10-26T12:17:27,561 [main] INFO  (DNGLoginUtility.java:56) - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-10-26T12:17:51,118 [main] ERROR (MergeAttributesApplication.java:138) - Attributes Special Characteristic or Test Type does not exist in the project area ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , BLR_20220708132058
+2022-10-26T12:18:08,925 [main] INFO  (MergeAttributesApplication.java:126) - Changeset BLR_20220708132058_test_CS_MergeAttributes has been created 
+2022-10-26T12:20:00,111 [main] ERROR (MergeAttributesUtility.java:105) - Cannot update custom attribute for artifact : 207727 - Error Code : 200
+2022-10-26T12:27:04,385 [main] ERROR (MergeAttributesUtility.java:103) - Cannot update custom attribute for artifact : 207727 - Error Code : 200
+2022-10-26T12:32:17,622 [main] INFO  (DNGLoginUtility.java:56) - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-10-26T12:32:42,788 [main] ERROR (MergeAttributesApplication.java:138) - Attributes Special Characteristic or Test Type does not exist in the project area ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , BLR_20220708132058
+2022-10-26T12:32:52,537 [main] INFO  (MergeAttributesApplication.java:126) - Changeset BLR_20220708132058_test_CS_MergeAttributes has been created 
+2022-10-26T12:47:31,993 [main] INFO  (DNGLoginUtility.java:56) - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-10-26T12:47:44,642 [main] ERROR (MergeAttributesApplication.java:138) - Attributes Special Characteristic or Test Type does not exist in the project area ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , BLR_20220708132058
+2022-10-26T12:48:07,760 [main] INFO  (MergeAttributesApplication.java:126) - Changeset BLR_20220708132058_test_CS_MergeAttributes has been created 
+2022-10-26T12:49:27,508 [main] ERROR (MergeAttributesUtility.java:103) - Cannot update custom attribute for artifact : 207727 - Error Code : 200
+2022-10-26T12:53:51,351 [main] INFO  (DNGLoginUtility.java:56) - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-10-26T12:54:22,508 [main] ERROR (MergeAttributesApplication.java:138) - Attributes Special Characteristic or Test Type does not exist in the project area ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , BLR_20220708132058
+2022-10-26T12:54:52,960 [main] INFO  (MergeAttributesApplication.java:126) - Changeset BLR_20220708132058_test_CS_MergeAttributes has been created 
+2022-10-26T12:55:31,531 [main] ERROR (MergeAttributesUtility.java:103) - Cannot update custom attribute for artifact : 207727 - Error Code : 200
+2022-10-26T13:02:29,759 [main] INFO  (DNGLoginUtility.java:56) - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-10-26T13:02:38,629 [main] ERROR (MergeAttributesApplication.java:138) - Attributes Special Characteristic or Test Type does not exist in the project area ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , BLR_20220708132058
+2022-10-26T13:02:44,611 [main] INFO  (MergeAttributesApplication.java:126) - Changeset BLR_20220708132058_test_CS_MergeAttributes has been created 
+2022-10-26T13:03:23,457 [main] ERROR (MergeAttributesUtility.java:104) - Cannot update custom attribute for artifact : 207727 - Error Code : 200
+2022-10-26T13:09:44,731 [main] INFO  (DNGLoginUtility.java:56) - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-10-26T13:10:00,964 [main] ERROR (MergeAttributesApplication.java:138) - Attributes Special Characteristic or Test Type does not exist in the project area ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , BLR_20220708132058
+2022-10-26T13:10:06,284 [main] INFO  (MergeAttributesApplication.java:126) - Changeset BLR_20220708132058_test_CS_MergeAttributes has been created 
+2022-10-26T13:15:33,491 [main] INFO  (DNGLoginUtility.java:56) - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-10-26T13:16:00,680 [main] ERROR (DNGLoginUtility.java:88) - Server url not found
+2022-10-26T13:16:00,684 [main] ERROR (MergeAttributesApplication.java:167) - Exception in main application java.lang.NullPointerException
+2022-10-26T13:16:40,102 [main] INFO  (DNGLoginUtility.java:56) - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-10-26T13:16:51,794 [main] ERROR (MergeAttributesApplication.java:138) - Attributes Special Characteristic or Test Type does not exist in the project area ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , BLR_20220708132058
+2022-10-26T13:17:20,082 [main] INFO  (MergeAttributesApplication.java:126) - Changeset BLR_20220708132058_test_CS_MergeAttributes has been created 
+2022-10-26T13:18:45,282 [main] ERROR (null:-1) - Cannot update custom attribute for artifact : 207727 - Error Code : 200
+2022-10-26T13:21:27,779 [main] ERROR (MergeAttributesUtility.java:104) - Cannot update custom attribute for artifact : 207727 - Error Code : 200
+2022-10-26T13:22:58,099 [main] ERROR (MergeAttributesUtility.java:119) - Cannot update custom attribute for artifact : 207725 - Error Code : 200
+2022-10-26T13:23:25,172 [main] ERROR (MergeAttributesUtility.java:104) - Cannot update custom attribute for artifact : 207727 - Error Code : 200

@@ -1,0 +1,5 @@
+2023-08-31T17:10:07,921 [Thread-0] INFO  (DeleteAttributeApplication.java:136) - -------------Delete attributes & Update workflow application started-----------------
+2023-08-31T17:10:08,422 [Thread-0] INFO  (DeleteAttributeApplication.java:145) - <<<<<<Application running for the project ADCU_L2_RM , ADCU_L2_RM , ADCU_L2_RM_Migration>>>>>>>>
+2023-08-31T17:10:14,297 [Thread-0] INFO  (RestUtility.java:874) - baseline test has been created for the project ADCU_L2_RM,ADCU_L2_RM_Migration
+2023-08-31T17:10:14,864 [Thread-0] INFO  (DeleteAttributeApplication.java:301) - Changeset ADCU_L2_RM_Migration_test has been created 
+2023-08-31T17:10:17,217 [Thread-0] INFO  (DeleteAttributeApplication.java:177) - -------------Delete attributes & Update workflow application completed-----------------

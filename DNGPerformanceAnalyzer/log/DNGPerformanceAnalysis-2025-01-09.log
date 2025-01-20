@@ -1,0 +1,4 @@
+2025-01-09T12:50:35,635 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-09T12:51:43,078 [main] INFO  (ThrottleUtility.java:56) - Throttle check response: {"taskId": "20b6a538-76ab-4cbc-b89b-4c41c74b11a6", "result": "GO", "maxOperationAmount": 1000, "timeLimit": 60}
+2025-01-09T15:49:17,197 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-09T16:31:43,273 [main] ERROR (DNGPerformanceAnalyzerApplication.java:113) - Exception in the main applicationjava.lang.NullPointerException

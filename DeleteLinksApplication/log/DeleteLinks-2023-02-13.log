@@ -1,0 +1,5 @@
+2023-02-13T12:56:22,315 [Thread-0] INFO  (RestUtility.java:674) - baseline test_blqe has been created for the project ADCU_L2_RM,test_component Initial Stream
+2023-02-13T12:56:23,053 [Thread-0] INFO  (DeleteLinksApplication.java:99) - Changeset test_component Initial Stream_test_csqw has been created 
+2023-02-13T12:56:33,632 [Thread-0] INFO  (RestUtility.java:75) - Deleting links for the module 775952 for the project ADCU_L2_RM , test_component , test_component Initial Stream
+2023-02-13T12:56:39,515 [Thread-0] INFO  (RestUtility.java:75) - Deleting links for the module 775945 for the project ADCU_L2_RM , test_component , test_component Initial Stream
+2023-02-13T12:56:43,500 [Thread-0] INFO  (DeleteLinksApplication.java:110) - Links have been removed for the selected states for the projectADCU_L2_RM , test_component , test_component Initial Stream

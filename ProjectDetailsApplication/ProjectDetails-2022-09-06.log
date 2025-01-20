@@ -1,8 +1,0 @@
-2022-09-06T16:00:32,953 [main] INFO  (EncryptionDecryption.java:62) - Decrypting plainText password...
-2022-09-06T16:00:33,022 [main] INFO  (EncryptionDecryption.java:73) - Decrypted the password!
-2022-09-06T16:00:39,384 [main] INFO  (DNGLoginUtility.java:51) - DNGLogin succesfull!
-2022-09-06T16:00:39,384 [main] INFO  (RestUtility.java:45) - Fetching the project details for the server https://jazz-test6.conti.de/rm4
-2022-09-06T16:00:39,684 [main] INFO  (RestUtility.java:81) - fetching the  details for the project ADAS_PG_SW_DesignAM
-2022-09-06T16:00:42,205 [main] INFO  (RestUtility.java:131) - fetching the component details for the component ADAS_PG_SW_DesignAM
-2022-09-06T17:14:56,993 [main] INFO  (EncryptionDecryption.java:62) - Decrypting plainText password...
-2022-09-06T17:14:57,061 [main] INFO  (EncryptionDecryption.java:73) - Decrypted the password!

@@ -1,107 +1,112 @@
-2023-06-30T17:25:14,262 [Thread-0] INFO  (GCModuleExtractorApplication.java:60) - ========GC Module exporter started===========
-2023-06-30T17:25:19,159 [Thread-0] INFO  (DNGLoginUtility.java:51) - DNGLogin succesfull!
-2023-06-30T17:25:19,161 [Thread-0] INFO  (RestUtility.java:44) - Fetching the RM stream urls for the GC https://jazz-test4.conti.de/gc/configuration/1411
-2023-06-30T17:25:19,987 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz-test4.conti.de/rm4/cm/baseline/_rJ1xMPvjEey3tf8S7_tE0A
-2023-06-30T17:25:26,727 [Thread-0] INFO  (RestUtility.java:162) - Getting the module count and its details for the steam https://jazz-test4.conti.de/rm4/cm/baseline/_rJ1xMPvjEey3tf8S7_tE0A
-2023-06-30T17:25:40,245 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz-test4.conti.de/rm4/cm/baseline/_rKBXYPvjEey3tf8S7_tE0A
-2023-06-30T17:25:52,783 [Thread-0] INFO  (RestUtility.java:162) - Getting the module count and its details for the steam https://jazz-test4.conti.de/rm4/cm/baseline/_rKBXYPvjEey3tf8S7_tE0A
-2023-06-30T17:26:01,549 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz-test4.conti.de/rm4/cm/baseline/_rKLvcPvjEey3tf8S7_tE0A
-2023-06-30T17:26:42,905 [Thread-0] INFO  (RestUtility.java:162) - Getting the module count and its details for the steam https://jazz-test4.conti.de/rm4/cm/baseline/_rKLvcPvjEey3tf8S7_tE0A
-2023-06-30T17:32:03,845 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz-test4.conti.de/rm4/cm/baseline/_rKZK0PvjEey3tf8S7_tE0A
-2023-06-30T17:33:48,313 [Thread-0] INFO  (RestUtility.java:162) - Getting the module count and its details for the steam https://jazz-test4.conti.de/rm4/cm/baseline/_rKZK0PvjEey3tf8S7_tE0A
-2023-06-30T17:36:05,120 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz-test4.conti.de/rm4/cm/baseline/_rKkxAPvjEey3tf8S7_tE0A
-2023-06-30T17:36:10,097 [Thread-0] INFO  (RestUtility.java:162) - Getting the module count and its details for the steam https://jazz-test4.conti.de/rm4/cm/baseline/_rKkxAPvjEey3tf8S7_tE0A
-2023-06-30T17:36:16,244 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz-test4.conti.de/rm4/cm/baseline/_rNsWcPvjEey3tf8S7_tE0A
-2023-06-30T17:36:16,550 [Thread-0] ERROR (RestUtility.java:275) - The GET response could not be obtained for the url https://jazz-test4.conti.de/rm4/cm/baseline/_rNsWcPvjEey3tf8S7_tE0A   Forbidden
-2023-06-30T17:36:16,551 [Thread-0] ERROR (RestUtility.java:138) - Exception while getting the project URI for the RM stream https://jazz-test4.conti.de/rm4/cm/baseline/_rNsWcPvjEey3tf8S7_tE0A
-2023-06-30T17:36:16,553 [Thread-0] ERROR (RestUtility.java:139) - java.lang.NullPointerException
-2023-06-30T17:36:16,553 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz-test4.conti.de/rm4/cm/baseline/_rT66QPvjEey3tf8S7_tE0A
-2023-06-30T17:36:22,206 [Thread-0] INFO  (RestUtility.java:162) - Getting the module count and its details for the steam https://jazz-test4.conti.de/rm4/cm/baseline/_rT66QPvjEey3tf8S7_tE0A
-2023-06-30T17:36:30,482 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz-test4.conti.de/rm4/cm/baseline/_rUjMYPvjEey3tf8S7_tE0A
-2023-06-30T17:36:30,680 [Thread-0] ERROR (RestUtility.java:275) - The GET response could not be obtained for the url https://jazz-test4.conti.de/rm4/cm/baseline/_rUjMYPvjEey3tf8S7_tE0A   Forbidden
-2023-06-30T17:36:30,682 [Thread-0] ERROR (RestUtility.java:138) - Exception while getting the project URI for the RM stream https://jazz-test4.conti.de/rm4/cm/baseline/_rUjMYPvjEey3tf8S7_tE0A
-2023-06-30T17:36:30,682 [Thread-0] ERROR (RestUtility.java:139) - java.lang.NullPointerException
-2023-06-30T17:36:30,682 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz-test4.conti.de/rm4/cm/baseline/_rUxO0PvjEey3tf8S7_tE0A
-2023-06-30T17:36:40,403 [Thread-0] INFO  (RestUtility.java:162) - Getting the module count and its details for the steam https://jazz-test4.conti.de/rm4/cm/baseline/_rUxO0PvjEey3tf8S7_tE0A
-2023-06-30T17:37:18,914 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz-test4.conti.de/rm4/cm/baseline/_rU9cEPvjEey3tf8S7_tE0A
-2023-06-30T17:37:22,844 [Thread-0] INFO  (RestUtility.java:162) - Getting the module count and its details for the steam https://jazz-test4.conti.de/rm4/cm/baseline/_rU9cEPvjEey3tf8S7_tE0A
-2023-06-30T17:37:28,634 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz-test4.conti.de/rm4/cm/baseline/_rVJpUPvjEey3tf8S7_tE0A
-2023-06-30T17:37:35,594 [Thread-0] INFO  (RestUtility.java:162) - Getting the module count and its details for the steam https://jazz-test4.conti.de/rm4/cm/baseline/_rVJpUPvjEey3tf8S7_tE0A
-2023-06-30T17:37:54,630 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz-test4.conti.de/rm4/cm/baseline/_rVVPgPvjEey3tf8S7_tE0A
-2023-06-30T17:38:05,229 [Thread-0] INFO  (RestUtility.java:162) - Getting the module count and its details for the steam https://jazz-test4.conti.de/rm4/cm/baseline/_rVVPgPvjEey3tf8S7_tE0A
-2023-06-30T17:38:36,837 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz-test4.conti.de/rm4/cm/baseline/_rVg1sPvjEey3tf8S7_tE0A
-2023-06-30T17:38:47,003 [Thread-0] INFO  (RestUtility.java:162) - Getting the module count and its details for the steam https://jazz-test4.conti.de/rm4/cm/baseline/_rVg1sPvjEey3tf8S7_tE0A
-2023-06-30T17:39:04,280 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz-test4.conti.de/rm4/cm/baseline/_rVtC8PvjEey3tf8S7_tE0A
-2023-06-30T17:39:12,985 [Thread-0] INFO  (RestUtility.java:162) - Getting the module count and its details for the steam https://jazz-test4.conti.de/rm4/cm/baseline/_rVtC8PvjEey3tf8S7_tE0A
-2023-06-30T17:39:25,988 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz-test4.conti.de/rm4/cm/baseline/_rV5QMPvjEey3tf8S7_tE0A
-2023-06-30T17:39:31,825 [Thread-0] INFO  (RestUtility.java:162) - Getting the module count and its details for the steam https://jazz-test4.conti.de/rm4/cm/baseline/_rV5QMPvjEey3tf8S7_tE0A
-2023-06-30T17:39:43,709 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz-test4.conti.de/rm4/cm/baseline/_rWGEgPvjEey3tf8S7_tE0A
-2023-06-30T17:39:54,873 [Thread-0] INFO  (RestUtility.java:162) - Getting the module count and its details for the steam https://jazz-test4.conti.de/rm4/cm/baseline/_rWGEgPvjEey3tf8S7_tE0A
-2023-06-30T17:40:04,694 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz-test4.conti.de/rm4/cm/baseline/_rWRqsPvjEey3tf8S7_tE0A
-2023-06-30T17:40:10,130 [Thread-0] INFO  (RestUtility.java:162) - Getting the module count and its details for the steam https://jazz-test4.conti.de/rm4/cm/baseline/_rWRqsPvjEey3tf8S7_tE0A
-2023-06-30T17:40:24,487 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz-test4.conti.de/rm4/cm/baseline/_rWdQ4PvjEey3tf8S7_tE0A
-2023-06-30T17:40:35,802 [Thread-0] INFO  (RestUtility.java:162) - Getting the module count and its details for the steam https://jazz-test4.conti.de/rm4/cm/baseline/_rWdQ4PvjEey3tf8S7_tE0A
-2023-06-30T17:40:43,506 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz-test4.conti.de/rm4/cm/baseline/_rWpeIPvjEey3tf8S7_tE0A
-2023-06-30T17:40:49,547 [Thread-0] INFO  (RestUtility.java:162) - Getting the module count and its details for the steam https://jazz-test4.conti.de/rm4/cm/baseline/_rWpeIPvjEey3tf8S7_tE0A
-2023-06-30T17:41:01,937 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz-test4.conti.de/rm4/cm/baseline/_rW1rYPvjEey3tf8S7_tE0A
-2023-06-30T17:41:06,932 [Thread-0] INFO  (RestUtility.java:162) - Getting the module count and its details for the steam https://jazz-test4.conti.de/rm4/cm/baseline/_rW1rYPvjEey3tf8S7_tE0A
-2023-06-30T17:41:15,608 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz-test4.conti.de/rm4/cm/baseline/_rXB4oPvjEey3tf8S7_tE0A
-2023-06-30T17:41:23,656 [Thread-0] INFO  (RestUtility.java:162) - Getting the module count and its details for the steam https://jazz-test4.conti.de/rm4/cm/baseline/_rXB4oPvjEey3tf8S7_tE0A
-2023-06-30T17:41:40,846 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz-test4.conti.de/rm4/cm/baseline/_rXOs8PvjEey3tf8S7_tE0A
-2023-06-30T17:41:53,034 [Thread-0] INFO  (RestUtility.java:162) - Getting the module count and its details for the steam https://jazz-test4.conti.de/rm4/cm/baseline/_rXOs8PvjEey3tf8S7_tE0A
-2023-06-30T17:42:08,229 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz-test4.conti.de/rm4/cm/baseline/_rXa6MPvjEey3tf8S7_tE0A
-2023-06-30T17:42:12,398 [Thread-0] INFO  (RestUtility.java:162) - Getting the module count and its details for the steam https://jazz-test4.conti.de/rm4/cm/baseline/_rXa6MPvjEey3tf8S7_tE0A
-2023-06-30T17:42:23,034 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz-test4.conti.de/rm4/cm/baseline/_rXnugPvjEey3tf8S7_tE0A
-2023-06-30T17:42:35,589 [Thread-0] INFO  (RestUtility.java:162) - Getting the module count and its details for the steam https://jazz-test4.conti.de/rm4/cm/baseline/_rXnugPvjEey3tf8S7_tE0A
-2023-06-30T17:42:51,502 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz-test4.conti.de/rm4/cm/baseline/_rXz7wPvjEey3tf8S7_tE0A
-2023-06-30T17:43:01,302 [Thread-0] INFO  (RestUtility.java:162) - Getting the module count and its details for the steam https://jazz-test4.conti.de/rm4/cm/baseline/_rXz7wPvjEey3tf8S7_tE0A
-2023-06-30T17:43:21,193 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz-test4.conti.de/rm4/cm/baseline/_rpRfMPvjEey3tf8S7_tE0A
-2023-06-30T17:43:31,063 [Thread-0] INFO  (RestUtility.java:162) - Getting the module count and its details for the steam https://jazz-test4.conti.de/rm4/cm/baseline/_rpRfMPvjEey3tf8S7_tE0A
-2023-06-30T17:43:45,773 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz-test4.conti.de/rm4/cm/baseline/_rqEJYPvjEey3tf8S7_tE0A
-2023-06-30T17:44:22,249 [Thread-0] INFO  (RestUtility.java:162) - Getting the module count and its details for the steam https://jazz-test4.conti.de/rm4/cm/baseline/_rqEJYPvjEey3tf8S7_tE0A
-2023-06-30T17:45:18,035 [Thread-0] ERROR (RestUtility.java:275) - The GET response could not be obtained for the url https://jazz-test4.conti.de/rm4/resources/MD_FWqxtnzIEey81o-Q5krgPw   Gone
-2023-06-30T17:45:18,036 [Thread-0] ERROR (RestUtility.java:207) - Exception while getting module id and name for module url https://jazz-test4.conti.de/rm4/resources/MD_FWqxtnzIEey81o-Q5krgPw
-2023-06-30T17:45:18,036 [Thread-0] ERROR (RestUtility.java:208) - java.lang.NullPointerException
-2023-06-30T17:45:36,674 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz-test4.conti.de/rm4/cm/baseline/_rqQWoPvjEey3tf8S7_tE0A
-2023-06-30T17:45:54,024 [Thread-0] INFO  (RestUtility.java:162) - Getting the module count and its details for the steam https://jazz-test4.conti.de/rm4/cm/baseline/_rqQWoPvjEey3tf8S7_tE0A
-2023-06-30T17:46:27,997 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz-test4.conti.de/rm4/cm/baseline/_rqb80PvjEey3tf8S7_tE0A
-2023-06-30T17:46:28,179 [Thread-0] ERROR (RestUtility.java:275) - The GET response could not be obtained for the url https://jazz-test4.conti.de/rm4/cm/baseline/_rqb80PvjEey3tf8S7_tE0A   Forbidden
-2023-06-30T17:46:28,180 [Thread-0] ERROR (RestUtility.java:138) - Exception while getting the project URI for the RM stream https://jazz-test4.conti.de/rm4/cm/baseline/_rqb80PvjEey3tf8S7_tE0A
-2023-06-30T17:46:28,180 [Thread-0] ERROR (RestUtility.java:139) - java.lang.NullPointerException
-2023-06-30T17:46:28,181 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz-test4.conti.de/rm4/cm/baseline/_rqoxIPvjEey3tf8S7_tE0A
-2023-06-30T17:46:28,806 [Thread-0] ERROR (RestUtility.java:275) - The GET response could not be obtained for the url https://jazz-test4.conti.de/rm4/cm/baseline/_rqoxIPvjEey3tf8S7_tE0A   Forbidden
-2023-06-30T17:46:28,808 [Thread-0] ERROR (RestUtility.java:138) - Exception while getting the project URI for the RM stream https://jazz-test4.conti.de/rm4/cm/baseline/_rqoxIPvjEey3tf8S7_tE0A
-2023-06-30T17:46:28,808 [Thread-0] ERROR (RestUtility.java:139) - java.lang.NullPointerException
-2023-06-30T17:46:28,808 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz-test4.conti.de/rm4/cm/baseline/_6OGegPeZEey3tf8S7_tE0A
-2023-06-30T17:47:02,074 [Thread-0] INFO  (RestUtility.java:162) - Getting the module count and its details for the steam https://jazz-test4.conti.de/rm4/cm/baseline/_6OGegPeZEey3tf8S7_tE0A
-2023-06-30T17:47:44,060 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz-test4.conti.de/rm4/cm/baseline/_i6ib8PeaEey3tf8S7_tE0A
-2023-06-30T17:47:49,177 [Thread-0] INFO  (RestUtility.java:162) - Getting the module count and its details for the steam https://jazz-test4.conti.de/rm4/cm/baseline/_i6ib8PeaEey3tf8S7_tE0A
-2023-06-30T17:47:57,786 [Thread-0] INFO  (ExcelUtility.java:48) - Creating the excel file report for the provided GC
-2023-06-30T17:47:57,955 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet 'LIB_L2_System_RM_Generic_Y22_CW27' will be added with a trimmed name 'LIB_L2_System_RM_Generic_Y22_CW' for MS Excel compliance.
-2023-06-30T17:47:57,976 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet 'ADSystems_L1_RM_Generic_Y22_CW27' will be added with a trimmed name 'ADSystems_L1_RM_Generic_Y22_CW2' for MS Excel compliance.
-2023-06-30T17:47:57,989 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet 'Radar_Stakeholder_Group_Daimler_RM_Generic_Y22_CW27' will be added with a trimmed name 'Radar_Stakeholder_Group_Daimler' for MS Excel compliance.
-2023-06-30T17:47:58,138 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet 'Radar_Stakeholder_Group_Continental_RM_Generic_Y22_CW27' will be added with a trimmed name 'Radar_Stakeholder_Group_Contine' for MS Excel compliance.
-2023-06-30T17:47:58,145 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet 'LIB_L2_Security_Privacy_RM_Generic_Y22_CW27' will be added with a trimmed name 'LIB_L2_Security_Privacy_RM_Gene' for MS Excel compliance.
-2023-06-30T17:47:58,156 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet 'LIB_L3_SW_EM_RM_Generic_Y22_CW27' will be added with a trimmed name 'LIB_L3_SW_EM_RM_Generic_Y22_CW2' for MS Excel compliance.
-2023-06-30T17:47:58,167 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet 'LIB_L3_SW_ALN_RM_Generic_Y22_CW27' will be added with a trimmed name 'LIB_L3_SW_ALN_RM_Generic_Y22_CW' for MS Excel compliance.
-2023-06-30T17:47:58,175 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet 'LIB_L3_SW_VDY_RM_Generic_Y22_CW27' will be added with a trimmed name 'LIB_L3_SW_VDY_RM_Generic_Y22_CW' for MS Excel compliance.
-2023-06-30T17:47:58,183 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet 'LIB_L3_SW_SWLoading_RM_Generic_Y22_CW27' will be added with a trimmed name 'LIB_L3_SW_SWLoading_RM_Generic_' for MS Excel compliance.
-2023-06-30T17:47:58,193 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet 'LIB_L3_SW_Selftest_RM_Generic_Y22_CW27' will be added with a trimmed name 'LIB_L3_SW_Selftest_RM_Generic_Y' for MS Excel compliance.
-2023-06-30T17:47:58,201 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet 'LIB_L3_SW_RSP_RM_Generic_Y22_CW27' will be added with a trimmed name 'LIB_L3_SW_RSP_RM_Generic_Y22_CW' for MS Excel compliance.
-2023-06-30T17:47:58,209 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet 'LIB_L3_SW_RadarDetection_RM_Generic_Y22_CW27' will be added with a trimmed name 'LIB_L3_SW_RadarDetection_RM_Gen' for MS Excel compliance.
-2023-06-30T17:47:58,216 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet 'LIB_L3_SW_PLCM_RM_Generic_Y22_CW27' will be added with a trimmed name 'LIB_L3_SW_PLCM_RM_Generic_Y22_C' for MS Excel compliance.
-2023-06-30T17:47:58,223 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet 'LIB_L3_SW_MTSI_RM_Generic_Y22_CW27' will be added with a trimmed name 'LIB_L3_SW_MTSI_RM_Generic_Y22_C' for MS Excel compliance.
-2023-06-30T17:47:58,231 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet 'LIB_L3_SW_LogTrace_RM_Generic_Y22_CW27' will be added with a trimmed name 'LIB_L3_SW_LogTrace_RM_Generic_Y' for MS Excel compliance.
-2023-06-30T17:47:58,236 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet 'LIB_L3_SW_HIL_RM_Generic_Y22_CW27' will be added with a trimmed name 'LIB_L3_SW_HIL_RM_Generic_Y22_CW' for MS Excel compliance.
-2023-06-30T17:47:58,240 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet 'LIB_L3_SW_Heater_RM_Generic_Y22_CW27' will be added with a trimmed name 'LIB_L3_SW_Heater_RM_Generic_Y22' for MS Excel compliance.
-2023-06-30T17:47:58,245 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet 'LIB_L3_SW_Errorhandling_RM_Generic_Y22_CW27' will be added with a trimmed name 'LIB_L3_SW_Errorhandling_RM_Gene' for MS Excel compliance.
-2023-06-30T17:47:58,250 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet 'LIB_L3_SW_EOL_Services_RM_Generic_Y22_CW27' will be added with a trimmed name 'LIB_L3_SW_EOL_Services_RM_Gener' for MS Excel compliance.
-2023-06-30T17:47:58,254 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet 'LIB_L3_SW_CyberSecurity_RM_Generic_Y22_CW27' will be added with a trimmed name 'LIB_L3_SW_CyberSecurity_RM_Gene' for MS Excel compliance.
-2023-06-30T17:47:58,258 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet 'LIB_L3_SW_Communication_RM_Generic_Y22_CW27' will be added with a trimmed name 'LIB_L3_SW_Communication_RM_Gene' for MS Excel compliance.
-2023-06-30T17:47:58,262 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet 'LIB_L3_SW_Diagnostics_RM_Generic_Y22_CW27' will be added with a trimmed name 'LIB_L3_SW_Diagnostics_RM_Generi' for MS Excel compliance.
-2023-06-30T17:47:58,267 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet 'LIB_L3_SW_ACTL_RM_Generic_Y22_CW27' will be added with a trimmed name 'LIB_L3_SW_ACTL_RM_Generic_Y22_C' for MS Excel compliance.
-2023-06-30T17:47:58,273 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet 'LIB_L4_SWC_All_RM_Generic_Y22_CW27' will be added with a trimmed name 'LIB_L4_SWC_All_RM_Generic_Y22_C' for MS Excel compliance.
-2023-06-30T17:47:58,288 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet 'LIB_L3_SW_ProductSheet_RM_Generic_Y22_CW27' will be added with a trimmed name 'LIB_L3_SW_ProductSheet_RM_Gener' for MS Excel compliance.
-2023-06-30T17:47:58,296 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet 'Radar_L3_EE_RM_Platform_ARS620DP14_Y22_CW26_MLC40' will be added with a trimmed name 'Radar_L3_EE_RM_Platform_ARS620D' for MS Excel compliance.
-2023-06-30T17:47:58,304 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet 'Radar_L3_ME_RM_Platform_ARS620DP14_Y22_CW26_MLC40' will be added with a trimmed name 'Radar_L3_ME_RM_Platform_ARS620D' for MS Excel compliance.
-2023-06-30T17:47:58,545 [Thread-0] INFO  (GCModuleExtractorApplication.java:95) - ========GC Module exporter completed===========
+2023-07-24T12:21:03,788 [Thread-0] INFO  (GCModuleExtractorApplication.java:60) - ========GC Module exporter started===========
+2023-07-24T12:21:09,072 [Thread-0] INFO  (DNGLoginUtility.java:51) - DNGLogin succesfull!
+2023-07-24T12:21:09,074 [Thread-0] INFO  (RestUtility.java:44) - Fetching the RM stream urls for the GC https://jazz.conti.de/gc/configuration/13184
+2023-07-24T12:21:09,460 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz.conti.de/rm4/cm/stream/_pJKyQCJBEe6f2PV5gJoAkw
+2023-07-24T12:34:09,090 [Thread-0] INFO  (RestUtility.java:162) - Getting the module count and its details for the steam https://jazz.conti.de/rm4/cm/stream/_pJKyQCJBEe6f2PV5gJoAkw
+2023-07-24T12:34:13,138 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz.conti.de/rm4/cm/stream/_9IW60AwXEe6D0fn3IY9AdA
+2023-07-24T12:49:13,647 [Thread-0] ERROR (RestUtility.java:275) - The GET response could not be obtained for the url https://jazz.conti.de/rm4/publish/modules?projectURI=_85YKIF7_EeuG7NSUlaxelQ&vvc.configuration=https://jazz.conti.de/rm4/cm/stream/_9IW60AwXEe6D0fn3IY9AdA   Internal Server Error
+2023-07-24T12:49:13,648 [Thread-0] INFO  (RestUtility.java:162) - Getting the module count and its details for the steam https://jazz.conti.de/rm4/cm/stream/_9IW60AwXEe6D0fn3IY9AdA
+2023-07-24T12:49:19,039 [Thread-0] ERROR (RestUtility.java:105) - Exception while getting the RM stream details for the stream https://jazz.conti.de/rm4/cm/stream/_9IW60AwXEe6D0fn3IY9AdA
+2023-07-24T12:49:19,040 [Thread-0] ERROR (RestUtility.java:106) - java.lang.NullPointerException
+2023-07-24T12:49:19,040 [Thread-0] ERROR (GCModuleExtractorApplication.java:90) - Exception in the GC module extractor application java.lang.NullPointerException
+2023-07-24T12:52:15,852 [Thread-0] INFO  (GCModuleExtractorApplication.java:60) - ========GC Module exporter started===========
+2023-07-24T12:52:19,663 [Thread-0] INFO  (DNGLoginUtility.java:51) - DNGLogin succesfull!
+2023-07-24T12:52:19,663 [Thread-0] INFO  (RestUtility.java:44) - Fetching the RM stream urls for the GC https://jazz.conti.de/gc/configuration/13184
+2023-07-24T12:52:20,218 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz.conti.de/rm4/cm/stream/_pJKyQCJBEe6f2PV5gJoAkw
+2023-07-24T13:17:44,048 [Thread-0] ERROR (RestUtility.java:275) - The GET response could not be obtained for the url https://jazz.conti.de/rm4/publish/modules?projectURI=_85YKIF7_EeuG7NSUlaxelQ&vvc.configuration=https://jazz.conti.de/rm4/cm/stream/_pJKyQCJBEe6f2PV5gJoAkw   Internal Server Error
+2023-07-24T13:19:45,230 [Thread-0] INFO  (GCModuleExtractorApplication.java:60) - ========GC Module exporter started===========
+2023-07-24T13:19:48,702 [Thread-0] INFO  (DNGLoginUtility.java:51) - DNGLogin succesfull!
+2023-07-24T13:19:48,703 [Thread-0] INFO  (RestUtility.java:44) - Fetching the RM stream urls for the GC https://jazz.conti.de/gc/configuration/13184
+2023-07-24T13:19:49,074 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz.conti.de/rm4/cm/stream/_pJKyQCJBEe6f2PV5gJoAkw
+2023-07-24T13:19:52,008 [Thread-0] INFO  (RestUtility.java:166) - Getting the module count and its details for the steam https://jazz.conti.de/rm4/cm/stream/_pJKyQCJBEe6f2PV5gJoAkw
+2023-07-24T13:19:54,388 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz.conti.de/rm4/cm/stream/_9IW60AwXEe6D0fn3IY9AdA
+2023-07-24T13:19:56,725 [Thread-0] INFO  (RestUtility.java:166) - Getting the module count and its details for the steam https://jazz.conti.de/rm4/cm/stream/_9IW60AwXEe6D0fn3IY9AdA
+2023-07-24T13:19:59,201 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz.conti.de/rm4/cm/stream/_29EeuZZiEe2eFJuga2t_Mg
+2023-07-24T13:20:00,505 [Thread-0] INFO  (RestUtility.java:166) - Getting the module count and its details for the steam https://jazz.conti.de/rm4/cm/stream/_29EeuZZiEe2eFJuga2t_Mg
+2023-07-24T13:20:01,668 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz.conti.de/rm4/cm/stream/_dB5AAcTOEe2dyIHbesJD6A
+2023-07-24T13:20:04,506 [Thread-0] INFO  (RestUtility.java:166) - Getting the module count and its details for the steam https://jazz.conti.de/rm4/cm/stream/_dB5AAcTOEe2dyIHbesJD6A
+2023-07-24T13:20:08,017 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz.conti.de/rm4/cm/stream/_wp808Pk1Ee26y5qu8i0o0w
+2023-07-24T13:20:10,789 [Thread-0] INFO  (RestUtility.java:166) - Getting the module count and its details for the steam https://jazz.conti.de/rm4/cm/stream/_wp808Pk1Ee26y5qu8i0o0w
+2023-07-24T13:20:20,227 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz.conti.de/rm4/cm/stream/_R5aWwM2BEe2iKqc0KPO99Q
+2023-07-24T13:20:22,234 [Thread-0] INFO  (RestUtility.java:166) - Getting the module count and its details for the steam https://jazz.conti.de/rm4/cm/stream/_R5aWwM2BEe2iKqc0KPO99Q
+2023-07-24T13:20:28,958 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz.conti.de/rm4/cm/stream/_HC-OIs2AEe2iKqc0KPO99Q
+2023-07-24T13:20:30,993 [Thread-0] INFO  (RestUtility.java:166) - Getting the module count and its details for the steam https://jazz.conti.de/rm4/cm/stream/_HC-OIs2AEe2iKqc0KPO99Q
+2023-07-24T13:20:37,418 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz.conti.de/rm4/cm/stream/_qt1SoM2BEe2iKqc0KPO99Q
+2023-07-24T13:20:39,905 [Thread-0] INFO  (RestUtility.java:166) - Getting the module count and its details for the steam https://jazz.conti.de/rm4/cm/stream/_qt1SoM2BEe2iKqc0KPO99Q
+2023-07-24T13:20:46,112 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz.conti.de/rm4/cm/stream/_pmDnsM2AEe2iKqc0KPO99Q
+2023-07-24T13:20:48,206 [Thread-0] INFO  (RestUtility.java:166) - Getting the module count and its details for the steam https://jazz.conti.de/rm4/cm/stream/_pmDnsM2AEe2iKqc0KPO99Q
+2023-07-24T13:20:54,306 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz.conti.de/rm4/cm/stream/_BgX2UUlTEeyxEp1YGWAVMQ
+2023-07-24T13:20:59,604 [Thread-0] INFO  (RestUtility.java:166) - Getting the module count and its details for the steam https://jazz.conti.de/rm4/cm/stream/_BgX2UUlTEeyxEp1YGWAVMQ
+2023-07-24T13:21:06,869 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz.conti.de/rm4/cm/stream/_uDciUM4rEe2iKqc0KPO99Q
+2023-07-24T13:21:09,753 [Thread-0] INFO  (RestUtility.java:166) - Getting the module count and its details for the steam https://jazz.conti.de/rm4/cm/stream/_uDciUM4rEe2iKqc0KPO99Q
+2023-07-24T13:21:14,324 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz.conti.de/rm4/cm/stream/_MIrnwMofEe2iKqc0KPO99Q
+2023-07-24T13:21:20,459 [Thread-0] INFO  (RestUtility.java:166) - Getting the module count and its details for the steam https://jazz.conti.de/rm4/cm/stream/_MIrnwMofEe2iKqc0KPO99Q
+2023-07-24T13:21:24,343 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz.conti.de/rm4/cm/stream/_TLZbMNOkEe2zRPfZGDztfQ
+2023-07-24T13:21:27,975 [Thread-0] INFO  (RestUtility.java:166) - Getting the module count and its details for the steam https://jazz.conti.de/rm4/cm/stream/_TLZbMNOkEe2zRPfZGDztfQ
+2023-07-24T13:21:34,078 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz.conti.de/rm4/cm/stream/_0_dfgDvVEeyM9O69iEXi7A
+2023-07-24T13:22:07,390 [Thread-0] INFO  (RestUtility.java:166) - Getting the module count and its details for the steam https://jazz.conti.de/rm4/cm/stream/_0_dfgDvVEeyM9O69iEXi7A
+2023-07-24T13:22:48,730 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz.conti.de/rm4/cm/stream/_SvGMcEMOEeyM9O69iEXi7A
+2023-07-24T13:22:58,822 [Thread-0] INFO  (RestUtility.java:166) - Getting the module count and its details for the steam https://jazz.conti.de/rm4/cm/stream/_SvGMcEMOEeyM9O69iEXi7A
+2023-07-24T13:23:12,742 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz.conti.de/rm4/cm/stream/_vNpWYINQEeurGPKvtMglaQ
+2023-07-24T13:23:50,436 [Thread-0] INFO  (RestUtility.java:166) - Getting the module count and its details for the steam https://jazz.conti.de/rm4/cm/stream/_vNpWYINQEeurGPKvtMglaQ
+2023-07-24T13:24:43,565 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz.conti.de/rm4/cm/stream/_PcdW0OOyEeupLJ3XCVU6kA
+2023-07-24T13:25:40,589 [Thread-0] INFO  (RestUtility.java:166) - Getting the module count and its details for the steam https://jazz.conti.de/rm4/cm/stream/_PcdW0OOyEeupLJ3XCVU6kA
+2023-07-24T13:27:00,884 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz.conti.de/rm4/cm/stream/_Xm0pBqeDEe2fBJJTp7lmmQ
+2023-07-24T13:27:06,268 [Thread-0] INFO  (RestUtility.java:166) - Getting the module count and its details for the steam https://jazz.conti.de/rm4/cm/stream/_Xm0pBqeDEe2fBJJTp7lmmQ
+2023-07-24T13:27:12,933 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz.conti.de/rm4/cm/stream/_Cn8dwN5oEeupLJ3XCVU6kA
+2023-07-24T13:27:48,962 [Thread-0] INFO  (RestUtility.java:166) - Getting the module count and its details for the steam https://jazz.conti.de/rm4/cm/stream/_Cn8dwN5oEeupLJ3XCVU6kA
+2023-07-24T13:28:44,180 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz.conti.de/rm4/cm/stream/_vK4Q0N5WEeupLJ3XCVU6kA
+2023-07-24T13:28:52,742 [Thread-0] INFO  (RestUtility.java:166) - Getting the module count and its details for the steam https://jazz.conti.de/rm4/cm/stream/_vK4Q0N5WEeupLJ3XCVU6kA
+2023-07-24T13:29:01,634 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz.conti.de/rm4/cm/stream/_WxZ8IHJKEe27oP4CDOs3IQ
+2023-07-24T13:29:24,244 [Thread-0] INFO  (RestUtility.java:166) - Getting the module count and its details for the steam https://jazz.conti.de/rm4/cm/stream/_WxZ8IHJKEe27oP4CDOs3IQ
+2023-07-24T13:29:49,998 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz.conti.de/rm4/cm/stream/_3vFYcN5UEeupLJ3XCVU6kA
+2023-07-24T13:29:56,660 [Thread-0] INFO  (RestUtility.java:166) - Getting the module count and its details for the steam https://jazz.conti.de/rm4/cm/stream/_3vFYcN5UEeupLJ3XCVU6kA
+2023-07-24T13:30:19,416 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz.conti.de/rm4/cm/stream/_OuAOkAvmEe6D0fn3IY9AdA
+2023-07-24T13:30:30,073 [Thread-0] INFO  (RestUtility.java:166) - Getting the module count and its details for the steam https://jazz.conti.de/rm4/cm/stream/_OuAOkAvmEe6D0fn3IY9AdA
+2023-07-24T13:30:58,226 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz.conti.de/rm4/cm/stream/_7fZrkN5YEeupLJ3XCVU6kA
+2023-07-24T13:31:12,246 [Thread-0] INFO  (RestUtility.java:166) - Getting the module count and its details for the steam https://jazz.conti.de/rm4/cm/stream/_7fZrkN5YEeupLJ3XCVU6kA
+2023-07-24T13:31:38,858 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz.conti.de/rm4/cm/stream/_NtFkAN5ZEeupLJ3XCVU6kA
+2023-07-24T13:31:52,688 [Thread-0] INFO  (RestUtility.java:166) - Getting the module count and its details for the steam https://jazz.conti.de/rm4/cm/stream/_NtFkAN5ZEeupLJ3XCVU6kA
+2023-07-24T13:32:28,140 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz.conti.de/rm4/cm/stream/_bvdIAN5YEeupLJ3XCVU6kA
+2023-07-24T13:32:35,779 [Thread-0] INFO  (RestUtility.java:166) - Getting the module count and its details for the steam https://jazz.conti.de/rm4/cm/stream/_bvdIAN5YEeupLJ3XCVU6kA
+2023-07-24T13:33:38,976 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz.conti.de/rm4/cm/stream/_-5NqkN5ZEeupLJ3XCVU6kA
+2023-07-24T13:33:46,416 [Thread-0] INFO  (RestUtility.java:166) - Getting the module count and its details for the steam https://jazz.conti.de/rm4/cm/stream/_-5NqkN5ZEeupLJ3XCVU6kA
+2023-07-24T13:34:14,390 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz.conti.de/rm4/cm/stream/_YWadsN5aEeupLJ3XCVU6kA
+2023-07-24T13:34:25,535 [Thread-0] INFO  (RestUtility.java:166) - Getting the module count and its details for the steam https://jazz.conti.de/rm4/cm/stream/_YWadsN5aEeupLJ3XCVU6kA
+2023-07-24T13:34:57,193 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz.conti.de/rm4/cm/stream/_Ql-zULa0Ee2dyIHbesJD6A
+2023-07-24T13:35:01,630 [Thread-0] INFO  (RestUtility.java:166) - Getting the module count and its details for the steam https://jazz.conti.de/rm4/cm/stream/_Ql-zULa0Ee2dyIHbesJD6A
+2023-07-24T13:35:27,039 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz.conti.de/rm4/cm/stream/__2bO0N5bEeupLJ3XCVU6kA
+2023-07-24T13:35:34,749 [Thread-0] INFO  (RestUtility.java:166) - Getting the module count and its details for the steam https://jazz.conti.de/rm4/cm/stream/__2bO0N5bEeupLJ3XCVU6kA
+2023-07-24T13:35:46,650 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz.conti.de/rm4/cm/stream/_0bnZ4BobEeyys6waAK36Sg
+2023-07-24T13:35:52,251 [Thread-0] INFO  (RestUtility.java:166) - Getting the module count and its details for the steam https://jazz.conti.de/rm4/cm/stream/_0bnZ4BobEeyys6waAK36Sg
+2023-07-24T13:36:19,037 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz.conti.de/rm4/cm/stream/_DktpAN5dEeupLJ3XCVU6kA
+2023-07-24T13:36:24,306 [Thread-0] INFO  (RestUtility.java:166) - Getting the module count and its details for the steam https://jazz.conti.de/rm4/cm/stream/_DktpAN5dEeupLJ3XCVU6kA
+2023-07-24T13:36:37,003 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz.conti.de/rm4/cm/stream/_pPblAPUeEeugFM6Q-0Rcgg
+2023-07-24T13:37:08,732 [Thread-0] INFO  (RestUtility.java:166) - Getting the module count and its details for the steam https://jazz.conti.de/rm4/cm/stream/_pPblAPUeEeugFM6Q-0Rcgg
+2023-07-24T13:38:42,443 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz.conti.de/rm4/cm/stream/_SgpIAA5-Ee6D0fn3IY9AdA
+2023-07-24T13:38:48,458 [Thread-0] INFO  (RestUtility.java:166) - Getting the module count and its details for the steam https://jazz.conti.de/rm4/cm/stream/_SgpIAA5-Ee6D0fn3IY9AdA
+2023-07-24T13:39:15,261 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz.conti.de/rm4/cm/stream/_QSA5Bra1Ee2dyIHbesJD6A
+2023-07-24T13:39:19,839 [Thread-0] INFO  (RestUtility.java:166) - Getting the module count and its details for the steam https://jazz.conti.de/rm4/cm/stream/_QSA5Bra1Ee2dyIHbesJD6A
+2023-07-24T13:39:25,965 [Thread-0] INFO  (RestUtility.java:81) - Getting the stream details for the RM stream https://jazz.conti.de/rm4/cm/stream/_bSG6IN5XEeupLJ3XCVU6kA
+2023-07-24T13:39:35,522 [Thread-0] INFO  (RestUtility.java:166) - Getting the module count and its details for the steam https://jazz.conti.de/rm4/cm/stream/_bSG6IN5XEeupLJ3XCVU6kA
+2023-07-24T13:40:20,986 [Thread-0] INFO  (ExcelUtility.java:49) - Creating the excel file report for the provided GC
+2023-07-24T13:40:21,089 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet '1LIB_Stakeholder_Group_Continental_Operations2Engineering_RM_Generic' will be added with a trimmed name '1LIB_Stakeholder_Group_Continen' for MS Excel compliance.
+2023-07-24T13:40:21,097 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet '2LIB_Stakeholder_Group_Continental_SeriesAnalysis_RM_Generic' will be added with a trimmed name '2LIB_Stakeholder_Group_Continen' for MS Excel compliance.
+2023-07-24T13:40:21,101 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet '3ADSystems_Stakeholder_Group_Continental_RM_Generic' will be added with a trimmed name '3ADSystems_Stakeholder_Group_Co' for MS Excel compliance.
+2023-07-24T13:40:21,105 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet '4LIB_Stakeholder_Group_Continental_FeatureList_RM_Generic' will be added with a trimmed name '4LIB_Stakeholder_Group_Continen' for MS Excel compliance.
+2023-07-24T13:40:21,110 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet '5Radar_L2_DetectionPerformance_RM_Generic' will be added with a trimmed name '5Radar_L2_DetectionPerformance_' for MS Excel compliance.
+2023-07-24T13:40:21,116 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet '6Radar_L2_TechnicalSafety_RM_Generic' will be added with a trimmed name '6Radar_L2_TechnicalSafety_RM_Ge' for MS Excel compliance.
+2023-07-24T13:40:21,121 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet '7Radar_L2_Certification_RM_Generic' will be added with a trimmed name '7Radar_L2_Certification_RM_Gene' for MS Excel compliance.
+2023-07-24T13:40:21,149 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet '11LIB_L2_System_Labeling_Generic' will be added with a trimmed name '11LIB_L2_System_Labeling_Generi' for MS Excel compliance.
+2023-07-24T13:40:21,155 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet '12LIB_L2_System_StabilityDiagnosibility_Generic_RM' will be added with a trimmed name '12LIB_L2_System_StabilityDiagno' for MS Excel compliance.
+2023-07-24T13:40:21,159 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet '13LIB_L2_System_Operations2Engineering_Generic_(DO_NOT_USE)' will be added with a trimmed name '13LIB_L2_System_Operations2Engi' for MS Excel compliance.
+2023-07-24T13:40:21,169 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet '15LIB_Stakeholder_Group_Continental_RM_Generic' will be added with a trimmed name '15LIB_Stakeholder_Group_Contine' for MS Excel compliance.
+2023-07-24T13:40:21,202 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet '16Radar_Stakeholder_Group_Continental_RM_Generic' will be added with a trimmed name '16Radar_Stakeholder_Group_Conti' for MS Excel compliance.
+2023-07-24T13:40:21,246 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet '24LIB_L3_SW_Communication_RM_Generic' will be added with a trimmed name '24LIB_L3_SW_Communication_RM_Ge' for MS Excel compliance.
+2023-07-24T13:40:21,250 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet '25LIB_L3_SW_Diagnostics_RM_Generic' will be added with a trimmed name '25LIB_L3_SW_Diagnostics_RM_Gene' for MS Excel compliance.
+2023-07-24T13:40:21,254 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet '26LIB_L3_SW_EmbeddedMonitor_RM_Generic' will be added with a trimmed name '26LIB_L3_SW_EmbeddedMonitor_RM_' for MS Excel compliance.
+2023-07-24T13:40:21,258 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet '27LIB_L3_SW_EOL_Services_RM_Generic' will be added with a trimmed name '27LIB_L3_SW_EOL_Services_RM_Gen' for MS Excel compliance.
+2023-07-24T13:40:21,263 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet '28LIB_L3_SW_Errorhandling_RM_Generic' will be added with a trimmed name '28LIB_L3_SW_Errorhandling_RM_Ge' for MS Excel compliance.
+2023-07-24T13:40:21,277 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet '33LIB_L3_SW_ProductSheet_RM_Generic' will be added with a trimmed name '33LIB_L3_SW_ProductSheet_RM_Gen' for MS Excel compliance.
+2023-07-24T13:40:21,285 [Thread-0] WARN  (XSSFWorkbook.java:905) - Sheet '35LIB_L3_SW_Security_Privacy_RM_Generic' will be added with a trimmed name '35LIB_L3_SW_Security_Privacy_RM' for MS Excel compliance.
+2023-07-24T13:40:21,440 [Thread-0] INFO  (GCModuleExtractorApplication.java:95) - ========GC Module exporter completed===========

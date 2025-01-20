@@ -1,7 +1,2 @@
-2022-09-21T11:24:57,082 [main] INFO  (DNGLoginUtility.java:54) - DNGLogin successful for the project LIB_L3_SW_RM
-2022-09-21T11:27:59,253 [main] INFO  (DNGLoginUtility.java:54) - DNGLogin successful for the project LIB_L3_SW_RM
-2022-09-21T15:22:32,914 [main] INFO  (DNGLoginUtility.java:54) - DNGLogin successful for the project ADAS_PG_SYS_RM
-2022-09-21T15:28:25,232 [main] INFO  (DNGLoginUtility.java:54) - DNGLogin successful for the project ADAS_PG_SYS_RM
-2022-09-21T15:33:58,275 [main] INFO  (DNGLoginUtility.java:54) - DNGLogin successful for the project ADAS_PG_SYS_RM
-2022-09-21T17:26:56,393 [main] INFO  (DNGLoginUtility.java:54) - DNGLogin successful for the project ADAS_PG_SYS_RM
-2022-09-21T17:36:17,743 [main] INFO  (DNGLoginUtility.java:54) - DNGLogin successful for the project ADAS_PG_SYS_RM
+2023-12-18T15:38:02,263 [main] INFO  (EncryptionDecryption.java:34) - Encrpting plainText password...
+2023-12-18T15:38:02,343 [main] INFO  (EncryptionDecryption.java:45) - Encrpted plainText password!

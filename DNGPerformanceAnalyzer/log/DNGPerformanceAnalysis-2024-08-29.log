@@ -1,0 +1,8 @@
+2024-08-29T10:01:44,887 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-08-29T10:01:45,897 [pool-3-thread-1] ERROR (RestUtility.java:39) - Unable to reach the DNG server. Time taken to load the module is 0
+2024-08-29T10:01:45,903 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 0
+2024-08-29T10:02:29,885 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-08-29T10:09:15,236 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-08-29T10:17:41,445 [main] ERROR (RestUtility.java:69) - Module not loading due to performance issue. Time taken to load the module is more than 500 secs
+2024-08-29T12:38:38,694 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-08-29T12:38:43,881 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 4

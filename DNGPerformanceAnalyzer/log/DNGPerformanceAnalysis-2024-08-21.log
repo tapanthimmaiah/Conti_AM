@@ -1,0 +1,17 @@
+2024-08-21T12:38:44,572 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-08-21T12:38:44,758 [main] ERROR (RestUtility.java:99) - Exception while POST request for URL https://jazz.conti.de/rm4/service/com.ibm.team.repository.service.serviceability.IScenarioRestService/scenarios/startscenariojava.io.IOException: Attempted read from closed stream.
+2024-08-21T12:38:52,772 [main] INFO  (RestUtility.java:63) - Time taken to load the DNG module is 8005
+2024-08-21T12:41:39,388 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-08-21T12:43:12,614 [main] INFO  (RestUtility.java:63) - Time taken to load the DNG module is 4122
+2024-08-21T12:48:31,965 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-08-21T12:48:50,734 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 18
+2024-08-21T16:53:37,282 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-08-21T16:53:55,840 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 18
+2024-08-21T16:54:43,264 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-08-21T16:56:01,667 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 40
+2024-08-21T16:57:16,438 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-08-21T16:57:27,081 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 10
+2024-08-21T17:00:18,606 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-08-21T17:00:28,851 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 10
+2024-08-21T17:02:43,393 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-08-21T17:02:50,915 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 7

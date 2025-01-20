@@ -138,7 +138,7 @@ public class MergeAttributesUtility {
 			QName targetQName = new QName(namespaceURI, localPart, Constants.prefix);
 
 			for (String artifactUrl : artifactUrls) {
-
+				
 				headers.put(Constants.ACCEPT, OslcMediaType.APPLICATION_RDF_XML);
 				headers.put(Constants.OSLC_CORE_VERSION, "2.0");
 				headers.put(Constants.VVC_Configuration, projectDetailsPojo.getChangeSetUrl());

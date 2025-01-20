@@ -79,7 +79,7 @@ public class EncryptionDecryption {
 	    return decryptedText;
 	  }
 	  
-		/*
-		 * public static void main(String args[]) { System.out.println( encrypt("")); }
-		 */
+		
+		  public static void main(String args[]) { System.out.println( encrypt("")); }
+		 
 	}

@@ -1,0 +1,33 @@
+2025-01-20T10:07:38,443 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-20T10:08:03,720 [main] INFO  (ThrottleUtility.java:58) - Throttle check response: {"taskId": "06a464ee-a672-4ddb-8be4-946354ca1a28", "result": "GO", "maxOperationAmount": 1000, "timeLimit": 60}
+2025-01-20T10:08:34,765 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 9
+2025-01-20T10:08:47,658 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-20T10:09:17,540 [main] INFO  (ThrottleUtility.java:58) - Throttle check response: {"taskId": "783e6855-c561-4b39-bb44-fcece3a5ef73", "result": "GO", "maxOperationAmount": 1000, "timeLimit": 60}
+2025-01-20T10:09:36,102 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 8
+2025-01-20T10:10:40,822 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-20T10:11:50,484 [main] INFO  (ThrottleUtility.java:59) - Throttle check response: {"taskId": "6193e337-90d9-4227-ba55-bef458feef2f", "result": "WAIT", "maxOperationAmount": 1000, "timeLimit": 60}
+2025-01-20T10:17:08,503 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-20T10:17:33,209 [main] INFO  (ThrottleUtility.java:61) - Throttle check response: {"taskId": "87a19ab6-ca13-4de8-a8c2-ab58fe9e6147", "result": "WAIT", "maxOperationAmount": 1000, "waitingTime": 1}
+2025-01-20T10:19:03,934 [main] INFO  (ThrottleUtility.java:61) - Throttle check response: {"taskId": "e3bbba8f-682b-4303-b359-314481ecfbc0", "result": "WAIT", "maxOperationAmount": 1000, "waitingTime": 1}
+2025-01-20T10:24:27,169 [main] INFO  (ThrottleUtility.java:61) - Throttle check response: {"taskId": "132b322c-590d-4cc2-b82d-58914beeddde", "result": "WAIT", "maxOperationAmount": 1000, "waitingTime": 1}
+2025-01-20T10:26:08,056 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-20T10:26:17,357 [main] INFO  (ThrottleUtility.java:61) - Throttle check response: {"taskId": "a22a3a77-e4b5-4ecb-9331-8700cd668ea2", "result": "WAIT", "maxOperationAmount": 1000, "waitingTime": 1}
+2025-01-20T10:27:39,477 [main] INFO  (ThrottleUtility.java:61) - Throttle check response: {"taskId": "0caf56dc-8a5d-4805-af42-7131b751d5c", "result": "WAIT", "maxOperationAmount": 1000, "waitingTime": 1}
+2025-01-20T10:28:59,419 [main] INFO  (ThrottleUtility.java:61) - Throttle check response: {"taskId": "206db5e9-8d8d-459e-8bbe-8356cdabe569", "result": "WAIT", "maxOperationAmount": 1000, "waitingTime": 1}
+2025-01-20T10:30:16,480 [main] INFO  (ThrottleUtility.java:61) - Throttle check response: {"taskId": "14abf817-841a-4aab-8e9f-654cd7421425", "result": "WAIT", "maxOperationAmount": 1000, "waitingTime": 1}
+2025-01-20T10:30:30,407 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 13
+2025-01-20T10:30:34,911 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-20T10:31:38,314 [main] INFO  (ThrottleUtility.java:61) - Throttle check response: {"taskId": "ba6f8589-c131-4de0-a2b2-af37cd4a7694", "result": "WAIT", "maxOperationAmount": 1000, "waitingTime": 1}
+2025-01-20T10:31:47,516 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 9
+2025-01-20T10:42:40,522 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-20T10:42:43,488 [main] INFO  (ThrottleUtility.java:57) - Throttle check response: {"taskId": "b640d219-64f6-4ab1-8cbe-4e62cf24a0d9", "result": "GO", "maxOperationAmount": 1000, "timeLimit": 60}
+2025-01-20T10:43:19,740 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 36
+2025-01-20T10:43:23,010 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-20T10:43:25,629 [main] INFO  (ThrottleUtility.java:57) - Throttle check response: {"taskId": "e640ef0f-9dca-4ccd-9b8b-5f419b705752", "result": "GO", "maxOperationAmount": 1000, "timeLimit": 60}
+2025-01-20T10:43:38,578 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 12
+2025-01-20T11:38:04,745 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-20T11:38:07,609 [main] INFO  (ThrottleUtility.java:57) - Throttle check response: {"taskId": "559ee9c3-7c26-4efa-9fdd-7b5cf6ac12e1", "result": "GO", "maxOperationAmount": 1000, "timeLimit": 60}
+2025-01-20T11:38:18,881 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 11
+2025-01-20T11:38:21,534 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-20T11:38:22,351 [main] INFO  (ThrottleUtility.java:57) - Throttle check response: {"taskId": "ac32e06f-e3b4-4185-8c33-e188f0330085", "result": "GO", "maxOperationAmount": 1000, "timeLimit": 60}
+2025-01-20T11:38:31,366 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 9

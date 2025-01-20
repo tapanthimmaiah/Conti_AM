@@ -1,0 +1,89 @@
+2023-09-22T10:51:36,364 [Thread-0] INFO  (DeleteAttributeApplication.java:136) - -------------Delete attributes & Update workflow application started-----------------
+2023-09-22T10:51:37,635 [Thread-0] INFO  (DeleteAttributeApplication.java:145) - <<<<<<Application running for the project BU4_Playground_SYS_RM , BU4_Playground_SYS_RM , BU4_Playground_SYS_RM_Generic>>>>>>>>
+2023-09-22T10:51:59,627 [Thread-0] INFO  (RestUtility.java:986) - baseline test_one has been created for the project BU4_Playground_SYS_RM,BU4_Playground_SYS_RM_Generic
+2023-09-22T10:52:00,490 [Thread-0] INFO  (DeleteAttributeApplication.java:332) - Changeset BU4_Playground_SYS_RM_Generic_test_one has been created 
+2023-09-22T10:53:50,378 [Thread-0] INFO  (DeleteAttributeApplication.java:257) - Deleting attribute data type for the project BU4_Playground_SYS_RM , BU4_Playground_SYS_RM , BU4_Playground_SYS_RM_Generic
+2023-09-22T13:43:13,068 [Thread-0] INFO  (DeleteAttributeApplication.java:136) - -------------Delete attributes & Update workflow application started-----------------
+2023-09-22T13:43:14,001 [Thread-0] INFO  (DeleteAttributeApplication.java:145) - <<<<<<Application running for the project BU4_Playground_SYS_RM , BU4_Playground_SYS_RM , BU4_Playground_SYS_RM_Generic>>>>>>>>
+2023-09-22T13:43:25,692 [Thread-0] INFO  (RestUtility.java:1024) - baseline test_one_two has been created for the project BU4_Playground_SYS_RM,BU4_Playground_SYS_RM_Generic
+2023-09-22T13:43:26,310 [Thread-0] INFO  (DeleteAttributeApplication.java:349) - Changeset BU4_Playground_SYS_RM_Generic_delete_attr_data has been created 
+2023-09-22T13:43:28,462 [Thread-0] INFO  (DeleteAttributeApplication.java:257) - Deleting attribute data type for the project BU4_Playground_SYS_RM , BU4_Playground_SYS_RM , BU4_Playground_SYS_RM_Generic
+2023-09-22T13:43:28,768 [Thread-0] INFO  (RestUtility.java:501) - Attribute Test data type2 has been deleted completely
+2023-09-22T13:43:30,118 [Thread-0] INFO  (DeleteAttributeApplication.java:145) - <<<<<<Application running for the project ADCU_L2_RM , ADCU_L2_RM , ADCU_L2_RM_Migration>>>>>>>>
+2023-09-22T13:43:41,663 [Thread-0] INFO  (RestUtility.java:1024) - baseline test_one_two has been created for the project ADCU_L2_RM,ADCU_L2_RM_Migration
+2023-09-22T13:43:42,397 [Thread-0] INFO  (DeleteAttributeApplication.java:349) - Changeset ADCU_L2_RM_Migration_delete_attr_data has been created 
+2023-09-22T13:43:43,723 [Thread-0] INFO  (DeleteAttributeApplication.java:257) - Deleting attribute data type for the project ADCU_L2_RM , ADCU_L2_RM , ADCU_L2_RM_Migration
+2023-09-22T13:43:43,728 [Thread-0] ERROR (RestUtility.java:654) - Attribute null does not exist in the project ADCU_L2_RM , ADCU_L2_RM , ADCU_L2_RM_Migration
+2023-09-22T13:43:43,730 [Thread-0] ERROR (RestUtility.java:654) - Attribute null does not exist in the project ADCU_L2_RM , ADCU_L2_RM , ADCU_L2_RM_Migration
+2023-09-22T13:43:44,041 [Thread-0] INFO  (DeleteAttributeApplication.java:178) - -------------Delete attributes & Update workflow application completed-----------------
+2023-09-22T15:31:58,653 [Thread-0] INFO  (DeleteAttributeApplication.java:136) - -------------Delete attributes & Update workflow application started-----------------
+2023-09-22T15:31:59,609 [Thread-0] INFO  (DeleteAttributeApplication.java:145) - <<<<<<Application running for the project BU4_Playground_SYS_RM , BU4_Playground_SYS_RM , BU4_Playground_SYS_RM_Generic>>>>>>>>
+2023-09-22T15:32:10,102 [Thread-0] INFO  (RestUtility.java:1043) - baseline test_cs_delete has been created for the project BU4_Playground_SYS_RM,BU4_Playground_SYS_RM_Generic
+2023-09-22T15:32:10,785 [Thread-0] INFO  (DeleteAttributeApplication.java:348) - Changeset BU4_Playground_SYS_RM_Generic_test_cs_delete has been created 
+2023-09-22T15:32:15,410 [Thread-0] INFO  (DeleteAttributeApplication.java:205) - Deleting attributes for the project BU4_Playground_SYS_RM , BU4_Playground_SYS_RM , BU4_Playground_SYS_RM_Generic
+2023-09-22T15:32:15,722 [Thread-0] INFO  (RestUtility.java:560) - Attribute test2 has been deleted completely
+2023-09-22T15:32:15,724 [Thread-0] INFO  (DeleteAttributeApplication.java:256) - Deleting attribute data type for the project BU4_Playground_SYS_RM , BU4_Playground_SYS_RM , BU4_Playground_SYS_RM_Generic
+2023-09-22T15:32:15,724 [Thread-0] ERROR (RestUtility.java:683) - Exception while getting the attribute details null in the projectBU4_Playground_SYS_RM , BU4_Playground_SYS_RM , BU4_Playground_SYS_RM_Generic
+2023-09-22T15:32:15,725 [Thread-0] INFO  (DeleteAttributeApplication.java:98) - ------------Updating workflow for the project BU4_Playground_SYS_RM , BU4_Playground_SYS_RM , BU4_Playground_SYS_RM_Generic------------------
+2023-09-22T15:32:15,725 [Thread-0] INFO  (RestUtility.java:70) - updating the workflow for the artifact type Aspect
+2023-09-22T15:32:16,741 [Thread-0] INFO  (RestUtility.java:180) - Artifact type Aspect  has been updated with workflow Stakeholder Request Workflow
+2023-09-22T15:32:16,741 [Thread-0] INFO  (DeleteAttributeApplication.java:145) - <<<<<<Application running for the project ADCU_L2_RM , ADCU_L2_RM , ADCU_L2_RM_Migration>>>>>>>>
+2023-09-22T15:32:26,365 [Thread-0] INFO  (RestUtility.java:1043) - baseline test_cs_delete has been created for the project ADCU_L2_RM,ADCU_L2_RM_Migration
+2023-09-22T15:32:27,391 [Thread-0] INFO  (DeleteAttributeApplication.java:348) - Changeset ADCU_L2_RM_Migration_test_cs_delete has been created 
+2023-09-22T15:32:33,029 [Thread-0] INFO  (DeleteAttributeApplication.java:205) - Deleting attributes for the project ADCU_L2_RM , ADCU_L2_RM , ADCU_L2_RM_Migration
+2023-09-22T15:32:33,037 [Thread-0] ERROR (RestUtility.java:727) - Attribute null does not exist in the project ADCU_L2_RM , ADCU_L2_RM , ADCU_L2_RM_Migration
+2023-09-22T15:32:33,038 [Thread-0] ERROR (RestUtility.java:573) - Exception while deleting the attribute test2 from the project properties in the project ADCU_L2_RM , ADCU_L2_RM , ADCU_L2_RM_Migration
+2023-09-22T15:32:33,038 [Thread-0] INFO  (DeleteAttributeApplication.java:256) - Deleting attribute data type for the project ADCU_L2_RM , ADCU_L2_RM , ADCU_L2_RM_Migration
+2023-09-22T15:32:33,040 [Thread-0] ERROR (RestUtility.java:683) - Exception while getting the attribute details null in the projectADCU_L2_RM , ADCU_L2_RM , ADCU_L2_RM_Migration
+2023-09-22T15:32:33,041 [Thread-0] INFO  (DeleteAttributeApplication.java:98) - ------------Updating workflow for the project ADCU_L2_RM , ADCU_L2_RM , ADCU_L2_RM_Migration------------------
+2023-09-22T15:32:33,041 [Thread-0] INFO  (RestUtility.java:70) - updating the workflow for the artifact type Aspect
+2023-09-22T15:32:33,399 [Thread-0] INFO  (RestUtility.java:180) - Artifact type Aspect  has been updated with workflow Stakeholder Request Workflow
+2023-09-22T15:32:33,400 [Thread-0] INFO  (DeleteAttributeApplication.java:177) - -------------Delete attributes & Update workflow application completed-----------------
+2023-09-22T15:49:08,403 [Thread-0] INFO  (DeleteAttributeApplication.java:136) - -------------Delete attributes & Update workflow application started-----------------
+2023-09-22T15:49:09,625 [Thread-0] INFO  (DeleteAttributeApplication.java:145) - <<<<<<Application running for the project BU4_Playground_SYS_RM , BU4_Playground_SYS_RM , BU4_Playground_SYS_RM_Generic>>>>>>>>
+2023-09-22T15:49:35,276 [Thread-0] INFO  (RestUtility.java:1043) - baseline test343455 has been created for the project BU4_Playground_SYS_RM,BU4_Playground_SYS_RM_Generic
+2023-09-22T15:49:36,417 [Thread-0] INFO  (DeleteAttributeApplication.java:348) - Changeset BU4_Playground_SYS_RM_Generic_test343455 has been created 
+2023-09-22T15:49:56,419 [Thread-0] INFO  (DeleteAttributeApplication.java:205) - Deleting attributes for the project BU4_Playground_SYS_RM , BU4_Playground_SYS_RM , BU4_Playground_SYS_RM_Generic
+2023-09-22T15:50:20,175 [Thread-0] INFO  (RestUtility.java:560) - Attribute test1 has been deleted completely
+2023-09-22T15:50:52,268 [Thread-0] INFO  (DeleteAttributeApplication.java:256) - Deleting attribute data type for the project BU4_Playground_SYS_RM , BU4_Playground_SYS_RM , BU4_Playground_SYS_RM_Generic
+2023-09-22T15:50:58,110 [Thread-0] ERROR (RestUtility.java:683) - Exception while getting the attribute details null in the projectBU4_Playground_SYS_RM , BU4_Playground_SYS_RM , BU4_Playground_SYS_RM_Generic
+2023-09-22T15:51:53,580 [Thread-0] INFO  (DeleteAttributeApplication.java:256) - Deleting attribute data type for the project BU4_Playground_SYS_RM , BU4_Playground_SYS_RM , BU4_Playground_SYS_RM_Generic
+2023-09-22T16:23:01,400 [Thread-0] INFO  (DeleteAttributeApplication.java:136) - -------------Delete attributes & Update workflow application started-----------------
+2023-09-22T16:23:24,460 [Thread-0] INFO  (DeleteAttributeApplication.java:145) - <<<<<<Application running for the project BU4_Playground_SYS_RM , BU4_Playground_SYS_RM , BU4_Playground_SYS_RM_Generic>>>>>>>>
+2023-09-22T16:24:01,205 [Thread-0] INFO  (RestUtility.java:1044) - baseline test_update has been created for the project BU4_Playground_SYS_RM,BU4_Playground_SYS_RM_Generic
+2023-09-22T16:24:02,652 [Thread-0] INFO  (DeleteAttributeApplication.java:349) - Changeset BU4_Playground_SYS_RM_Generic_test_update has been created 
+2023-09-22T16:24:08,164 [Thread-0] INFO  (DeleteAttributeApplication.java:205) - Deleting attributes for the project BU4_Playground_SYS_RM , BU4_Playground_SYS_RM , BU4_Playground_SYS_RM_Generic
+2023-09-22T16:24:19,640 [Thread-0] INFO  (RestUtility.java:560) - Attribute test1 has been deleted completely
+2023-09-22T16:24:19,641 [Thread-0] INFO  (DeleteAttributeApplication.java:256) - Deleting attribute data type for the project BU4_Playground_SYS_RM , BU4_Playground_SYS_RM , BU4_Playground_SYS_RM_Generic
+2023-09-22T16:24:24,983 [Thread-0] ERROR (RestUtility.java:504) - The attribute data type Special Characteristics has been used in one of the attribute in the project BU4_Playground_SYS_RM , BU4_Playground_SYS_RM , BU4_Playground_SYS_RM_Generic and hence cannot be deleted!!
+2023-09-22T16:24:28,257 [Thread-0] ERROR (RestUtility.java:504) - The attribute data type Special Characteristics has been used in one of the attribute in the project BU4_Playground_SYS_RM , BU4_Playground_SYS_RM , BU4_Playground_SYS_RM_Generic and hence cannot be deleted!!
+2023-09-22T16:24:29,762 [Thread-0] ERROR (RestUtility.java:504) - The attribute data type Test Data Type1 has been used in one of the attribute in the project BU4_Playground_SYS_RM , BU4_Playground_SYS_RM , BU4_Playground_SYS_RM_Generic and hence cannot be deleted!!
+2023-09-22T16:24:30,724 [Thread-0] ERROR (RestUtility.java:504) - The attribute data type Test data type2 has been used in one of the attribute in the project BU4_Playground_SYS_RM , BU4_Playground_SYS_RM , BU4_Playground_SYS_RM_Generic and hence cannot be deleted!!
+2023-09-22T16:25:17,643 [Thread-0] INFO  (DeleteAttributeApplication.java:256) - Deleting attribute data type for the project BU4_Playground_SYS_RM , BU4_Playground_SYS_RM , BU4_Playground_SYS_RM_Generic
+2023-09-22T16:39:08,815 [Thread-0] ERROR (RestUtility.java:504) - The attribute data type Special Characteristics has been used in one of the attribute in the project BU4_Playground_SYS_RM , BU4_Playground_SYS_RM , BU4_Playground_SYS_RM_Generic and hence cannot be deleted!!
+2023-09-22T16:42:26,204 [Thread-0] ERROR (RestUtility.java:504) - The attribute data type Special Characteristics has been used in one of the attribute in the project BU4_Playground_SYS_RM , BU4_Playground_SYS_RM , BU4_Playground_SYS_RM_Generic and hence cannot be deleted!!
+2023-09-22T16:47:19,702 [Thread-0] ERROR (RestUtility.java:504) - The attribute data type Special Characteristics has been used in one of the attribute in the project BU4_Playground_SYS_RM , BU4_Playground_SYS_RM , BU4_Playground_SYS_RM_Generic and hence cannot be deleted!!
+2023-09-22T16:59:33,144 [Thread-0] INFO  (DeleteAttributeApplication.java:136) - -------------Delete attributes & Update workflow application started-----------------
+2023-09-22T16:59:34,651 [Thread-0] INFO  (DeleteAttributeApplication.java:145) - <<<<<<Application running for the project BU4_Playground_SYS_RM , BU4_Playground_SYS_RM , BU4_Playground_SYS_RM_Generic>>>>>>>>
+2023-09-22T16:59:48,781 [Thread-0] INFO  (RestUtility.java:1045) - baseline test_change has been created for the project BU4_Playground_SYS_RM,BU4_Playground_SYS_RM_Generic
+2023-09-22T16:59:49,647 [Thread-0] INFO  (DeleteAttributeApplication.java:350) - Changeset BU4_Playground_SYS_RM_Generic_test_change has been created 
+2023-09-22T16:59:53,457 [Thread-0] INFO  (DeleteAttributeApplication.java:205) - Deleting attributes for the project BU4_Playground_SYS_RM , BU4_Playground_SYS_RM , BU4_Playground_SYS_RM_Generic
+2023-09-22T17:00:00,721 [Thread-0] INFO  (RestUtility.java:561) - Attribute test1 has been deleted completely
+2023-09-22T17:00:00,722 [Thread-0] INFO  (DeleteAttributeApplication.java:256) - Deleting attribute data type for the project BU4_Playground_SYS_RM , BU4_Playground_SYS_RM , BU4_Playground_SYS_RM_Generic
+2023-09-22T17:00:23,551 [Thread-0] ERROR (RestUtility.java:504) - The attribute data type Supplier Statuses has been used in one of the attribute in the project BU4_Playground_SYS_RM , BU4_Playground_SYS_RM , BU4_Playground_SYS_RM_Generic and hence cannot be deleted!!
+2023-09-22T17:02:38,809 [Thread-0] INFO  (DeleteAttributeApplication.java:98) - ------------Updating workflow for the project BU4_Playground_SYS_RM , BU4_Playground_SYS_RM , BU4_Playground_SYS_RM_Generic------------------
+2023-09-22T17:02:42,254 [Thread-0] INFO  (RestUtility.java:70) - updating the workflow for the artifact type Aspect
+2023-09-22T17:03:03,937 [Thread-0] INFO  (RestUtility.java:180) - Artifact type Aspect  has been updated with workflow Stakeholder Request Workflow
+2023-09-22T17:03:27,129 [Thread-0] INFO  (DeleteAttributeApplication.java:145) - <<<<<<Application running for the project ADCU_L2_RM , ADCU_L2_RM , ADCU_L2_RM_Migration>>>>>>>>
+2023-09-22T17:04:43,188 [Thread-0] INFO  (RestUtility.java:1045) - baseline test_change has been created for the project ADCU_L2_RM,ADCU_L2_RM_Migration
+2023-09-22T17:04:44,722 [Thread-0] INFO  (DeleteAttributeApplication.java:350) - Changeset ADCU_L2_RM_Migration_test_change has been created 
+2023-09-22T18:22:34,124 [Thread-0] INFO  (DeleteAttributeApplication.java:136) - -------------Delete attributes & Update workflow application started-----------------
+2023-09-22T18:22:34,789 [Thread-0] INFO  (DeleteAttributeApplication.java:145) - <<<<<<Application running for the project BU4_Playground_SYS_RM , BU4_Playground_SYS_RM , BU4_Playground_SYS_RM_Generic>>>>>>>>
+2023-09-22T18:22:43,863 [Thread-0] INFO  (RestUtility.java:1111) - baseline test_fjff has been created for the project BU4_Playground_SYS_RM,BU4_Playground_SYS_RM_Generic
+2023-09-22T18:22:44,423 [Thread-0] INFO  (DeleteAttributeApplication.java:356) - Changeset BU4_Playground_SYS_RM_Generic_sfsfsfs has been created 
+2023-09-22T18:22:47,166 [Thread-0] INFO  (DeleteAttributeApplication.java:260) - Deleting attribute data type for the project BU4_Playground_SYS_RM , BU4_Playground_SYS_RM , BU4_Playground_SYS_RM_Generic
+2023-09-22T18:22:58,655 [Thread-0] ERROR (RestUtility.java:740) - Attribute Test Data Type1 does not exist in the project BU4_Playground_SYS_RM , BU4_Playground_SYS_RM , BU4_Playground_SYS_RM_Generic
+2023-09-22T18:22:58,798 [Thread-0] ERROR (RestUtility.java:740) - Attribute Test Data Type1 does not exist in the project BU4_Playground_SYS_RM , BU4_Playground_SYS_RM , BU4_Playground_SYS_RM_Generic
+2023-09-22T18:25:19,832 [Thread-0] ERROR (RestUtility.java:423) - Enum value dddd not found for the attribute data type Test Data Type1  for the project BU4_Playground_SYS_RM , BU4_Playground_SYS_RM , BU4_Playground_SYS_RM_Generic
+2023-09-22T18:26:20,748 [Thread-0] ERROR (RestUtility.java:588) - Execption while deleting the attribute data type tessss in the project BU4_Playground_SYS_RM , BU4_Playground_SYS_RM , BU4_Playground_SYS_RM_Generic
+2023-09-22T18:28:35,021 [Thread-0] ERROR (RestUtility.java:373) - Artifact data type Duration not found in the project BU4_Playground_SYS_RM , BU4_Playground_SYS_RM , BU4_Playground_SYS_RM_Generic

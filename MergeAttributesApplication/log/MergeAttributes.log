@@ -1,67 +1,21 @@
-2022-11-02T10:52:45,194 [AWT-EventQueue-0] INFO  (RestUtility.java:462) - baseline test1 has been created for the project ADAS_PG_SYS_RM,testy testy
-2022-11-02T10:52:46,601 [AWT-EventQueue-0] INFO  (MergeAttributesApplication.java:101) - Changeset testy testy_test2 has been created 
-2022-11-02T12:15:30,866 [AWT-EventQueue-0] INFO  (RestUtility.java:462) - baseline test5 has been created for the project ADAS_PG_SYS_RM,testy testy
-2022-11-02T12:15:31,752 [AWT-EventQueue-0] INFO  (MergeAttributesApplication.java:101) - Changeset testy testy_tst6 has been created 
-2022-11-02T12:26:47,047 [main] ERROR (ExcelUtility.java:121) - Exception in reading excel java.lang.NullPointerException
-2022-11-02T12:26:47,063 [main] ERROR (ExcelUtility.java:78) - Exception in reading excel java.lang.NullPointerException
-2022-11-02T12:26:47,063 [main] ERROR (MergeAttributesApplication.java:184) - Exception in merge attributes application java.lang.NullPointerException
-2022-11-02T12:27:13,003 [main] ERROR (ExcelUtility.java:121) - Exception in reading excel java.lang.NullPointerException
-2022-11-02T12:27:13,018 [main] ERROR (ExcelUtility.java:78) - Exception in reading excel java.lang.NullPointerException
-2022-11-02T12:27:13,018 [main] ERROR (MergeAttributesApplication.java:184) - Exception in merge attributes application java.lang.NullPointerException
-2022-11-02T12:29:59,442 [main] ERROR (ExcelUtility.java:121) - Exception in reading excel java.lang.NullPointerException
-2022-11-02T12:29:59,442 [main] ERROR (ExcelUtility.java:78) - Exception in reading excel java.lang.NullPointerException
-2022-11-02T12:29:59,442 [main] ERROR (MergeAttributesApplication.java:184) - Exception in merge attributes application java.lang.NullPointerException
-2022-11-02T12:51:43,601 [AWT-EventQueue-0] INFO  (RestUtility.java:462) - baseline test6 has been created for the project ADAS_PG_SYS_RM,testy testy
-2022-11-02T12:51:44,170 [AWT-EventQueue-0] INFO  (MergeAttributesApplication.java:102) - Changeset testy testy_test7 has been created 
-2022-11-02T15:41:26,752 [AWT-EventQueue-0] INFO  (RestUtility.java:462) - baseline test has been created for the project ADAS_PG_SYS_RM,testy testy
-2022-11-02T15:41:27,466 [AWT-EventQueue-0] INFO  (MergeAttributesApplication.java:102) - Changeset testy testy_test has been created 
-2022-11-02T15:45:14,659 [AWT-EventQueue-0] INFO  (RestUtility.java:462) - baseline test5 has been created for the project ADAS_PG_SYS_RM,testy testy
-2022-11-02T15:45:15,413 [AWT-EventQueue-0] INFO  (MergeAttributesApplication.java:102) - Changeset testy testy_test6 has been created 
-2022-11-02T15:53:24,277 [AWT-EventQueue-0] INFO  (RestUtility.java:462) - baseline ter has been created for the project ADAS_PG_SYS_RM,testy testy
-2022-11-02T15:53:24,858 [AWT-EventQueue-0] INFO  (MergeAttributesApplication.java:102) - Changeset testy testy_rer has been created 
-2022-11-02T15:58:32,859 [AWT-EventQueue-0] INFO  (RestUtility.java:462) - baseline rrr has been created for the project ADAS_PG_SYS_RM,testy testy
-2022-11-02T15:58:33,494 [AWT-EventQueue-0] INFO  (MergeAttributesApplication.java:102) - Changeset testy testy_ttt has been created 
-2022-11-02T16:20:42,362 [SwingWorker-pool-1-thread-1] ERROR (ExcelUtility.java:121) - Exception in reading excel java.lang.NullPointerException
-2022-11-02T16:20:42,369 [SwingWorker-pool-1-thread-1] ERROR (ExcelUtility.java:78) - Exception in reading excel java.lang.NullPointerException
-2022-11-02T16:20:42,370 [SwingWorker-pool-1-thread-1] ERROR (MergeAttributesApplication.java:184) - Exception in merge attributes application java.lang.NullPointerException
-2022-11-02T16:21:05,859 [SwingWorker-pool-1-thread-1] ERROR (ExcelUtility.java:121) - Exception in reading excel java.lang.NullPointerException
-2022-11-02T16:21:05,865 [SwingWorker-pool-1-thread-1] ERROR (ExcelUtility.java:78) - Exception in reading excel java.lang.NullPointerException
-2022-11-02T16:21:05,865 [SwingWorker-pool-1-thread-1] ERROR (MergeAttributesApplication.java:184) - Exception in merge attributes application java.lang.NullPointerException
-2022-11-02T16:34:26,940 [SwingWorker-pool-1-thread-1] ERROR (ExcelUtility.java:121) - Exception in reading excel java.lang.NullPointerException
-2022-11-02T16:34:26,946 [SwingWorker-pool-1-thread-1] ERROR (ExcelUtility.java:78) - Exception in reading excel java.lang.NullPointerException
-2022-11-02T16:34:26,947 [SwingWorker-pool-1-thread-1] ERROR (MergeAttributesApplication.java:184) - Exception in merge attributes application java.lang.NullPointerException
-2022-11-02T16:54:30,821 [AWT-EventQueue-0] INFO  (RestUtility.java:462) - baseline frff has been created for the project ADAS_PG_SYS_RM,testy testy
-2022-11-02T16:54:31,503 [AWT-EventQueue-0] INFO  (MergeAttributesApplication.java:102) - Changeset testy testy_eee has been created 
-2022-11-02T17:04:35,077 [AWT-EventQueue-0] INFO  (RestUtility.java:462) - baseline eee has been created for the project ADAS_PG_SYS_RM,testy testy
-2022-11-02T17:04:35,792 [AWT-EventQueue-0] INFO  (MergeAttributesApplication.java:102) - Changeset testy testy_ee has been created 
-2022-11-02T17:04:47,023 [AWT-EventQueue-0] INFO  (MergeAttributesUtility.java:47) - --------Merging attributes Special Characteristic-->Test Type in the project ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , testy testy-------------------
-2022-11-02T17:07:09,601 [Thread-0] INFO  (RestUtility.java:462) - baseline wee has been created for the project ADAS_PG_SYS_RM,testy testy
-2022-11-02T17:07:10,420 [Thread-0] INFO  (MergeAttributesApplication.java:102) - Changeset testy testy_qeqe has been created 
-2022-11-02T17:07:18,192 [Thread-0] INFO  (MergeAttributesUtility.java:47) - --------Merging attributes Special Characteristic-->Test Type in the project ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , testy testy-------------------
-2022-11-02T17:16:56,559 [Thread-0] INFO  (RestUtility.java:462) - baseline test11 has been created for the project ADAS_PG_SYS_RM,testy testy
-2022-11-02T17:16:57,210 [Thread-0] INFO  (MergeAttributesApplication.java:102) - Changeset testy testy_rwerer has been created 
-2022-11-02T17:17:04,032 [Thread-0] INFO  (MergeAttributesUtility.java:47) - --------Merging attributes Special Characteristic-->Test Type in the project ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , testy testy-------------------
-2022-11-02T17:27:28,966 [Thread-0] INFO  (MergeAttributesApplication.java:115) - Attributes Special Characteristic has been merged with Test Type in the projectADAS_PG_SYS_RM , ADAS_PG_SYS_RM , testy testy
-2022-11-02T17:27:35,139 [Thread-0] INFO  (MergeAttributesUtility.java:47) - --------Merging attributes Verification Criteria-->External Attribute 1 in the project ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , testy testy-------------------
-2022-11-02T17:28:24,407 [Thread-0] INFO  (MergeAttributesApplication.java:115) - Attributes Verification Criteria has been merged with External Attribute 1 in the projectADAS_PG_SYS_RM , ADAS_PG_SYS_RM , testy testy
-2022-11-02T18:05:55,669 [Thread-0] INFO  (RestUtility.java:463) - baseline test_merge has been created for the project ADAS_PG_SYS_RM,WeatherStation_RM_VM_HEP_Training_20220113_GF
-2022-11-02T18:05:56,249 [Thread-0] INFO  (MergeAttributesApplication.java:102) - Changeset WeatherStation_RM_VM_HEP_Training_20220113_GF_cs_merge has been created 
-2022-11-02T18:06:01,547 [Thread-0] INFO  (MergeAttributesUtility.java:47) - !!--------Merging attributes Special Characteristic-->Test Type in the project ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , WeatherStation_RM_VM_HEP_Training_20220113_GF-------------------!!
-2022-11-02T18:06:04,808 [Thread-0] INFO  (MergeAttributesUtility.java:85) - Quering for the artifacts with attribute Special Characteristic
-2022-11-02T18:06:04,809 [Thread-0] INFO  (MergeAttributesUtility.java:125) - Setting the attribute values from source to target
-2022-11-02T18:06:10,407 [Thread-0] INFO  (MergeAttributesApplication.java:115) - Attributes Special Characteristic has been merged with Test Type in the projectADAS_PG_SYS_RM , ADAS_PG_SYS_RM , WeatherStation_RM_VM_HEP_Training_20220113_GF
-2022-11-02T18:06:12,826 [Thread-0] INFO  (MergeAttributesUtility.java:47) - !!--------Merging attributes Verification Criteria-->External Attribute 1 in the project ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , WeatherStation_RM_VM_HEP_Training_20220113_GF-------------------!!
-2022-11-02T18:06:16,838 [Thread-0] INFO  (MergeAttributesUtility.java:85) - Quering for the artifacts with attribute Verification Criteria
-2022-11-02T18:06:16,840 [Thread-0] INFO  (MergeAttributesUtility.java:125) - Setting the attribute values from source to target
-2022-11-02T18:06:19,940 [Thread-0] INFO  (MergeAttributesApplication.java:115) - Attributes Verification Criteria has been merged with External Attribute 1 in the projectADAS_PG_SYS_RM , ADAS_PG_SYS_RM , WeatherStation_RM_VM_HEP_Training_20220113_GF
-2022-11-02T18:17:43,837 [Thread-0] INFO  (RestUtility.java:463) - baseline bl_merge has been created for the project ADAS_PG_SYS_RM,WeatherStation_RM_VM_HEP_Training_20220113_GF
-2022-11-02T18:17:44,546 [Thread-0] INFO  (MergeAttributesApplication.java:102) - Changeset WeatherStation_RM_VM_HEP_Training_20220113_GF_cs_merge has been created 
-2022-11-02T18:17:48,040 [Thread-0] INFO  (MergeAttributesUtility.java:47) - !!--------Merging attributes Special Characteristic-->Test Type in the project ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , WeatherStation_RM_VM_HEP_Training_20220113_GF-------------------!!
-2022-11-02T18:17:52,478 [Thread-0] INFO  (MergeAttributesUtility.java:85) - Querying for the artifacts with attribute Special Characteristic
-2022-11-02T18:17:52,479 [Thread-0] INFO  (MergeAttributesUtility.java:125) - Setting the attribute values from source to target
-2022-11-02T18:17:58,741 [Thread-0] INFO  (MergeAttributesApplication.java:115) - Attributes Special Characteristic has been merged with Test Type in the projectADAS_PG_SYS_RM , ADAS_PG_SYS_RM , WeatherStation_RM_VM_HEP_Training_20220113_GF
-2022-11-02T18:18:01,616 [Thread-0] INFO  (MergeAttributesUtility.java:47) - !!--------Merging attributes Verification Criteria-->External Attribute 1 in the project ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , WeatherStation_RM_VM_HEP_Training_20220113_GF-------------------!!
-2022-11-02T18:18:04,899 [Thread-0] INFO  (MergeAttributesUtility.java:85) - Querying for the artifacts with attribute Verification Criteria
-2022-11-02T18:18:04,900 [Thread-0] INFO  (MergeAttributesUtility.java:125) - Setting the attribute values from source to target
-2022-11-02T18:18:08,535 [Thread-0] INFO  (MergeAttributesApplication.java:115) - Attributes Verification Criteria has been merged with External Attribute 1 in the projectADAS_PG_SYS_RM , ADAS_PG_SYS_RM , WeatherStation_RM_VM_HEP_Training_20220113_GF
-2022-11-02T18:18:15,010 [Thread-0] INFO  (MergeAttributesApplication.java:156) - Changeset has been delivered for the project ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , WeatherStation_RM_VM_HEP_Training_20220113_GF
+2023-07-20T10:32:53,172 [Thread-0] INFO  (RestUtility.java:463) - baseline test_merge12 has been created for the project ADSystems_L1_Design_AM,ADSystems_L1_Design_AM_Migration
+2023-07-20T10:32:53,639 [Thread-0] INFO  (MergeAttributesApplication.java:102) - Changeset ADSystems_L1_Design_AM_Migration_test_merge12 has been created 
+2023-07-20T10:32:56,976 [Thread-0] INFO  (MergeAttributesUtility.java:47) - !!--------Merging attributes Special Characteristic-->SpecialCharacteristic in the project ADSystems_L1_Design_AM , ADSystems_L1_Design_AM , ADSystems_L1_Design_AM_Migration-------------------!!
+2023-07-20T10:33:15,867 [Thread-0] INFO  (MergeAttributesUtility.java:85) - Querying for the artifacts with attribute Special Characteristic
+2023-07-20T10:33:18,010 [Thread-0] INFO  (MergeAttributesUtility.java:125) - Setting the attribute values from source to target
+2023-07-20T10:40:20,178 [Thread-0] INFO  (MergeAttributesUtility.java:126) - Setting the attribute values from source to target
+2023-07-20T10:40:50,229 [Thread-0] INFO  (MergeAttributesUtility.java:126) - Setting the attribute values from source to target
+2023-07-20T10:50:09,155 [Thread-0] INFO  (MergeAttributesUtility.java:126) - Setting the attribute values from source to target
+2023-07-20T10:52:48,155 [Thread-0] INFO  (MergeAttributesUtility.java:126) - Setting the attribute values from source to target
+2023-07-20T11:02:36,436 [Thread-0] INFO  (RestUtility.java:463) - baseline test_merge has been created for the project ADSystems_L1_Design_AM,ADSystems_L1_Design_AM_Migration
+2023-07-20T11:02:36,857 [Thread-0] INFO  (MergeAttributesApplication.java:102) - Changeset ADSystems_L1_Design_AM_Migration_not has been created 
+2023-07-20T11:02:40,519 [Thread-0] INFO  (MergeAttributesUtility.java:48) - !!--------Merging attributes Special Characteristic-->SpecialCharacteristic in the project ADSystems_L1_Design_AM , ADSystems_L1_Design_AM , ADSystems_L1_Design_AM_Migration-------------------!!
+2023-07-20T11:03:00,315 [Thread-0] INFO  (MergeAttributesUtility.java:86) - Querying for the artifacts with attribute Special Characteristic
+2023-07-20T11:03:06,165 [Thread-0] INFO  (MergeAttributesUtility.java:126) - Setting the attribute values from source to target
+2023-07-20T11:16:57,660 [Thread-0] INFO  (MergeAttributesUtility.java:126) - Setting the attribute values from source to target
+2023-07-20T11:18:16,177 [Thread-0] INFO  (MergeAttributesUtility.java:126) - Setting the attribute values from source to target
+2023-07-20T11:29:05,918 [Thread-0] INFO  (RestUtility.java:463) - baseline test_merg3 has been created for the project ADSystems_L1_Design_AM,ADSystems_L1_Design_AM_Migration
+2023-07-20T11:29:06,334 [Thread-0] INFO  (MergeAttributesApplication.java:102) - Changeset ADSystems_L1_Design_AM_Migration_test_merg3 has been created 
+2023-07-20T11:29:10,672 [Thread-0] INFO  (MergeAttributesUtility.java:48) - !!--------Merging attributes Special Characteristic-->SpecialCharacteristic in the project ADSystems_L1_Design_AM , ADSystems_L1_Design_AM , ADSystems_L1_Design_AM_Migration-------------------!!
+2023-07-20T11:29:21,921 [Thread-0] INFO  (MergeAttributesUtility.java:86) - Querying for the artifacts with attribute Special Characteristic
+2023-07-20T11:29:29,712 [Thread-0] INFO  (MergeAttributesUtility.java:126) - Setting the attribute values from source to target

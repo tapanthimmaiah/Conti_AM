@@ -11,6 +11,9 @@ import javax.xml.parsers.DocumentBuilderFactory;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpGet;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.entity.StringEntity;
+import org.apache.http.util.EntityUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.eclipse.lyo.client.oslc.jazz.JazzFormAuthClient;
@@ -29,6 +32,7 @@ public class RestUtility {
 	
 	private Logger logger = LogManager.getLogger(RestUtility.class);
 	DNGLoginUtility dngLoginUtility=new DNGLoginUtility();
+	String gloval =null;
 
 	
 	/**
@@ -300,5 +304,79 @@ public class RestUtility {
 		
 		return nList;
 	}
+	
+	public String startCustomScenario(JazzFormAuthClient client, String postRequestUrl, String DeleteLinksFromObseleteArtifacts)
+			 {
+		HttpResponse response = null;
+		StringEntity entity = null;
+		postRequestUrl= client.getAuthUrl()+"/service/com.ibm.team.repository.service.serviceability.IScenarioRestService/scenarios/startscenario";
+		HttpPost postRequest = new HttpPost(postRequestUrl);
+		try {
+			//String postRequestBody=  "scenarioName:DeleteLinksFromObseleteArtifacts";
+			String postRequestBody = "{\r\n"
+					+ "  \"scenarioName\": \"DeleteLinksFromObseleteArtifacts\"\r\n"
+					+ "}";
+			entity = new StringEntity(postRequestBody);
+			postRequest.setEntity(entity);
+			postRequest.setHeader("Content-Type", "application/json");
+			postRequest.setHeader("Accept", "application/json");
+			postRequest.setHeader("DoorsRP-Request-Type", "private");
+			
+			
+			response = client.getHttpClient().execute(postRequest);
+			
+			//scenario_info = JSON.parse(xhr.responseText);
+			gloval=EntityUtils.toString(response.getEntity());
+			return EntityUtils.toString(response.getEntity());
+			
+
+		} catch (Exception e) {
+			// TODO: handle exception
+			logger.error("Exception while POST request for URL " + postRequestUrl + e);
+			return null;
+		}
+
+		finally {
+			postRequest.releaseConnection();
+
+		}
+
+	}
+	
+	public String stopCustomScenario(JazzFormAuthClient client, String postRequestUrl, String DeleteLinksFromObseleteArtifacts)
+	 {
+		HttpResponse response = null;
+		StringEntity entity = null;
+		postRequestUrl= client.getAuthUrl()+"/service/com.ibm.team.repository.service.serviceability.IScenarioRestService/scenarios/stopscenario";
+		HttpPost postRequest = new HttpPost(postRequestUrl);
+		try {
+	//String postRequestBody=  "scenarioName:DeleteLinksFromObseleteArtifacts";
+	String postRequestBody = gloval;
+	System.out.println(gloval);
+	entity = new StringEntity(postRequestBody);
+	postRequest.setEntity(entity);
+	postRequest.setHeader("Content-Type", "application/json");
+	postRequest.setHeader("Accept", "application/json");
+	postRequest.setHeader("DoorsRP-Request-Type", "private");
+	
+	
+	response = client.getHttpClient().execute(postRequest);
+	
+	//scenario_info = JSON.parse(xhr.responseText);
+	return EntityUtils.toString(entity);
+	
+
+} catch (Exception e) {
+	// TODO: handle exception
+	logger.error("Exception while POST request for URL " + postRequestUrl + e);
+	return null;
+}
+
+finally {
+	postRequest.releaseConnection();
+
+}
+
+}
 
 }

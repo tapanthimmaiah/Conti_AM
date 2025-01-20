@@ -1,0 +1,4 @@
+2025-01-07T17:06:26,119 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-07T17:06:30,653 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 4
+2025-01-07T17:06:33,258 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-07T17:06:38,020 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 4

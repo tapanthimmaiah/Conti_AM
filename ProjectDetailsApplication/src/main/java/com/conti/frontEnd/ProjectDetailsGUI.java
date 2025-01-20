@@ -123,6 +123,7 @@ public class ProjectDetailsGUI extends JFrame implements ActionListener{
 	            public void run() {
 	             
 	            	final Boolean iscompleted= ProjectDetailsApplication.projectDetailsApplication();;
+	            	
 	                
 	                    SwingUtilities.invokeLater(new Runnable() {
 	                        @Override
@@ -149,6 +150,8 @@ public class ProjectDetailsGUI extends JFrame implements ActionListener{
 		}
 		
 	}
+	
+
 	
 	public static void main(String[] args) {
 		try

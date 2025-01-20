@@ -145,6 +145,8 @@ public class ProjectDetailsApplication {
 		{
 		
 			JazzFormAuthClient client= dngLoginUtility.login(userName,password , serverUrl);
+			restUtility.startCustomScenario(client, "", "");
+			restUtility.stopCustomScenario(client, "", "");
 			if(client!=null)
 			{
 				ArrayList<String> projectNameList= restUtility.getProjectNameDetails(client,serverUrl);
