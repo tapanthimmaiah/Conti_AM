@@ -1,0 +1,50 @@
+2025-01-08T10:31:49,065 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-08T10:32:00,186 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 10
+2025-01-08T10:32:04,102 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-08T10:32:19,688 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 15
+2025-01-08T10:32:19,705 [main] ERROR (DNGLoginUtility.java:63) - Exception while logging in DNGorg.eclipse.lyo.client.exception.RootServicesException: OSLCC003: An error occurred processing the root services document.  Server location: .
+2025-01-08T10:32:19,714 [main] ERROR (DNGPerformanceAnalyzerApplication.java:60) - Unable to reach the server
+2025-01-08T10:32:19,900 [main] ERROR (DNGPerformanceAnalyzerApplication.java:79) - Exception in the main applicationjava.lang.NullPointerException
+2025-01-08T10:42:21,668 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-08T10:42:34,163 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 12
+2025-01-08T10:42:37,428 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-08T10:42:49,105 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 11
+2025-01-08T10:42:49,122 [main] ERROR (DNGLoginUtility.java:63) - Exception while logging in DNGorg.eclipse.lyo.client.exception.RootServicesException: OSLCC003: An error occurred processing the root services document.  Server location: .
+2025-01-08T10:42:49,123 [main] ERROR (DNGPerformanceAnalyzerApplication.java:60) - Unable to reach the server
+2025-01-08T10:42:49,347 [main] ERROR (DNGPerformanceAnalyzerApplication.java:77) - Exception in the main applicationjava.lang.NullPointerException
+2025-01-08T10:43:38,983 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-08T10:43:48,297 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 8
+2025-01-08T10:43:52,286 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-08T10:44:03,552 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 10
+2025-01-08T10:44:03,567 [main] ERROR (DNGLoginUtility.java:63) - Exception while logging in DNGorg.eclipse.lyo.client.exception.RootServicesException: OSLCC003: An error occurred processing the root services document.  Server location: .
+2025-01-08T10:44:03,567 [main] ERROR (DNGPerformanceAnalyzerApplication.java:60) - Unable to reach the server
+2025-01-08T10:44:51,690 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-08T10:45:01,659 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 9
+2025-01-08T10:45:05,607 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-08T10:45:22,200 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 8
+2025-01-08T10:46:31,111 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-08T10:46:41,965 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 10
+2025-01-08T10:46:45,029 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-08T10:46:57,009 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 11
+2025-01-08T10:47:33,565 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-08T10:47:43,624 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 9
+2025-01-08T10:47:47,073 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-08T10:47:58,543 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 11
+2025-01-08T10:50:20,423 [main] ERROR (ExcelUtility.java:132) - Exception in reading excel java.io.FileNotFoundException: D:\Workspace\DNGPerformanceAnalyzer\null (The system cannot find the file specified)
+2025-01-08T10:50:20,429 [main] ERROR (DNGPerformanceAnalyzerApplication.java:99) - Exception in the main applicationjava.lang.NullPointerException
+2025-01-08T10:51:04,740 [main] ERROR (ExcelUtility.java:132) - Exception in reading excel java.io.FileNotFoundException: D:\Workspace\DNGPerformanceAnalyzer\null (The system cannot find the file specified)
+2025-01-08T10:51:04,746 [main] ERROR (DNGPerformanceAnalyzerApplication.java:99) - Exception in the main applicationjava.lang.NullPointerException
+2025-01-08T10:52:19,961 [main] ERROR (ExcelUtility.java:132) - Exception in reading excel java.io.FileNotFoundException: D:\Workspace\DNGPerformanceAnalyzer\null (The system cannot find the file specified)
+2025-01-08T10:52:19,968 [main] ERROR (DNGPerformanceAnalyzerApplication.java:99) - Exception in the main applicationjava.lang.NullPointerException
+2025-01-08T10:53:18,015 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-08T10:53:30,606 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 12
+2025-01-08T10:53:34,574 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-08T10:53:44,684 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 9
+2025-01-08T16:44:34,047 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-08T16:44:39,498 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 5
+2025-01-08T16:44:41,770 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-08T16:44:47,022 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 5
+2025-01-08T16:48:28,622 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-08T16:48:36,185 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 7
+2025-01-08T16:48:38,521 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2025-01-08T16:48:44,413 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 5

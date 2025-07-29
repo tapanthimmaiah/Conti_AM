@@ -1,0 +1,22 @@
+2023-02-13T11:09:02,709 [Thread-0] INFO  (RestUtility.java:654) - baseline test_bl_del_links has been created for the project ADCU_L2_RM,test_component Initial Stream
+2023-02-13T11:09:03,292 [Thread-0] INFO  (DeleteLinksApplication.java:99) - Changeset test_component Initial Stream_test_cs_del_links has been created 
+2023-02-13T11:09:25,274 [Thread-0] ERROR (RestUtility.java:172) - Cannot remove the links for the artifact : 775955 - Error Code : 200
+2023-02-13T11:09:28,727 [Thread-0] ERROR (RestUtility.java:172) - Cannot remove the links for the artifact : 775956 - Error Code : 200
+2023-02-13T11:09:31,991 [Thread-0] ERROR (RestUtility.java:172) - Cannot remove the links for the artifact : 775957 - Error Code : 200
+2023-02-13T11:09:32,342 [Thread-0] ERROR (RestUtility.java:172) - Cannot remove the links for the artifact : 775957 - Error Code : 200
+2023-02-13T11:09:32,655 [Thread-0] ERROR (RestUtility.java:172) - Cannot remove the links for the artifact : 775957 - Error Code : 200
+2023-02-13T11:09:46,825 [Thread-0] ERROR (DeleteLinksApplication.java:111) - Error while deleting the links of the artifacts for the projectADCU_L2_RM , test_component , test_component Initial Stream
+2023-02-13T12:26:05,747 [Thread-0] INFO  (RestUtility.java:672) - baseline test_bl_2 has been created for the project ADCU_L2_RM,test_component Initial Stream
+2023-02-13T12:26:06,463 [Thread-0] INFO  (DeleteLinksApplication.java:99) - Changeset test_component Initial Stream_test_bcs_3 has been created 
+2023-02-13T12:26:15,658 [Thread-0] INFO  (RestUtility.java:75) - Deleting links for the module 775952 for the project ADCU_L2_RM , test_component , test_component Initial Stream
+2023-02-13T12:26:40,971 [Thread-0] ERROR (RestUtility.java:190) - Cannot remove the links for the artifact : 775955 - Error Code : 200
+2023-02-13T12:26:44,681 [Thread-0] ERROR (RestUtility.java:190) - Cannot remove the links for the artifact : 775956 - Error Code : 200
+2023-02-13T12:26:48,160 [Thread-0] ERROR (RestUtility.java:190) - Cannot remove the links for the artifact : 775957 - Error Code : 200
+2023-02-13T12:26:48,591 [Thread-0] ERROR (RestUtility.java:190) - Cannot remove the links for the artifact : 775957 - Error Code : 200
+2023-02-13T12:26:48,955 [Thread-0] ERROR (RestUtility.java:190) - Cannot remove the links for the artifact : 775957 - Error Code : 200
+2023-02-13T12:26:49,628 [Thread-0] INFO  (RestUtility.java:75) - Deleting links for the module 775945 for the project ADCU_L2_RM , test_component , test_component Initial Stream
+2023-02-13T12:27:19,790 [Thread-0] ERROR (DeleteLinksApplication.java:111) - Error while deleting the links of the artifacts for the projectADCU_L2_RM , test_component , test_component Initial Stream
+2023-02-13T12:34:12,472 [Thread-0] INFO  (RestUtility.java:672) - baseline test_bl1 has been created for the project ADCU_L2_RM,test_component Initial Stream
+2023-02-13T12:34:13,016 [Thread-0] INFO  (DeleteLinksApplication.java:99) - Changeset test_component Initial Stream_test_bl2_cs has been created 
+2023-02-13T12:34:45,045 [Thread-0] INFO  (RestUtility.java:75) - Deleting links for the module 775952 for the project ADCU_L2_RM , test_component , test_component Initial Stream
+2023-02-13T12:39:59,646 [Thread-0] ERROR (RestUtility.java:214) - Exception while removing the links for the artifact URI https://jazz-test4.conti.de/rm4/resources/BI_NZc1IKk7Ee2D4soQfFdY8w?oslc_config.context=https%3A%2F%2Fjazz-test4.conti.de%2Frm4%2Fcm%2Fchangeset%2F_nupbUKtsEe2D4soQfFdY8w?oslc_config.context=https%3A%2F%2Fjazz-test4.conti.de%2Frm4%2Fcm%2Fchangeset%2F_nupbUKtsEe2D4soQfFdY8w  java.lang.NullPointerException

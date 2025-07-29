@@ -1,0 +1,451 @@
+2024-10-23T15:25:53,565 [pool-2-thread-9] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:25:53,572 [pool-2-thread-7] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:25:53,581 [pool-2-thread-5] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:25:53,591 [pool-2-thread-4] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:25:53,593 [pool-2-thread-8] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:25:53,599 [pool-2-thread-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:25:53,603 [pool-2-thread-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:25:53,612 [pool-2-thread-6] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:25:53,613 [pool-2-thread-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:25:53,986 [pool-12-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-23T15:25:53,996 [pool-2-thread-3] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (VED) is 0.0
+2024-10-23T15:25:56,121 [pool-2-thread-9] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA8 is 2.409
+2024-10-23T15:25:56,334 [pool-2-thread-1] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA Rmfed is 2.59
+2024-10-23T15:25:56,527 [pool-2-thread-6] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (PSS) is 2.768
+2024-10-23T15:25:57,264 [pool-2-thread-4] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (HBS) is 3.534
+2024-10-23T15:25:57,546 [pool-2-thread-8] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA7 is 3.809
+2024-10-23T15:25:57,755 [pool-2-thread-2] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AN is 4.01
+2024-10-23T15:25:57,796 [pool-2-thread-7] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA6 is 4.085
+2024-10-23T15:25:59,407 [pool-2-thread-5] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AM is 5.675
+2024-10-23T15:26:01,586 [pool-2-thread-9] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA8 is 5.465
+2024-10-23T15:26:01,933 [pool-2-thread-6] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (PSS) is 5.405
+2024-10-23T15:26:03,781 [pool-2-thread-8] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA7 is 6.232
+2024-10-23T15:26:04,416 [pool-2-thread-7] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA6 is 6.618
+2024-10-23T15:26:05,847 [pool-2-thread-1] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA Rmfed is 9.511
+2024-10-23T15:26:07,779 [pool-2-thread-4] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (HBS) is 10.513
+2024-10-23T15:26:10,348 [pool-2-thread-2] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AN is 12.592
+2024-10-23T15:26:12,175 [pool-2-thread-3] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (VED) is 18.177
+2024-10-23T15:26:16,019 [pool-2-thread-5] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AM is 16.61
+2024-10-23T15:28:16,386 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:28:17,482 [main] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA Rmfed is 0.957
+2024-10-23T15:28:21,423 [main] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA Rmfed is 3.939
+2024-10-23T15:28:23,546 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:28:24,976 [main] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AN is 1.287
+2024-10-23T15:28:30,700 [main] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AN is 5.723
+2024-10-23T15:28:32,710 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:28:33,038 [pool-8-thread-1] ERROR (RestUtility.java:51) - Unable to reach the DNG Module/View. Time taken to load the module is 0
+2024-10-23T15:28:33,039 [main] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (VED) is 0.0
+2024-10-23T15:28:43,439 [main] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (VED) is 10.398
+2024-10-23T15:28:45,469 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:28:46,828 [main] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (HBS) is 1.22
+2024-10-23T15:28:51,577 [main] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (HBS) is 4.746
+2024-10-23T15:28:53,578 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:28:57,527 [main] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AM is 3.81
+2024-10-23T15:29:17,952 [main] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AM is 20.424
+2024-10-23T15:29:20,037 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:29:21,349 [main] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (PSS) is 1.168
+2024-10-23T15:29:26,047 [main] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (PSS) is 4.697
+2024-10-23T15:29:28,043 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:29:29,423 [main] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA6 is 1.238
+2024-10-23T15:29:34,280 [main] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA6 is 4.856
+2024-10-23T15:29:36,217 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:29:37,655 [main] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA7 is 1.295
+2024-10-23T15:29:42,596 [main] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA7 is 4.94
+2024-10-23T15:29:44,552 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:29:45,894 [main] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA8 is 1.2
+2024-10-23T15:29:50,732 [main] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA8 is 4.838
+2024-10-23T15:36:26,395 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:36:27,476 [main] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA Rmfed is 0.926
+2024-10-23T15:36:31,472 [main] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA Rmfed is 3.994
+2024-10-23T15:36:33,637 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:36:35,984 [main] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AN is 2.197
+2024-10-23T15:36:47,479 [main] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AN is 11.492
+2024-10-23T15:36:49,585 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:36:53,825 [main] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (VED) is 4.1
+2024-10-23T15:37:12,508 [main] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (VED) is 18.683
+2024-10-23T15:37:14,541 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:37:16,659 [main] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (HBS) is 1.98
+2024-10-23T15:37:26,550 [main] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (HBS) is 9.889
+2024-10-23T15:37:28,685 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:37:34,846 [main] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AM is 6.015
+2024-10-23T15:37:52,309 [main] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AM is 17.461
+2024-10-23T15:37:54,337 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:37:55,782 [main] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (PSS) is 1.262
+2024-10-23T15:38:00,819 [main] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (PSS) is 5.035
+2024-10-23T15:38:02,805 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:38:04,097 [main] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA6 is 1.151
+2024-10-23T15:38:09,062 [main] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA6 is 4.964
+2024-10-23T15:38:11,006 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:38:12,331 [main] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA7 is 1.173
+2024-10-23T15:38:17,414 [main] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA7 is 5.082
+2024-10-23T15:38:19,460 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:38:20,836 [main] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA8 is 1.189
+2024-10-23T15:38:25,697 [main] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA8 is 4.859
+2024-10-23T15:43:23,031 [ForkJoinPool.commonPool-worker-6] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:43:23,042 [ForkJoinPool.commonPool-worker-7] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:43:23,042 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:43:23,056 [ForkJoinPool.commonPool-worker-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:43:23,057 [ForkJoinPool.commonPool-worker-4] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:43:23,057 [ForkJoinPool.commonPool-worker-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:43:23,073 [ForkJoinPool.commonPool-worker-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:43:23,089 [ForkJoinPool.commonPool-worker-8] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:43:23,166 [ForkJoinPool.commonPool-worker-5] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:43:24,306 [ForkJoinPool.commonPool-worker-6] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA6 is 1.131
+2024-10-23T15:43:24,315 [ForkJoinPool.commonPool-worker-5] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA Rmfed is 0.968
+2024-10-23T15:43:24,347 [main] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (PSS) is 1.165
+2024-10-23T15:43:24,422 [ForkJoinPool.commonPool-worker-7] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA8 is 1.24
+2024-10-23T15:43:24,539 [ForkJoinPool.commonPool-worker-4] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA7 is 1.341
+2024-10-23T15:43:25,153 [ForkJoinPool.commonPool-worker-3] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (HBS) is 1.955
+2024-10-23T15:43:25,338 [ForkJoinPool.commonPool-worker-2] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AN is 2.14
+2024-10-23T15:43:27,155 [ForkJoinPool.commonPool-worker-8] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AM is 3.882
+2024-10-23T15:43:27,789 [ForkJoinPool.commonPool-worker-1] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (VED) is 4.577
+2024-10-23T15:43:28,320 [ForkJoinPool.commonPool-worker-5] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA Rmfed is 4.003
+2024-10-23T15:43:29,109 [main] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (PSS) is 4.761
+2024-10-23T15:43:29,146 [ForkJoinPool.commonPool-worker-7] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA8 is 4.723
+2024-10-23T15:43:29,178 [ForkJoinPool.commonPool-worker-6] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA6 is 4.87
+2024-10-23T15:43:29,265 [ForkJoinPool.commonPool-worker-7] ERROR (ZipContentTypeManager.java:73) - Cannot write: [Content_Types].xml in Zip !
+java.io.IOException: Stream Closed
+	at java.io.FileOutputStream.writeBytes(Native Method) ~[?:?]
+	at java.io.FileOutputStream.write(FileOutputStream.java:349) ~[?:?]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor$OutputStreamCompressor.writeOut(StreamCompressor.java:306) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.writeCounted(StreamCompressor.java:273) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.writeCounted(StreamCompressor.java:269) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.writeCounted(ZipArchiveOutputStream.java:1060) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.writeLocalFileHeader(ZipArchiveOutputStream.java:1175) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.putArchiveEntry(ZipArchiveOutputStream.java:881) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.putArchiveEntry(ZipArchiveOutputStream.java:821) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.poi.openxml4j.opc.internal.ZipContentTypeManager.saveImpl(ZipContentTypeManager.java:65) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.internal.ContentTypeManager.save(ContentTypeManager.java:450) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:563) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.OPCPackage.save(OPCPackage.java:1490) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.ooxml.POIXMLDocument.write(POIXMLDocument.java:227) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at com.conti.utility.ExcelUtility.updateExcel(ExcelUtility.java:149) ~[classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.getDetails(DNGPerformanceAnalyzerApplication.java:141) ~[classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.lambda$0(DNGPerformanceAnalyzerApplication.java:73) ~[classes/:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) [?:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) [?:?]
+	at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:290) [?:?]
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:754) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+2024-10-23T15:43:29,275 [ForkJoinPool.commonPool-worker-7] ERROR (ZipPartMarshaller.java:188) - Cannot create zip entry /_rels/.rels
+java.io.IOException: Stream Closed
+	at java.io.FileOutputStream.writeBytes(Native Method) ~[?:?]
+	at java.io.FileOutputStream.write(FileOutputStream.java:349) ~[?:?]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor$OutputStreamCompressor.writeOut(StreamCompressor.java:306) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.writeCounted(StreamCompressor.java:273) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.deflate(StreamCompressor.java:264) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.flushDeflater(StreamCompressor.java:229) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.flushDeflater(ZipArchiveOutputStream.java:690) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.closeArchiveEntry(ZipArchiveOutputStream.java:601) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.putArchiveEntry(ZipArchiveOutputStream.java:842) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.putArchiveEntry(ZipArchiveOutputStream.java:821) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.poi.openxml4j.opc.internal.marshallers.ZipPartMarshaller.marshallRelationshipPart(ZipPartMarshaller.java:181) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:567) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.OPCPackage.save(OPCPackage.java:1490) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.ooxml.POIXMLDocument.write(POIXMLDocument.java:227) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at com.conti.utility.ExcelUtility.updateExcel(ExcelUtility.java:149) ~[classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.getDetails(DNGPerformanceAnalyzerApplication.java:141) ~[classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.lambda$0(DNGPerformanceAnalyzerApplication.java:73) ~[classes/:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) [?:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) [?:?]
+	at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:290) [?:?]
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:754) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+2024-10-23T15:43:29,275 [ForkJoinPool.commonPool-worker-7] ERROR (ZipPartMarshaller.java:94) - Cannot write: /docMetadata/LabelInfo.xml: in ZIP
+java.io.IOException: Stream Closed
+	at java.io.FileOutputStream.writeBytes(Native Method) ~[?:?]
+	at java.io.FileOutputStream.write(FileOutputStream.java:349) ~[?:?]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor$OutputStreamCompressor.writeOut(StreamCompressor.java:306) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.writeCounted(StreamCompressor.java:273) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.writeCounted(StreamCompressor.java:269) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.writeCounted(ZipArchiveOutputStream.java:1060) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.writeDataDescriptor(ZipArchiveOutputStream.java:1312) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.closeEntry(ZipArchiveOutputStream.java:636) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.closeArchiveEntry(ZipArchiveOutputStream.java:608) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.putArchiveEntry(ZipArchiveOutputStream.java:842) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.putArchiveEntry(ZipArchiveOutputStream.java:821) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.poi.openxml4j.opc.internal.marshallers.ZipPartMarshaller.marshall(ZipPartMarshaller.java:85) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.ZipPackagePart.save(ZipPackagePart.java:127) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.internal.marshallers.DefaultMarshaller.marshall(DefaultMarshaller.java:46) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:584) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.OPCPackage.save(OPCPackage.java:1490) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.ooxml.POIXMLDocument.write(POIXMLDocument.java:227) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at com.conti.utility.ExcelUtility.updateExcel(ExcelUtility.java:149) ~[classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.getDetails(DNGPerformanceAnalyzerApplication.java:141) ~[classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.lambda$0(DNGPerformanceAnalyzerApplication.java:73) ~[classes/:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) [?:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) [?:?]
+	at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:290) [?:?]
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:754) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+2024-10-23T15:43:29,276 [ForkJoinPool.commonPool-worker-7] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.openxml4j.exceptions.OpenXML4JRuntimeException: Fail to save: an error occurs while saving the package : The part /docMetadata/LabelInfo.xml failed to be saved in the stream with marshaller org.apache.poi.openxml4j.opc.internal.marshallers.DefaultMarshaller@2772f7f2. Enable logging via Log4j 2 for more details.
+2024-10-23T15:43:29,282 [ForkJoinPool.commonPool-worker-6] ERROR (ZipContentTypeManager.java:73) - Cannot write: [Content_Types].xml in Zip !
+java.io.IOException: Stream Closed
+	at java.io.FileOutputStream.writeBytes(Native Method) ~[?:?]
+	at java.io.FileOutputStream.write(FileOutputStream.java:349) ~[?:?]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor$OutputStreamCompressor.writeOut(StreamCompressor.java:306) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.writeCounted(StreamCompressor.java:273) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.writeCounted(StreamCompressor.java:269) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.writeCounted(ZipArchiveOutputStream.java:1060) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.writeLocalFileHeader(ZipArchiveOutputStream.java:1175) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.putArchiveEntry(ZipArchiveOutputStream.java:881) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.putArchiveEntry(ZipArchiveOutputStream.java:821) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.poi.openxml4j.opc.internal.ZipContentTypeManager.saveImpl(ZipContentTypeManager.java:65) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.internal.ContentTypeManager.save(ContentTypeManager.java:450) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:563) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.OPCPackage.save(OPCPackage.java:1490) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.ooxml.POIXMLDocument.write(POIXMLDocument.java:227) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at com.conti.utility.ExcelUtility.updateExcel(ExcelUtility.java:149) ~[classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.getDetails(DNGPerformanceAnalyzerApplication.java:141) ~[classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.lambda$0(DNGPerformanceAnalyzerApplication.java:73) ~[classes/:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) [?:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) [?:?]
+	at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:290) [?:?]
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:754) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+2024-10-23T15:43:29,283 [ForkJoinPool.commonPool-worker-6] ERROR (ZipPartMarshaller.java:188) - Cannot create zip entry /_rels/.rels
+java.io.IOException: Stream Closed
+	at java.io.FileOutputStream.writeBytes(Native Method) ~[?:?]
+	at java.io.FileOutputStream.write(FileOutputStream.java:349) ~[?:?]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor$OutputStreamCompressor.writeOut(StreamCompressor.java:306) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.writeCounted(StreamCompressor.java:273) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.deflate(StreamCompressor.java:264) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.flushDeflater(StreamCompressor.java:229) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.flushDeflater(ZipArchiveOutputStream.java:690) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.closeArchiveEntry(ZipArchiveOutputStream.java:601) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.putArchiveEntry(ZipArchiveOutputStream.java:842) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.putArchiveEntry(ZipArchiveOutputStream.java:821) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.poi.openxml4j.opc.internal.marshallers.ZipPartMarshaller.marshallRelationshipPart(ZipPartMarshaller.java:181) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:567) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.OPCPackage.save(OPCPackage.java:1490) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.ooxml.POIXMLDocument.write(POIXMLDocument.java:227) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at com.conti.utility.ExcelUtility.updateExcel(ExcelUtility.java:149) ~[classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.getDetails(DNGPerformanceAnalyzerApplication.java:141) ~[classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.lambda$0(DNGPerformanceAnalyzerApplication.java:73) ~[classes/:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) [?:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) [?:?]
+	at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:290) [?:?]
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:754) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+2024-10-23T15:43:29,283 [ForkJoinPool.commonPool-worker-6] ERROR (ZipPartMarshaller.java:94) - Cannot write: /docMetadata/LabelInfo.xml: in ZIP
+java.io.IOException: Stream Closed
+	at java.io.FileOutputStream.writeBytes(Native Method) ~[?:?]
+	at java.io.FileOutputStream.write(FileOutputStream.java:349) ~[?:?]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor$OutputStreamCompressor.writeOut(StreamCompressor.java:306) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.writeCounted(StreamCompressor.java:273) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.writeCounted(StreamCompressor.java:269) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.writeCounted(ZipArchiveOutputStream.java:1060) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.writeDataDescriptor(ZipArchiveOutputStream.java:1312) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.closeEntry(ZipArchiveOutputStream.java:636) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.closeArchiveEntry(ZipArchiveOutputStream.java:608) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.putArchiveEntry(ZipArchiveOutputStream.java:842) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.putArchiveEntry(ZipArchiveOutputStream.java:821) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.poi.openxml4j.opc.internal.marshallers.ZipPartMarshaller.marshall(ZipPartMarshaller.java:85) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.ZipPackagePart.save(ZipPackagePart.java:127) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.internal.marshallers.DefaultMarshaller.marshall(DefaultMarshaller.java:46) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:584) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.OPCPackage.save(OPCPackage.java:1490) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.ooxml.POIXMLDocument.write(POIXMLDocument.java:227) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at com.conti.utility.ExcelUtility.updateExcel(ExcelUtility.java:149) ~[classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.getDetails(DNGPerformanceAnalyzerApplication.java:141) ~[classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.lambda$0(DNGPerformanceAnalyzerApplication.java:73) ~[classes/:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) [?:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) [?:?]
+	at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:290) [?:?]
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:754) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+2024-10-23T15:43:29,284 [ForkJoinPool.commonPool-worker-6] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.openxml4j.exceptions.OpenXML4JRuntimeException: Fail to save: an error occurs while saving the package : The part /docMetadata/LabelInfo.xml failed to be saved in the stream with marshaller org.apache.poi.openxml4j.opc.internal.marshallers.DefaultMarshaller@6adc6a58. Enable logging via Log4j 2 for more details.
+2024-10-23T15:43:29,594 [ForkJoinPool.commonPool-worker-4] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA7 is 5.052
+2024-10-23T15:43:29,594 [ForkJoinPool.commonPool-worker-4] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
+2024-10-23T15:43:35,006 [ForkJoinPool.commonPool-worker-3] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (HBS) is 9.852
+2024-10-23T15:43:35,007 [ForkJoinPool.commonPool-worker-3] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
+2024-10-23T15:43:36,962 [ForkJoinPool.commonPool-worker-2] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AN is 11.624
+2024-10-23T15:43:36,964 [ForkJoinPool.commonPool-worker-2] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
+2024-10-23T15:43:44,914 [ForkJoinPool.commonPool-worker-8] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AM is 17.757
+2024-10-23T15:43:44,915 [ForkJoinPool.commonPool-worker-8] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
+2024-10-23T15:43:46,310 [ForkJoinPool.commonPool-worker-1] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (VED) is 18.519
+2024-10-23T15:43:46,311 [ForkJoinPool.commonPool-worker-1] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
+2024-10-23T15:52:28,623 [ForkJoinPool.commonPool-worker-8] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:52:28,623 [ForkJoinPool.commonPool-worker-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:52:28,623 [ForkJoinPool.commonPool-worker-6] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:52:28,623 [ForkJoinPool.commonPool-worker-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:52:28,623 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:52:28,623 [ForkJoinPool.commonPool-worker-7] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:52:28,638 [ForkJoinPool.commonPool-worker-4] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:52:28,649 [ForkJoinPool.commonPool-worker-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:52:28,656 [ForkJoinPool.commonPool-worker-5] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T15:52:29,587 [ForkJoinPool.commonPool-worker-5] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA Rmfed is 0.799
+2024-10-23T15:52:29,794 [ForkJoinPool.commonPool-worker-6] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA6 is 1.019
+2024-10-23T15:52:29,887 [ForkJoinPool.commonPool-worker-3] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (HBS) is 1.098
+2024-10-23T15:52:29,900 [main] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (PSS) is 1.123
+2024-10-23T15:52:29,919 [ForkJoinPool.commonPool-worker-7] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA8 is 1.145
+2024-10-23T15:52:29,979 [ForkJoinPool.commonPool-worker-4] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA7 is 1.203
+2024-10-23T15:52:31,194 [ForkJoinPool.commonPool-worker-8] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AM is 2.42
+2024-10-23T15:52:31,236 [ForkJoinPool.commonPool-worker-2] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AN is 2.459
+2024-10-23T15:52:32,002 [ForkJoinPool.commonPool-worker-1] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (VED) is 3.221
+2024-10-23T15:52:33,490 [ForkJoinPool.commonPool-worker-5] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA Rmfed is 3.901
+2024-10-23T15:52:34,572 [ForkJoinPool.commonPool-worker-6] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA6 is 4.776
+2024-10-23T15:52:34,652 [ForkJoinPool.commonPool-worker-3] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (HBS) is 4.764
+2024-10-23T15:52:34,660 [ForkJoinPool.commonPool-worker-3] ERROR (ExcelUtility.java:153) -  Exception while updating the excel java.io.IOException: Truncated ZIP file
+2024-10-23T15:52:34,678 [ForkJoinPool.commonPool-worker-6] ERROR (ZipContentTypeManager.java:73) - Cannot write: [Content_Types].xml in Zip !
+java.io.IOException: Stream Closed
+	at java.io.FileOutputStream.writeBytes(Native Method) ~[?:?]
+	at java.io.FileOutputStream.write(FileOutputStream.java:349) ~[?:?]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor$OutputStreamCompressor.writeOut(StreamCompressor.java:306) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.writeCounted(StreamCompressor.java:273) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.writeCounted(StreamCompressor.java:269) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.writeCounted(ZipArchiveOutputStream.java:1060) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.writeLocalFileHeader(ZipArchiveOutputStream.java:1175) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.putArchiveEntry(ZipArchiveOutputStream.java:881) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.putArchiveEntry(ZipArchiveOutputStream.java:821) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.poi.openxml4j.opc.internal.ZipContentTypeManager.saveImpl(ZipContentTypeManager.java:65) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.internal.ContentTypeManager.save(ContentTypeManager.java:450) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:563) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.OPCPackage.save(OPCPackage.java:1490) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.ooxml.POIXMLDocument.write(POIXMLDocument.java:227) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at com.conti.utility.ExcelUtility.updateExcel(ExcelUtility.java:149) ~[classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.getDetails(DNGPerformanceAnalyzerApplication.java:141) ~[classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.lambda$0(DNGPerformanceAnalyzerApplication.java:73) ~[classes/:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) [?:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) [?:?]
+	at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:290) [?:?]
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:754) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+2024-10-23T15:52:34,686 [ForkJoinPool.commonPool-worker-6] ERROR (ZipPartMarshaller.java:188) - Cannot create zip entry /_rels/.rels
+java.io.IOException: Stream Closed
+	at java.io.FileOutputStream.writeBytes(Native Method) ~[?:?]
+	at java.io.FileOutputStream.write(FileOutputStream.java:349) ~[?:?]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor$OutputStreamCompressor.writeOut(StreamCompressor.java:306) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.writeCounted(StreamCompressor.java:273) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.deflate(StreamCompressor.java:264) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.flushDeflater(StreamCompressor.java:229) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.flushDeflater(ZipArchiveOutputStream.java:690) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.closeArchiveEntry(ZipArchiveOutputStream.java:601) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.putArchiveEntry(ZipArchiveOutputStream.java:842) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.putArchiveEntry(ZipArchiveOutputStream.java:821) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.poi.openxml4j.opc.internal.marshallers.ZipPartMarshaller.marshallRelationshipPart(ZipPartMarshaller.java:181) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:567) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.OPCPackage.save(OPCPackage.java:1490) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.ooxml.POIXMLDocument.write(POIXMLDocument.java:227) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at com.conti.utility.ExcelUtility.updateExcel(ExcelUtility.java:149) ~[classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.getDetails(DNGPerformanceAnalyzerApplication.java:141) ~[classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.lambda$0(DNGPerformanceAnalyzerApplication.java:73) ~[classes/:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) [?:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) [?:?]
+	at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:290) [?:?]
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:754) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+2024-10-23T15:52:34,687 [ForkJoinPool.commonPool-worker-6] ERROR (ZipPartMarshaller.java:94) - Cannot write: /docMetadata/LabelInfo.xml: in ZIP
+java.io.IOException: Stream Closed
+	at java.io.FileOutputStream.writeBytes(Native Method) ~[?:?]
+	at java.io.FileOutputStream.write(FileOutputStream.java:349) ~[?:?]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor$OutputStreamCompressor.writeOut(StreamCompressor.java:306) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.writeCounted(StreamCompressor.java:273) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.StreamCompressor.writeCounted(StreamCompressor.java:269) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.writeCounted(ZipArchiveOutputStream.java:1060) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.writeDataDescriptor(ZipArchiveOutputStream.java:1312) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.closeEntry(ZipArchiveOutputStream.java:636) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.closeArchiveEntry(ZipArchiveOutputStream.java:608) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.putArchiveEntry(ZipArchiveOutputStream.java:842) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.putArchiveEntry(ZipArchiveOutputStream.java:821) ~[commons-compress-1.21.jar:1.21]
+	at org.apache.poi.openxml4j.opc.internal.marshallers.ZipPartMarshaller.marshall(ZipPartMarshaller.java:85) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.ZipPackagePart.save(ZipPackagePart.java:127) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.internal.marshallers.DefaultMarshaller.marshall(DefaultMarshaller.java:46) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:584) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.openxml4j.opc.OPCPackage.save(OPCPackage.java:1490) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at org.apache.poi.ooxml.POIXMLDocument.write(POIXMLDocument.java:227) ~[poi-ooxml-5.2.2.jar:5.2.2]
+	at com.conti.utility.ExcelUtility.updateExcel(ExcelUtility.java:149) ~[classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.getDetails(DNGPerformanceAnalyzerApplication.java:141) ~[classes/:?]
+	at com.conti.application.main.DNGPerformanceAnalyzerApplication.lambda$0(DNGPerformanceAnalyzerApplication.java:73) ~[classes/:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) [?:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) [?:?]
+	at java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:290) [?:?]
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:754) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+2024-10-23T15:52:34,688 [ForkJoinPool.commonPool-worker-6] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.openxml4j.exceptions.OpenXML4JRuntimeException: Fail to save: an error occurs while saving the package : The part /docMetadata/LabelInfo.xml failed to be saved in the stream with marshaller org.apache.poi.openxml4j.opc.internal.marshallers.DefaultMarshaller@4534106d. Enable logging via Log4j 2 for more details.
+2024-10-23T15:52:34,729 [ForkJoinPool.commonPool-worker-7] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA8 is 4.808
+2024-10-23T15:52:34,730 [ForkJoinPool.commonPool-worker-7] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
+2024-10-23T15:52:34,871 [main] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (PSS) is 4.97
+2024-10-23T15:52:34,872 [main] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
+2024-10-23T15:52:34,976 [ForkJoinPool.commonPool-worker-4] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA7 is 4.995
+2024-10-23T15:52:34,977 [ForkJoinPool.commonPool-worker-4] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
+2024-10-23T15:52:42,496 [ForkJoinPool.commonPool-worker-2] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AN is 11.258
+2024-10-23T15:52:42,496 [ForkJoinPool.commonPool-worker-2] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
+2024-10-23T15:52:49,886 [ForkJoinPool.commonPool-worker-8] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AM is 18.69
+2024-10-23T15:52:49,886 [ForkJoinPool.commonPool-worker-8] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
+2024-10-23T15:52:51,668 [ForkJoinPool.commonPool-worker-1] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (VED) is 19.666
+2024-10-23T15:52:51,669 [ForkJoinPool.commonPool-worker-1] ERROR (ExcelUtility.java:153) -  Exception while updating the excel org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
+2024-10-23T16:14:43,935 [ForkJoinPool.commonPool-worker-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T16:14:43,935 [ForkJoinPool.commonPool-worker-6] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T16:14:43,935 [ForkJoinPool.commonPool-worker-5] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T16:14:43,936 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T16:14:43,936 [ForkJoinPool.commonPool-worker-4] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T16:14:43,935 [ForkJoinPool.commonPool-worker-8] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T16:14:43,935 [ForkJoinPool.commonPool-worker-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T16:14:43,935 [ForkJoinPool.commonPool-worker-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T16:14:43,935 [ForkJoinPool.commonPool-worker-7] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-23T16:14:51,995 [ForkJoinPool.commonPool-worker-7] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA8 is 6.585
+2024-10-23T16:14:51,995 [ForkJoinPool.commonPool-worker-6] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA6 is 6.583
+2024-10-23T16:14:51,996 [main] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (PSS) is 6.583
+2024-10-23T16:14:51,996 [ForkJoinPool.commonPool-worker-2] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AN is 6.585
+2024-10-23T16:14:52,008 [ForkJoinPool.commonPool-worker-1] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (VED) is 6.598
+2024-10-23T16:14:52,509 [ForkJoinPool.commonPool-worker-5] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA Rmfed is 7.1
+2024-10-23T16:14:52,509 [ForkJoinPool.commonPool-worker-3] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA SAM (HBS) is 7.1
+2024-10-23T16:14:52,521 [ForkJoinPool.commonPool-worker-8] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AM is 7.128
+2024-10-23T16:14:52,527 [ForkJoinPool.commonPool-worker-4] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA7 is 7.123
+2024-10-23T16:14:56,573 [ForkJoinPool.commonPool-worker-5] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA Rmfed is 4.059
+2024-10-23T16:14:57,574 [ForkJoinPool.commonPool-worker-7] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA8 is 5.573
+2024-10-23T16:14:57,574 [ForkJoinPool.commonPool-worker-6] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA6 is 5.563
+2024-10-23T16:14:57,582 [ForkJoinPool.commonPool-worker-4] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA7 is 5.043
+2024-10-23T16:14:57,779 [ForkJoinPool.commonPool-worker-6] ERROR (ExcelUtility.java:153) -  Exception while updating the excel java.lang.IllegalArgumentException: This Style does not belong to the supplied Workbook Styles Source. Are you trying to assign a style from one workbook to the cell of a different workbook?
+2024-10-23T16:14:57,779 [ForkJoinPool.commonPool-worker-4] ERROR (ExcelUtility.java:153) -  Exception while updating the excel java.lang.IllegalArgumentException: This Style does not belong to the supplied Workbook Styles Source. Are you trying to assign a style from one workbook to the cell of a different workbook?
+2024-10-23T16:14:57,885 [ForkJoinPool.commonPool-worker-3] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (HBS) is 5.371
+2024-10-23T16:14:57,885 [main] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (PSS) is 5.876
+2024-10-23T16:15:04,872 [ForkJoinPool.commonPool-worker-2] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AN is 12.874
+2024-10-23T16:15:10,140 [ForkJoinPool.commonPool-worker-8] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AM is 17.607
+2024-10-23T16:15:11,011 [ForkJoinPool.commonPool-worker-1] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA SAM (VED) is 18.996

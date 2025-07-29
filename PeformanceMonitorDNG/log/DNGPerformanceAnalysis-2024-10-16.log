@@ -1,0 +1,12 @@
+2024-10-16T11:17:37,681 [pool-2-thread-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-16T11:17:37,780 [pool-2-thread-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-16T11:17:37,821 [pool-2-thread-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-16T11:30:04,035 [pool-2-thread-3] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-16T11:30:04,035 [pool-2-thread-1] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-16T11:30:04,122 [pool-2-thread-2] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-10-16T11:30:05,527 [pool-2-thread-1] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA1 is 1.246
+2024-10-16T11:30:05,630 [pool-2-thread-2] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA BA2 is 1.315
+2024-10-16T11:30:06,737 [pool-2-thread-2] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA2 is 1.106
+2024-10-16T11:30:16,441 [pool-2-thread-1] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA BA1 is 10.912
+2024-10-16T11:30:19,030 [pool-2-thread-3] INFO  (RestUtility.java:87) - Time taken to load the small DNG module for BA AM is 14.784
+2024-10-16T11:30:31,534 [pool-2-thread-3] INFO  (RestUtility.java:87) - Time taken to load the large DNG module for BA AM is 12.503

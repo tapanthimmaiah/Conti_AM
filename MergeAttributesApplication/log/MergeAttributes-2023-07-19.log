@@ -1,0 +1,18 @@
+2023-07-19T17:12:38,203 [Thread-0] INFO  (RestUtility.java:463) - baseline test_merge has been created for the project ADSystems_L1_Design_AM,ADSystems_L1_Design_AM_Migration
+2023-07-19T17:12:38,819 [Thread-0] INFO  (MergeAttributesApplication.java:102) - Changeset ADSystems_L1_Design_AM_Migration_test_merge has been created 
+2023-07-19T17:12:54,948 [Thread-0] INFO  (MergeAttributesUtility.java:47) - !!--------Merging attributes Special Characteristic-->SpecialCharacteristic in the project ADSystems_L1_Design_AM , ADSystems_L1_Design_AM , ADSystems_L1_Design_AM_Migration-------------------!!
+2023-07-19T17:16:25,896 [Thread-0] INFO  (MergeAttributesUtility.java:85) - Querying for the artifacts with attribute Special Characteristic
+2023-07-19T17:18:24,709 [Thread-0] INFO  (MergeAttributesUtility.java:125) - Setting the attribute values from source to target
+2023-07-19T17:20:49,534 [Thread-0] INFO  (MergeAttributesUtility.java:125) - Setting the attribute values from source to target
+2023-07-19T17:25:20,766 [Thread-0] INFO  (RestUtility.java:463) - baseline test_merge2 has been created for the project ADSystems_L1_Design_AM,ADSystems_L1_Design_AM_Migration
+2023-07-19T17:25:21,404 [Thread-0] INFO  (MergeAttributesApplication.java:102) - Changeset ADSystems_L1_Design_AM_Migration_test_merge2 has been created 
+2023-07-19T17:25:25,923 [Thread-0] INFO  (MergeAttributesUtility.java:47) - !!--------Merging attributes Special Characteristic-->SpecialCharacteristic in the project ADSystems_L1_Design_AM , ADSystems_L1_Design_AM , ADSystems_L1_Design_AM_Migration-------------------!!
+2023-07-19T17:25:40,532 [Thread-0] INFO  (MergeAttributesUtility.java:85) - Querying for the artifacts with attribute Special Characteristic
+2023-07-19T17:25:44,868 [Thread-0] INFO  (MergeAttributesUtility.java:125) - Setting the attribute values from source to target
+2023-07-19T17:31:51,611 [Thread-0] INFO  (MergeAttributesUtility.java:125) - Setting the attribute values from source to target
+2023-07-19T17:36:18,158 [Thread-0] INFO  (MergeAttributesUtility.java:125) - Setting the attribute values from source to target
+2023-07-19T17:43:29,328 [Thread-0] INFO  (RestUtility.java:463) - baseline test_merge22 has been created for the project ADSystems_L1_Design_AM,ADSystems_L1_Design_AM_Migration
+2023-07-19T17:43:31,437 [Thread-0] INFO  (MergeAttributesApplication.java:102) - Changeset ADSystems_L1_Design_AM_Migration_test_merge22 has been created 
+2023-07-19T17:43:38,569 [Thread-0] INFO  (MergeAttributesUtility.java:47) - !!--------Merging attributes Special Characteristic-->SpecialCharacteristic in the project ADSystems_L1_Design_AM , ADSystems_L1_Design_AM , ADSystems_L1_Design_AM_Migration-------------------!!
+2023-07-19T17:44:08,734 [Thread-0] INFO  (MergeAttributesUtility.java:85) - Querying for the artifacts with attribute Special Characteristic
+2023-07-19T17:44:11,311 [Thread-0] INFO  (MergeAttributesUtility.java:125) - Setting the attribute values from source to target

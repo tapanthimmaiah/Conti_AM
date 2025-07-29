@@ -1,0 +1,32 @@
+2023-02-17T11:40:55,550 [Thread-0] INFO  (DeleteLinksApplication.java:80) - -----Deleting links application started for the project ADCU_L2_RM , ADCU_L2_RM , ADCU_L2_RM_Generic-------
+2023-02-17T11:41:07,005 [Thread-0] INFO  (RestUtility.java:674) - baseline test_bl_delete_links has been created for the project ADCU_L2_RM,ADCU_L2_RM_Generic
+2023-02-17T11:41:07,930 [Thread-0] INFO  (DeleteLinksApplication.java:103) - Changeset ADCU_L2_RM_Generic_test_cs_del_links has been created 
+2023-02-17T11:41:23,073 [Thread-0] INFO  (RestUtility.java:75) - Deleting links for the module 679261 for the project ADCU_L2_RM , ADCU_L2_RM , ADCU_L2_RM_Generic
+2023-02-17T11:52:15,312 [Thread-0] INFO  (RestUtility.java:75) - Deleting links for the module 735452 for the project ADCU_L2_RM , ADCU_L2_RM , ADCU_L2_RM_Generic
+2023-02-17T11:55:15,124 [Thread-0] INFO  (RestUtility.java:75) - Deleting links for the module 680708 for the project ADCU_L2_RM , ADCU_L2_RM , ADCU_L2_RM_Generic
+2023-02-17T12:02:14,383 [Thread-0] INFO  (RestUtility.java:75) - Deleting links for the module 421876 for the project ADCU_L2_RM , ADCU_L2_RM , ADCU_L2_RM_Generic
+2023-02-17T12:02:32,365 [Thread-0] INFO  (RestUtility.java:75) - Deleting links for the module 421875 for the project ADCU_L2_RM , ADCU_L2_RM , ADCU_L2_RM_Generic
+2023-02-17T12:02:51,036 [Thread-0] INFO  (RestUtility.java:75) - Deleting links for the module 421872 for the project ADCU_L2_RM , ADCU_L2_RM , ADCU_L2_RM_Generic
+2023-02-17T12:03:29,765 [Thread-0] INFO  (RestUtility.java:75) - Deleting links for the module 421874 for the project ADCU_L2_RM , ADCU_L2_RM , ADCU_L2_RM_Generic
+2023-02-17T12:03:51,854 [Thread-0] INFO  (RestUtility.java:75) - Deleting links for the module 421873 for the project ADCU_L2_RM , ADCU_L2_RM , ADCU_L2_RM_Generic
+2023-02-17T12:04:19,621 [Thread-0] INFO  (RestUtility.java:75) - Deleting links for the module 421877 for the project ADCU_L2_RM , ADCU_L2_RM , ADCU_L2_RM_Generic
+2023-02-17T12:04:44,000 [Thread-0] INFO  (RestUtility.java:75) - Deleting links for the module 421882 for the project ADCU_L2_RM , ADCU_L2_RM , ADCU_L2_RM_Generic
+2023-02-17T12:04:44,481 [Thread-0] INFO  (RestUtility.java:75) - Deleting links for the module 421878 for the project ADCU_L2_RM , ADCU_L2_RM , ADCU_L2_RM_Generic
+2023-02-17T12:04:55,437 [Thread-0] INFO  (RestUtility.java:75) - Deleting links for the module 421879 for the project ADCU_L2_RM , ADCU_L2_RM , ADCU_L2_RM_Generic
+2023-02-17T12:04:56,038 [Thread-0] INFO  (RestUtility.java:75) - Deleting links for the module 421880 for the project ADCU_L2_RM , ADCU_L2_RM , ADCU_L2_RM_Generic
+2023-02-17T12:05:52,871 [Thread-0] INFO  (RestUtility.java:75) - Deleting links for the module 421884 for the project ADCU_L2_RM , ADCU_L2_RM , ADCU_L2_RM_Generic
+2023-02-17T12:06:06,309 [Thread-0] INFO  (RestUtility.java:75) - Deleting links for the module 421883 for the project ADCU_L2_RM , ADCU_L2_RM , ADCU_L2_RM_Generic
+2023-02-17T12:06:25,479 [Thread-0] INFO  (RestUtility.java:75) - Deleting links for the module 421881 for the project ADCU_L2_RM , ADCU_L2_RM , ADCU_L2_RM_Generic
+2023-02-17T12:06:50,196 [Thread-0] INFO  (RestUtility.java:75) - Deleting links for the module 680685 for the project ADCU_L2_RM , ADCU_L2_RM , ADCU_L2_RM_Generic
+2023-02-17T12:07:07,916 [Thread-0] INFO  (RestUtility.java:75) - Deleting links for the module 690985 for the project ADCU_L2_RM , ADCU_L2_RM , ADCU_L2_RM_Generic
+2023-02-17T12:09:08,528 [Thread-0] INFO  (RestUtility.java:75) - Deleting links for the module 680502 for the project ADCU_L2_RM , ADCU_L2_RM , ADCU_L2_RM_Generic
+2023-02-17T12:11:34,654 [Thread-0] INFO  (RestUtility.java:75) - Deleting links for the module 691234 for the project ADCU_L2_RM , ADCU_L2_RM , ADCU_L2_RM_Generic
+2023-02-17T12:12:17,764 [Thread-0] INFO  (DeleteLinksApplication.java:114) - -----------Links have been removed for the requirements with selected states for the projectADCU_L2_RM , ADCU_L2_RM , ADCU_L2_RM_Generic-----------
+2023-02-17T12:12:27,654 [Thread-0] ERROR (DeleteLinksApplication.java:136) - Changeset has not been delivered for the project ADCU_L2_RM , ADCU_L2_RM , ADCU_L2_RM_Generic
+2023-02-17T12:12:27,654 [Thread-0] INFO  (DeleteLinksApplication.java:80) - -----Deleting links application started for the project ADCU_L2_RM , test_component , test_component Initial Stream-------
+2023-02-17T12:12:42,333 [Thread-0] INFO  (RestUtility.java:674) - baseline test_bl_delete_links has been created for the project ADCU_L2_RM,test_component Initial Stream
+2023-02-17T12:12:42,956 [Thread-0] INFO  (DeleteLinksApplication.java:103) - Changeset test_component Initial Stream_test_cs_del_links has been created 
+2023-02-17T12:12:54,227 [Thread-0] INFO  (RestUtility.java:75) - Deleting links for the module 775952 for the project ADCU_L2_RM , test_component , test_component Initial Stream
+2023-02-17T12:12:59,747 [Thread-0] INFO  (RestUtility.java:75) - Deleting links for the module 775945 for the project ADCU_L2_RM , test_component , test_component Initial Stream
+2023-02-17T12:13:04,347 [Thread-0] INFO  (DeleteLinksApplication.java:114) - -----------Links have been removed for the requirements with selected states for the projectADCU_L2_RM , test_component , test_component Initial Stream-----------
+2023-02-17T12:13:13,361 [Thread-0] INFO  (DeleteLinksApplication.java:131) - Changeset has been delivered for the project ADCU_L2_RM , test_component , test_component Initial Stream

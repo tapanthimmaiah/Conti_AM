@@ -1,0 +1,45 @@
+2023-01-09T13:19:44,553 [Thread-0] INFO  (DeleteAttributeApplication.java:124) - -------------Delete attributes & Update workflow application started-----------------
+2023-01-09T13:19:45,730 [Thread-0] INFO  (DeleteAttributeApplication.java:133) - <<<<<<Application running for the project CUS_L3_SW_RM , CUS_L3_SW_RM , CUS_L3_SW_RM_Generic>>>>>>>>
+2023-01-09T13:20:00,374 [Thread-0] ERROR (DNGLoginUtility.java:65) - Server url not accessibleorg.eclipse.lyo.client.exception.RootServicesException: OSLCC003: An error occurred processing the root services document.  Server location: https://jazz.conti.de/rm4.
+2023-01-09T13:22:28,620 [Thread-0] INFO  (DeleteAttributeApplication.java:124) - -------------Delete attributes & Update workflow application started-----------------
+2023-01-09T13:22:29,885 [Thread-0] INFO  (DeleteAttributeApplication.java:133) - <<<<<<Application running for the project CUS_L3_SW_RM , CUS_L3_SW_RM , CUS_L3_SW_RM_Generic>>>>>>>>
+2023-01-09T13:22:45,127 [Thread-0] INFO  (RestUtility.java:874) - baseline BL_Update_Data_Model_V28 has been created for the project CUS_L3_SW_RM,CUS_L3_SW_RM_Generic
+2023-01-09T13:22:46,005 [Thread-0] INFO  (DeleteAttributeApplication.java:275) - Changeset CUS_L3_SW_RM_Generic_Update Data Model_V28 has been created 
+2023-01-09T13:22:56,661 [Thread-0] INFO  (DeleteAttributeApplication.java:188) - Deleting attributes for the project CUS_L3_SW_RM , CUS_L3_SW_RM , CUS_L3_SW_RM_Generic
+2023-01-09T13:23:01,862 [Thread-0] INFO  (RestUtility.java:350) - Deleting the attribute Responsible  from the artifact type Aspect
+2023-01-09T13:23:07,618 [Thread-0] INFO  (RestUtility.java:350) - Deleting the attribute Responsible  from the artifact type Aspects Document
+2023-01-09T13:23:11,654 [Thread-0] INFO  (RestUtility.java:350) - Deleting the attribute Responsible  from the artifact type Attachment
+2023-01-09T13:23:15,634 [Thread-0] INFO  (RestUtility.java:350) - Deleting the attribute Responsible  from the artifact type Definition
+2023-01-09T13:23:20,429 [Thread-0] INFO  (RestUtility.java:350) - Deleting the attribute Responsible  from the artifact type Heading
+2023-01-09T13:23:24,871 [Thread-0] INFO  (RestUtility.java:350) - Deleting the attribute Responsible  from the artifact type Information
+2023-01-09T13:23:29,590 [Thread-0] INFO  (RestUtility.java:350) - Deleting the attribute Responsible  from the artifact type Parameter
+2023-01-09T13:23:35,542 [Thread-0] INFO  (RestUtility.java:350) - Deleting the attribute Responsible  from the artifact type Requirements Document
+2023-01-09T13:23:38,850 [Thread-0] INFO  (RestUtility.java:350) - Deleting the attribute Responsible  from the artifact type Stakeholder Request
+2023-01-09T13:23:42,211 [Thread-0] INFO  (RestUtility.java:350) - Deleting the attribute Responsible  from the artifact type Stakeholder Request Document
+2023-01-09T13:23:45,588 [Thread-0] INFO  (RestUtility.java:350) - Deleting the attribute Responsible  from the artifact type Term
+2023-01-09T13:23:53,907 [Thread-0] INFO  (RestUtility.java:441) - Attribute Requester Responsible has been deleted completely
+2023-01-09T13:42:01,954 [Thread-0] INFO  (DeleteAttributeApplication.java:124) - -------------Delete attributes & Update workflow application started-----------------
+2023-01-09T13:42:03,170 [Thread-0] INFO  (DeleteAttributeApplication.java:133) - <<<<<<Application running for the project CUS_L3_SW_RM , CUS_L3_SW_RM , CUS_L3_SW_RM_Generic>>>>>>>>
+2023-01-09T13:42:15,733 [Thread-0] INFO  (RestUtility.java:874) - baseline BL_Update_Data_Model_V28 has been created for the project CUS_L3_SW_RM,CUS_L3_SW_RM_Generic
+2023-01-09T13:42:16,863 [Thread-0] INFO  (DeleteAttributeApplication.java:278) - Changeset CUS_L3_SW_RM_Generic_Update Data Model_V28 has been created 
+2023-01-09T13:42:21,595 [Thread-0] INFO  (DeleteAttributeApplication.java:188) - Deleting attributes for the project CUS_L3_SW_RM , CUS_L3_SW_RM , CUS_L3_SW_RM_Generic
+2023-01-09T13:42:26,246 [Thread-0] INFO  (RestUtility.java:350) - Deleting the attribute Responsible  from the artifact type Aspect
+2023-01-09T13:42:30,521 [Thread-0] INFO  (RestUtility.java:350) - Deleting the attribute Responsible  from the artifact type Aspects Document
+2023-01-09T13:42:33,966 [Thread-0] INFO  (RestUtility.java:350) - Deleting the attribute Responsible  from the artifact type Attachment
+2023-01-09T13:42:35,100 [Thread-0] INFO  (RestUtility.java:350) - Deleting the attribute Responsible  from the artifact type Definition
+2023-01-09T13:42:36,214 [Thread-0] INFO  (RestUtility.java:350) - Deleting the attribute Responsible  from the artifact type Heading
+2023-01-09T13:42:37,444 [Thread-0] INFO  (RestUtility.java:350) - Deleting the attribute Responsible  from the artifact type Information
+2023-01-09T13:42:38,466 [Thread-0] INFO  (RestUtility.java:350) - Deleting the attribute Responsible  from the artifact type Parameter
+2023-01-09T13:42:39,562 [Thread-0] INFO  (RestUtility.java:350) - Deleting the attribute Responsible  from the artifact type Requirements Document
+2023-01-09T13:42:40,617 [Thread-0] INFO  (RestUtility.java:350) - Deleting the attribute Responsible  from the artifact type Stakeholder Request
+2023-01-09T13:42:41,751 [Thread-0] INFO  (RestUtility.java:350) - Deleting the attribute Responsible  from the artifact type Stakeholder Request Document
+2023-01-09T13:42:42,870 [Thread-0] INFO  (RestUtility.java:350) - Deleting the attribute Responsible  from the artifact type Term
+2023-01-09T13:42:58,138 [Thread-0] INFO  (RestUtility.java:441) - Attribute Requester Responsible has been deleted completely
+2023-01-09T13:43:07,176 [Thread-0] INFO  (DeleteAttributeApplication.java:86) - ------------Updating workflow for the project CUS_L3_SW_RM , CUS_L3_SW_RM , CUS_L3_SW_RM_Generic------------------
+2023-01-09T13:43:10,449 [Thread-0] INFO  (RestUtility.java:69) - updating the workflow for the artifact type Feature Document
+2023-01-09T13:44:22,045 [Thread-0] INFO  (RestUtility.java:230) - Artifact type Feature Document  has been updated with workflow Feature List Workflow
+2023-01-09T13:44:34,836 [Thread-0] INFO  (RestUtility.java:69) - updating the workflow for the artifact type Supplier Requirement
+2023-01-09T13:44:46,383 [Thread-0] INFO  (RestUtility.java:230) - Artifact type Supplier Requirement  has been updated with workflow Stakeholder Request Workflow
+2023-01-09T13:44:54,739 [Thread-0] INFO  (RestUtility.java:69) - updating the workflow for the artifact type Feature
+2023-01-09T13:45:07,368 [Thread-0] INFO  (RestUtility.java:230) - Artifact type Feature  has been updated with workflow Standard Workflow
+2023-01-09T13:46:40,034 [Thread-0] INFO  (DeleteAttributeApplication.java:242) - Changeset has been delivered for the project CUS_L3_SW_RM , CUS_L3_SW_RM , CUS_L3_SW_RM_Generic

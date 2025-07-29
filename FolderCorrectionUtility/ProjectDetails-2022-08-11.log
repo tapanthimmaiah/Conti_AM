@@ -1,0 +1,21 @@
+2022-08-11T17:46:07,957 [main] INFO  (DNGLoginUtility.java:50) - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-08-11T17:46:11,736 [main] INFO  (RestUtility.java:723) - baseline test_CS_folder_correction has been created for the project ADAS_PG_SYS_RM,WeatherStation_RM_VM_HEP_Training_20220113_FJ
+2022-08-11T17:46:28,119 [main] INFO  (FolderCorrectionApplication.java:81) - Folder contents has been moved in project ADAS_PG_SYS_RM,WeatherStation_RM_VM_HEP_Training_20220113_FJ
+2022-08-11T17:47:43,070 [main] INFO  (RestUtility.java:217) - No source folder found in the Adminstration_Artifacts  for the projectADAS_PG_SYS_RM,WeatherStation_RM_VM_HEP_Training_20220113_FJ
+2022-08-11T17:47:58,832 [main] INFO  (FolderCorrectionApplication.java:84) - Admin Folder contents has been moved in project ADAS_PG_SYS_RM,WeatherStation_RM_VM_HEP_Training_20220113_FJ
+2022-08-11T17:48:09,199 [main] INFO  (FolderCorrectionApplication.java:156) - Source folder has been deleted in the project ADAS_PG_SYS_RM,WeatherStation_RM_VM_HEP_Training_20220113_FJ
+2022-08-11T17:49:56,124 [main] INFO  (FolderCorrectionApplication.java:235) - Changeset has been delivered for the project ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , WeatherStation_RM_VM_HEP_Training_20220113_FJ
+2022-08-11T17:57:11,921 [main] INFO  (DNGLoginUtility.java:50) - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-08-11T17:57:15,602 [main] INFO  (RestUtility.java:723) - baseline test_CS_folder_correction has been created for the project ADAS_PG_SYS_RM,WeatherStation_RM_VM_HEP_Training_20220113_FJ
+2022-08-11T17:57:30,039 [main] ERROR (RestUtility.java:266) - Source folder 01_RequirementSet does not have any modules in project ADAS_PG_SYS_RM,WeatherStation_RM_VM_HEP_Training_20220113_FJ
+2022-08-11T17:57:30,040 [main] INFO  (FolderCorrectionApplication.java:81) - Folder contents has been moved in project ADAS_PG_SYS_RM,WeatherStation_RM_VM_HEP_Training_20220113_FJ
+2022-08-11T17:57:44,893 [main] INFO  (RestUtility.java:217) - No source folder found in the Adminstration_Artifacts  for the projectADAS_PG_SYS_RM,WeatherStation_RM_VM_HEP_Training_20220113_FJ
+2022-08-11T17:57:44,894 [main] INFO  (FolderCorrectionApplication.java:84) - Admin Folder contents has been moved in project ADAS_PG_SYS_RM,WeatherStation_RM_VM_HEP_Training_20220113_FJ
+2022-08-11T17:57:46,932 [main] INFO  (FolderCorrectionApplication.java:156) - Source folder has been deleted in the project ADAS_PG_SYS_RM,WeatherStation_RM_VM_HEP_Training_20220113_FJ
+2022-08-11T18:01:00,682 [main] INFO  (DNGLoginUtility.java:50) - DNGLogin successful for the project ADAS_PG_SYS_RM
+2022-08-11T18:01:04,462 [main] INFO  (RestUtility.java:723) - baseline test_CS_folder_correction has been created for the project ADAS_PG_SYS_RM,WeatherStation_RM_VM_HEP_Training_20220113_FJ
+2022-08-11T18:01:18,798 [main] ERROR (RestUtility.java:266) - Source folder 01_RequirementSet does not have any modules in project ADAS_PG_SYS_RM,WeatherStation_RM_VM_HEP_Training_20220113_FJ
+2022-08-11T18:01:18,799 [main] INFO  (FolderCorrectionApplication.java:81) - Folder contents has been moved in project ADAS_PG_SYS_RM,WeatherStation_RM_VM_HEP_Training_20220113_FJ
+2022-08-11T18:01:21,774 [main] INFO  (RestUtility.java:217) - No source folder found in the Adminstration_Artifacts  for the projectADAS_PG_SYS_RM,WeatherStation_RM_VM_HEP_Training_20220113_FJ
+2022-08-11T18:01:21,774 [main] INFO  (FolderCorrectionApplication.java:84) - Admin Folder contents has been moved in project ADAS_PG_SYS_RM,WeatherStation_RM_VM_HEP_Training_20220113_FJ
+2022-08-11T18:01:22,176 [main] INFO  (FolderCorrectionApplication.java:156) - Source folder has been deleted in the project ADAS_PG_SYS_RM,WeatherStation_RM_VM_HEP_Training_20220113_FJ

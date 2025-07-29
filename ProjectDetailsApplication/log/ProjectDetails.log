@@ -1,0 +1,10 @@
+2024-05-29T16:05:54,454 [Thread-0] INFO  (DNGLoginUtility.java:51) - DNGLogin succesfull!
+2024-05-29T16:05:54,685 [Thread-0] INFO  (RestUtility.java:48) - Fetching the project details for the server https://jazz-test6.conti.de/rm4
+2024-05-29T16:05:55,574 [Thread-0] INFO  (RestUtility.java:84) - fetching the  details for the project Template_ProjectArea_BU4_RM_V29
+2024-05-29T16:05:58,006 [Thread-0] INFO  (RestUtility.java:134) - fetching the component details for the component Template_ProjectArea_BU4_RM_V29
+2024-05-29T16:05:58,241 [Thread-0] INFO  (RestUtility.java:134) - fetching the component details for the component Template_ProjectArea_BU4_RM_CrsSrv_V29
+2024-05-29T16:05:59,365 [Thread-0] INFO  (RestUtility.java:84) - fetching the  details for the project Template_ProjectArea_Automotive_AM_V11
+2024-05-29T16:06:46,034 [Thread-0] INFO  (DNGLoginUtility.java:51) - DNGLogin succesfull!
+2024-05-29T16:13:36,234 [Thread-0] INFO  (DNGLoginUtility.java:51) - DNGLogin succesfull!
+2024-05-29T16:16:13,201 [Thread-0] INFO  (DNGLoginUtility.java:51) - DNGLogin succesfull!
+2024-05-29T16:16:30,425 [Thread-0] ERROR (RestUtility.java:335) - Exception while POST request for URL https://jazz-test6.conti.de/rm4/service/com.ibm.team.repository.service.serviceability.IScenarioRestService/scenarios/startscenariojava.io.IOException: Attempted read from closed stream.

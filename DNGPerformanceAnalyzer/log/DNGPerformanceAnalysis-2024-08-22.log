@@ -1,0 +1,27 @@
+2024-08-22T10:12:57,686 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-08-22T10:13:19,081 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 21
+2024-08-22T10:20:29,066 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-08-22T10:20:34,135 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 4
+2024-08-22T10:21:19,346 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-08-22T10:21:22,728 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 3
+2024-08-22T11:52:08,729 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-08-22T11:52:19,853 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 10
+2024-08-22T11:52:19,855 [main] ERROR (ExcelUtility.java:56) -  Exception while udpating the excel java.io.FileNotFoundException: D:\Thimmaiah\DNGPerformanceAnalysisAutomation\DNGPerformanceAnalysis_do_not_open.xlsx (The system cannot find the path specified)
+2024-08-22T11:52:19,855 [main] ERROR (DNGPerformanceAnalyzerApplication.java:61) - Exception in the main applicationjava.lang.NullPointerException
+2024-08-22T16:38:56,866 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-08-22T16:39:00,821 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 3
+2024-08-22T16:45:31,716 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-08-22T16:45:38,067 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 6
+2024-08-22T16:48:43,004 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-08-22T16:48:47,200 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 4
+2024-08-22T16:50:31,036 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-08-22T16:50:35,237 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 3
+2024-08-22T16:52:20,191 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-08-22T16:52:23,577 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 3
+2024-08-22T17:11:26,266 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-08-22T17:12:10,599 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 5
+2024-08-22T17:14:25,940 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-08-22T17:14:38,881 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 3
+2024-08-22T17:22:05,040 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-08-22T17:22:21,521 [main] INFO  (DNGLoginUtility.java:53) - DNGLogin succesfull!
+2024-08-22T17:22:26,243 [main] INFO  (RestUtility.java:64) - Time taken to load the DNG module is 4

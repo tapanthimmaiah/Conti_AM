@@ -1,0 +1,24 @@
+2022-11-16T11:35:47,077 [Thread-0] INFO  (RestUtility.java:517) - baseline test has been created for the project ADAS_PG_SYS_RM,WeatherStation_RM_VM_HEP_Training_20220113_GF
+2022-11-16T11:35:48,896 [Thread-0] INFO  (DeleteAttributeApplication.java:105) - Changeset WeatherStation_RM_VM_HEP_Training_20220113_GF_test has been created 
+2022-11-16T11:57:59,791 [Thread-0] INFO  (RestUtility.java:159) - Attribute Test Type has been removed from the artifact type Legacy
+2022-11-16T11:58:06,522 [Thread-0] ERROR (RestUtility.java:431) - exception while DELETE request for the url test21
+2022-11-16T12:03:05,397 [Thread-0] INFO  (RestUtility.java:517) - baseline test1111 has been created for the project ADAS_PG_SYS_RM,WeatherStation_RM_VM_HEP_Training_20220113_GF
+2022-11-16T12:03:06,799 [Thread-0] INFO  (DeleteAttributeApplication.java:105) - Changeset WeatherStation_RM_VM_HEP_Training_20220113_GF_test2333 has been created 
+2022-11-16T12:03:51,274 [Thread-0] INFO  (RestUtility.java:159) - Attribute Test Type has been removed from the artifact type Legacy
+2022-11-16T12:09:13,830 [Thread-0] INFO  (RestUtility.java:517) - baseline trr has been created for the project ADAS_PG_SYS_RM,WeatherStation_RM_VM_HEP_Training_20220113_GF
+2022-11-16T12:09:14,749 [Thread-0] INFO  (DeleteAttributeApplication.java:105) - Changeset WeatherStation_RM_VM_HEP_Training_20220113_GF_der has been created 
+2022-11-16T12:11:01,247 [Thread-0] INFO  (RestUtility.java:159) - Attribute Test Type has been removed from the artifact type Legacy
+2022-11-16T12:11:21,987 [Thread-0] INFO  (RestUtility.java:105) - Attribute test21 has been deleted completely
+2022-11-16T12:26:48,034 [Thread-0] INFO  (RestUtility.java:517) - baseline bl_test1 has been created for the project ADAS_PG_SYS_RM,WeatherStation_RM_VM_HEP_Training_20220113_GF
+2022-11-16T12:26:49,448 [Thread-0] INFO  (DeleteAttributeApplication.java:104) - Changeset WeatherStation_RM_VM_HEP_Training_20220113_GF_cs_test_fianl has been created 
+2022-11-16T12:27:18,048 [Thread-0] INFO  (RestUtility.java:159) - Attribute Test Type has been removed from the artifact type Legacy
+2022-11-16T12:27:19,444 [Thread-0] INFO  (RestUtility.java:105) - Attribute test21 has been deleted completely
+2022-11-16T12:40:07,044 [Thread-0] INFO  (RestUtility.java:517) - baseline bl_test1 has been created for the project ADAS_PG_SYS_RM,WeatherStation_RM_VM_HEP_Training_20220113_GF
+2022-11-16T12:40:07,799 [Thread-0] INFO  (DeleteAttributeApplication.java:104) - Changeset WeatherStation_RM_VM_HEP_Training_20220113_GF_cs_test2 has been created 
+2022-11-16T12:40:49,870 [Thread-0] INFO  (RestUtility.java:159) - Attribute Test Type has been removed from the artifact type Legacy
+2022-11-16T12:40:51,564 [Thread-0] INFO  (RestUtility.java:105) - Attribute test21 has been deleted completely
+2022-11-16T12:45:53,491 [Thread-0] INFO  (RestUtility.java:517) - baseline bl_test1222 has been created for the project ADAS_PG_SYS_RM,WeatherStation_RM_VM_HEP_Training_20220113_GF
+2022-11-16T12:45:54,575 [Thread-0] INFO  (DeleteAttributeApplication.java:104) - Changeset WeatherStation_RM_VM_HEP_Training_20220113_GF_cs_test2 has been created 
+2022-11-16T12:46:05,411 [Thread-0] INFO  (RestUtility.java:159) - Attribute Test Type has been removed from the artifact type Legacy
+2022-11-16T12:46:07,847 [Thread-0] INFO  (RestUtility.java:159) - Attribute Test Type has been removed from the artifact type Requirement
+2022-11-16T12:46:08,858 [Thread-0] INFO  (RestUtility.java:105) - Attribute test21 has been deleted completely

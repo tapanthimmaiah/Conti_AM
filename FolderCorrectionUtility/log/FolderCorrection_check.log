@@ -1,0 +1,88 @@
+2022-09-07T12:20:55,172 [main] INFO  (DNGLoginUtility.java:50) - DNGLogin successful for the project Radar_L2_RM
+2022-09-07T12:21:04,076 [main] INFO  (RestUtility.java:723) - baseline test_CS_folder_correction has been created for the project Radar_L2_RM,Radar_L2_RM_Generic_ToBeArchived_2021_CW27
+2022-09-07T12:21:27,321 [main] INFO  (FolderCorrectionApplication.java:222) - Changeset Radar_L2_RM_Generic_ToBeArchived_2021_CW27_test_CS_folder_correction has been created 
+2022-09-07T12:21:38,074 [main] ERROR (FolderCorrectionApplication.java:130) - Folder has not been renamed in project Radar_L2_RM,Radar_L2_RM_Generic_ToBeArchived_2021_CW27
+2022-09-07T12:21:41,799 [main] INFO  (DNGLoginUtility.java:50) - DNGLogin successful for the project Radar_L2_RM
+2022-09-07T12:21:44,526 [main] INFO  (RestUtility.java:723) - baseline test_CS_folder_correction has been created for the project Radar_L2_RM,Radar_L2_RM_Generic
+2022-09-07T12:21:58,857 [main] INFO  (FolderCorrectionApplication.java:222) - Changeset Radar_L2_RM_Generic_test_CS_folder_correction has been created 
+2022-09-07T12:22:10,432 [main] ERROR (FolderCorrectionApplication.java:130) - Folder has not been renamed in project Radar_L2_RM,Radar_L2_RM_Generic
+2022-09-07T12:22:13,827 [main] INFO  (DNGLoginUtility.java:50) - DNGLogin successful for the project Radar_L2_RM
+2022-09-07T12:22:16,471 [main] INFO  (RestUtility.java:723) - baseline test_CS_folder_correction has been created for the project Radar_L2_RM,Radar_L2_RM_Generic_2022_CW15
+2022-09-07T12:22:28,452 [main] INFO  (FolderCorrectionApplication.java:222) - Changeset Radar_L2_RM_Generic_2022_CW15_test_CS_folder_correction has been created 
+2022-09-07T12:22:41,058 [main] ERROR (FolderCorrectionApplication.java:130) - Folder has not been renamed in project Radar_L2_RM,Radar_L2_RM_Generic_2022_CW15
+2022-09-07T12:22:47,400 [main] INFO  (DNGLoginUtility.java:50) - DNGLogin successful for the project Radar_L2_RM
+2022-09-07T12:22:49,968 [main] INFO  (RestUtility.java:723) - baseline test_CS_folder_correction has been created for the project Radar_L2_RM,Radar_L2_RM_Generic_2022_CW13
+2022-09-07T12:23:02,756 [main] INFO  (FolderCorrectionApplication.java:222) - Changeset Radar_L2_RM_Generic_2022_CW13_test_CS_folder_correction has been created 
+2022-09-07T12:23:18,942 [main] ERROR (FolderCorrectionApplication.java:130) - Folder has not been renamed in project Radar_L2_RM,Radar_L2_RM_Generic_2022_CW13
+2022-09-07T12:23:23,031 [main] INFO  (DNGLoginUtility.java:50) - DNGLogin successful for the project Radar_L2_RM
+2022-09-07T12:23:25,388 [main] INFO  (RestUtility.java:723) - baseline test_CS_folder_correction has been created for the project Radar_L2_RM,TRANSFORM ARS620DP14front_20220406111354
+2022-09-07T12:23:36,958 [main] INFO  (FolderCorrectionApplication.java:222) - Changeset TRANSFORM ARS620DP14front_20220406111354_test_CS_folder_correction has been created 
+2022-09-07T12:23:48,121 [main] ERROR (FolderCorrectionApplication.java:130) - Folder has not been renamed in project Radar_L2_RM,TRANSFORM ARS620DP14front_20220406111354
+2022-09-07T12:23:51,911 [main] INFO  (DNGLoginUtility.java:50) - DNGLogin successful for the project Radar_L2_RM
+2022-09-07T12:23:54,571 [main] INFO  (RestUtility.java:723) - baseline test_CS_folder_correction has been created for the project Radar_L2_RM,Radar_L2_RM_Project_ARS620DP14frontStar3_obsolete_Y21CW48
+2022-09-07T12:24:06,757 [main] INFO  (FolderCorrectionApplication.java:222) - Changeset Radar_L2_RM_Project_ARS620DP14frontStar3_obsolete_Y21CW48_test_CS_folder_correction has been created 
+2022-09-07T12:24:16,801 [main] ERROR (FolderCorrectionApplication.java:130) - Folder has not been renamed in project Radar_L2_RM,Radar_L2_RM_Project_ARS620DP14frontStar3_obsolete_Y21CW48
+2022-09-07T12:24:20,274 [main] INFO  (DNGLoginUtility.java:50) - DNGLogin successful for the project Radar_L2_RM
+2022-09-07T12:24:23,757 [main] INFO  (RestUtility.java:723) - baseline test_CS_folder_correction has been created for the project Radar_L2_RM,Radar_L2_RM_Generic_ToBeArchived_2021_CW28
+2022-09-07T12:24:34,916 [main] INFO  (FolderCorrectionApplication.java:222) - Changeset Radar_L2_RM_Generic_ToBeArchived_2021_CW28_test_CS_folder_correction has been created 
+2022-09-07T12:24:43,928 [main] ERROR (FolderCorrectionApplication.java:130) - Folder has not been renamed in project Radar_L2_RM,Radar_L2_RM_Generic_ToBeArchived_2021_CW28
+2022-09-07T12:24:48,130 [main] INFO  (DNGLoginUtility.java:50) - DNGLogin successful for the project Radar_L2_RM
+2022-09-07T12:24:51,199 [main] INFO  (RestUtility.java:723) - baseline test_CS_folder_correction has been created for the project Radar_L2_RM,Radar_L2_RM_Platform_ICR100
+2022-09-07T12:25:13,111 [main] INFO  (FolderCorrectionApplication.java:222) - Changeset Radar_L2_RM_Platform_ICR100_test_CS_folder_correction has been created 
+2022-09-07T12:25:23,989 [main] ERROR (FolderCorrectionApplication.java:130) - Folder has not been renamed in project Radar_L2_RM,Radar_L2_RM_Platform_ICR100
+2022-09-07T12:25:27,554 [main] INFO  (DNGLoginUtility.java:50) - DNGLogin successful for the project Radar_L2_RM
+2022-09-07T12:25:30,315 [main] INFO  (RestUtility.java:723) - baseline test_CS_folder_correction has been created for the project Radar_L2_RM,Radar_L2_RM_Generic_evaluate_CSDelivery
+2022-09-07T12:25:45,264 [main] INFO  (FolderCorrectionApplication.java:222) - Changeset Radar_L2_RM_Generic_evaluate_CSDelivery_test_CS_folder_correction has been created 
+2022-09-07T12:25:54,994 [main] ERROR (FolderCorrectionApplication.java:130) - Folder has not been renamed in project Radar_L2_RM,Radar_L2_RM_Generic_evaluate_CSDelivery
+2022-09-07T12:25:59,399 [main] INFO  (DNGLoginUtility.java:50) - DNGLogin successful for the project Radar_L2_RM
+2022-09-07T12:26:02,161 [main] INFO  (RestUtility.java:723) - baseline test_CS_folder_correction has been created for the project Radar_L2_RM,Radar_L2_RM_Migration
+2022-09-07T12:26:17,391 [main] INFO  (FolderCorrectionApplication.java:222) - Changeset Radar_L2_RM_Migration_test_CS_folder_correction has been created 
+2022-09-07T12:26:28,806 [main] ERROR (DNGLoginUtility.java:82) - Server url not found
+2022-09-07T12:26:28,809 [main] ERROR (RestUtility.java:380) - Exception in getting folder details for folder root
+2022-09-07T12:26:28,809 [main] ERROR (RestUtility.java:134) - Exception in renaming the folder namejava.lang.NullPointerException
+2022-09-07T12:26:28,809 [main] ERROR (FolderCorrectionApplication.java:130) - Folder has not been renamed in project Radar_L2_RM,Radar_L2_RM_Migration
+2022-09-07T12:26:39,436 [main] INFO  (DNGLoginUtility.java:50) - DNGLogin successful for the project Radar_L2_RM
+2022-09-07T12:26:57,470 [main] INFO  (RestUtility.java:723) - baseline test_CS_folder_correction has been created for the project Radar_L2_RM,Radar_L2_RM_Platform_RAD600_PV
+2022-09-07T12:27:36,418 [main] INFO  (FolderCorrectionApplication.java:222) - Changeset Radar_L2_RM_Platform_RAD600_PV_test_CS_folder_correction has been created 
+2022-09-07T12:27:50,110 [main] ERROR (FolderCorrectionApplication.java:130) - Folder has not been renamed in project Radar_L2_RM,Radar_L2_RM_Platform_RAD600_PV
+2022-09-07T12:28:06,886 [main] INFO  (DNGLoginUtility.java:50) - DNGLogin successful for the project LIB_L3_SW_RM
+2022-09-07T12:28:15,552 [main] INFO  (RestUtility.java:723) - baseline test_CS_folder_correction has been created for the project LIB_L3_SW_RM,LIB_L3_SW_TMW_RM_Migration
+2022-09-07T12:28:24,397 [main] INFO  (FolderCorrectionApplication.java:222) - Changeset LIB_L3_SW_TMW_RM_Migration_test_CS_folder_correction has been created 
+2022-09-07T12:28:28,496 [main] INFO  (FolderCorrectionApplication.java:81) - Folder contents has been moved in project LIB_L3_SW_RM,LIB_L3_SW_TMW_RM_Migration
+2022-09-07T12:28:35,147 [main] ERROR (RestUtility.java:319) - Sub folder of Source folder cannot be moved in project LIB_L3_SW_RM,LIB_L3_SW_TMW_RM_Migration
+2022-09-07T12:28:35,148 [main] ERROR (FolderCorrectionApplication.java:87) - Admin Folder contents has not been moved in project LIB_L3_SW_RM,LIB_L3_SW_TMW_RM_Migration
+2022-09-07T12:28:35,972 [main] INFO  (FolderCorrectionApplication.java:156) - Source folder has been deleted in the project LIB_L3_SW_RM,LIB_L3_SW_TMW_RM_Migration
+2022-09-07T12:28:38,630 [main] INFO  (FolderCorrectionApplication.java:163) - Source folder has been deleted from the Adminstation artifacts folder for the project LIB_L3_SW_RM,LIB_L3_SW_TMW_RM_Migration
+2022-09-07T12:28:41,499 [main] INFO  (DNGLoginUtility.java:50) - DNGLogin successful for the project LIB_L3_SW_RM
+2022-09-07T12:28:44,161 [main] INFO  (RestUtility.java:723) - baseline test_CS_folder_correction has been created for the project LIB_L3_SW_RM,LIB_L3_SW_Diagnostics_RM_Generic
+2022-09-07T12:28:54,402 [main] INFO  (FolderCorrectionApplication.java:222) - Changeset LIB_L3_SW_Diagnostics_RM_Generic_test_CS_folder_correction has been created 
+2022-09-07T12:29:02,391 [main] ERROR (FolderCorrectionApplication.java:130) - Folder has not been renamed in project LIB_L3_SW_RM,LIB_L3_SW_Diagnostics_RM_Generic
+2022-09-07T12:29:05,786 [main] INFO  (DNGLoginUtility.java:50) - DNGLogin successful for the project LIB_L3_SW_RM
+2022-09-07T12:29:07,830 [main] INFO  (RestUtility.java:723) - baseline test_CS_folder_correction has been created for the project LIB_L3_SW_RM,LIB_L3_SW_Diagnostics_RM_Migration
+2022-09-07T12:29:16,721 [main] INFO  (FolderCorrectionApplication.java:222) - Changeset LIB_L3_SW_Diagnostics_RM_Migration_test_CS_folder_correction has been created 
+2022-09-07T12:29:28,615 [main] ERROR (FolderCorrectionApplication.java:130) - Folder has not been renamed in project LIB_L3_SW_RM,LIB_L3_SW_Diagnostics_RM_Migration
+2022-09-07T12:29:32,012 [main] INFO  (DNGLoginUtility.java:50) - DNGLogin successful for the project LIB_L3_SW_RM
+2022-09-07T12:29:35,091 [main] INFO  (RestUtility.java:723) - baseline test_CS_folder_correction has been created for the project LIB_L3_SW_RM,LIB_L3_SW_VDY_RM_Generic
+2022-09-07T12:29:45,456 [main] INFO  (FolderCorrectionApplication.java:222) - Changeset LIB_L3_SW_VDY_RM_Generic_test_CS_folder_correction has been created 
+2022-09-07T12:29:58,059 [main] ERROR (FolderCorrectionApplication.java:130) - Folder has not been renamed in project LIB_L3_SW_RM,LIB_L3_SW_VDY_RM_Generic
+2022-09-07T12:30:01,471 [main] INFO  (DNGLoginUtility.java:50) - DNGLogin successful for the project LIB_L3_SW_RM
+2022-09-07T12:30:04,032 [main] INFO  (RestUtility.java:723) - baseline test_CS_folder_correction has been created for the project LIB_L3_SW_RM,LIB_L3_SW_VDY_RM_Migration
+2022-09-07T12:30:15,498 [main] INFO  (FolderCorrectionApplication.java:222) - Changeset LIB_L3_SW_VDY_RM_Migration_test_CS_folder_correction has been created 
+2022-09-07T12:30:32,815 [main] ERROR (FolderCorrectionApplication.java:130) - Folder has not been renamed in project LIB_L3_SW_RM,LIB_L3_SW_VDY_RM_Migration
+2022-09-07T12:30:36,391 [main] INFO  (DNGLoginUtility.java:50) - DNGLogin successful for the project LIB_L3_SW_RM
+2022-09-07T12:30:39,360 [main] INFO  (RestUtility.java:723) - baseline test_CS_folder_correction has been created for the project LIB_L3_SW_RM,LIB_L3_SW_Communication_RM_TOYOTA_WorkOn_DEMO2
+2022-09-07T12:30:50,733 [main] INFO  (FolderCorrectionApplication.java:222) - Changeset LIB_L3_SW_Communication_RM_TOYOTA_WorkOn_DEMO2_test_CS_folder_correction has been created 
+2022-09-07T12:31:00,592 [main] ERROR (FolderCorrectionApplication.java:130) - Folder has not been renamed in project LIB_L3_SW_RM,LIB_L3_SW_Communication_RM_TOYOTA_WorkOn_DEMO2
+2022-09-07T12:31:06,291 [main] INFO  (DNGLoginUtility.java:50) - DNGLogin successful for the project LIB_L3_SW_RM
+2022-09-07T12:31:11,109 [main] INFO  (RestUtility.java:723) - baseline test_CS_folder_correction has been created for the project LIB_L3_SW_RM,LIB_L3_SW_Communication_RM_Migration
+2022-09-07T12:31:24,318 [main] INFO  (FolderCorrectionApplication.java:222) - Changeset LIB_L3_SW_Communication_RM_Migration_test_CS_folder_correction has been created 
+2022-09-07T12:31:38,343 [main] ERROR (FolderCorrectionApplication.java:130) - Folder has not been renamed in project LIB_L3_SW_RM,LIB_L3_SW_Communication_RM_Migration
+2022-09-07T12:31:44,092 [main] INFO  (DNGLoginUtility.java:50) - DNGLogin successful for the project LIB_L3_SW_RM
+2022-09-07T12:31:56,594 [main] ERROR (DNGLoginUtility.java:82) - Server url not found
+2022-09-07T12:31:56,596 [main] ERROR (FolderCorrectionApplication.java:282) - Exception in main application java.lang.NullPointerException
+2022-09-07T12:37:05,610 [main] INFO  (DNGLoginUtility.java:50) - DNGLogin successful for the project Radar_L2_RM
+2022-09-07T12:37:10,223 [main] INFO  (RestUtility.java:723) - baseline test_CS_folder_correction has been created for the project Radar_L2_RM,Radar_L2_RM_Generic_ToBeArchived_2021_CW27
+2022-09-07T12:37:22,202 [main] INFO  (FolderCorrectionApplication.java:222) - Changeset Radar_L2_RM_Generic_ToBeArchived_2021_CW27_test_CS_folder_correction has been created 
+2022-09-07T12:40:00,103 [main] INFO  (DNGLoginUtility.java:50) - DNGLogin successful for the project Radar_L2_RM
+2022-09-07T12:40:03,580 [main] INFO  (RestUtility.java:723) - baseline test_CS_folder_correction has been created for the project Radar_L2_RM,Radar_L2_RM_Generic_ToBeArchived_2021_CW27
+2022-09-07T12:40:21,299 [main] INFO  (FolderCorrectionApplication.java:222) - Changeset Radar_L2_RM_Generic_ToBeArchived_2021_CW27_test_CS_folder_correction has been created 

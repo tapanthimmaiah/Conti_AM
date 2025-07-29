@@ -1,0 +1,90 @@
+2023-02-17T12:28:37,801 [Thread-0] INFO  (DeleteAttributeApplication.java:124) - -------------Delete attributes & Update workflow application started-----------------
+2023-02-17T12:28:38,672 [Thread-0] INFO  (DeleteAttributeApplication.java:133) - <<<<<<Application running for the project HoS_RM , HoS_ART_HEP_Solution_PLE_RM , HoS_ART_HEP_Solution_PLE_RM_Generic>>>>>>>>
+2023-02-17T12:28:48,614 [Thread-0] INFO  (RestUtility.java:874) - baseline test_del_attriobutes_bl has been created for the project HoS_RM,HoS_ART_HEP_Solution_PLE_RM_Generic
+2023-02-17T12:28:49,336 [Thread-0] INFO  (DeleteAttributeApplication.java:278) - Changeset HoS_ART_HEP_Solution_PLE_RM_Generic_test_del_attriobutes_cs has been created 
+2023-02-17T12:28:51,282 [Thread-0] INFO  (DeleteAttributeApplication.java:188) - Deleting attributes for the project HoS_RM , HoS_ART_HEP_Solution_PLE_RM , HoS_ART_HEP_Solution_PLE_RM_Generic
+2023-02-17T12:28:51,306 [Thread-0] INFO  (RestUtility.java:350) - Deleting the attribute Verification Criteria  from the artifact type Stakeholder Request
+2023-02-17T12:28:51,893 [Thread-0] INFO  (DeleteAttributeApplication.java:86) - ------------Updating workflow for the project HoS_RM , HoS_ART_HEP_Solution_PLE_RM , HoS_ART_HEP_Solution_PLE_RM_Generic------------------
+2023-02-17T12:28:51,894 [Thread-0] INFO  (RestUtility.java:69) - updating the workflow for the artifact type Legal Technical Request Document
+2023-02-17T12:28:52,661 [Thread-0] INFO  (RestUtility.java:230) - Artifact type Legal Technical Request Document  has been updated with workflow Standard Workflow
+2023-02-17T12:28:52,662 [Thread-0] INFO  (RestUtility.java:69) - updating the workflow for the artifact type Legal Technical Request
+2023-02-17T12:28:54,655 [Thread-0] INFO  (RestUtility.java:230) - Artifact type Legal Technical Request  has been updated with workflow Standard Workflow
+2023-02-17T12:29:02,336 [Thread-0] INFO  (DeleteAttributeApplication.java:242) - Changeset has been delivered for the project HoS_RM , HoS_ART_HEP_Solution_PLE_RM , HoS_ART_HEP_Solution_PLE_RM_Generic
+2023-02-17T12:29:02,336 [Thread-0] INFO  (DeleteAttributeApplication.java:133) - <<<<<<Application running for the project HoS_RM , HoS_ART_HW_Solution_EE_RM , HoS_ART_HW_Solution_EE_RM_Generic>>>>>>>>
+2023-02-17T12:29:09,502 [Thread-0] INFO  (RestUtility.java:874) - baseline test_del_attriobutes_bl has been created for the project HoS_RM,HoS_ART_HW_Solution_EE_RM_Generic
+2023-02-17T12:29:10,424 [Thread-0] INFO  (DeleteAttributeApplication.java:278) - Changeset HoS_ART_HW_Solution_EE_RM_Generic_test_del_attriobutes_cs has been created 
+2023-02-17T12:29:12,167 [Thread-0] INFO  (DeleteAttributeApplication.java:188) - Deleting attributes for the project HoS_RM , HoS_ART_HW_Solution_EE_RM , HoS_ART_HW_Solution_EE_RM_Generic
+2023-02-17T12:29:12,173 [Thread-0] INFO  (RestUtility.java:350) - Deleting the attribute Verification Criteria  from the artifact type Stakeholder Request
+2023-02-17T12:29:12,577 [Thread-0] INFO  (DeleteAttributeApplication.java:86) - ------------Updating workflow for the project HoS_RM , HoS_ART_HW_Solution_EE_RM , HoS_ART_HW_Solution_EE_RM_Generic------------------
+2023-02-17T12:29:12,578 [Thread-0] INFO  (RestUtility.java:69) - updating the workflow for the artifact type Legal Technical Request Document
+2023-02-17T12:29:13,258 [Thread-0] INFO  (RestUtility.java:230) - Artifact type Legal Technical Request Document  has been updated with workflow Standard Workflow
+2023-02-17T12:29:13,259 [Thread-0] INFO  (RestUtility.java:69) - updating the workflow for the artifact type Legal Technical Request
+2023-02-17T12:29:13,883 [Thread-0] INFO  (RestUtility.java:230) - Artifact type Legal Technical Request  has been updated with workflow Standard Workflow
+2023-02-17T12:29:21,079 [Thread-0] INFO  (DeleteAttributeApplication.java:242) - Changeset has been delivered for the project HoS_RM , HoS_ART_HW_Solution_EE_RM , HoS_ART_HW_Solution_EE_RM_Generic
+2023-02-17T12:29:21,079 [Thread-0] INFO  (DeleteAttributeApplication.java:133) - <<<<<<Application running for the project HoS_RM , HoS_ART_SW_Solution_Cyber Security_RM , HoS_ART_SW_Solution_Cyber Security_RM_Generic>>>>>>>>
+2023-02-17T12:29:28,653 [Thread-0] INFO  (RestUtility.java:874) - baseline test_del_attriobutes_bl has been created for the project HoS_RM,HoS_ART_SW_Solution_Cyber Security_RM_Generic
+2023-02-17T12:29:29,323 [Thread-0] INFO  (DeleteAttributeApplication.java:278) - Changeset HoS_ART_SW_Solution_Cyber Security_RM_Generic_test_del_attriobutes_cs has been created 
+2023-02-17T12:29:31,237 [Thread-0] INFO  (DeleteAttributeApplication.java:188) - Deleting attributes for the project HoS_RM , HoS_ART_SW_Solution_Cyber Security_RM , HoS_ART_SW_Solution_Cyber Security_RM_Generic
+2023-02-17T12:29:31,240 [Thread-0] INFO  (RestUtility.java:350) - Deleting the attribute Verification Criteria  from the artifact type Stakeholder Request
+2023-02-17T12:29:31,549 [Thread-0] INFO  (DeleteAttributeApplication.java:86) - ------------Updating workflow for the project HoS_RM , HoS_ART_SW_Solution_Cyber Security_RM , HoS_ART_SW_Solution_Cyber Security_RM_Generic------------------
+2023-02-17T12:29:31,550 [Thread-0] INFO  (RestUtility.java:69) - updating the workflow for the artifact type Legal Technical Request Document
+2023-02-17T12:29:32,121 [Thread-0] INFO  (RestUtility.java:230) - Artifact type Legal Technical Request Document  has been updated with workflow Standard Workflow
+2023-02-17T12:29:32,122 [Thread-0] INFO  (RestUtility.java:69) - updating the workflow for the artifact type Legal Technical Request
+2023-02-17T12:29:32,741 [Thread-0] INFO  (RestUtility.java:230) - Artifact type Legal Technical Request  has been updated with workflow Standard Workflow
+2023-02-17T12:29:40,432 [Thread-0] INFO  (DeleteAttributeApplication.java:242) - Changeset has been delivered for the project HoS_RM , HoS_ART_SW_Solution_Cyber Security_RM , HoS_ART_SW_Solution_Cyber Security_RM_Generic
+2023-02-17T12:29:40,433 [Thread-0] INFO  (DeleteAttributeApplication.java:133) - <<<<<<Application running for the project HoS_RM , HoS_ART_SW_Solution_SW Analytics_RM , HoS_ART_SW_Solution_SW Analytics_RM_Generic>>>>>>>>
+2023-02-17T12:29:49,952 [Thread-0] INFO  (RestUtility.java:874) - baseline test_del_attriobutes_bl has been created for the project HoS_RM,HoS_ART_SW_Solution_SW Analytics_RM_Generic
+2023-02-17T12:29:50,602 [Thread-0] INFO  (DeleteAttributeApplication.java:278) - Changeset HoS_ART_SW_Solution_SW Analytics_RM_Generic_test_del_attriobutes_cs has been created 
+2023-02-17T12:29:52,534 [Thread-0] INFO  (DeleteAttributeApplication.java:188) - Deleting attributes for the project HoS_RM , HoS_ART_SW_Solution_SW Analytics_RM , HoS_ART_SW_Solution_SW Analytics_RM_Generic
+2023-02-17T12:29:52,536 [Thread-0] INFO  (RestUtility.java:350) - Deleting the attribute Verification Criteria  from the artifact type Stakeholder Request
+2023-02-17T12:29:52,922 [Thread-0] INFO  (DeleteAttributeApplication.java:86) - ------------Updating workflow for the project HoS_RM , HoS_ART_SW_Solution_SW Analytics_RM , HoS_ART_SW_Solution_SW Analytics_RM_Generic------------------
+2023-02-17T12:29:52,922 [Thread-0] INFO  (RestUtility.java:69) - updating the workflow for the artifact type Legal Technical Request Document
+2023-02-17T12:29:53,539 [Thread-0] INFO  (RestUtility.java:230) - Artifact type Legal Technical Request Document  has been updated with workflow Standard Workflow
+2023-02-17T12:29:53,539 [Thread-0] INFO  (RestUtility.java:69) - updating the workflow for the artifact type Legal Technical Request
+2023-02-17T12:29:54,202 [Thread-0] INFO  (RestUtility.java:230) - Artifact type Legal Technical Request  has been updated with workflow Standard Workflow
+2023-02-17T12:30:01,210 [Thread-0] INFO  (DeleteAttributeApplication.java:242) - Changeset has been delivered for the project HoS_RM , HoS_ART_SW_Solution_SW Analytics_RM , HoS_ART_SW_Solution_SW Analytics_RM_Generic
+2023-02-17T12:30:01,210 [Thread-0] INFO  (DeleteAttributeApplication.java:133) - <<<<<<Application running for the project HoS_RM , HoS_ART_HEP_Solution_RM_RM , HoS_ART_HEP_Solution_RM_RM_Generic>>>>>>>>
+2023-02-17T12:30:09,327 [Thread-0] INFO  (RestUtility.java:874) - baseline test_del_attriobutes_bl has been created for the project HoS_RM,HoS_ART_HEP_Solution_RM_RM_Generic
+2023-02-17T12:30:10,112 [Thread-0] INFO  (DeleteAttributeApplication.java:278) - Changeset HoS_ART_HEP_Solution_RM_RM_Generic_test_del_attriobutes_cs has been created 
+2023-02-17T12:30:11,626 [Thread-0] INFO  (DeleteAttributeApplication.java:188) - Deleting attributes for the project HoS_RM , HoS_ART_HEP_Solution_RM_RM , HoS_ART_HEP_Solution_RM_RM_Generic
+2023-02-17T12:30:11,627 [Thread-0] INFO  (RestUtility.java:350) - Deleting the attribute Verification Criteria  from the artifact type Stakeholder Request
+2023-02-17T12:30:11,972 [Thread-0] INFO  (DeleteAttributeApplication.java:86) - ------------Updating workflow for the project HoS_RM , HoS_ART_HEP_Solution_RM_RM , HoS_ART_HEP_Solution_RM_RM_Generic------------------
+2023-02-17T12:30:11,973 [Thread-0] INFO  (RestUtility.java:69) - updating the workflow for the artifact type Legal Technical Request Document
+2023-02-17T12:30:12,719 [Thread-0] INFO  (RestUtility.java:230) - Artifact type Legal Technical Request Document  has been updated with workflow Standard Workflow
+2023-02-17T12:30:12,720 [Thread-0] INFO  (RestUtility.java:69) - updating the workflow for the artifact type Legal Technical Request
+2023-02-17T12:30:13,520 [Thread-0] INFO  (RestUtility.java:230) - Artifact type Legal Technical Request  has been updated with workflow Standard Workflow
+2023-02-17T12:30:21,286 [Thread-0] INFO  (DeleteAttributeApplication.java:242) - Changeset has been delivered for the project HoS_RM , HoS_ART_HEP_Solution_RM_RM , HoS_ART_HEP_Solution_RM_RM_Generic
+2023-02-17T12:30:21,286 [Thread-0] INFO  (DeleteAttributeApplication.java:133) - <<<<<<Application running for the project HoS_RM , HoS_ART_PMT Enabler_Solution_HoS PMT Framework_RM , HoS_ART_PMT Enabler_Solution_HoS PMT Framework_RM_Generic>>>>>>>>
+2023-02-17T12:30:28,695 [Thread-0] INFO  (RestUtility.java:874) - baseline test_del_attriobutes_bl has been created for the project HoS_RM,HoS_ART_PMT Enabler_Solution_HoS PMT Framework_RM_Generic
+2023-02-17T12:30:29,440 [Thread-0] INFO  (DeleteAttributeApplication.java:278) - Changeset HoS_ART_PMT Enabler_Solution_HoS PMT Framework_RM_Generic_test_del_attriobutes_cs has been created 
+2023-02-17T12:30:31,328 [Thread-0] INFO  (DeleteAttributeApplication.java:188) - Deleting attributes for the project HoS_RM , HoS_ART_PMT Enabler_Solution_HoS PMT Framework_RM , HoS_ART_PMT Enabler_Solution_HoS PMT Framework_RM_Generic
+2023-02-17T12:30:31,329 [Thread-0] INFO  (RestUtility.java:350) - Deleting the attribute Verification Criteria  from the artifact type Stakeholder Request
+2023-02-17T12:30:31,685 [Thread-0] INFO  (DeleteAttributeApplication.java:86) - ------------Updating workflow for the project HoS_RM , HoS_ART_PMT Enabler_Solution_HoS PMT Framework_RM , HoS_ART_PMT Enabler_Solution_HoS PMT Framework_RM_Generic------------------
+2023-02-17T12:30:31,686 [Thread-0] INFO  (RestUtility.java:69) - updating the workflow for the artifact type Legal Technical Request Document
+2023-02-17T12:30:32,396 [Thread-0] INFO  (RestUtility.java:230) - Artifact type Legal Technical Request Document  has been updated with workflow Standard Workflow
+2023-02-17T12:30:32,396 [Thread-0] INFO  (RestUtility.java:69) - updating the workflow for the artifact type Legal Technical Request
+2023-02-17T12:30:33,162 [Thread-0] INFO  (RestUtility.java:230) - Artifact type Legal Technical Request  has been updated with workflow Standard Workflow
+2023-02-17T12:30:40,427 [Thread-0] INFO  (DeleteAttributeApplication.java:242) - Changeset has been delivered for the project HoS_RM , HoS_ART_PMT Enabler_Solution_HoS PMT Framework_RM , HoS_ART_PMT Enabler_Solution_HoS PMT Framework_RM_Generic
+2023-02-17T12:30:40,427 [Thread-0] INFO  (DeleteAttributeApplication.java:133) - <<<<<<Application running for the project HoS_RM , HoS_ART_HEP_Solution_Traceability_RM , HoS_ART_HEP_Solution_Traceability_RM_Generic>>>>>>>>
+2023-02-17T12:30:48,525 [Thread-0] INFO  (RestUtility.java:874) - baseline test_del_attriobutes_bl has been created for the project HoS_RM,HoS_ART_HEP_Solution_Traceability_RM_Generic
+2023-02-17T12:30:49,442 [Thread-0] INFO  (DeleteAttributeApplication.java:278) - Changeset HoS_ART_HEP_Solution_Traceability_RM_Generic_test_del_attriobutes_cs has been created 
+2023-02-17T12:30:51,532 [Thread-0] INFO  (DeleteAttributeApplication.java:188) - Deleting attributes for the project HoS_RM , HoS_ART_HEP_Solution_Traceability_RM , HoS_ART_HEP_Solution_Traceability_RM_Generic
+2023-02-17T12:30:51,534 [Thread-0] INFO  (RestUtility.java:350) - Deleting the attribute Verification Criteria  from the artifact type Stakeholder Request
+2023-02-17T12:30:51,868 [Thread-0] INFO  (DeleteAttributeApplication.java:86) - ------------Updating workflow for the project HoS_RM , HoS_ART_HEP_Solution_Traceability_RM , HoS_ART_HEP_Solution_Traceability_RM_Generic------------------
+2023-02-17T12:30:51,869 [Thread-0] INFO  (RestUtility.java:69) - updating the workflow for the artifact type Legal Technical Request Document
+2023-02-17T12:30:52,464 [Thread-0] INFO  (RestUtility.java:230) - Artifact type Legal Technical Request Document  has been updated with workflow Standard Workflow
+2023-02-17T12:30:52,465 [Thread-0] INFO  (RestUtility.java:69) - updating the workflow for the artifact type Legal Technical Request
+2023-02-17T12:30:53,124 [Thread-0] INFO  (RestUtility.java:230) - Artifact type Legal Technical Request  has been updated with workflow Standard Workflow
+2023-02-17T12:31:01,749 [Thread-0] INFO  (DeleteAttributeApplication.java:242) - Changeset has been delivered for the project HoS_RM , HoS_ART_HEP_Solution_Traceability_RM , HoS_ART_HEP_Solution_Traceability_RM_Generic
+2023-02-17T12:31:01,749 [Thread-0] INFO  (DeleteAttributeApplication.java:133) - <<<<<<Application running for the project HoS_RM , HoS_ART_HEP_RM , HoS_ART_HEP_RM_Generic>>>>>>>>
+2023-02-17T12:31:12,349 [Thread-0] INFO  (RestUtility.java:874) - baseline test_del_attriobutes_bl has been created for the project HoS_RM,HoS_ART_HEP_RM_Generic
+2023-02-17T12:31:13,123 [Thread-0] INFO  (DeleteAttributeApplication.java:278) - Changeset HoS_ART_HEP_RM_Generic_test_del_attriobutes_cs has been created 
+2023-02-17T12:31:15,259 [Thread-0] INFO  (DeleteAttributeApplication.java:188) - Deleting attributes for the project HoS_RM , HoS_ART_HEP_RM , HoS_ART_HEP_RM_Generic
+2023-02-17T12:31:15,262 [Thread-0] INFO  (RestUtility.java:350) - Deleting the attribute Verification Criteria  from the artifact type Stakeholder Request
+2023-02-17T12:31:15,634 [Thread-0] INFO  (DeleteAttributeApplication.java:86) - ------------Updating workflow for the project HoS_RM , HoS_ART_HEP_RM , HoS_ART_HEP_RM_Generic------------------
+2023-02-17T12:31:15,635 [Thread-0] INFO  (RestUtility.java:69) - updating the workflow for the artifact type Legal Technical Request Document
+2023-02-17T12:31:16,299 [Thread-0] INFO  (RestUtility.java:230) - Artifact type Legal Technical Request Document  has been updated with workflow Standard Workflow
+2023-02-17T12:31:16,300 [Thread-0] INFO  (RestUtility.java:69) - updating the workflow for the artifact type Legal Technical Request
+2023-02-17T12:31:16,915 [Thread-0] INFO  (RestUtility.java:230) - Artifact type Legal Technical Request  has been updated with workflow Standard Workflow
+2023-02-17T12:31:24,771 [Thread-0] INFO  (DeleteAttributeApplication.java:242) - Changeset has been delivered for the project HoS_RM , HoS_ART_HEP_RM , HoS_ART_HEP_RM_Generic
+2023-02-17T12:31:24,772 [Thread-0] INFO  (DeleteAttributeApplication.java:160) - -------------Delete attributes & Update workflow application completed-----------------

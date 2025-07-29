@@ -1,0 +1,15 @@
+2022-11-22T16:36:34,280 [Thread-0] ERROR (ExcelUtility.java:76) - Exception in reading excel java.io.FileNotFoundException:  (The system cannot find the path specified)
+2022-11-22T16:43:31,516 [Thread-0] INFO  (RestUtility.java:612) - baseline test has been created for the project ADAS_PG_SYS_RM,WeatherStation_RM_VM_HEP_Training_20220113_GF
+2022-11-22T16:43:43,700 [Thread-0] INFO  (DeleteAttributeApplication.java:234) - Changeset WeatherStation_RM_VM_HEP_Training_20220113_GF_test has been created 
+2022-11-22T17:15:03,432 [Thread-0] INFO  (RestUtility.java:82) - Artifact type Legacy  has been updated with workflow Standard Workflow
+2022-11-22T17:17:55,225 [Thread-0] ERROR (ExcelUtility.java:76) - Exception in reading excel java.io.FileNotFoundException:  (The system cannot find the path specified)
+2022-11-22T17:54:25,464 [Thread-0] ERROR (DNGLoginUtility.java:65) - Server url not accessibleorg.eclipse.lyo.client.exception.RootServicesException: OSLCC003: An error occurred processing the root services document.  Server location: wadwad.
+2022-11-22T18:00:42,260 [Thread-0] INFO  (RestUtility.java:609) - baseline tert has been created for the project ADAS_PG_SYS_RM,WeatherStation_RM_VM_HEP_Training_20220113_GF
+2022-11-22T18:00:43,283 [Thread-0] INFO  (DeleteAttributeApplication.java:234) - Changeset WeatherStation_RM_VM_HEP_Training_20220113_GF_ter has been created 
+2022-11-22T18:07:28,329 [Thread-0] INFO  (RestUtility.java:604) - baseline test has been created for the project ADAS_PG_SYS_RM,WeatherStation_RM_VM_HEP_Training_20220113_GF
+2022-11-22T18:07:29,405 [Thread-0] INFO  (DeleteAttributeApplication.java:234) - Changeset WeatherStation_RM_VM_HEP_Training_20220113_GF_ererete has been created 
+2022-11-22T18:07:33,416 [Thread-0] INFO  (RestUtility.java:81) - Artifact type Legacy  has been updated with workflow Standard Workflow
+2022-11-22T18:13:41,107 [Thread-0] INFO  (RestUtility.java:604) - baseline gt has been created for the project ADAS_PG_SYS_RM,WeatherStation_RM_VM_HEP_Training_20220113_GF
+2022-11-22T18:13:42,148 [Thread-0] INFO  (DeleteAttributeApplication.java:234) - Changeset WeatherStation_RM_VM_HEP_Training_20220113_GF_bgt has been created 
+2022-11-22T18:13:48,271 [Thread-0] INFO  (DeleteAttributeApplication.java:157) - ------------Deleting attributes started for the project ADAS_PG_SYS_RM , ADAS_PG_SYS_RM , WeatherStation_RM_VM_HEP_Training_20220113_GF------------------
+2022-11-22T18:13:48,885 [Thread-0] INFO  (RestUtility.java:249) - Attributes  , test21 , Test Type has been removed from the artifact type Legacy
